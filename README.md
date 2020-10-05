@@ -11,4 +11,4 @@ _Reading Cookbooks_ is intended to be a public, open-access way to place cookboo
 
 <p>Encoding guidelines<br>
 Wireframe<b>
-Founding Project Team</p>
+  Founding Project Team<b></p>
