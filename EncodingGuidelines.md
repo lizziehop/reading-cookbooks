@@ -1,10 +1,8 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 10/16/20 - AMK
+Last updated: 10/19/20 - AMK
 
 ---
-
-
 
 ## Encoding Workflow
 
@@ -144,11 +142,17 @@ Last updated: 10/16/20 - AMK
 
 - Element specific to this project to surround an ingredient in the text
 
+- Categorize ingredients by thier scientific classification
+
+- Ingredients that are pre-made things like broths or syrups should have the xml:id of the recipe as a `corresp` attribute rather than a type
+
 - ```xml
   <ingredient type="<!--type from closed list-->">
+  <!-- OR -->
+  <ingredient corresp="#pic4.1_fish_soup">
   ```
 
-- Closed List of Types:
+- Closed List of Types
   
   - Meat
   
@@ -181,6 +185,10 @@ Last updated: 10/16/20 - AMK
   - Alcohol
   
   - Extracts
+  
+  - Water
+
+
 
 ### Ingredient Lists
 
@@ -231,7 +239,7 @@ Last updated: 10/16/20 - AMK
 - Creole or Creoles should be tagged with name
 
 - ```xml
-  <note>
+  <name>
   ```
 
 - [TEI](https://tei-c.org/release/doc/tei-p5-doc/en/html//ref-name.html)
@@ -300,8 +308,12 @@ Last updated: 10/16/20 - AMK
 
 ### Recipe
 
+- Each recipe will have it's own unique xml:id to use as a reference. THey will be formatted as [short title of cookbook][chapter number].[recipe number]\_[full title of recipe]
+  
+  - Example for the first recipe of chapter four, fish soup the xml:id would be pic4.1\_fish\_soup
+
 - ```xml
-  <div type =“recipe” xml:id= “<!--unique ID number for each recipe-->”>
+  <div type =“recipe” xml:id= “pic4.1_fish_soup”>
   ```
 
 ### Recipe Additions
@@ -311,7 +323,7 @@ Last updated: 10/16/20 - AMK
 - Example: “Mock Turtle Eggs” is related to the recipe for "Green Turtle Soup"
 
 - ```xml
-  <div type = “recipeAddition” corresp= “# <!-- the XML:ID of the recipe that it is adding to -- >”>
+  <div type = “recipeAddition” corresp= “#pic4.1_fish_soup”>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
@@ -319,7 +331,7 @@ Last updated: 10/16/20 - AMK
 ### Recipe Title - English
 
 - ```xml
-  <head type=“main” rend = “align(center)”>
+  <head type=“main” rend = “align(center) slant(bold)”>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
@@ -331,3 +343,15 @@ Last updated: 10/16/20 - AMK
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
+
+### Word Standardization
+
+- To indicate that there is a choice between what is on the page and what has been standardized
+
+- enclose the version from the text in the `<sic>` tag and the standardized version in the `<corr>` tag
+
+- ```xml
+  reciptrecipe
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html)
