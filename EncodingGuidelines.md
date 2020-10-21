@@ -1,6 +1,6 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 10/19/20 - AMK
+Last updated: 10/20/20 - AMK
 
 ---
 
@@ -188,8 +188,6 @@ Last updated: 10/19/20 - AMK
   
   - Water
 
-
-
 ### Ingredient Lists
 
 - The entire list is enclosed in a list element with each ingredient in the list as an item, spacing for multiple items on one line etc does not need to be included
@@ -249,7 +247,7 @@ Last updated: 10/19/20 - AMK
 - The preface at the beginning of recipes; after the title and ingredient list, but before the instructions begin
 
 - ```xml
-  <div type =“orientationNote”>
+  <div type =“orientation_note”>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
@@ -323,7 +321,7 @@ Last updated: 10/19/20 - AMK
 - Example: “Mock Turtle Eggs” is related to the recipe for "Green Turtle Soup"
 
 - ```xml
-  <div type = “recipeAddition” corresp= “#pic4.1_fish_soup”>
+  <div type = “recipe_addition” corresp= “#pic4.1_fish_soup”>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
@@ -351,7 +349,7 @@ Last updated: 10/19/20 - AMK
 - enclose the version from the text in the `<sic>` tag and the standardized version in the `<corr>` tag
 
 - ```xml
-  reciptrecipe
+  <choice> reciptrecipe
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html)
