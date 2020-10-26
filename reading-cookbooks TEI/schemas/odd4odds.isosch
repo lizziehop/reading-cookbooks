@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://purl.oclc.org/dsdl/schematron"
+        xmlns:oxdoc="http://www.oxygenxml.com/ns/doc/xsl"
+        queryBinding="xslt2">
+   <title>ISO Schematron rules</title>
+   <!--namespaces:-->
+<ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+   <ns prefix="rng" uri="http://relaxng.org/ns/structure/1.0"/>
+   <ns prefix="s" uri="http://www.ascc.net/xml/schematron"/>
+   <ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+   <!--constraints:-->
+<pattern id="att.datable-constraint-calendar">
+      <rule context="tei:*[@calendar]">
+            <assert test="string-length(.) gt 0">
+@calendar indicates the system or calendar to which the date represented by the content of this element
+belongs, but this <name/> element has no textual content.</assert>
+          </rule>
+   </pattern>
+   <pattern id="att.typed-constraint-subtypeTyped">
+      <rule context="*[@subtype]">
+	        <assert test="@type">The <name/> element should not be categorized in detail with @subtype
+ unless also categorized in general with @type</assert>
+      </rule>
+   </pattern>
+   <pattern id="att.pointing-constraint-targetLang">
+      <rule context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
+            <assert test="count(@target)">@targetLang can only be used if @target is specified.</assert>
+          </rule>
+   </pattern>
+   <pattern id="ptr-constraint-ptrAtts">
+      <rule context="tei:ptr">
+         <report test="@target and @cRef">Only one of the
+attributes @target and @cRef may be supplied on <name/>.</report>
+      </rule>
+   </pattern>
+   <pattern id="ref-constraint-refAtts">
+      <rule context="tei:ref">
+         <report test="@target and @cRef">Only one of the
+	attributes @target' and @cRef' may be supplied on <name/>
+         </report>
+      </rule>
+   </pattern>
+   <pattern id="relatedItem-constraint-targetorcontent1">
+      <rule context="tei:relatedItem">
+         <report test="@target and count( child::* ) &gt; 0">
+If the @target attribute on <name/> is used, the
+relatedItem element must be empty</report>
+         <assert test="@target or child::*">A relatedItem element should have either a 'target' attribute
+        or a child element to indicate the related bibliographic item</assert>
+      </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-not-key-and-url">
+      <rule context="tei:moduleRef">
+                  <report test="@url and @key">
+		    only the key= OR the url= attribute of ﹤moduleRef﹥ should be supplied, not both
+		  </report>
+                </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-not-include-and-except">
+      <rule context="tei:moduleRef">
+                  <report test="@except and @include">
+		    only the exclude= OR the include= attribute of ﹤moduleRef﹥ should be supplied, not both
+		  </report>
+                </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-if-url-then-prefix">
+      <rule context="tei:moduleRef[@url]">
+                  <assert test="@prefix">
+		    a ﹤moduleRef﹥ that uses the url= attribute should have a prefix= attribute, too
+		  </assert>
+                </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-no-duplicate-modules">
+      <rule context="tei:moduleRef[@key]">
+                  <let name="mykey" value="@key"/>
+                  <report test="preceding-sibling::tei:moduleRef[@key eq $mykey]">The '<value-of select="@key"/>' module is included (by reference) more than once</report>
+                </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-element-is-in-module">
+      <rule context="tei:moduleRef[@key eq 'header']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'teiHeader', 'fileDesc', 'titleStmt', 'sponsor', 'funder', 'principal', 'editionStmt', 'edition', 'extent', 'publicationStmt', 'distributor', 'authority', 'idno', 'availability', 'licence', 'seriesStmt', 'notesStmt', 'sourceDesc', 'biblFull', 'encodingDesc', 'projectDesc', 'samplingDecl', 'editorialDecl', 'correction', 'normalization', 'quotation', 'hyphenation', 'segmentation', 'stdVals', 'interpretation', 'tagsDecl', 'tagUsage', 'namespace', 'rendition', 'styleDefDecl', 'refsDecl', 'cRefPattern', 'prefixDef', 'listPrefixDef', 'refState', 'classDecl', 'taxonomy', 'category', 'catDesc', 'geoDecl', 'appInfo', 'application', 'profileDesc', 'handNote', 'creation', 'langUsage', 'language', 'textClass', 'keywords', 'classCode', 'catRef', 'calendarDesc', 'calendar', 'revisionDesc', 'change', 'typeNote', 'scriptNote', 'listChange' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'teiHeader', 'fileDesc', 'titleStmt', 'sponsor', 'funder', 'principal', 'editionStmt', 'edition', 'extent', 'publicationStmt', 'distributor', 'authority', 'idno', 'availability', 'licence', 'seriesStmt', 'notesStmt', 'sourceDesc', 'biblFull', 'encodingDesc', 'projectDesc', 'samplingDecl', 'editorialDecl', 'correction', 'normalization', 'quotation', 'hyphenation', 'segmentation', 'stdVals', 'interpretation', 'tagsDecl', 'tagUsage', 'namespace', 'rendition', 'styleDefDecl', 'refsDecl', 'cRefPattern', 'prefixDef', 'listPrefixDef', 'refState', 'classDecl', 'taxonomy', 'category', 'catDesc', 'geoDecl', 'appInfo', 'application', 'profileDesc', 'handNote', 'creation', 'langUsage', 'language', 'textClass', 'keywords', 'classCode', 'catRef', 'calendarDesc', 'calendar', 'revisionDesc', 'change', 'typeNote', 'scriptNote', 'listChange' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'core']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'p', 'foreign', 'emph', 'hi', 'distinct', 'said', 'quote', 'q', 'cit', 'mentioned', 'soCalled', 'desc', 'gloss', 'term', 'sic', 'corr', 'choice', 'reg', 'orig', 'gap', 'add', 'del', 'unclear', 'name', 'rs', 'email', 'address', 'addrLine', 'street', 'postCode', 'postBox', 'num', 'measure', 'measureGrp', 'date', 'time', 'abbr', 'expan', 'ptr', 'ref', 'list', 'item', 'label', 'head', 'headLabel', 'headItem', 'note', 'index', 'media', 'graphic', 'binaryObject', 'milestone', 'gb', 'pb', 'lb', 'cb', 'analytic', 'monogr', 'series', 'author', 'editor', 'respStmt', 'resp', 'title', 'meeting', 'imprint', 'publisher', 'biblScope', 'citedRange', 'pubPlace', 'bibl', 'biblStruct', 'listBibl', 'relatedItem', 'l', 'lg', 'sp', 'speaker', 'stage', 'teiCorpus', 'divGen', 'textLang' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'p', 'foreign', 'emph', 'hi', 'distinct', 'said', 'quote', 'q', 'cit', 'mentioned', 'soCalled', 'desc', 'gloss', 'term', 'sic', 'corr', 'choice', 'reg', 'orig', 'gap', 'add', 'del', 'unclear', 'name', 'rs', 'email', 'address', 'addrLine', 'street', 'postCode', 'postBox', 'num', 'measure', 'measureGrp', 'date', 'time', 'abbr', 'expan', 'ptr', 'ref', 'list', 'item', 'label', 'head', 'headLabel', 'headItem', 'note', 'index', 'media', 'graphic', 'binaryObject', 'milestone', 'gb', 'pb', 'lb', 'cb', 'analytic', 'monogr', 'series', 'author', 'editor', 'respStmt', 'resp', 'title', 'meeting', 'imprint', 'publisher', 'biblScope', 'citedRange', 'pubPlace', 'bibl', 'biblStruct', 'listBibl', 'relatedItem', 'l', 'lg', 'sp', 'speaker', 'stage', 'teiCorpus', 'divGen', 'textLang' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'textstructure']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'TEI', 'text', 'body', 'group', 'floatingText', 'div', 'div1', 'div2', 'div3', 'div4', 'div5', 'div6', 'div7', 'trailer', 'byline', 'dateline', 'argument', 'epigraph', 'opener', 'closer', 'salute', 'signed', 'postscript', 'titlePage', 'docTitle', 'titlePart', 'docAuthor', 'imprimatur', 'docEdition', 'docImprint', 'docDate', 'front', 'back' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'TEI', 'text', 'body', 'group', 'floatingText', 'div', 'div1', 'div2', 'div3', 'div4', 'div5', 'div6', 'div7', 'trailer', 'byline', 'dateline', 'argument', 'epigraph', 'opener', 'closer', 'salute', 'signed', 'postscript', 'titlePage', 'docTitle', 'titlePart', 'docAuthor', 'imprimatur', 'docEdition', 'docImprint', 'docDate', 'front', 'back' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'gaiji']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'g', 'char', 'charName', 'charProp', 'charDecl', 'glyph', 'glyphName', 'localName', 'mapping', 'unicodeName', 'value' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'g', 'char', 'charName', 'charProp', 'charDecl', 'glyph', 'glyphName', 'localName', 'mapping', 'unicodeName', 'value' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'verse']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'metDecl', 'metSym', 'caesura', 'rhyme' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'metDecl', 'metSym', 'caesura', 'rhyme' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'drama']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'set', 'prologue', 'epilogue', 'performance', 'castList', 'castGroup', 'castItem', 'role', 'roleDesc', 'actor', 'spGrp', 'move', 'view', 'camera', 'sound', 'caption', 'tech' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'set', 'prologue', 'epilogue', 'performance', 'castList', 'castGroup', 'castItem', 'role', 'roleDesc', 'actor', 'spGrp', 'move', 'view', 'camera', 'sound', 'caption', 'tech' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'spoken']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'scriptStmt', 'recordingStmt', 'recording', 'equipment', 'broadcast', 'u', 'pause', 'vocal', 'kinesic', 'incident', 'writing', 'shift' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'scriptStmt', 'recordingStmt', 'recording', 'equipment', 'broadcast', 'u', 'pause', 'vocal', 'kinesic', 'incident', 'writing', 'shift' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'dictionaries']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'superEntry', 'entry', 'entryFree', 'hom', 'sense', 'dictScrap', 'form', 'orth', 'pron', 'hyph', 'syll', 'stress', 'gram', 'gen', 'number', 'case', 'per', 'tns', 'mood', 'iType', 'gramGrp', 'pos', 'subc', 'colloc', 'def', 'etym', 'lang', 'usg', 'lbl', 'xr', 're', 'oRef', 'oVar', 'pRef', 'pVar' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'superEntry', 'entry', 'entryFree', 'hom', 'sense', 'dictScrap', 'form', 'orth', 'pron', 'hyph', 'syll', 'stress', 'gram', 'gen', 'number', 'case', 'per', 'tns', 'mood', 'iType', 'gramGrp', 'pos', 'subc', 'colloc', 'def', 'etym', 'lang', 'usg', 'lbl', 'xr', 're', 'oRef', 'oVar', 'pRef', 'pVar' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'msdescription']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'msDesc', 'catchwords', 'dimensions', 'dim', 'height', 'depth', 'width', 'heraldry', 'locus', 'locusGrp', 'material', 'objectType', 'origDate', 'origPlace', 'secFol', 'signatures', 'stamp', 'watermark', 'msIdentifier', 'institution', 'repository', 'collection', 'altIdentifier', 'msName', 'colophon', 'explicit', 'filiation', 'finalRubric', 'incipit', 'msContents', 'msItem', 'msItemStruct', 'rubric', 'summary', 'physDesc', 'objectDesc', 'supportDesc', 'support', 'collation', 'foliation', 'condition', 'layoutDesc', 'layout', 'handDesc', 'typeDesc', 'scriptDesc', 'musicNotation', 'decoDesc', 'decoNote', 'additions', 'bindingDesc', 'binding', 'sealDesc', 'seal', 'accMat', 'history', 'origin', 'provenance', 'acquisition', 'additional', 'adminInfo', 'recordHist', 'source', 'custodialHist', 'custEvent', 'surrogates', 'msPart' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'msDesc', 'catchwords', 'dimensions', 'dim', 'height', 'depth', 'width', 'heraldry', 'locus', 'locusGrp', 'material', 'objectType', 'origDate', 'origPlace', 'secFol', 'signatures', 'stamp', 'watermark', 'msIdentifier', 'institution', 'repository', 'collection', 'altIdentifier', 'msName', 'colophon', 'explicit', 'filiation', 'finalRubric', 'incipit', 'msContents', 'msItem', 'msItemStruct', 'rubric', 'summary', 'physDesc', 'objectDesc', 'supportDesc', 'support', 'collation', 'foliation', 'condition', 'layoutDesc', 'layout', 'handDesc', 'typeDesc', 'scriptDesc', 'musicNotation', 'decoDesc', 'decoNote', 'additions', 'bindingDesc', 'binding', 'sealDesc', 'seal', 'accMat', 'history', 'origin', 'provenance', 'acquisition', 'additional', 'adminInfo', 'recordHist', 'source', 'custodialHist', 'custEvent', 'surrogates', 'msPart' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'transcr']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'facsimile', 'sourceDoc', 'surface', 'surfaceGrp', 'zone', 'addSpan', 'damage', 'damageSpan', 'delSpan', 'ex', 'fw', 'handNotes', 'handShift', 'am', 'restore', 'space', 'subst', 'substJoin', 'supplied', 'surplus', 'line', 'listTranspose', 'metamark', 'mod', 'redo', 'retrace', 'transpose', 'undo' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'facsimile', 'sourceDoc', 'surface', 'surfaceGrp', 'zone', 'addSpan', 'damage', 'damageSpan', 'delSpan', 'ex', 'fw', 'handNotes', 'handShift', 'am', 'restore', 'space', 'subst', 'substJoin', 'supplied', 'surplus', 'line', 'listTranspose', 'metamark', 'mod', 'redo', 'retrace', 'transpose', 'undo' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'textcrit']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'app', 'listApp', 'lem', 'rdg', 'rdgGrp', 'witDetail', 'wit', 'listWit', 'witness', 'witStart', 'witEnd', 'lacunaStart', 'lacunaEnd', 'variantEncoding' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'app', 'listApp', 'lem', 'rdg', 'rdgGrp', 'witDetail', 'wit', 'listWit', 'witness', 'witStart', 'witEnd', 'lacunaStart', 'lacunaEnd', 'variantEncoding' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'namesdates']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'orgName', 'persName', 'surname', 'forename', 'genName', 'nameLink', 'addName', 'roleName', 'placeName', 'bloc', 'country', 'region', 'district', 'settlement', 'offset', 'geogName', 'geogFeat', 'affiliation', 'age', 'birth', 'climate', 'death', 'education', 'event', 'faith', 'floruit', 'geo', 'langKnowledge', 'langKnown', 'listOrg', 'listEvent', 'listPerson', 'listPlace', 'location', 'nationality', 'occupation', 'org', 'listRelation', 'relationGrp', 'person', 'personGrp', 'place', 'population', 'relation', 'residence', 'sex', 'socecStatus', 'state', 'terrain', 'trait', 'nym', 'listNym' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'orgName', 'persName', 'surname', 'forename', 'genName', 'nameLink', 'addName', 'roleName', 'placeName', 'bloc', 'country', 'region', 'district', 'settlement', 'offset', 'geogName', 'geogFeat', 'affiliation', 'age', 'birth', 'climate', 'death', 'education', 'event', 'faith', 'floruit', 'geo', 'langKnowledge', 'langKnown', 'listOrg', 'listEvent', 'listPerson', 'listPlace', 'location', 'nationality', 'occupation', 'org', 'listRelation', 'relationGrp', 'person', 'personGrp', 'place', 'population', 'relation', 'residence', 'sex', 'socecStatus', 'state', 'terrain', 'trait', 'nym', 'listNym' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'figures']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'table', 'row', 'cell', 'formula', 'notatedMusic', 'figure', 'figDesc' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'table', 'row', 'cell', 'formula', 'notatedMusic', 'figure', 'figDesc' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'corpus']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'textDesc', 'particDesc', 'settingDesc', 'channel', 'constitution', 'derivation', 'domain', 'factuality', 'interaction', 'preparedness', 'purpose', 'setting', 'locale', 'activity' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'textDesc', 'particDesc', 'settingDesc', 'channel', 'constitution', 'derivation', 'domain', 'factuality', 'interaction', 'preparedness', 'purpose', 'setting', 'locale', 'activity' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'linking']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'link', 'linkGrp', 'ab', 'anchor', 'seg', 'when', 'timeline', 'join', 'joinGrp', 'alt', 'altGrp' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'link', 'linkGrp', 'ab', 'anchor', 'seg', 'when', 'timeline', 'join', 'joinGrp', 'alt', 'altGrp' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'analysis']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 's', 'cl', 'phr', 'w', 'm', 'c', 'pc', 'span', 'spanGrp', 'interp', 'interpGrp' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 's', 'cl', 'phr', 'w', 'm', 'c', 'pc', 'span', 'spanGrp', 'interp', 'interpGrp' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'iso-fs']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'fsdDecl', 'fsDecl', 'fsDescr', 'fsdLink', 'fDecl', 'fDescr', 'vRange', 'vDefault', 'if', 'then', 'fsConstraints', 'cond', 'bicond', 'iff', 'fs', 'f', 'binary', 'symbol', 'numeric', 'string', 'vLabel', 'vColl', 'default', 'vAlt', 'vNot', 'vMerge', 'fLib', 'fvLib' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'fsdDecl', 'fsDecl', 'fsDescr', 'fsdLink', 'fDecl', 'fDescr', 'vRange', 'vDefault', 'if', 'then', 'fsConstraints', 'cond', 'bicond', 'iff', 'fs', 'f', 'binary', 'symbol', 'numeric', 'string', 'vLabel', 'vColl', 'default', 'vAlt', 'vNot', 'vMerge', 'fLib', 'fvLib' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'nets']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'graph', 'node', 'arc', 'tree', 'root', 'iNode', 'leaf', 'eTree', 'triangle', 'eLeaf', 'forest', 'listForest' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'graph', 'node', 'arc', 'tree', 'root', 'iNode', 'leaf', 'eTree', 'triangle', 'eLeaf', 'forest', 'listForest' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'certainty']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'precision', 'certainty', 'respons' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'precision', 'certainty', 'respons' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+      <rule context="tei:moduleRef[@key eq 'tagdocs']">
+                  <let name="include" value="tokenize( normalize-space(@include),' ')"/>
+                  <let name="except" value="tokenize( normalize-space(@except), ' ')"/>
+                  <assert test="every $gi in $include satisfies $gi = ( 'att', 'code', 'eg', 'egXML', 'gi', 'ident', 'tag', 'val', 'specList', 'specDesc', 'classRef', 'elementRef', 'macroRef', 'moduleRef', 'moduleSpec', 'schemaSpec', 'specGrp', 'specGrpRef', 'elementSpec', 'classSpec', 'macroSpec', 'remarks', 'listRef', 'exemplum', 'classes', 'memberOf', 'equiv', 'altIdent', 'content', 'constraint', 'constraintSpec', 'attList', 'attDef', 'attRef', 'datatype', 'defaultVal', 'valDesc', 'valItem', 'valList' )">One or more of the elements included on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                  <assert test="every $gi in $except  satisfies $gi = ( 'att', 'code', 'eg', 'egXML', 'gi', 'ident', 'tag', 'val', 'specList', 'specDesc', 'classRef', 'elementRef', 'macroRef', 'moduleRef', 'moduleSpec', 'schemaSpec', 'specGrp', 'specGrpRef', 'elementSpec', 'classSpec', 'macroSpec', 'remarks', 'listRef', 'exemplum', 'classes', 'memberOf', 'equiv', 'altIdent', 'content', 'constraint', 'constraintSpec', 'attList', 'attDef', 'attRef', 'datatype', 'defaultVal', 'valDesc', 'valItem', 'valList' )">One or more of the elements excepted on the '<value-of select="@key"/>' ﹤moduleRef﹥ are not actually available in that module</assert>
+                </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-modref">
+      <rule context="tei:moduleRef">
+        <report test="* and @key">
+Child elements of <name/> are only allowed when an external module is being loaded
+        </report>
+      </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-include-required">
+      <rule context="tei:moduleRef[@key eq 'textstructure' and @include]">
+                      <let name="inclusions" value="tokenize( @include, '\s+' )"/>
+                      <report test="not('TEI'=$inclusions)">Not including ﹤TEI﹥ in your schema guarantees it is not TEI conformant, and will likely be outright invalid</report>
+                    </rule>
+      <rule context="tei:moduleRef[@key eq 'header' and @include]">
+                      <let name="inclusions" value="tokenize( @include, '\s+' )"/>
+                      <report test="not('teiHeader'=$inclusions)">Not including ﹤teiHeader﹥ in your schema guarantees it is not TEI conformant</report>
+                    </rule>
+      <rule context="tei:moduleRef[@key eq 'header' and @include]">
+                      <let name="inclusions" value="tokenize( @include, '\s+' )"/>
+                      <report test="not('fileDesc'=$inclusions)">Not including ﹤fileDesc﹥ in your schema guarantees it is not TEI conformant</report>
+                    </rule>
+      <rule context="tei:moduleRef[@key eq 'header' and @include]">
+                      <let name="inclusions" value="tokenize( @include, '\s+' )"/>
+                      <report test="not('titleStmt'=$inclusions)">Not including ﹤titleStmt﹥ in your schema guarantees it is not TEI conformant</report>
+                    </rule>
+      <rule context="tei:moduleRef[@key eq 'header' and @include]">
+                      <let name="inclusions" value="tokenize( @include, '\s+' )"/>
+                      <report test="not('publicationStmt'=$inclusions)">Not including ﹤publicationStmt﹥ in your schema guarantees it is not TEI conformant</report>
+                    </rule>
+      <rule context="tei:moduleRef[@key eq 'header' and @include]">
+                      <let name="inclusions" value="tokenize( @include, '\s+' )"/>
+                      <report test="not('sourceDesc'=$inclusions)">Not including ﹤sourceDesc﹥ in your schema guarantees it is not TEI conformant</report>
+                    </rule>
+      <rule context="tei:moduleRef[@key eq 'core' and @include]">
+                      <let name="inclusions" value="tokenize( @include, '\s+' )"/>
+                      <report test="not('title'=$inclusions)">Not including ﹤title﹥ in your schema guarantees it is not TEI conformant</report>
+                    </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-need-required">
+      <rule context="@except">
+                      <let name="exceptions" value="tokenize( ., '\s+' )"/>
+                      
+                      
+                      
+                      
+                      
+                      <report test="'TEI'=$exceptions">Removing ﹤TEI﹥ from your schema guarantees it is not TEI conformant, and will will likely be outright invalid</report>
+                      <report test="'teiHeader'=$exceptions">Removing ﹤teiHeader﹥ from your schema guarantees it is not TEI conformant</report>
+                      <report test="'fileDesc'=$exceptions">Removing ﹤fileDesc﹥ from your schema guarantees it is not TEI conformant</report>
+                      <report test="'titleStmt'=$exceptions">Removing ﹤titleStmt﹥ from your schema guarantees it is not TEI conformant</report>
+                      <report test="'title'=$exceptions">Removing ﹤title﹥ from your schema guarantees it is not TEI conformant</report>
+                      <report test="'publicationStmt'=$exceptions">Removing ﹤publicationStmt﹥ from your schema guarantees it is not TEI conformant</report>
+                      <report test="'sourceDesc'=$exceptions">Removing ﹤sourceDesc﹥ from your schema guarantees it is not TEI conformant</report>
+                    </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-not-same-prefix">
+      <rule context="tei:moduleRef">
+	        <report test="//*[ not( generate-id(.) eq generate-id(      current() ) ) ]/@prefix = @prefix">The prefix attribute
+	    of <name/> should not match that of any other
+	    element (it would defeat the purpose)</report>
+          </rule>
+   </pattern>
+   <pattern id="schemaSpec-constraint-required-modules">
+      <rule context="tei:schemaSpec">
+         <assert test="tei:moduleRef[@key='tei']       and       tei:moduleRef[@key='core']      and       tei:moduleRef[@key='header']    and       tei:moduleRef[@key='textstructure']">
+		  missing one or more of the required modules (tei, core, header, textstructure).
+		</assert>
+      </rule>
+   </pattern>
+   <pattern id="schemaSpec-constraint-no-outside-specs">
+      <rule context="tei:classSpec[not(ancestor::tei:schemaSpec)]        | tei:elementSpec[not(ancestor::tei:schemaSpec)]        | tei:macroSpec[not(ancestor::tei:schemaSpec)]        ">
+                  <assert test="//tei:schemaSpec//tei:specGrpRef[         substring-after( normalize-space(@target),'#') =         current()/@xml:id]">﹤<name/>﹥ should be in ﹤schemaSpec﹥
+		  or referred to from within ﹤schemaSpec﹥</assert>
+                </rule>
+   </pattern>
+   <pattern id="schemaSpec-constraint-only-one-schemaSpec">
+      <rule context="/">
+                  <report test="count( //tei:schemaSpec ) eq 0">There's no ﹤schemaSpec﹥, so this isn't much of a TEI customization</report>
+                  <report test="count( //tei:schemaSpec ) gt 1">You have more than one ﹤schemaSpec﹥; current ODD processors will only look at the first one</report>
+                </rule>
+   </pattern>
+   <pattern id="elementSpec-constraint-module-except-when-add">
+      <rule context="tei:elementSpec">
+         <assert test="@mode">in a customization ODD, the
+		mode= attribute of ﹤elementSpec﹥ should be
+		specified</assert>
+         <report test="not( @module ) and not( @mode='add'       )">the module= attribute of ﹤elementSpec﹥ must be
+		specified anytime the mode= is not 'add'</report>
+      </rule>
+   </pattern>
+   <pattern id="elementSpec-constraint-dont-delete-required">
+      <rule context="tei:elementSpec">
+         <report test="@mode='delete' and @ident='TEI'">Removing ﹤TEI﹥ from your schema guarantees it is not TEI conformant</report>
+         <report test="@mode='delete' and @ident='teiHeader'">Removing ﹤teiHeader﹥ from your schema guarantees it is not TEI conformant</report>
+         <report test="@mode='delete' and @ident='fileDesc'">Removing ﹤fileDesc﹥ from your schema guarantees it is not TEI conformant</report>
+         <report test="@mode='delete' and @ident='titleStmt'">Removing ﹤titleStmt﹥ from your schema guarantees it is not TEI conformant</report>
+         <report test="@mode='delete' and @ident='title'">Removing ﹤title﹥ from your schema guarantees it is not TEI conformant</report>
+         <report test="@mode='delete' and @ident='publicationStmt'">Removing ﹤publicationStmt﹥ from your schema guarantees it is not TEI conformant</report>
+         <report test="@mode='delete' and @ident='sourceDesc'">Removing ﹤sourceDesc﹥ from your schema guarantees it is not TEI conformant</report>
+      </rule>
+   </pattern>
+   <pattern id="elementSpec-constraint-mode-child-sanity">
+      <rule context="*[@mode eq 'delete']">
+                  <report test="child::*">The specification element ﹤<name/>﹥ has mode=delete and child elements, which is incongruous</report>
+                </rule>
+      <rule context="  tei:valList[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']        | tei:moduleSpec[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']        | tei:schemaSpec[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']        | tei:elementSpec[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']        | tei:classSpec[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']        | tei:macroSpec[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']        | tei:constraintSpec[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']        | tei:attDef[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']        | tei:classes[@mode eq 'change'  or  @mode eq 'add'  or  @mode eq 'replace']">
+                  <report test="not( child::* )">The specification element ﹤<name/>﹥ has mode=<value-of select="@mode"/> and does not have any child elements, which is incongruous</report>
+                </rule>
+   </pattern>
+   <pattern id="elementSpec-constraint-elementspec-in-module">
+      <rule context="tei:elementSpec">
+         <assert test="not( @module )                or                //tei:moduleSpec[ @ident = current()/@module ]                or                //tei:moduleRef[ @key = current()/@module ]">
+On element <name/> the value of the module attribute ("<value-of select="@module"/>")
+should correspond to an existing module, via a moduleSpec or moduleRef</assert>
+      </rule>
+   </pattern>
+   <pattern id="classSpec-constraint-classspec-in-module">
+      <rule context="tei:classSpec">
+         <assert test="not( @module )               or               //tei:moduleSpec[ @ident = current()/@module ]               or               //tei:moduleRef[ @key = current()/@module ]">Class
+      <value-of select="@ident"/>: the value of the module attribute ("<value-of select="@module"/>") 
+should correspond to an existing module, via a moduleSpec or moduleRef</assert>
+      </rule>
+   </pattern>
+   <pattern id="macroSpec-constraint-macrospec-in-module">
+      <rule context="tei:macroSpec">
+         <assert test="not( @module )               or               //tei:moduleSpec[ @ident = current()/@module ]               or               //tei:moduleRef[ @key = current()/@module ]">Macro <value-of select="@ident"/>: the value of the module attribute  ("<value-of select="@module"/>")
+should correspond to an existing module, via a moduleSpec or moduleRef</assert>
+      </rule>
+   </pattern>
+   <pattern id="altIdent-constraint-altIdent-only-NCName">
+      <rule context="tei:altIdent">
+         <assert test="(  parent::tei:attDef       or parent::tei:classSpec       or parent::tei:constraintSpec       or parent::tei:elementSpec       or parent::tei:macroSpec       or parent::tei:moduleSpec       or parent::tei:schemaSpec       ) and       (normalize-space(.) castable as xs:NCName)">
+		  The content of ﹤altIdent﹥ should be an XML Name (w/o
+		  a namespace prefix), unless a child of ﹤valItem﹥
+		(and even then, it's not a bad idea :-)</assert>
+      </rule>
+   </pattern>
+   <pattern id="constraintSpec-constraint-sch">
+      <rule context="tei:constraintSpec">
+         <report test="tei:constraint/s:* and    not(@scheme='schematron')">
+	Rules in the Schematron 1.* language must be inside
+	a constraint with a value of 'schematron' on the scheme attribute
+      </report>
+      </rule>
+   </pattern>
+   <pattern id="constraintSpec-constraint-isosch">
+      <rule context="tei:constraintSpec">
+         <report test="tei:constraint/sch:* and    not(@scheme='isoschematron')">
+	Rules in the ISO Schematron language must be inside
+	a constraint with a value of 'isoschematron' on the scheme attribute
+      </report>
+      </rule>
+   </pattern>
+   <pattern id="attDef-constraint-attDefContents">
+      <rule context="tei:attDef">
+         <assert test="   @mode eq 'change'       or @mode eq 'delete'       or tei:datatype       or tei:valList[@type='closed']       ">Attribute: the definition of the @<value-of select="@ident"/> attribute in the <value-of select="ancestor::*[@ident][1]/@ident"/>
+            <value-of select="' '"/>
+            <value-of select="local-name(ancestor::*[@ident][1])"/> should have a closed valList or a datatype</assert>
+      </rule>
+   </pattern>
+</schema>

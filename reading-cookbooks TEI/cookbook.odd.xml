@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/odd4odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="schemas/odd4odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="en"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:rng="http://relaxng.org/ns/structure/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Reading Cookbooks ODD Files</title>
+        <author>
+          <persName>Elizabeth Hopwood</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <p>[Statement of availability]</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written by Elizabeth Hopwood, Loyola University Chicago
+          Original ODD document. Parts based on Northeastern University's Women
+          Writer's Project and The Early Caribbean Digital Archive</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="EH" when="2020-10-19">Created schema</change>
+      
+    </revisionDesc>
+  </teiHeader>
+  <text>
+
+      <!-- This template is intended to give you a quick starting point for
+           writing ODD files. You may find it useful to copy and paste 
+           specific constructs from odd_extended_template.xml, which contains
+           commented templates for specific ODD-writing tasks.
+      -->
+
+    <body>
+      <p>This schema is being used for the markup of cookbooks, beginning with
+        <title>The Picayune Creole Cookbook</title>, 4th edition.Elements will be
+      added/edited as the project develops. Primary interest is in the
+      markup of recipes in terms of contextual information as well as structure; and detailing ingredients used and recipes named for an "ingredient-ography" to track usage and virality of cooking/domestic trends across the space of the U.S. and Atlantic. </p>
+      <!-- The <schemaSpec> element is in effect the root element for
+           the schema specification portion of the ODD. 
+              - @ident is required; it is allowed to be any name.
+              - @start says what element(s) are allowed as the root element
+                  of documents conforming to this schema.  -->
+      <schemaSpec ident="reading-cookbooks" start="TEI">
+
+        <!-- The <moduleRef> elements specify which TEI modules will
+             be included in the schema. The value of the @key
+             attribute is the name of the module. The first four listed here 
+             are required: core, tei, header, textstructure. 
+        
+             To trim the contents of these modules, use @include OR @except:
+               - @include lists the elements from the module that will be included in the schema
+               - @except lists the elements from the module that will be excluded from the schema
+        
+        -->
+        <moduleRef key="core" except="binaryObject cb divGen editor email gb
+          media meeting milestone"/>
+         
+         
+        <moduleRef key="tei"/>
+        <moduleRef key="header"/>
+        <moduleRef key="textstructure" except="argument div1 div2 div3 div4 div5
+          div6 div7"/>
+<!--        added specific types of divisions. Because I'm interested in what
+          the structural format of recipes can tell us about the narrative(s)
+          within, I'm breaking each recipe into distinct units
+-->        <elementSpec module="textstructure" ident="div" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace">
+              <datatype>
+                <rng:ref name="data.enumerated"/>
+              </datatype>
+              <valList type="closed">
+               <valItem ident="orientationNote"/>
+                <valItem ident="ingredient"/>
+                <valItem ident="coda"/>
+                <valItem ident="preface"/>
+                <valItem ident="recipe"/>
+                <valItem ident="section"/>
+                <valItem ident="instructions"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      
+      
+        
+      <moduleRef key="analysis" include="interp interpGrp"/>
+        <moduleRef key="drama" except="camera caption sound view tech"/>
+        <moduleRef key="figures"/>
+        <moduleRef key="gaiji" include="g"/>
+        <moduleRef key="linking" except="alt altGrp"/>
+        <moduleRef key="namesdates" include="addName affiliation birth death
+          education event faith floruit forename genName geogName langKnowledge
+          langKnown listEvent listNym listOrg listPerson listPlace listRelation
+          nameLink nationality nym occupation org orgName persName person
+          personGrp placeName relation relationGrp residence roleName sex
+          socecStatus surname trait"/>
+        <moduleRef key="tagdocs"/>
+        
+       <moduleRef key="transcr" include="addSpan damage damageSpan delSpan fw
+         handNotes handShift supplied"/>
+        <elementSpec ident="fw" module="transcr" mode="change">
+            <attList>
+              <attDef ident="type" mode="replace">
+            <datatype>
+              <rng:ref name="data.enumerated"/>
+            </datatype>
+            <valList type="closed">
+              <valItem ident="pageNum"/>
+            </valList>
+              </attDef>
+            </attList>
+        </elementSpec>
+       
+       <!-- adding ingredient element
+        
+        
+        -->
+        <elementSpec ident="ingredient"
+          ns="http://dsg.northeastern.edu/ehfoodways/ns/1.0"
+          mode="add">
+          <desc>Encodes ingredients listed in recipes</desc>
+          <classes mode="change">
+            <memberOf mode="add" key="model.nameLike"/>  
+            <memberOf mode="add" key="model.global"/>
+            <memberOf mode="add" key="att.global"/>
+            <memberOf key="att.datable.w3c"/>
+         </classes>
+        <content>
+            <rng:text/>
+            <rng:zeroOrMore>
+              <rng:ref name="model.nameLike"/>
+            </rng:zeroOrMore>
+            <rng:zeroOrMore>
+              <rng:ref name="fw"/>
+            </rng:zeroOrMore>
+            <rng:zeroOrMore>
+              <rng:ref name="pb"/>
+            </rng:zeroOrMore>
+            <rng:zeroOrMore>
+              <rng:ref name="foreign"/>
+            </rng:zeroOrMore>
+            <rng:zeroOrMore>
+              <rng:ref name="model.emphLike"/>
+            </rng:zeroOrMore>
+            <rng:zeroOrMore>
+              <rng:ref name="model.hiLike"/>
+            </rng:zeroOrMore>
+          </content>
+          <attList>
+          <attDef ident="class" mode="add">
+            <datatype>
+              <rng:ref name="data.enumerated"/>
+            </datatype>
+            <valList type="closed">
+              <valItem ident="fish"/>
+              <valItem ident="fruit"/>
+              <valItem ident="sugar"/>
+              <valItem ident="dairy"/>
+              <valItem ident="spice"/>
+              <valItem ident="meat"/>
+              <valItem ident="vegetable"/>
+              <valItem ident="poultry"/>
+              <valItem ident="egg"/>
+              <valItem ident="herb"/>
+              <valItem ident="fat"/>
+              <valItem ident="grain"/>
+              <valItem ident="alcohol"/>
+            <valItem ident="extract"/>
+              
+           </valList>
+          </attDef>
+          </attList>
+       </elementSpec>
+           
+        
+        <elementSpec module="core" ident="unclear" mode="change">
+          <attList>
+            <attDef ident="reason" mode="replace" usage="opt">
+              <datatype minOccurs="1" maxOccurs="1">
+                <rng:ref name="data.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="damaged">
+                  <desc> </desc>
+                </valItem>
+                <valItem ident="flawed-reproduction">
+                  <desc> </desc>
+                </valItem>
+                <valItem ident="obscured">
+                  <desc> </desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- moments of intentional alignment by way of rhetorical motivations
+          of the author, could also be called commAlign (communityAlignment) or
+          intentional alignment (intAlign) 
+        <elementSpec ident="cultAlign" mode="add"
+          ns="http://dsg.northeastern.edu/ehfoodways/ns/1.0">
+          <gloss>Cultural Alignment</gloss>
+          <desc>Moments of intentional alignment to culture or community by way of rhetorical motivations of the author</desc>
+          <classes>
+            <memberOf mode="add" key="model.global"/>
+            <memberOf mode="add" key="att.global"/>
+            <memberOf key="model.divLike"/> 
+            <memberOf key="model.qLike"/>
+          </classes>
+          <content>
+            <rng:interleave>
+              <rng:text/>
+              <rng:zeroOrMore>
+                <rng:ref name="fw"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="head"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="pb"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="model.emphLike"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="model.qLike"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="model.nameLike"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="model.divPart"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="trailer"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="figure"/>
+              </rng:zeroOrMore>
+            </rng:interleave>
+          </content>
+        </elementSpec>-->
+        
+        
+        <!-- moments of intentional distance/dis-alignment by way of rhetorical motivations
+          of the author, could also be called disAlign (disalign is not really a
+          word is it) or
+          intentional distance? (distAlign): "The natives do this"-marking a
+          distinction btwen herself and Jamaican community 
+        <elementSpec ident="cultDist" mode="add"
+          ns="http://dsg.northeastern.edu/ehfoodways/ns/1.0">
+          <gloss>Cultural Distance</gloss>
+          <desc>Encodes moments of intentional distance/dis-alignment from the
+            culture or community by way of
+            rhetorical motivations of the author</desc>
+          <classes>
+            <memberOf mode="add" key="model.global"/>
+            <memberOf mode="add" key="att.global"/>
+            <memberOf key="model.divLike"/> 
+            <memberOf key="model.qLike"/>
+          </classes>
+          <content>
+            <rng:interleave>
+              <rng:text/>
+              <rng:zeroOrMore>
+                <rng:ref name="fw"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="head"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="pb"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="model.emphLike"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="model.qLike"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="model.nameLike"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="model.divPart"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="trailer"/>
+              </rng:zeroOrMore>
+              <rng:zeroOrMore>
+                <rng:ref name="figure"/>
+              </rng:zeroOrMore>
+            </rng:interleave>
+          </content>
+        </elementSpec>
+        -->
+        
+        <!-- ******************************** -->
+        <!-- class deletion section          -->
+        <!-- classes we don't use get deleted -->
+        <!-- ******************************** -->
+        <classSpec ident="att.breaking" type="atts" mode="delete"/>
+        <classSpec ident="att.coordinated" type="atts" mode="delete"/>
+        <classSpec ident="att.cReferencing" type="atts" mode="delete"/>
+        <classSpec ident="att.datable.custom" type="atts" mode="delete"/>
+        <classSpec ident="att.datable.iso" type="atts" mode="delete"/>
+        <classSpec ident="att.datcat" type="atts" mode="delete"/>
+       
+        
+        
+           
+           
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
