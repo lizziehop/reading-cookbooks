@@ -1,6 +1,6 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 10/20/20 - AMK
+Last updated: 10/26/20 - AMK
 
 ---
 
@@ -72,14 +72,6 @@ Last updated: 10/20/20 - AMK
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html)
 
-### Chapters
-
-- ```xml
-  <div type="chapter"
-  ```
-
-- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
-
 ### Chapter Title - Numerical
 
 - ```xml
@@ -146,10 +138,14 @@ Last updated: 10/20/20 - AMK
 
 - Ingredients that are pre-made things like broths or syrups should have the xml:id of the recipe as a `corresp` attribute rather than a type
 
+- Only tag ingredients in the list 
+  
+  - Exception is if a new ingredient is mentioned in instructions
+
 - ```xml
-  <ingredient type="<!--type from closed list-->">
+  <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="<!--type from closed list-->">
   <!-- OR -->
-  <ingredient corresp="#pic4.1_fish_soup">
+  <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"corresp="#pic4.1_fish_soup">
   ```
 
 - Closed List of Types
@@ -162,63 +158,53 @@ Last updated: 10/20/20 - AMK
   
   - Poultry
   
-  - Eggs
+  - Egg
   
-  - Fruits
+  - Fruit
   
-  - Vegetables
+  - Vegetable
   
-  - Herbs
+  - Herb
   
-  - Fats
+  - Fat
   
-  - Grains
+  - Grain
   
-  - Leaveners
+  - Leavener
   
   - Honey
   
   - Sugar
   
-  - Spices
+  - Spice
   
   - Alcohol
   
-  - Extracts
+  - Extract
   
   - Water
+  
+  - Suggested Additions (pending agreement)
+    
+    - seasoning
+    
+    - liquid
+    
+    - rule of 3 to add a new value, if there are three or more examples of a new category add it as a value
 
 ### Ingredient Lists
 
 - The entire list is enclosed in a list element with each ingredient in the list as an item, spacing for multiple items on one line etc does not need to be included
 
 - ```xml
-  <list>
-      <item><!--a single item in the list--></item>
-  </list>
+  <div type="ingredientList">  
+      <list>
+          <item><!--a single item in the list--></item>
+      </list>
+  </div>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COLI)
-
-### Measure
-
-- Typically will be used for measures of ingredients
-
-- ```xml
-  <measure type=”weight” quantity=“2” unit=“pounds” commodity=“green_turtle”>
-  ```
-
-- Attributes: 
-  
-  - Type (weight, volume, amount)
-  
-  - Quantity (the number as written)
-  
-  - Unit (pounds, teaspoon, tablespoon, quarts, gallons, glass, cup, pint, gills, sprigs, ounces, items, etc.)
-  
-  - Commodity (the ingredient, underscores if multiple words)
-
-- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-measure.html)
 
 ### Notes
 
@@ -234,7 +220,7 @@ Last updated: 10/20/20 - AMK
 
 - For proper nouns that are not a single person or places 
 
-- Creole or Creoles should be tagged with name
+- Creole or Creoles should be tagged with name, surround the entire noun phrase ie "old creole cook"
 
 - ```xml
   <name>
@@ -247,7 +233,7 @@ Last updated: 10/20/20 - AMK
 - The preface at the beginning of recipes; after the title and ingredient list, but before the instructions begin
 
 - ```xml
-  <div type =“orientation_note”>
+  <div type =“orientationNote”>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
@@ -306,7 +292,7 @@ Last updated: 10/20/20 - AMK
 
 ### Recipe
 
-- Each recipe will have it's own unique xml:id to use as a reference. THey will be formatted as [short title of cookbook][chapter number].[recipe number]\_[full title of recipe]
+- Each recipe will have it's own unique xml:id to use as a reference. They will be formatted as [short title of cookbook][chapter number].[recipe number]\_[full title of recipe]
   
   - Example for the first recipe of chapter four, fish soup the xml:id would be pic4.1\_fish\_soup
 
@@ -321,7 +307,17 @@ Last updated: 10/20/20 - AMK
 - Example: “Mock Turtle Eggs” is related to the recipe for "Green Turtle Soup"
 
 - ```xml
-  <div type = “recipe_addition” corresp= “#pic4.1_fish_soup”>
+  <div type = “recipeAddition” corresp= “#pic4.1_fish_soup”>
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
+
+### Recipe Instructions
+
+- The instructions within a recipe for how to make the dish
+
+- ```xml
+  <div type="instructions">
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
@@ -349,7 +345,7 @@ Last updated: 10/20/20 - AMK
 - enclose the version from the text in the `<sic>` tag and the standardized version in the `<corr>` tag
 
 - ```xml
-  <choice> reciptrecipe
+  <choice><orig>recipt</orig><reg>recipe<reg><choice>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html)
