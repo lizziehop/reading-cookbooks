@@ -72,6 +72,14 @@ Last updated: 10/26/20 - AMK
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html)
 
+### Chapter Title
+
+- ```xml
+  <head rend =“align(center) case(allcaps) bold”>
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
+
 ### Chapter Title - Numerical
 
 - ```xml
@@ -80,13 +88,13 @@ Last updated: 10/26/20 - AMK
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
 
-### Chapter Title
+### Chapter Title - In French
 
 - ```xml
-  <head rend =“bold”>
+  <head rend="align(center)"><foreign xml:lang="fr">Le Poisson.</foreign></head>
   ```
 
-- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
+- [TEI]([https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
 
 ### Column Beginning
 
@@ -325,7 +333,7 @@ Last updated: 10/26/20 - AMK
 ### Recipe Title - English
 
 - ```xml
-  <head type=“main” rend = “align(center) slant(bold)”>
+  <head type=“main” rend = “align(center) bold”>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
@@ -345,7 +353,7 @@ Last updated: 10/26/20 - AMK
 - enclose the version from the text in the `<sic>` tag and the standardized version in the `<corr>` tag
 
 - ```xml
-  <choice><orig>recipt</orig><reg>recipe<reg><choice>
+  <choice><sic>recipt</sic><corr>recipe</corr><choice>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html)
