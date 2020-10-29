@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/CTSDH/Desktop/reading-cookbooks/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- This reference to the schema won't work because it is refering to it's place on Liz's computer -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CHAPTER IV. FISH SOUPS.</title>
+            <!-- Supply the title of chapter -->
+            <title type="chapter" xml:lang="en"/>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
+            <principal>Elizabeth Hopwood</principal>
+            <respStmt>
+               <resp>Transcription by</resp>
+               <persName>
+                  Anna Kroon </persName>
+            </respStmt>
+            <respStmt>
+               <resp>First round encoding by</resp>
+               <persName who="EAH">
+                  Elizabeth Hopwood</persName> and <persName who="PM">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Second round encoding by</resp>
+               <persName>
+                  <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofreading by</resp>
+               <persName>
+                  <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Editorial research by</resp>
+               <persName>
+                  <!-- insert name --></persName>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            <authority>Reading Cookbooks Project</authority>
+            <publisher>Elizabeth Hopwood and The Center for Textual Studies and Digital Humanities</publisher>
+            <availability>
+               <p>Reproduced by digitized version from Archive.org, contributed by <name>Cornell University Library</name>. There are no known
+                  copyright restrictions in the United States on the use of the texts. More information on rights issues associated with public
+                  domain texts can be found at https://www.library.cornell.edu/about/policies/public-domain</p>
+               <p>This text may be freely distributed for personal use, research, and teaching (including distribution to classes) as long as
+                  this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds.</p>
+               <p>Scholars interested in changing or adding to these texts (for example, creating a new edition or adding additional markup) may
+                  do so.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            
+            <bibl>
+               <title>The Picayune's Creole Cook Book</title>
+               <publisher>New Orleans, La., The Picayune</publisher>
+               <date>1910</date>
+               <edition>4th</edition>
+               <sponsor>Cornell University Library</sponsor>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This editions provides editorial notes</p>
+         <editorialDecl>
+            <p>Page breaks and column breaks have been preserved whenever possible. Abbreviations and spellings have been maintained. Line breaks
+               have not been encoded. All presentational elements such as alignments, all caps, bold, and italics will be encoded.</p>
+            <normalization method="silent">
+               <p>Typos have been maintained</p>
+            </normalization>
+            <hyphenation eol="none">
+               <p>Hyphenated words that appear at the end of columns or lines have been reformed</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <!-- Add date, initials, and what the change was -->
+         <change when="2020-10-26" who="EAH">Created header and test template</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head rend="align(center) case(allcaps)">Chapter IV.</head>
+         <head rend="align(center) case(allcaps) bold">Fish Soups.</head>
+         <head rend="align(center)"><foreign xml:lang="fr">Soupes de Poissons</foreign>.</head>
+         <div type="prefatory">
+            <!-- divs don't carry a @type, why? -->
+            <!-- why isn't cb allowed? add to schema <cb n="1"/>-->
+            <p>Under this heading come some of the most delightful Creole soups, such as<name xml:id="pic4.2_green_turtle_soup"> Green Turtle
+               Soup</name>, <name xml:id="pic4.7_oyster_soup">Oyster Soup</name>, <name xml:id="pic4.5_crawfish_bisque">Crawfish
+                  Bisque</name>, etc. These not only serve as fast-day soups, but are considered elegant introductions to the most <foreign
+                     xml:lang="fr">récherché</foreign> feast. </p>
+         </div>
+         
+         <div type="recipe">
+            <head type="main" rend="align(center) bold">Fish Soup.</head>
+            <head type="sub" rend="align(center)">
+               <foreign xml:lang="fr">Bouillon de Poisson.</foreign>
+            </head>
+            <div type="ingredientList">
+               <!-- still figuring out how to add closed or semi-open list to @type; for now, write them in, singular, "fat" not "fats" -->
+               <list>
+                  <item>6 Slices of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fish">Fish</ingredient> of Almost Any Variety.</item>
+                  <item> 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredient>, Chopped Fine.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Tomatoes</ingredient>, Chopped Fine.</item>
+                  <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Herb Bouquet</ingredient>.</item>
+                  <item>Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley</ingredient>.</item>
+                  <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">White Wine</ingredient>.</item>
+                  <item> 4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fat">Salad Oil</ingredient>.</item>
+                  <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Flour</ingredient>.</item>
+                  <item>3 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="water">Water</ingredient>.</item>
+               </list>
+            </div>
+            <div type="instructions">
+               <p>Chop the onions and fry them in the salad oil. Cut the tomatoes fine and add onions, and put in all the other ingredients,
+                  except the fish, adding the flour to make a good roux. When brown add the water, and, after it has boiled about a half hour,
+                  add the slices of fish. When they are firm remove the herb bouquet, add <ingredient>Cayenne pepper</ingredient>, and salt and pepper to taste, and
+                  serve the fish soup in a tureen, pouring it over crusts of dried toast. </p>
+            </div>
+         </div>
+         <!-- column two starts -->
+         <div type="recipe">
+            <head type="main" rend="align(center) bold">Green Turtle Soup.</head>
+            <head type="sub" rend="align(center)">
+               <foreign xml:lang="fr">Soupe à la Tortue.</foreign>
+            </head>
+            <div type="ingredientList">
+               <list>
+                  <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Turtle Meat</ingredient>, or a 2-Pound
+                     Turtle.</item>
+                  <item>2 Fine Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredient>.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cloves</ingredient>.</item>
+                  <item>1 Square inch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Ham</ingredient>.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Allspice</ingredient>.</item>
+                  <item>2 Cloves of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Garlic</ingredient>.</item>
+                  <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Flour</ingredient>.</item>
+                  <item>1/4 of a Small <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fruit">Lemon</ingredient>.</item>
+                  <item>2 Hard-Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="egg">Eggs</ingredient>.</item>
+                  <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">Sherry Wine</ingredient>.</item>
+                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley</ingredient>, <ingredient
+                     xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Thyme</ingredient>, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
+                        type="herb">Bay Leaf</ingredient>.</item>
+                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Salt</ingredient>, <ingredient
+                     xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Pepper</ingredient>, and <ingredient
+                        xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cayenne</ingredient> to Taste.</item>
+               </list>
+            </div>
+            <div type="instructions">
+               <p>The <name>Creoles</name> pride themselves upon their famous "<foreign xml:lang="fr">Soupe à la Tortue</foreign>," and justly;
+                  the old saying that only a good Creole cook knows how to make a good Turtle Soup being testified to by epicurean visitors from
+                  every country.</p>
+               <p>The following is one of the simplest and best ways of making Turtle Soup—a recipe that may always be relied upon and one that
+                  has been used from generation to generation in the most aristocratic Creole homes:</p>
+               <p>In making Turtle Soup, remember that Green Turtle is always the best for this purpose. Select two pounds of fine Green Turtle
+                  meat, if the turtle is not bought whole. This amount will make soup for six persons. Increase proportionately. If <pb n="20"
+                  />the turtle is bought whole, first cut off the head. To do this properly, the turtle should be hung with the head downwards,
+                  and a very sharp knife should be used to cut off the head as close as possible. Often for hours after this operation is
+                  performed, the turtle will exhibit extraordinary signs of life, the flesh quivering constantly. The <name>old Creole
+                     cooks</name> say that a turtle never dies, but this is a darky tradition. To remove the shells, first separate the upper
+                  from the lower shell, always being exceedingly careful to avoid touching the gall bladder, which is very large. If this
+                  bladder is penetrated, the contents running over the turtle meat would render it utterly unfit for use.</p>
+               <p>Clean the turtle and the entrails by cutting open and washing thoroughly in cold water. Then put the meat and entrails into a
+                  saucepan and parboil about ten minutes. Be careful to save this stock of water. Chop an onion very fine, and the ham into very
+                  fine pieces. Cut the turtle meat into one-inch pieces, mash the cloves and the allspice very fine and chop the thyme and bay
+                  leaf. Brown the onions in a tablespoonful of butter or lard, and add immediately the turtle meat. Brown together slightly and
+                  after minutes add the chopped ham. Let this continue browning and then add two cloves of garlic, chopped fine, and the thyme,
+                  bay leaf (minced fine), cloves and allspice (ground), all mixed together, and lay on the turtle. Stir this almost constantly
+                  to prevent curing, and add two tablespoonfuls of flour that has been well rubbed, stirring constantly all the time. Then
+                  dissolve the meat with the water in which the turtle was parboiled, adding gradually until a certain consistency is reached.
+                  About three quarts of water will be the required amount. Season this with salt, black pepper and Cayenne to taste, and boil
+                  slowly for fully an hour, stirring almost constantly. After cooking on hour taste, and if not seasoned sufficiently, season
+                  again and taste. Then chop one-quarter of a small lemon and put it in the soup. Let it continue to cook, and when well
+                  done—that is, when no blood exudes from the turtle after sticking it with a fork—pour into the tureen. Add the whites and
+                  yolks of two hard-boiled eggs, chopped fine, and one good glass of Sherry wine. This is a dish fit for a king and is most
+                  highly recommended as a genuine Creole Turtle Soup.</p>
+               <p>If Quenelles or Forcemeat Balls are desired, they may be prepared according to the recipe given under <!--<cb/>-->the heading
+                  <name><!-- xml:id for quenelles, needs to be made -->"Quenelles."</name> (See recipe, under chapter "Stuffings and
+                  Dressings," etc.)</p>
+            </div>
+         </div>
+         <div type="recipe">
+            <head type="main" rend="align(center) bold">Green Turtle Soup.</head>
+            <head type="sub" rend="align(center)">
+               <foreign xml:lang="fr">Soupe à la Tortue.</foreign>
+            </head>
+            <div type="ingredientList">
+               <list>
+                  <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Turtle Meat</ingredient>, or a 2-Pound
+                     Turtle.</item>
+                  <item>2 Fine Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredient>.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cloves</ingredient>.</item>
+                  <item>1 Square inch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Ham</ingredient>.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Allspice</ingredient>.</item>
+                  <item>2 Cloves of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Garlic</ingredient>.</item>
+                  <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Flour</ingredient>.</item>
+                  <item>1/4 of a Small <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fruit">Lemon</ingredient>.</item>
+                  <item>2 Hard-Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="egg">Eggs</ingredient>.</item>
+                  <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">Sherry Wine</ingredient>.</item>
+                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley</ingredient>, <ingredient
+                     xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Thyme</ingredient>, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
+                        type="herb">Bay Leaf</ingredient>.</item>
+                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Salt</ingredient>, <ingredient
+                     xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Pepper</ingredient>, and <ingredient
+                        xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cayenne</ingredient> to Taste.</item>
+               </list>
+            </div>
+            <div type="instructions">
+               <p>The <name>Creoles</name> pride themselves upon their famous "<foreign xml:lang="fr">Soupe à la Tortue</foreign>," and justly;
+                  the old saying that only a good Creole cook knows how to make a good Turtle Soup being testified to by epicurean visitors from
+                  every country.</p>
+               <p>The following is one of the simplest and best ways of making Turtle Soup—a recipe that may always be relied upon and one that
+                  has been used from generation to generation in the most aristocratic Creole homes:</p>
+               <p>In making Turtle Soup, remember that Green Turtle is always the best for this purpose. Select two pounds of fine Green Turtle
+                  meat, if the turtle is not bought whole. This amount will make soup for six persons. Increase proportionately. If <pb n="20"
+                  />the turtle is bought whole, first cut off the head. To do this properly, the turtle should be hung with the head downwards,
+                  and a very sharp knife should be used to cut off the head as close as possible. Often for hours after this operation is
+                  performed, the turtle will exhibit extraordinary signs of life, the flesh quivering constantly. The <name>old Creole
+                     cooks</name> say that a turtle never dies, but this is a darky tradition. To remove the shells, first separate the upper
+                  from the lower shell, always being exceedingly careful to avoid touching the gall bladder, which is very large. If this
+                  bladder is penetrated, the contents running over the turtle meat would render it utterly unfit for use.</p>
+               <p>Clean the turtle and the entrails by cutting open and washing thoroughly in cold water. Then put the meat and entrails into a
+                  saucepan and parboil about ten minutes. Be careful to save this stock of water. Chop an onion very fine, and the ham into very
+                  fine pieces. Cut the turtle meat into one-inch pieces, mash the cloves and the allspice very fine and chop the thyme and bay
+                  leaf. Brown the onions in a tablespoonful of butter or lard, and add immediately the turtle meat. Brown together slightly and
+                  after minutes add the chopped ham. Let this continue browning and then add two cloves of garlic, chopped fine, and the thyme,
+                  bay leaf (minced fine), cloves and allspice (ground), all mixed together, and lay on the turtle. Stir this almost constantly
+                  to prevent curing, and add two tablespoonfuls of flour that has been well rubbed, stirring constantly all the time. Then
+                  dissolve the meat with the water in which the turtle was parboiled, adding gradually until a certain consistency is reached.
+                  About three quarts of water will be the required amount. Season this with salt, black pepper and Cayenne to taste, and boil
+                  slowly for fully an hour, stirring almost constantly. After cooking on hour taste, and if not seasoned sufficiently, season
+                  again and taste. Then chop one-quarter of a small lemon and put it in the soup. Let it continue to cook, and when well
+                  done—that is, when no blood exudes from the turtle after sticking it with a fork—pour into the tureen. Add the whites and
+                  yolks of two hard-boiled eggs, chopped fine, and one good glass of Sherry wine. This is a dish fit for a king and is most
+                  highly recommended as a genuine Creole Turtle Soup.</p>
+               <p>If Quenelles or Forcemeat Balls are desired, they may be prepared according to the recipe given under <!--<cb/>-->the heading
+                  <name><!-- xml:id for quenelles, needs to be made -->"Quenelles."</name> (See recipe, under chapter "Stuffings and
+                  Dressings," etc.)</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
