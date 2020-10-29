@@ -6,7 +6,7 @@ Add your favorite cookie next to your name then push back to the git!
 - Anna, molasses cookie
 - Eliora
 - Liz
-- Prakruti
+- Prakruti: My favourite cookie is peanute butter! 
 - Regina
 - Scarlet 
 - Ve’Amber
