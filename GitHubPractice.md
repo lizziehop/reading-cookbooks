@@ -10,4 +10,4 @@ Add your favorite cookie next to your name then push back to the git!
 This is round 2 of practice! <br> Now checking on a third attempt, from a different machine.
 - Regina: Earl grey cookies (same sentiments as Prakruti, this is rough! Practising a second time.)
 - Scarlet
-- Ve’Amber
+- Ve’Amber: classic warm chocolate chip (on top of ice cream)
