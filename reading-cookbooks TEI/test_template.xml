@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/Users/CTSDH/Desktop/reading-cookbooks/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- This reference to the schema won't work because it is refering to it's place on Liz's computer -->
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- You may have to reference the local file you have pulled from git hub. Remove the link in the href attribute and beging with "file:/Users/"  then add the rest of the path (folders you have to enter to get to the folder where the item exists) with backslashes between each level. You do not need to escape spaces.-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -9,7 +9,7 @@
                 <!-- Supply the title of chapter -->
                 <title type="chapter" xml:lang="en"/>
                 <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
-                <principal>Elizabeth Hopwood</principal>
+                <principal><persName>Elizabeth Hopwood</persName></principal>
                 <respStmt>
                     <resp>Transcription by</resp>
                     <persName>
@@ -39,7 +39,7 @@
 
             <publicationStmt>
                 <authority>Reading Cookbooks Project</authority>
-                <publisher>Elizabeth Hopwood and The Center for Textual Studies and Digital Humanities</publisher>
+                <publisher><persName>Elizabeth Hopwood</persName> and The Center for Textual Studies and Digital Humanities</publisher>
                 <availability>
                     <p>Reproduced by digitized version from Archive.org, contributed by <name>Cornell University Library</name>. There are no known
                         copyright restrictions in the United States on the use of the texts. More information on rights issues associated with public
