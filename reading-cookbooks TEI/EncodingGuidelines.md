@@ -1,6 +1,6 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 10/26/20 - AMK
+Last updated: 11/2/20 - AMK
 
 ---
 
@@ -40,7 +40,7 @@ Last updated: 10/26/20 - AMK
 
 - File Locations
   
-  - TBD
+  - Each chapter has its own folder within the folder for the cookbook on the [reading-cookbooks](https://github.com/lizziehop/reading-cookbooks) GitHub
 
 - File Names
   
@@ -146,6 +146,10 @@ Last updated: 10/26/20 - AMK
 
 - Ingredients that are pre-made things like broths or syrups should have the xml:id of the recipe as a `corresp` attribute rather than a type
 
+- Adding new type values to the list
+  
+  - rule of three: if there are three examples of a new type value we add it to the list
+
 - Only tag ingredients in the list 
   
   - Exception is if a new ingredient is mentioned in instructions
@@ -153,14 +157,14 @@ Last updated: 10/26/20 - AMK
 - ```xml
   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="<!--type from closed list-->">
   <!-- OR -->
-  <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"corresp="#pic4.1_fish_soup">
+  <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic4.1_fish_soup">
   ```
 
 - Closed List of Types
   
   - Meat
   
-  - Fish
+  - Seafood (fish, shellfish, turtles, etc)
   
   - Dairy
   
@@ -190,15 +194,17 @@ Last updated: 10/26/20 - AMK
   
   - Extract
   
-  - Water
+  - Fruit Juice
   
-  - Suggested Additions (pending agreement)
-    
-    - seasoning
-    
-    - liquid
-    
-    - rule of 3 to add a new value, if there are three or more examples of a new category add it as a value
+  - Seasonings
+  
+  - Liquid (vinegar, broth, water, oyster juice, etc )
+  
+  - Aromatic
+  
+  - Legume (beans, lentils, peas, peanuts)
+  
+  - Nut
 
 ### Ingredient Lists
 
