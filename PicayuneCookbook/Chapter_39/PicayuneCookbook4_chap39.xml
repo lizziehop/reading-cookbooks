@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CHAPTER XXXIX. DESSERT CAKES. </title>
+                <!-- Supply the title of chapter -->
+                <title type="chapter" xml:lang="en"/>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
+                <principal><persName>Elizabeth Hopwood</persName></principal>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName>Eliora Horst</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>First round encoding by</resp>
+                    <persName>Anna Kroon</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Second round encoding by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofreading by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial research by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>Reading Cookbooks Project</authority>
+                <publisher><persName>Elizabeth Hopwood</persName> and The Center for Textual Studies and Digital Humanities</publisher>
+                <availability>
+                    <p>Reproduced by digitized version from Archive.org, contributed by <name>Cornell University Library</name>. There are no known
+                        copyright restrictions in the United States on the use of the texts. More information on rights issues associated with public
+                        domain texts can be found at https://www.library.cornell.edu/about/policies/public-domain</p>
+                    <p>This text may be freely distributed for personal use, research, and teaching (including distribution to classes) as long as
+                        this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds.</p>
+                    <p>Scholars interested in changing or adding to these texts (for example, creating a new edition or adding additional markup) may
+                        do so.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl>
+                    <title>The Picayune's Creole Cook Book</title>
+                    <publisher>New Orleans, La., The Picayune</publisher>
+                    <date>1910</date>
+                    <edition>4th</edition>
+                    <sponsor>Cornell University Library</sponsor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This editions provides editorial notes</p>
+            <editorialDecl>
+                <p>Page breaks and column breaks have been preserved whenever possible. Abbreviations and spellings have been maintained. Line breaks
+                    have not been encoded. All presentational elements such as alignments, all caps, bold, and italics will be encoded.</p>
+                <normalization method="silent">
+                    <p>Typos have been maintained</p>
+                </normalization>
+                <hyphenation eol="none">
+                    <p>Hyphenated words that appear at the end of columns or lines have been reformed</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <!-- Add date, initials, and what the change was -->
+            <change when="2020-10-26" who="EAH">Created header and test template</change>
+            <change when="2020-11-2" who="AMK">Added transcription to template and began encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+            <!--French is in green letters. Bold is bolded in the actual book.-->
+<!--middle of page 288 of book, 294 of pdf)-->
+CHAPTER XXXIX.
+
+DESSERT CAKES. <!--chapter title-->
+
+Patisserie Fine Pour Dessert <!--French translation of chapter title-->
+
+<!-- column 1 begins-->
+Des Bouchees, Macarons, Massepains, Meringues, Melees, Creoles. <!--sub-title-->
+
+Biscuits aux Amandes et aux Pistaches, Amandes Soufflés, etc. <!--French translation of sub-title-->
+
+Perhaps no cuisine can boast of such a number of delicious small cakes that may serve for desserts, both elegant and choice, as the Creole cuisine. The native ingenuity of the Creole chefs adapted many of the nuts and fruits of Louisiana to various forms of sweetened batter, and the result of their efforts, handed down from generation to generation, is given in the following carefully compiled recipes, which, perhaps, after our unique “Gumbos,” “Courtbouillons,” “Bouillabaise,” “Ragouts” and “Jambalayas,” will serve better than any other recipes to give a true idea of the infinite variety and delight of the properly conducted Creole kitchen. They will also give a glimpse into the interior life of the Creole household, <!-- column 2 begins> some of them, especially, being associated with pleasant, simple forms of “soirées,” that, alas! have almost passed away since the intercourse of the old French quarter with the American city above Canal Street has become so general.
+
+Advice and Instructions for Baking 
+These Cakes
+
+Use the best materials. It always pays in the delicate and perfect taste of the cake.
+Soda, if not properly dissolved, will give to cakes and biscuits a bad, greenish color.
+Keep the cake out of the draft while beating and baking. All the following cakes, as, indeed, all cakes, should be baked in their own steam, that is, keep the door and damper shut till the cakes have finished spreading. Then, if the oven is hot enough, you may open the damper. This gives the cake a light, bright
+<!- start of page 289, page 295 of pdf-->
+<!-- column 1 begins-->
+color. Remember meringues and other large cakes are not intended in these instructions. For meringues the oven must never be very hot.
+If you are expert at baking, you may test the heat of the oven simply by touching the handle of the oven door, but a sure test for beginners is to throw a little cornmeal or flour in the center of the oven, count ten, and if the flour begins to smoke before you count the full number the oven is too hot, if it smokes at ten the oven has the proper heat.
+Never put flavoring extracts directly into the flour, or they will form lumps. Always put them in the wet part of the mixture.
+
+BOUCHÉS. <!--category of recipes-->
+These are a delicious form of dessert cakes. and are considered both elegant and recherché. Great care must be taken to trim the cakes evenly and of equal size before attempting to finish them. Bouchés are made with batter and also with almost all our Louisiana fruits. As the name indicates Bouchées are simply “a mouthful.”
+
+Bouchées de Dames. <!--recipe-->
+9 Eggs. 1 Pound of White Pulverized Sugar.
+½ Pound of Flour.
+The Juice of 1 Lemon.
+1 Tablespoonful of Vanilla Extract.
+1 Cup of Currant or Other Jelly for Filling.
+Transparent Icing to Garnish.
+Prepare a sponge or cup cake batter. (See recipe under chapter “Cakes.”) Have ready a baking sheet, which you will cover with white writing paper. Lay the batter out on the paper by forcing it through a biscuit cutter in rounds that will measure one inch and a half in diameter. They will spread. Dredge the surface with white sugar very lightly, and bake them for about fifteen minutes or less, until they are a light color. Then trim nicely and place them upon a wire drainer. Place circular pieces of currant or other preserves on top, and garnish with a meringue or Transparent Icing. (See recipe.) Set in the stove or the sun to dry, and in ten minutes they will be ready to serve.
+
+Bouchées With Oranges. <!--recipe-->
+Bouchés aux Oranges.
+9 Eggs. 1 Pound of White Pulverized Sugar.
+½ Pound of Flour.
+The Juice of 1 Orange or 1 Tablespoonful of Extract.
+1 Cup of Orange Marmalade.
+Transparent Icing to Garnish.
+Prepare the cake drops as directed above, with sponge or cup cake batter. Then place thin slices of oranges cooked in syrup on the Bouchées (see Orange Marmalade), and gloss them over with Transparent <!-- column 2 begins--> Icing. (See recipe.) Flavor the batter of these Bouchées with the zest of an orange or with Curaçoa liqueur. (See recipe.)
+
+Bouchées With Penches. <!--recipe-->
+Bouchées aux Pêches. 
+9 Eggs. 1 Pound of White Pulverized Sugar.
+½ Pound of Flour.
+1 Tablespoonful of Noyau Extract.
+1 Cup of Preserved Peaches.
+Transparent Icing to Garnish.
+Prepare the drop cakes as directed in Bouchées de Dames. Place halves of peaches, preserved in syrup, over them (home-made preserves), and gloss over with Transparent Icing, flavored with Noyau and slightly tinged with Carmine. (See recipe.) 
+In preparing all these bouchées do not allow any excess of moisture from the preserves. The syrup should become entirely absorbed into the bouchée before you attempt to gloss is with the icing. Bouchées with apricots or cherries are prepared in the same way, using, in the former case a flavoring of Cedrati liqueur, and in the latter Maraschino. In making bouchées with preserves use any kind of marmalade to stick two bouchées together and ice the surface.
+
+Bouchées With Pineapples. <!--recipe-->
+Bouchées aux Ananas.
+9 Eggs. 1 Pound of Pulverized Sugar.
+½ Pound of Flour.
+1 Cup of Preserved Pineapples.
+Transparent Icing to Garnish.
+Prepare the drop cakes one inch and a half in diameter. Place smaller slices of thin, preserved pineapple upon each, and gloss or glacer over with Transparent Icing (see recipe), flavoring with pineapple syrup.
+
+MACAROONS. <!--recipe-->
+Macarons.
+
+1 Pound of Sweet Almonds.
+1 Ounce of Butter.
+2 Pounds of Sifted Sugar.
+The Whites of 6 Eggs.
+
+Blanch or scald the almonds by throwing them into a pan of boiling water, and letting them remain on the fire until you can take one of the almonds between your fingers and easily push off the skin by pushing it between the finger and thumb. Then drain and cool the almonds in cold water, and drain again. Rub the almond skins or hulls off with your hands in a cloth, throw the almonds in cold water with a little salt, wash clean, drain and dry them in another cloth. The almonds must be cold before you put them into a mortar. Then pound them to a pulp <!--next page 290, page 296 of pdf. Column 1 begins--> that will be as smooth as flour. Beat the whites of the eggs to a stiff froth. Add a little of the sugar and a little of the eggs as you pound pick, to prevent the almonds from becoming oily. Remember always that the paste must be kept firm as you add the remainder of the sugar and the eggs. Have ready a baking sheet, on which you will have placed a buttered piece of wafer paper. Lay the macaroons out on this, by dropping them from the spoon, in the form of a guinea fowl egg. Be very careful to place the macaroons about an inch apart, so that the balls will not touch one another. When the sheet is full, pass a wet paste brush gently over their surface. Put them in the oven, and bake at a very moderate heat till they are a light, delicate brown or faun color. When done, take out and set to cool, and take away any excess of wafer paper that may cling to the edges. Keep in a dry place.
+
+Chocolate Macaroons. <!--recipe-->
+
+Macarons au Chocolat.
+
+12 Ounces of Ground Almonds. 
+1½ Pounds of Sifted White Sugar.
+4 Ounces of Grated French Chocolate.
+The Whites of 3 Eggs.
+1 Tablespoonful of Vanilla Sugar.
+
+Mix all the ingredients together in a bowl. and let it form a stiff paste. Then lay the macaroons out upon the wafer sheet in the form of lady fingers. Bake at a very moderate heat till a light brown.
+
+Creole Macaroons. <!--recipe-->
+
+Macarons à la Créole.
+
+12 Ounces of Shredded Almonds.
+4 Ounces of Ground Almonds. 
+1 Pound of Sugar.
+2 Eggs. 4 Ouncea of Wheat Flour.
+The Zest of 2 Oranges.
+
+Blanch and wash and dry the almonds. Then grind (not pound) four ounces. Shred twelve ounces, that is, after skinning, cut the almonds lengthwise into thin shreds by dividing each almond into at least five or six long shreds, or cut them crosswise, and the shreds will be shorter. Beat the yolks of the eggs and the whites separately, and then beat them together with the sugar, rubbing till very light and smooth. Add the grated zest of two Louisiana oranges, that has been rubbed on sugar, and then incorporate all the other ingredients. Roll the paste out into balls about the size of an egg. Place them on buttered wafer paper on a baking sheet, set in a moderate oven, and bake to a light color.
+
+<!--column 2 begins-->
+Pistachio Macaroons. <!--recipe-->
+Macaroons aux Pistaches.
+
+4 Ouncea of Bitter Almonda.
+6 Ouncea of Shredded Pistachio Kernels or Peanuts
+12 Ounces of Sifted Sugar
+The Whites of 2 Eggs.
+1 Tableapoonful of Vanilla Sugar.
+Blanch the almonds and then pound them well. Mix with the whites of the eggs till thoroughly pulverized. Then mix with the shredded pistachio kernels or peanuts, and stir well. Fill a biscuit forcer with the preparation, and drop the macaroons into round balls about the size of a hickory nut upon a wafer sheet of paper, and spread upon a baking sheet. Bake in a moderate oven till very slightly colored.
+
+Spanish Macaroons <!--recipe-->
+Macarons à l’Espagnole.
+
+8 Ounces of Sweet Almonds.
+1 Pound of Sugar.
+Yolks of 12 Eggs.
+Grated Zest of 2 Oranges.
+1 Teaspoonful of Vanilla
+
+Boil the sugar almost to a syrup, and then add the pounded almonds, and let them simmer gently for five minutes add the flavoring and let them simmer five minutes longer over a slow fire of smothered charcoal.Stir occasionally, and at the end of ten minutes add the yolks of the eggs, beaten very light. Then stir the paste over the kitchen fire with a quickened heat until it becomes firm and compact. Remove from the fire, and when it is cool roll it in your hands, which should be slightly greased with oil of sweet almonds. Lay them out in small cakes on wafer paper, spread on a baking sheet, and bake at a quick heat.
+
+CROQUIGNOLES. <!--recipe-->
+
+8 Ounces of Sweet Almonds.
+4 Ounces of Bitter Almonds.
+Whites of 4 Egs.
+1½ Pounds of Fine Sugar. 
+
+Scald, skin and wash and dry the almonds, as directed in “Macarons,” and then pound them into a pulp adding the whites of the eggs gradually, remembering always that they must be beaten to a stiff froth. Then work in the sugar, and you will have a firm paste. Drop these in small balls upon wafer paper, spread upon a baking sheet of tin or iron, in distinct and separate rows. Pass a little brush, moistened with water, lightly on their surface. and bake in a very slack oven till a very light color.
+
+<!--page 291, page 297 in pdf. Start of column 1-->
+PETITS FOURS.<!--recipe-->
+1 Pound of Sweet Almonds.
+1 Ounce of Butter.
+2 Pounds of Sifted Flour.
+The Whites of 8 Eggs. 
+Royal Icing to Garnish.
+
+Prepare the paste as above directed, keeping it somewhat stiffer and firmer, however. Add two whites of eggs of Royal Icing (see recipe), and work both together till thoroughly incorporated. Fill the biscuit forcer, and push the macaroons through upon buttered wafer paper, as directed.
+
+Petits Fours must be baked in a very moderate oven. Otherwise the excessive heat will cause the macaroons to run into one another, and produce a useless mass. The Royal Icing necessitates the moderate oven. The Petits Fours are them put in pretty plaited paper cases.
+
+MASSEPAINS (Plain) <!--it really looks like Piain.--><!--recipe-->
+Massepains (simple)
+12 Ounces of Sweet Almonds. 
+1 Ounce of Bitter Almonds.
+The Whites of 4 Eggs.
+1½ Pounds of Sifted Sugar.
+Scald, skin, wash and dry the almonds. Then pound them to a flour in a mortar with the whites of the eggs. When well-pulverized, beat well. Mix in the sugar by pounding it, and ten take up the paste and put it in a bowl. Beat well, keeping it very firm. If soft, add sugar, to render firmer. Strew the wafer sheet, spread on a baking sheet, with white pulverized sugar. Cut the massepains into lengths of two or three inches, and twist them into fancy shapes, diamonds, hearts, rings, triangles, etc. on the wafer sheet. Then set in the oven, and bake to a very light color. 
+
+Massepains Soufflés.<!--recipe-->
+12 Ounces of Sweet Almonds.
+1 Ounce of Bitter Almonds.
+1½ Pounds of Sifted Sugar.
+1 Ounce of Vanilla Sugar.
+The Whites of 3 Eggs.
+1 White of Egg Royal Icing.
+Prepare the paste exactly as above, and when you take it up in the bowl add the Royal Icing, keeping the paste firm. Spread the massepains upon wafer sheets, using only the ring shape, and bake in a slack oven till a very light color.
+
+Strawberry Massepains. <!--recipe-->
+Massepains à la Fraise.
+1 Pound of Sweet Almonds.
+8 Ounces of Sugar.
+6 Ounces of Crushed Strawberries.
+Pound the almonds, and then process as in plain Massepains, adding <!--start of column 2-->the strawberries after you will have strained them through a sieve.
+Any kind of fruits or marmalades may be used in this manner for Fruit Massepains.
+
+Almonds Soufflés.
+Amandes Soufflés.
+1 Pound of Sweet Almonds.
+The White of 1 Egg.
+12 Ounces of Powdered Sugar.
+Blanch, skin, wash and dry one pound of sweet almonds, and then cut them into very small pieces. Add the white of one egg, beaten to a thick froth, and twelve ounces of powdered sugar. When well- mixed drop upon sheets of white paper, and bake to a very light color in a moderate oven.
+
+Pistachio Soufflés.<!--recipe-->
+Soufflés aux Pistaches.
+10 Ounces of Pistachio Kernels or Peanuts.
+1½ Pounds of Fine Sugar.
+Whites of 3 Eggs. 
+4 Drops Essence of Roses.
+2 Whites of Eggs of Royal Icing.
+(See Recipe Royal Icing.)
+If you cannot procure the Pistachio Kernels, use Peanuts, which are called “Pistaches” by the Creoles.
+Scald, skin, wash and dry the pistachios or peanuts. Pound them with two ounces of sugar, adding occasionally some of the whites of the eggs, until reduced to a pulp. Then add all the sugar, gradually working it into the paste on a marble slab, being careful to have the slab and the hands very clean. Roll out paste with sugar to the thickness of a quarter of an inch on the slab. Spread the icing evenly over, and cut into various fanciful shapes. Place the cakes on the sheet wafer or lay on baking sheet, and bake in a slow heat to a very light color.
+
+<!--page 292, page 299 of pdf. Column 1 start-->
+ Rose Soufflés.<!--recipe-->
+Soufflés à la Rose.
+2 Pounds of Powdered White Sugar.
+The Whites of 2 Eggs.
+1 Ounce of Orange Flower Water.
+A Pinch of Carmine Powder.
+To two pounds of powdered sugar add the whites of two eggs and one ounce of Orange Flower Water and a little pinch of Carmine Powder. Make of all a firm, consistent paste, adding more sugar, if necessary. Roll out on a sheet of paper, sprinkled with sugar, then cut the paste into little pieces, which you will form into balls about the size of a nut. Place them on a wafer sheet on a baking sheet at a distance of two inches apart, so that they will not touch one another, should they run. Bake in a moderate oven.
+
+Almond and Pennut Biscuit. <!--recipe-->
+Biscuits aux Amandes et aux Pistaches. 
+4 Ounces of Sweet Almonds.
+4 Ounces of Pistachio Kernels or Peanuts.
+4 Eggs. 8 Ounces of Powdered Sugar.
+Blanch, peel and pound the almonds and pistachio kernels or peanuts in a mortar till finely pulverized, adding the white of an egg, to keep the almonds from turning oily. Beat the whites of the eggs to a froth, and then add the yolks, beaten separately to a cream with the sugar. Beat well, and incorporate thoroughly. Add four tablespoonfuls of flour, fisted well, and mix well. Place in small cakes on wafer sheets of paper, and bake in a moderate oven till a very light color.
+
+Chocolate Biscuits.<!--recipe-->
+Biscuits au Chocolat.
+6 Fresh Creole Eggs. 
+1 Ounce of Powdered French Chocolate.
+4 Ounces of Flour.
+10 Ounces of Pulverized Sugar.
+Beat the yolks of the eggs and the sugar to a cream. Add the chocolate, and mix well. Then add the flour, alternating with the whites of the eggs, beaten to a stiff froth. Add one tablespoonful of Vanilla Extract, and bake upon wafer sheets in small cakes to a light color.
+
+Cinnamon Biscuits.<!--recipe-->
+Biscuits à la Canelle.
+6 Fresh Creole Eggs. 
+1 Ounce of Powdered French Chocolate.
+4 Ouncea of Flour.
+10 Ounces of Pulverized Sugar.
+Ground cinnamon.
+1 Teaspoonful of Cinnamon Extract. 
+Beat the yolks of the eggs and the cinnamon to a cream. Add the chocolate, and mix well. Then add <!--column 2 begins-->the flour, alternating with the whites of the eggs, beaten to a stiff froth. Add one tablespoonful of Vanilla Extract, and bake upon wafer sheets in small cakes to a light color.
+
+Citron Biscuits.<!--recipe-->
+Biscuits au Citron.
+6 Fresh Creole Eggs. 
+The Zest of 1 Citron.
+4 Ouncea of Flour.
+12 Ounces of Powdered Sugar.
+The Juice of 1 Lemon.
+Beat the eggs and sugar to a cream, add the flour gradually, and the juice of the lemon and citron zest, and beat well. Bake on paper sheets in the form of small wafers, very thinly spread, in a moderate oven to a light color.
+
+Creole Biscuits.<!--recipe-->
+Biscuits à la Creole.
+4 Ounces of Grated Lemon.
+4 Ounces of Orange Flower Marmalade.
+4 Ounces of Apricot or Peach Marmalade.
+The Whites of 4 Eggs.
+Mix the fruits and lemon thoroughly together, and then add three ounces of white pulverized sugar and the whites of the eggs, beaten to a stiff froth. Place the mixture in small cakes on white paper, and bake lightly. Then cover with sugar beaten with the white of an egg, in meringue form, and bake to a light brown.
+
+Citron Biscuits.<!--recipe-->
+Biscuits aux Avelines.
+4 Ounces of Sweet Almonds.
+4 Ounces of Filberts.
+The Whites of 4 Eggs.
+8 Ounces of Powdered Sugar.
+Blanch, peel and pound the almond and filbert kernels in a mortar till finely pulverized, adding the white of an egg, to keep the almonds from turning oily. Beat the whites of three eggs to a froth, and then add the yolks, beaten separately to a cream with the suar, incorporate thoroughly, and beat well. Add four tablespoonfuls of flour, sifted well, and mix well. Place in small cakes on wafer sheets of paper, and bake in a moderate oven till a very light color.
+
+Lemon Biscuit.<!--recipe-->
+Biscuit au Citron.
+6 Fresh Creole Eggs.
+The Zest of 1 Lemon.
+4 Ounces of Flour.
+12 Ounces of Powdered Sugar.
+The Juice of 1 Lemon or 1 Tablespoonful of Lemon Extract.
+Beat the eggs and sugar to a cream, add the flour gradually, and the juice and zest of a lemon, and beat well. Bake on paper sheets in <!--page 293, page 299 of pdf-->the form of small wafers, very thinly spread, in a moderate oven, to a light color.
+
+Orange Biscuits.<!--recipe-->
+Biscuits à l’Orange.
+6 Fresh Creole Eggs.
+The Zest of 1 Orange.
+4 Ounces of Flour.
+12 Ounces of Powdered Sugar.
+The Juice of 1 Orange.
+Beat the eggs and sugar to a cream, add the flour gradually, and the juice and zest of the orange, and beat well. Bake on paper sheets, in the form of small wafers, very thinly spread, in a moderate oven, to a light color.
+
+Vanilla Biscuits.<!--recipe-->
+Biscuits à la Vanille.
+6 Fresh Creole Eggs.
+1 Ounce of Vanilla Sugar.
+4 Ounces of Flour.
+10 Ounces of Pulverized Sugar.
+1 Tablespoonful of Vanilla Extract.
+Beat the yolks of the eggs and the sugar to a cream. Add the chocolate, and mix well. Then add the flour, alternating with the whites of the eggs, beaten to a stiff froth. Add one tablespoonful of Vanilla Extract, and bake upon wafer sheets in small cakes to a light color.
+
+Frascati Croquantes..<!--recipe-->
+Croquantes Frascati.
+8 Ounces of Flour.
+6 Ounces of Sugar.
+2 Ounces of Ground Almonds.
+2 Whole Eggs and 3 Yolks.
+1 Ounce Aniseed.
+Break the eggs into a bowl, and beat light, and add the sugar and beat very light; add the almonds, pounded to a powder, and the aniseed. Beat all together till well incorporated. Add the flour and beat thoroughly. Have a marble slab clean and dry. Roll the paste out on the slab in the form of a long, thick rope. Then take a knife and cut it into pieces about the size of a guinea egg. Roll each between the palms of your hands, and shape them into oval balls. Have a buttered sheet of paper on a baking sheet. Make a slight incision into each cake by pressing the back of the knife across the surface. Brush the egg over them, and sprinkle lightly with granulated sugar, and bake in a moderate heat to a light color.
+
+Creole Wafers.<!--recipe-->
+Gaufres à la Créole.
+9 Ounces of Flour.
+4 Ounces of Sifted Sugar. 8 Eggs.
+1 Wineglassful of Noyau.
+1 Pint Whipped Cream.
+1 Tablespoonful of Vanilla.
+A Pinch of Salt.
+Beat the sugar and yolks of the eggs to a cream. Add the Noyau <!--column 2 begins-->and salt, Vanilla and flour, and incorporate thoroughly till light. Then add the whites of the eggs and the cream. Mix all lightly together, taking great care that all are well-mixed. Bake very, very light in wafer irons. The irons should be heated over a clear charcoal fire, and when hot brush inside with a little clarified butter. A large spoonful of butter should be poured into the undersheet of the wafer irons, then close in, and bake to a golden brown color. Sprinkle lightly with sugar. These wafers are delicious, handed around with ices.
+
+
+Ginger Wafers.<!--recipe-->
+Gaufres au Gingembre.
+1 Large Spoon of Ground Ginger.
+4 Ounces of Molasses.
+8 Ounces of Flour.
+8 Ounces of Sifted Sugar.
+Whites of 4 Eggs. 
+½ Pint of Cream.
+1 Wineglassful of Brandy.
+1 Tablespoonful of Vanilla Sugar.
+Beat the whites of the eggs to a cream and add it to the flour and cream, and add it to the flour and milk, salt and sugar, molasses and ginger. Work all well together very light in a bowl until you have a smooth batter. Add the brandy and Ginger Extract and beat vigorously ten minutes longer. Have ready the wafer irons and a clear charcoal fire. Brush the irons with butter and place the wafers within and bake on both sides to a light fawn color. 
+
+French Wafers.<!--recipe-->
+Gaufres Françaises.
+8 Ounces of Flour.
+8 Ounces of Sifted Sugar.
+Whites of 4 Eggs. 
+½ Pint of Cream.
+1 Wineglassful of Brandy.
+1 Tablespoonful of Vanilla Sugar.
+Beat the whites of the eggs to a cream and add to the flour, milk, salt and sugar. Work all together very light in a bowl, until you have a very smooth batter. Add the brandy and beat vigorously ten minutes longer. Have ready the wafer irons and a clear charcoal fire. Brush the irons with butter and place the wafers within and bake on both sides to a light brown color. If desired, the wafers may be rolled into fancy shapes.
+
+Spanish Wafers.<!--recipe-->
+Gaufres Espagnoles.
+9 Ounces of Flour.
+2 Ounces of Sifted Sugar.
+½ Pint of Chocolate Water.
+12 Drops of Essence of Vanilla. 2 Eggs.
+2 Gills of Cream.
+Prepare the chocolate water by dissolving well two ounces of french chocolate in a half pint of boiling <!--page 294, page 300 in pdf. Column 1 begins--> water. Place the sugar, vanilla, eggs and cream in a pan, work all vigorously into a smooth, light batter, add the cold Chocolate Water, beat all together well for ten minutes longer. Then bake the wafers, as directed in recipe for French Wafers, and curl in the form of cornucopias while still warm and able to retain impressions.
+
+Cream Puffs.<!--recipe-->
+Choux à la Crème.
+1 Cup of Flour.
+½ Cup of Butter.
+4 Eggs. 1 Cup of Water.
+
+Set the water to boil, and while boiling, stir in the butter. Then add the flour, and stir continually till the paste leaves the sides of the saucepan. Set the mixture to cool. When cool, stir one after another, the three eggs in, without beating them. After adding the last egg, beat very vigorously for about four minutes; then drop by tablespoonfuls on buttered tins, and set in the oven to bake from twenty to thirty minutes. Watch carefully so that they will not burn. When cold make an opening inside, through the side of the paste, with a sharp knife, and fill it with the following custard:
+1 Cup of Milk
+1 Tablespoonful of Sugar.
+3 Eggs. 1 Teaspoonful of Vanilla.
+1 Tablespoonful of Cornstarcb.
+Rub the cornstarch in a little water and add it to the boiling milk. Let it boil three minutes, stirring constantly. Beat the eggs, without separating, and the sugar till light, and add to the boiling milk. Add the vanilla, stirring all well. Fill the cakes and set away to cool.
+
+Chocolate Éclairs.<!--recipe-->
+Éclairs du Chocolat.
+1 Cup of Flower. 1 Cup of Water.
+4 Eggs. ½ Cup of Water.
+2 Ounces of Chocolate.
+4 Ounces of Powdered Sugar.
+Make a Cream Puff Paste as above. Put into a tube or a pastry bag and press out upon well-buttered tins in the shape of Lady Fingers. This will give the Éclairs the right shape, making them about five inches long. Set them to bake in a quick oven twenty or thirty minutes. If the oven is of the right temperature, and the cakes are properly baked, they will be hollow within ad very daintily crusted without. Fill in with a mixture made by melting two ounces of chocolate and four ounces of powdered sugar, and set away to cool. You may ice by dipping one end into the icing, and then setting away to dry. The Éclairs may be filled with preserved fruits, Orange <--column 2 begins-->Icing, Whipped Cream, or any marmalade.
+
+Pineapple Éclairs.<!--recipe-->
+Éclairs à l’Ananas.
+1 Cup of Flour. 1 Cup of Water.
+4 Eggs. ½ Cup of Water.
+2 Ounces of Preserved Pineapple or Pineapple Mousse.
+Pineapple Éclairs are made in the same manner as Chocolate Éclairs (see recipe), only they are filled in with preserved pineapple or Pineapple Mousse.
+
+Cup Cake <!--recipe-->
+Pétits Gateaux.
+1 Cup of Butter. 2 Cups of Sugar.
+4 Cups of Flour. 1 Cup of Sour Cream.
+3 Eggs. 1 Tablespoonful of Brandy.
+1 Tablespoonful of Rose or Vanilla Extract.
+Beat the butter and sugar to a cream, add the well-beaten yolks of the eggs, and then add the cream. Mix thoroughly, and sift in gradually the flour, beating thoroughly. Add the whites of the eggs, beaten to a stiff froth, and the brandy and rose water. Now dissolve a half teaspoonful of soda in a little sweet milk and add, being very careful that there are no lumps in the soda. Beat well for a few minutes and bake at once, in small tins or cups, which you will grease well with butter and only half fill with the cake batter.
+
+Jelly Cake. <!--recipe-->
+Gateau aux Confitures.
+1 Cup of Butter. 2 Cups of Sugar.
+4 Cups of Flour.
+1 Cup of Sour Cream.
+3 Eggs. 1 Tablespoonful of Brandy.
+1 Tablespoonful of Vanilla Extract.
+3 Ounces of Currant, Grape or any Jelly Desired.
+Prepare the batter exactly as for Cup Cake or Sponge Cake, butter the small tins and pour in the batter in such thin layers as to allow the cakes to be just a half inch thick when baked. Let them bake for a few minutes to a light brown, and as they are taken from the oven lay them on the table and spread a layer of Currant or Grape Jelly between; then add alternate layers of cake and jelly, reserving the prettiest cakes for the top layers. Do not put jelly on this. Ice or powder with sifted sugar.
+
+Queen Cake. <!--recipe-->
+Gateau à la Reine.
+1 Pound of Flour.
+4 Ounces of Sugar.
+1 Pound of Currants. 1 Pound of Butter.
+1 Teacupful of Cream. 8 Eggs.
+1 Tablespoonful of Rose Water.
+Beat the sugar and butter to a cream, and then add the well-beaten <!--page 295, page 301 in pdf-->yolks of the egs. Now add the cream, and then one-half of the flour, and next one-half of the whites of the eggs, beaten to a stiff froth. Add the remainder of the flour, into which you will have dredged the currants that have been well-washed cleansed and picked and dried; mix thoroughly and add the remainder of the whites and the rose water. Beat as you would a pound cake. Then pour into small, buttered tins and bake immediately to a light brown.
+
+Tea Cakes.<!--recipe-->
+Gateau de Thé.
+1 Pound of Flour.
+½ Pound of Butter. 4 Eggs.
+6 Ounces of Powdered Sugar.
+½ Cup of Sour Milk.
+Beat the butter and sugar to a cream. Add the well-beaten eggs, and incorporate thoroughly. Add the milk, and then gradually add the flour, making a light soft dough. Mix all well together, and roll the paste out very thin. Cut into rounds or squares, and put into a slightly buttered baking pan. Bake to a bright yellow, and serve as needed. Some brush the tops of the cakes with beaten eggs, and sprinkle the tops with raisins or currants, well seeded and washed and dried.
+
+Cocaanut Fingers. <!--recipe-->
+Biscuits à la Cuiller au Coco.
+4 Ounces of Butter.
+4 Ounces of Sugar. 
+3 Eggs. 2 Ounces of Flour.
+4 Ounces of Grated Cocoanut.
+Eat the butter, sugar and eggs together for five minutes, blending thoroughly. Then add the flour, and immediately after the grated cocoanut. Beat well, and have ready buttered tins. Divide the mixture into fingers of about four or five inches in length, bake in a moderately quick oven for thirty minutes, and when cool dust with powdered sugar.
+
+Lady Fingers. <!--recipe-->
+Biscuits à la Cuiller.
+½ of a Pound of Flour.
+4 Ounces of Powdered White Sugar.
+5 Eggs.
+Put the sugar and the yolks of the eggs into a bowl and beat thoroughly till very light. Beat the whites of the eggs to a stiff froth and add the flour. Mix well and add immediately the whites of the eggs. Beat all together gently for a few minutes, and the preparation is ready for baking.
+Have ready a long sheet of paper, spread on a baking tin. Take a tablespoon and drop the batter along the paper, in lengths of four or five <!--column 2 begins--> inches, being careful to leave an empty space of an inch between each cake; set to bake in a very moderate oven. The cakes must not spread or rise. If they rise, the oven is too hot, and if they spread, you may be sure the oven is too cool. Bake to a very light brown, for twenty minutes, in a moderate oven.
+
+Ginger Nuts.<!--recipe-->
+Petits Gateaux au Gingembre.
+2 Pounds of Flour. 2 Eggs.
+1 Pint of Molasses.
+½ Pound of Brown Sugar.
+½ Pound of Butter. A Pinch of Salt.
+3 Tablespoonfuls of Ginger.
+½ Teaspoonful of Soda.
+½ Pint of Milk or Water.
+Beat the butter and sugar to a cream; work in the flour and mix well; add the molasses and mix well. Then add the milk, into which you will have dissolved the soda thoroughly, and beat well; add the ginger and continue working lightly till thoroughly mixed. Then roll out and cut in various fanciful shapes and bake to a light brown.
+
+Ginger Snaps.<!--recipe-->
+Gateaux Secs au Gingembre.
+2 Cups of Molasses.
+1 Cup of Lard or Butter.
+1 Cup of Sugar.
+½ Cup of Sour Cream.
+1 Tablespoonful of Ground Ginger.
+2 Eggs. 2½ Teaspoonfuls of Soda.
+Flour sufficient to roll thick.
+
+Mix all the ingredients as above, only making the batter slightly stiffer, and cut into fancy shapes and bake in a quick oven.
+
+Jumbles. <!--recipe-->
+Melée-Créole.
+1 Pound of Butter.
+¾ Pound of Flour. 4 Eggs.
+½ Pound of Sugar.
+1 Tablespoonful of Rose Water.
+½ Grated Nutmeg.
+
+Beat the butter and sugar to a cream. Add the eggs, thoroughly beaten, and the add the Rose Water and the nutmeg. Gradually add the flour, and beat well. Beat till very light before adding the flour. Dust a paper on a baking sheet with sugar, instead of flour, and roll out the paste to about one-eighth of an inch in the thickness. Then use a small cutter with a round center, and take the centers out, thus forming pretty rings. Bake in a moderate oven till a light brown. Take them out and sift powdered sugar over them.
+<!--page 296, page 302 in pdf. Column 1 begins-->
+
+Madeleines. <!--recipe-->
+5 Eggs. ½ Pound of Powdered Sugar.
+½ Pound of Sifted Flour.
+½ Pound of Butter, 
+Washed and Drained.
+½ Teaspoonful of Vanilla.
+Grated Rind of a Lemon.
+
+Beat the butter and sugar to a cream and add the yolks of the eggs, the lemon rind and the vanilla, and beat till very, very light. Then add the flour, beating constantly, and the whites of the eggs, beaten to a stiff froth. Turn into buttered tins, and bake in a quick oven till a delicate brown. Serve cold. These are delicious supper cakes.
+Pop-Overs. <!--recipe-->
+Vitement Fait.
+
+1 Pint of Milk.
+1 Pint of Flour. 3 Eggs.
+2 Teaspoonfuls of Baking Powder.
+1 Teaspoonful of Salt.
+Beat the yolks of the eggs separately till very light and frothy. Stir in the unskimmed milk and the flour that has been twice sifted with the baking powder. Add the white sof the eggs, beaten to a stiff froth; pour the mixture into buttered cake tins; bake in a quick oven till a light brown, and serve either hot or cold.
+
+Anise Drops. <!--recipe-->
+Gateau d’Anis.
+
+3 Cups of Sugar. 6 Eggs.
+1 Quart of Flour.
+½ Teaspoonful of Essence of Anise.
+
+Beat the sugar and eggs for about half an hour. Add the flour gradually, and the essence. Beat well. Have ready buttered sheets of tin, and drop the mixture from the spoon and bake to a delicate brown.
+
+Spice Drops.<!--recipe-->
+Biscuits d’Épices.
+The Yolks of 3 Eggs.
+½ Cup of Sweet Milk.
+3 Cups of Flour. 1 Cup of Molasses.
+3 Tablespoonfuls of Baking Powder.
+1 Ground Nutmeg.
+Beat the butter and sugar to a cream. Add the molasses and the milk. Blend well, add the spices, and the nutmeg and lemon extract, and then add the flour, sifted with the baking powder. Beat well for fifteen minutes, and then drop on tins lined with buttered paper. Bake in a quick oven to a delicate brown.
+
+<!--column 2 begins-->
+Creole Cookies.<!--recipe-->
+Biscuits à la Créole.
+1 Teaspoonful Each of Ground Cloves and Cinnamon.
+1 Teaspoonful of Lemon Extract.
+2 Cups of Powdered Sugar.
+1 Cup of Sweet Milk.
+The Whites of 4 Egga.
+1 Teaspoonful of Lemon Extract.
+2 Teaspoonfuls of Baking Powder.
+Flour Sufficient to Make a Soft Batter.
+Beat the butter and sugar to a cream; add the milk and the baking powder, and gradually add the whites of the eggs, beaten to a stiff froth. Beat the batter hard for ten minutes, after adding sufficient flour to make a nice soft batter. Pour into baking tins, and bake to a delicate brown. When cold ice with Plain Icing. (See recipe.) These are very dainty and nice.
+
+Lemon Cookies.<!--recipe-->
+Biscuits au Citron.
+6 Eggs. 1 Cup of Butter.
+3 Cups of Sugar.
+1 Teaspoonful of Lemon Extract.
+Beat the yolks of the eggs and butter to a cream. Add the sugar, and beat well. Add the extract of lemon, and then the whites of the eggs, beaten to a stiff froth. Add sufficient flour to make a nice dough, just stiff enough to mold, and then roll thin, and bake in a quick oven to a very light brown.
+
+Molasses Cookies.<!--recipe-->
+Biscuits à Mélasse.
+2 Cups of Molasses.
+1 Cup of Butter.
+2 Eggs. 2 Teaspoonfuls of Soda.
+2 Teaspoonfuls of Ginger.
+½ Teaspoonful of Cloves.
+2 Teaspoonfuls of Cloves.
+Melt the molasses. Beat the butter and sugar to a cream, and add, mixing in the soda, dissolved in a tablespoonful of boiling water. Add the ginger and the ground cloves. Take off the fire, and beat till cool. Then add the eggs, beaten well, and flour sufficient to make a nice, soft dough, just stiff enough to roll. Cut into small cakes, and bake in a quick oven to a delicate brown.
+
+MERINGUES.<!--category of recipes-->
+In order to make meringues properly one should have a meringue board of well-seasoned hard wood. This board should be cut with rounded corners, and of a size convenient to the oven. It ought to be about one and a half inches in thickness. While baking, Meringues must always remain soft underneath. To accomplish then, dampen the board thoroughly with water before plac-<!--page 297, page 303 in pdf. Column 1 begins-->ing the bands of paper upon it. In this way the Meringues are prevented from receiving heat in sufficient volume to render them hard underneath.
+
+Creole Meringues.<!--recipe-->
+Meringues à la Créole.
+
+1 Pint of Sifted White Sugar.
+The Whites of 12 Eggs.
+1 Tablespoonful of Vanilla.
+
+Beat the whites to a stiff, snowy froth, and then gradually add the sugar and vanilla, eating until the mixture is stiff enough to cut with a knife. Then cut some stout sheets of foolscap paper into strips measuring at least two inches in width, or, if you wish to make the meringues larger, simply place the sheet of paper, slightly buttered, on the table. Take a tablespoon and gather up the meringue mixture as nearly as possible in the shape of an egg, and working it towards the side of the bowl to give it this shape, and then drop sloping from the spoon upon the strips of paper at a distance of at least an inch apart. Draw the edge of the spoon very sharply around the edge of the meringue, to give it a smooth, round shape, resembling an egg. When all the rows are filled, sprinkle sifted sugar over them, and let them remain in this state for about three minutes. Then take hold of the strips at either end, and shake lightly, to remove all excess sugar. Place the strips in rows about one inch apart on the wet board or baking tin (the board is much better), and as soon as the sugar begins to dissolve slightly onto their surface, push them into the oven, which must be at a very moderate heat, and bake them a very light fawn color. Watch constantly, that they may not burn. When the meringues are done, remove each one very carefully and separately from the paper. Then use a small dessert spoon, if you desire to fill the meringues, scoop out the soft white part, and, with the outer side of the bowl of the spoon, smooth the interior of the meringues. Then place them with the rounded side downward on the baking tin in the oven to dry for a few minutes. When thoroughly crip, without browning, place them between sheets of paper in a dry place. When using meringues for desserts, etc., garnish the interior with whipped cream, beaten to a stiff froth, and flavored with vanilla, orange, lemon, orange flower water, or any kind of fancy liqueur, stick the two halves together lightly and serve. Meringues may be kept for some time in thir dry shell state, and filled when ready to use. In making them for immediate family use, <!--column 2 begins--> simply drop the mixture by spoonfuls on buttered paper, dust with the sugar, wait for three minutes, fan or blow off all excess sugar, and then place them in a very moderate oven and bake to a light brown. When dry, carefully remove the meringue from the paper, after they have cooled, brush the bottoms slightly with the white of an egg, beaten to a froth, stick two meringues together, put away to dry, and serve as needed.
+
+Creamed-Iced Meringues. <!--recipe-->
+Meringues à la Crème Glacée.
+
+1 Pound of Sifted White Sugar.
+The Whites of 12 Eggs.
+1 Tablespoonful of Vanilla Essence.
+3 Ounces of Stiff Whipped Cream.
+½ Cup of Transparent Icing.
+
+Cream-Iced Meringues should be made much smaller than the ordinary Meringues--about the size of a bird’s egg. Proceed as above, and fill with stiff, whipped cream, taking great care when filling that none of the cream shall ooze from between the two halves of the Meringues after they have been stuck together. If it should, wipe it off very carefully. When well-filled, hold each Meringue separately on a silver fork, and dip them all over in “Transparent Icing” (see recipe), and let them dry. These Meringues are delicious desserts.
+
+Creamed-Iced Meringues With Preserves. <!--recipe-->
+Meringues Glacées aux Confitures.
+
+1 Pound of Sifted White Sugar.
+The Whites of 12 Eggs.
+1 Tablespoonful of Vanilla Essence.
+3 Ounces of Currant, Orange or Any Preserves.
+½ Cup of Transparent Icing.
+
+Prepare as in Meringues à la Créole, or as above, only spread some preserves thinly inside the Meringues before garnishing them with the cream, and then ice with Transparent Icing. (See reipe Transparent Icing). 
+
+Biscuits Glacées aux Confitures. <!--recipe-->
+9 Eggs. 1 Pound of White Pulverized Sugar.
+½ Pound Flour.
+The Juice of 1 Lemon.
+1 Cup of Jam of Any Kind Desired.
+
+These are elegant cakes and enhance the most fashionable dessert. Make a sponge cake or cup cake (see recipes) and bake on a baking sheet about three-quarters of an inch in thickness. When cold, cut up into fanciful shapes, trim the edges neatly with a very sharp knife, and be careful to brush off the least particle of crumbs that may adhere; carefully spread the upper part and <!--page 298, page 304 in pdf. Column 1 begins--> sides of the biscuit with apricot, peach, raspberry or any jam. Then hold one at a time on a silver fork, very carefully, and with a spoon pour over Transparent Chocolate Icing =, around the sides and over the surface of the biscuit. Then carefully lay it upon a wire tray, resting upon a baking sheet. Dry the biscuit in a very moderate oven for about five minutes.
+
+Marbled Glacées.
+Biscuits Panachés aux Confitures.
+9 Eggs. 1 Pound of White Pulverized Sugar.
+½ Pound of Flour.
+<!--Column 2 begins-->
+The Juice of 1 Lemon.
+1 Cup of Mixed Preserved Fruits.
+
+Prepare the cake as directed in the preceding recipe. Then place on the baking sheet. Drop different-sized small bits of fine preserves, orange, apricot, damson, red currant, etc., on the biscuit and spread smoothly, so as to form a beautifully marbled pattern. Then cut out the cakes in any fanciful design. Proceed as above to cover with Transparent Icing and dry in a moderate oven for five minutes.
+<!-- end of chapter -->
+         </div>
+        </body>
+    </text>
+</TEI>
