@@ -1,6 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CHAPTER XXII. SALADS. </title>
+        <!-- Supply the title of chapter -->
+        <title type="chapter" xml:lang="en"/>
+        <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
+        <principal><persName>Elizabeth Hopwood</persName></principal>
+        <respStmt>
+          <resp>Transcription by</resp>
+          <persName>Elizabeth Hopwood</persName>
+        </respStmt>
+        <respStmt>
+          <resp>First round encoding by</resp>
+          <persName>Regina Hong</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Second round encoding by</resp>
+          <persName>
+            <!-- insert name --></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Proofreading by</resp>
+          <persName>
+            <!-- insert name --></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Editorial research by</resp>
+          <persName>
+            <!-- insert name --></persName>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>Reading Cookbooks Project</authority>
+        <publisher><persName>Elizabeth Hopwood</persName> and The Center for Textual Studies and Digital Humanities</publisher>
+        <availability>
+          <p>Reproduced by digitized version from Archive.org, contributed by <name>Cornell University Library</name>. There are no known
+            copyright restrictions in the United States on the use of the texts. More information on rights issues associated with public
+            domain texts can be found at https://www.library.cornell.edu/about/policies/public-domain</p>
+          <p>This text may be freely distributed for personal use, research, and teaching (including distribution to classes) as long as
+            this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds.</p>
+          <p>Scholars interested in changing or adding to these texts (for example, creating a new edition or adding additional markup) may
+            do so.</p>
+        </availability>
+      </publicationStmt>
+      
+      <sourceDesc>
+        
+        <bibl>
+          <title>The Picayune's Creole Cook Book</title>
+          <publisher>New Orleans, La., The Picayune</publisher>
+          <date>1910</date>
+          <edition>4th</edition>
+          <sponsor>Cornell University Library</sponsor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>This editions provides editorial notes</p>
+      <editorialDecl>
+        <p>Page breaks and column breaks have been preserved whenever possible. Abbreviations and spellings have been maintained. Line breaks
+          have not been encoded. All presentational elements such as alignments, all caps, bold, and italics will be encoded.</p>
+        <normalization method="silent">
+          <p>Typos have been maintained</p>
+        </normalization>
+        <hyphenation eol="none">
+          <p>Hyphenated words that appear at the end of columns or lines have been reformed</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <!-- Add date, initials, and what the change was -->
+      <change when="2020-10-26" who="EAH">Created header and test template</change>
+      <change when="2020-11-2" who="RH">Added transcription to template and began encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
 <pb n="156"/>
   <div type="chapter">
-    <head rend =“align(center) case(allcaps)”> Chapter XXII.</head>
+    <head rend="align(center) case(allcaps)"> Chapter XXII.</head>
     <head type="main" rend="bold">SALADS.</head>
     <head type="sub"><foreign xml:lang="fr">Des Salades.</foreign></head>
   <!-- column 1 -->
@@ -30,15 +113,15 @@
         <!--unclear which French Dressing is being referred to here-->
       <p>
         The simple French Dressing for salads is always the best for daily use, and also for formal dinner.
-        It is not only lighter, as compared to the <div type =“recipe_addition” corresp=“#pic22.5_mayonnaise_dressing”>Mayonnaise Dressing</div>, and therefore, far more acceptable at dinners where the courses are many, but the <name>Creoles</name> hold, like the <name>French</name>, that it is the only dressing for salads that are not intended for luncheons or teas, such as chicken, shrimp or crab salads.
-        A <div type =“recipe_addition” corresp=“#pic22.5_mayonnaise_dressing”>Mayonnaise Dressing</div> for salad should never be used at the family dinner or formal dinings.
+        It is not only lighter, as compared to the <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing">Mayonnaise Dressing</div>, and therefore, far more acceptable at dinners where the courses are many, but the <name>Creoles</name> hold, like the <name>French</name>, that it is the only dressing for salads that are not intended for luncheons or teas, such as chicken, shrimp or crab salads.
+        A <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing">Mayonnaise Dressing</div> for salad should never be used at the family dinner or formal dinings.
       </p>
       <p>
         A meat salad is never an economical article of food, if one counts all the items of cost.
         The wretched combinations, too, which pass for Mayonnaise, and which are nothing more than a paste spread over the top of the salad, or stirred through with a mixture of pepper, vinegar and salt, cannot be too greatly condemned.
-        The making of a good <div type =“recipe_addition” corresp=“#pic22.5_mayonnaise_dressing”>Mayonnaise</div> is a matter of art, and requires the skill that comes from experience.
-        Practice will teach that there is no need for useless expenditure of time in making this dressing, and that once you have learned the simple trick of securing the good start in the way of blending, or rather “working,” the oil into the egg, drop by drop, the task of making a fine <div type =“recipe_addition” corresp=“#pic22.5_mayonnaise_dressing”><foreign xml:id="fr">Sauce à la Mayonnaise</foreign></div>, becomes a very simple and easy one.
-        The <div type =“recipe_addition” corresp=“#pic22.5_mayonnaise_dressing”>Mayonnaise</div>, which is intended, as stated above, only for meat dressings, and the French Salad Dressing are the only two in general use in <name>Creole</name> households.
+        The making of a good <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing">Mayonnaise</div> is a matter of art, and requires the skill that comes from experience.
+        Practice will teach that there is no need for useless expenditure of time in making this dressing, and that once you have learned the simple trick of securing the good start in the way of blending, or rather “working,” the oil into the egg, drop by drop, the task of making a fine <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing"><foreign xml:id="fr">Sauce à la Mayonnaise</foreign></div>, becomes a very simple and easy one.
+        The <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing">Mayonnaise</div>, which is intended, as stated above, only for meat dressings, and the French Salad Dressing are the only two in general use in <name>Creole</name> households.
       </p>
       <p>
         The <name>Creoles</name> serve salads for breakfast, luncheon and dinners, while no elegant supper is considered complete without a salad.
@@ -70,7 +153,7 @@
         Then add gradually the <ingredient type="spice">vinegar</ingredient>, stirring continually for about a minute.
         It is now ready to pour over the salad, and remember that it must be mixed thoroughly.
         The proportion of vinegar varies according to the salad to be dressed.
-        <div type =“recipe_addition” corresp=“#pic22.28_lettuce_salad”>Lettuce salad</div> requires but little; <div type =“recipe_addition” corresp=“#pic22.33_tomato_salad”>tomato salad</div>, <div type =“recipe_addition” corresp=“#pic22.21_corn_salad”>corn salad</div> or <foreign xml:id="fr">Doucette</foreign> requires more.
+        <div type="recipe_addition” corresp=“#pic22.28_lettuce_salad">Lettuce salad</div> requires but little; <div type="recipe_addition" corresp="#pic22.33_tomato_salad">tomato salad</div>, <div type="recipe_addition" corresp="#pic22.21_corn_salad">corn salad</div> or <foreign xml:id="fr">Doucette</foreign> requires more.
         Serve this dressing with <ingredient type="vegetable">lettuce</ingredient>, <ingredient type="fruits">tomato</ingredient>, <ingredient type="vegetable">onion</ingredient>, <ingredient type="vegetable">cucumber</ingredient> and other vegetables and green salads.
       </p>
     </div>
@@ -83,7 +166,7 @@
         <item><ingredient type="spice"><measure type="volume" quantity="1" unit="tablespoon" commodity="tarragon_vinegar">1 Tablespoonful of Tarragon Vinegar</measure></ingredient></item>
         <item><ingredient type="spice"><measure type="amount" quantity="1" unit="saltspoon" commodity="black_pepper">A Saltspoon Each of Black Pepper</measure></ingredient> and <ingredient type="spice"><measure type="amount" quantity="1" unit="saltspoon" commodity="salt">Salt.</measure></ingredient></item>
         <item><ingredient type="vegetable"><measure type="item" commodity="onion">Chopped Onion</measure></ingredient>and<ingredient type="herb"><measure type="item" commodity="parsley">Parsley</measure></ingredient></item>
-        <item><ingredient type="vegetable"><measure type="volume" quantity="1/2" commodity="onion"The Juice of Half an Onion.</measure></ingredient></item>
+        <item><ingredient type="vegetable">The Juice of Half an Onion.</ingredient></item>
       </list>
       <p>
         Mix these in the order given above, adding the <ingredient type="vegetable">onion juice</ingredient> and <ingredient type="herb">parsley</ingredient>, well chopped, last.
@@ -102,12 +185,12 @@
         <item><ingredient type="spice"><measure type="volume" quantity="1" unit="teaspoon" commodity="mustard">1 Teaspoonful of Prepared Mustard</measure></ingredient></item>
         <item><ingredient type="fat"><measure type="volume" quantity="2" unit="tablespoon" commodity="olive_oil">2 Tablespoonfuls of Olive Oil.</measure></ingredient></item>
         <item><ingredient type="eggs"><measure type="amount" quantity="1" unit="item" commodity="egg">The Yolk of 1 Egg, if Desired.</measure></ingredient></item>
-        <item><ingredient type="spice">Salt</ingredient> and <ingredient type="spice">Pepper</ingredient> to Taste.
+        <item><ingredient type="spice">Salt</ingredient> and <ingredient type="spice">Pepper</ingredient> to Taste.</item>
       </list>
       <p>
         Blend the <ingredient type="spice">mustard</ingredient> and the <ingredient type="fat">oil</ingredient>, adding the latter, drop by drop at first, and then proceeding more confidently.
-        Whenever the dressing appears to be curdling, add a few drops of <ingredient type="spice">vinegar</spice>, and work rapidly till it becomes smooth again.
-        Add the <ingredient type="spice">salt</ingredient> and <ingredient type="spice">pepper</ingredient>, and when the dressing is finished, use it for <div type =“recipe_addition” corresp=“#pic22.14_celery_salad”>celery salad</div>, <ingredient type="fish">fish</ingredient>, <ingredient type="fruits">tomatoes</ingredient>, <ingredient type="vegetable">potatoes</ingredient>, etc.
+        Whenever the dressing appears to be curdling, add a few drops of <ingredient type="spice">vinegar</ingredient>, and work rapidly till it becomes smooth again.
+        Add the <ingredient type="spice">salt</ingredient> and <ingredient type="spice">pepper</ingredient>, and when the dressing is finished, use it for <div type="recipe_addition” corresp=“#pic22.14_celery_salad">celery salad</div>, <ingredient type="fish">fish</ingredient>, <ingredient type="fruits">tomatoes</ingredient>, <ingredient type="vegetable">potatoes</ingredient>, etc.
         If the oil appears to separate from the other ingredients, it can always be rubbed into them smoothly again by adding a few drops of vinegar.
         In all these salads the question of oil and its measurements can only be approximated.
         Good judgment must always be the final test.
@@ -125,12 +208,12 @@
       <item><ingredient type="spice"><measure type="volume" quantity="1" unit="tablespoon" commodity="vinegar">1 Tablespoonful of Vinegar.</measure></ingredient></item>
       <item><ingredient type="spice"><measure type="volume" quantity="1" unit="teaspoon" commodity="mustard">1 Teaspoonful of Prepared Mustard</measure></ingredient></item>
       <item><ingredient type="eggs"><measure type="amount" quantity="1" unit="item" commodity="egg">The Yolk of a Hard-Boiled Egg.</measure></ingredient></item>
-      <item><ingredient type="spice">Salt</ingredient> and <ingredient type="spice">Pepper</ingredient> to Taste.
+      <item><ingredient type="spice">Salt</ingredient> and <ingredient type="spice">Pepper</ingredient> to Taste.</item>
     </list>
     <p>
       Blend the <ingredient type="fat">oil</ingredient> and <ingredient type="spice">salt</ingredient> and <ingredient type="spice">pepper</ingredient> in the manner above indicated, and then add these to the <ingredient type="spice">mustard</ingredient> drop by drop, alternating with the <ingredient type="spice">vinegar</ingredient>.
       When well blended add the well-mashed <ingredient type="egg">yolk of a hard-boiled egg</ingredient>.
-      Stir well, and serve with <div type =“recipe_addition” corresp=“#pic22.28_lettuce_salad”>lettuce</div>, <div type =“recipe_addition” corresp=“#pic22.14_celery_salad”>celery</div> or <div type =“recipe_addition” corresp=“#pic22.39_potato_salad”>potato salad</div>.
+      Stir well, and serve with <div type="recipe_addition” corresp=“#pic22.28_lettuce_salad">lettuce</div>, <div type="recipe_addition" corresp="#pic22.14_celery_salad">celery</div> or <div type="recipe_addition" corresp="#pic22.39_potato_salad">potato salad</div>.
     </p>
   </div>
 
@@ -155,7 +238,7 @@
       Then begin again with the oil and work again, and again drop the lemon till you have the juice of half a lemon and about <measure type="volume" quantity="2" unit="gills" commodity="oil">two gills of oil</measure>, finishing with the oil.
       When the egg begins to curdle, add a little salt, but do not add this salt till the Mayonnaise is complete.
       Serve very cold, with salads, etc.
-      Mayonnaise is the standing sauce for <div type =“recipe_addition” corresp=“#pic22.16_chicken_salad”>chicken salad</div>, <div type =“recipe_addition” corresp=“#pic22.42_shrimp_salad”>shrimp salad</div>, <div type =“recipe_addition” corresp=“#pic22.18_crab_salad_à_la_mayonnaise”>crab salad</div>, etc.
+      Mayonnaise is the standing sauce for <div type="recipe_addition" corresp="#pic22.16_chicken_salad">chicken salad</div>, <div type="recipe_addition" corresp="#pic22.42_shrimp_salad">shrimp salad</div>, <div type="recipe_addition" corresp="#pic22.18_crab_salad_à_la_mayonnaise">crab salad</div>, etc.
       When making for these large salads, as a garnish use <measure type="amount" quantity="3" unit="item" commodity="egg">three yolks of eggs</measure> and other ingredients in proportion.
     </p>
   </div>
@@ -199,7 +282,7 @@
       <item><ingredient type="spice">Salt</ingredient>and<ingredient type="spice">Pepper</ingredient>to Taste</item>
     </list>
     <p>
-      Mix all together, as in a <div type =“recipe_addition” corresp=“#pic30.56_ravigote_sauce_cold”>Sauce Ravigote, cold (see recipe)</div>, and add the <ingredient type="fat">oil</ingredient> and <ingredient type="spice">vinegar</ingredient>;
+      Mix all together, as in a <div type="recipe_addition" corresp="#pic30.56_ravigote_sauce_cold">Sauce Ravigote, cold (see recipe)</div>, and add the <ingredient type="fat">oil</ingredient> and <ingredient type="spice">vinegar</ingredient>;
       serve cold, with cold boiled meat, cold boiled fish, etc.
     </p>
   </div>
@@ -212,8 +295,8 @@
       <item>A Plain French Dressing.</item>
     </list>
     <p>
-      Cut the <ingredient type="fish">sardines</fish> into pieces of about an inch in length.
-      Season nicely with a <div type =“recipe_addition” corresp=“#pic22.1_plain_french_dressings_for_salads”>French Dressing</div> and serve.
+      Cut the <ingredient type="fish">sardines</ingredient> into pieces of about an inch in length.
+      Season nicely with a <div type ="recipe_addition" corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing</div> and serve.
       This is a delicious luncheon dish.
     </p>
   </div>
@@ -228,7 +311,7 @@
       <item>French Dressing.</item>
     </list>
     <p>
-        Boil the <ingredient type="vegetable">Artichokes.</ingredient> <div type =“recipe_addition” corresp=“#pic29.1_french_artichokes_boiled”>(See recipe)</div>.
+        Boil the <ingredient type="vegetable">Artichokes.</ingredient> <div type="recipe_addition" corresp="#pic29.1_french_artichokes_boiled">(See recipe)</div>.
         When cold, peel them and cut into quarters.
         Add <ingredient type="herb">chopped parsley</ingredient> and the French dressing; mix, and serve very cold.
     </p>
@@ -242,7 +325,7 @@
       <item>A Plain French Dressing.</item>
     </list>
     <p>
-      Boil the Asparagus tips. <div type =“recipe_addition” corresp=“#pic29.8_boiled_asparagus”>(See recipe.)</div>
+      Boil the Asparagus tips. <div type="recipe_addition" corresp="#pic29.8_boiled_asparagus">(See recipe.)</div>
       When cold, place on a dish and garnish nicely.
       Serve very cold, with French Dressing.
     </p>
@@ -321,9 +404,9 @@
     </list>
     <p>
       Chop the <ingredient type="vegetable">celery</div>, or rather cut fine, as indicated in the above recipe.
-      Mix the <div type =“recipe_addition” corresp=“#pic30.44_mayonnaise_sauce”>Mayonnaise</div><!--to check referenced recipe number again--> with it.
+      Mix the <div type="recipe_addition" corresp="#pic30.44_mayonnaise_sauce">Mayonnaise</div><!--to check referenced recipe number again--> with it.
       Garnish nicely with <ingredient type="vegetable">celery tips</ingredient> and serve.
-      The <div type =“recipe_addition” corresp=“#pic22.3_mustard_dressing”>mustard dressing</div> is even nicer than the Mayonnaise for this salad.
+      The <div type="recipe_addition" corresp="#pic22.3_mustard_dressing">mustard dressing</div> is even nicer than the Mayonnaise for this salad.
     </p>
   </div>
 
@@ -573,8 +656,8 @@
       <head type="main" rend="slant(bold) align(center)">Okra Salad.</head>
       <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Fevi.</foreign></head>
       <list type="ingredientList">
-        <item type="vegetable">4 Dozen Boiled Young Okras.</item>
-        <item>French Dressing.</item>
+        <item><ingredient type="vegetable">4 Dozen Boiled Young Okras.</ingredient></item>
+        <item><ingredient>French Dressing.</ingredient></item>
       </list>
       <p type="instructions">
         Boil the okra as directed. <item div type="recipe_addition">(See recipe.)</div> When cold, dress nicely with
@@ -583,26 +666,57 @@
 <pb n="161"/>
 <cb n="1"/>
 <!--column 1-->
-vinegar, salt and pepper, or, if preferred, the plain French dressing, and serve very cold. This is a most delightful summer salad, the okra being very cooling in our tropical climate.
+        vinegar, salt and pepper, or, if preferred, the plain French dressing, and serve very cold. 
+        This is a most delightful summer salad, the okra being very cooling in our tropical climate.
+      </p>
+    </div>
+      
+      <div type="recipe" xml:id="pic22.32_spanish_salad">
+        <head type="main" rend="slant(bold) align(center)">Spanish Salad.</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à l’Espagnole.</foreign></head>
+        <list type="ingredientList">
+          <item><ingredient type="vegetable">4 Sliced Tomatoes.</ingredient></item>
+          <item><ingredient type="vegetable">2 Dozen Pickled Onions.</ingredient></item>
+          <item><ingredient corres="#pic22.5_mayonnaise_dressing">½ Pint of Mayonnaise Dressing.</ingredient></item>
+        </list>
+        <p type="instructions">
+          This is a very much affected salad, made of sliced tomatoes and pickled onions, <!--what is an affected salad? Fancy?-->
+          prettily arranged around a small bed of Mayonnaise heaped in the center.
+        </p>
+      </div>
 
-Spanish Salad.
-Salade à l’Espagnole.
-4 Sliced Tomatoes.
-2 Dozen Pickled Onions.
-½ Pint of Mayonnaise Dressing.
-This is a very much affected salad, made of sliced tomatoes and pickled onions, prettily arranged around a small bed of Mayonnaise heaped in the center.
+      <div type="recipe" xml:id="pic22.33_string_bean_salad">
+        <head type="main" rend="slant(bold) align(center)">String Bean Salad.</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Haricots Verts en Salade.</foreign></head>
+        <list type="ingredientList">
+          <item><ingredient type="vegetable">1 Pint of Cold Boiled String Beans.</ingredient></item>
+          <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing (plain).</ingredient></item>
+        </list>
+        <p type="instructions">
+          Only very young and tender beans should be used for this salad. 
+          Boil as directed under the heading “Vegetables” and put the beans in a salad bowl and allow to cool well. <!--to add recipe ID-->
+          Serve with a plain French dressing of vinegar and a dash of Cayenne.
+        </p>
+      </div>
 
-String Bean Salad.
-Haricots Verts en Salade.
-1 Pint of Cold Boiled String Beans.
-French Dressing (plain).
-Only very young and tender beans should be used for this salad. Boil as directed under the heading “Vegetables” and put the beans in a salad bowl and allow to cool well. Serve with a plain French dressing of vinegar and a dash of Cayenne.
+    <div type ="recipe" xml:id="pic22.34_tomato_salad">
+      <head type="main" rend="slant(bold) align(center)">Tomato Salad.</head>
+      <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Tomates.</foreign></head>
+      <list type="ingredientList">
+        <item><ingredient type="vegetable">4 Fresh Fine Tomatoes.</ingredient></item>
+        <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing.</ingredient></item>
+      </list>
+      <p type="instructions">
+        Slice the tomatoes nicely and place on a salad dish. 
+        Never peel or scald tomatoes intended for salad. 
+        Serve nicely with a plain French dressing or any of the above dressings. 
+        Tomatoes may also be served with Mayonnaise dressing. 
+        In this case place them on a bed of crisp, fresh lettuce, whole, and serve one to each person, or cut them in halves. 
+        Tomatoes with Mayonnaise is a luncheon dish, or a supper dish.
+      </p>
+    </div>
 
-Tomato Salad.
-Salade de Tomates.
-4 Fresh Fine Tomatoes.
-French Dressing.
-Slice the tomatoes nicely and place on a salad dish. Never peel or scald tomatoes intended for salad. Serve nicely with a plain French dressing or any of the above dressings. Tomatoes may also be served with Mayonnaise dressing. In this case place them on a bed of crisp, fresh lettuce, whole, and serve one to each person, or cut them in halves. Tomatoes with Mayonnaise is a luncheon dish, or a supper dish.
+
 
 Iced Tomatoes.
 Tomates Frappé.
