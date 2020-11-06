@@ -84,7 +84,7 @@
             <head rend="align(center) case(allcaps)">Chapter IV.</head>
             <head rend="align(center) case(allcaps) bold">Fish Soups.</head>
             <head rend="align(center)"><foreign xml:lang="fr">Soupes de Poissons</foreign>.</head>
-            <div type="prefatory">
+            <div type="preface">
                 <!-- divs don't carry a @type, why? -->
                 <!-- why isn't cb allowed? add to schema <cb n="1"/>-->
                 <p>Under this heading come some of the most delightful Creole soups, such as<name xml:id="pic4.2_green_turtle_soup"> Green Turtle
@@ -115,7 +115,7 @@
                 <div type="instructions">
                     <p>Chop the onions and fry them in the salad oil. Cut the tomatoes fine and add onions, and put in all the other ingredients,
                         except the fish, adding the flour to make a good roux. When brown add the water, and, after it has boiled about a half hour,
-                        add the slices of fish. When they are firm remove the herb bouquet, add <ingredient>Cayenne pepper</ingredient>, and salt and pepper to taste, and
+                        add the slices of fish. When they are firm remove the herb bouquet, add <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Cayenne pepper</ingredient>, and salt and pepper to taste, and
                         serve the fish soup in a tureen, pouring it over crusts of dried toast. </p>
                 </div>
             </div>
