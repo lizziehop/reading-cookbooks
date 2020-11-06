@@ -1094,7 +1094,7 @@ model.global.meta =
   | timeline
   | join
   | joinGrp
-model.milestoneLike = pb | lb | anchor | fw
+model.milestoneLike =  pb | lb | anchor | fw 
 model.gLike = g
 model.oddDecl =
   moduleSpec
@@ -6192,4 +6192,6 @@ cultDist =
     att.global.attributes,
     empty
   }
+  
+ 
 start = TEI
