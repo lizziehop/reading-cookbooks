@@ -142,9 +142,9 @@ Last updated: 11/2/20 - AMK
 
 - Element specific to this project to surround an ingredient in the text
 
-- Categorize ingredients by thier scientific classification
+- Categorize ingredients by their scientific classification
 
-- Ingredients that are pre-made things like broths or syrups should have the xml:id of the recipe as a `corresp` attribute rather than a type
+- Ingredients that are pre-made things like broths or syrups should have the xml:id of the recipe as a `corresp` attribute rather than a class
 
 - Adding new type values to the list
   
@@ -155,12 +155,12 @@ Last updated: 11/2/20 - AMK
   - Exception is if a new ingredient is mentioned in instructions
 
 - ```xml
-  <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="<!--type from closed list-->">
+  <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="<!--class from closed list-->">
   <!-- OR -->
   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic4.1_fish_soup">
   ```
 
-- Closed List of Types
+- Closed List of Values
   
   - Meat
   

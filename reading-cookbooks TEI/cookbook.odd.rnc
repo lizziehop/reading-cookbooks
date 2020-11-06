@@ -6077,13 +6077,28 @@ ingredient =
     ##
     attribute class {
     
-   
+  ## 
+  "alcohol"
+  |
+  ##
+  "aromatic"
+  |
+        ##
+        "dairy"
+        |  
+        ##
+        "extract"
+        |
       ##
       "fish"
       | 
         ##
         "fruit"
       | 
+      
+        ##
+        "fruit juice"
+        |
         ##
         "herb"
       | 
@@ -6096,6 +6111,12 @@ ingredient =
         ##
         "meat"
       | 
+      ##
+      "legume"
+      |
+      ##
+      "liquid"
+      |
         ##
         "vegetable"
         | 
@@ -6103,7 +6124,7 @@ ingredient =
         "sugar"
         | 
         ##
-        "alcohol"
+        "nut"
         | 
         ##
         "extract"
@@ -6125,6 +6146,15 @@ ingredient =
         | 
         ##
         "water"
+        | 
+        ##
+        "seafood"
+        | 
+        ##
+        "seasoning"
+        |
+        ##
+        "spice"
     }?,
     empty
   }

@@ -101,11 +101,11 @@
                 <div type="ingredientList">
                     <!-- still figuring out how to add closed or semi-open list to @type; for now, write them in, singular, "fat" not "fats" -->
                     <list>
-                        <item>6 Slices of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fish">Fish</ingredient> of Almost Any Variety.</item>
-                        <item> 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredient>, Chopped Fine.</item>
-                        <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Tomatoes</ingredient>, Chopped Fine.</item>
-                        <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Herb Bouquet</ingredient>.</item>
-                        <item>Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley</ingredient>.</item>
+                        <item>6 Slices of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fish">Fish</ingredient> of Almost Any Variety.</item>
+                        <item> 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>, Chopped Fine.</item>
+                        <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>, Chopped Fine.</item>
+                        <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Herb Bouquet</ingredient>.</item>
+                        <item>Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
                         <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">White Wine</ingredient>.</item>
                         <item> 4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fat">Salad Oil</ingredient>.</item>
                         <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Flour</ingredient>.</item>
