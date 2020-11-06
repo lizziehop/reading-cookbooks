@@ -3479,6 +3479,10 @@ floatingText =
       | 
         ##
         "instructions"
+          | 
+        ##
+        "ingredient"
+        
     }?,
     empty
   }
@@ -6072,7 +6076,8 @@ ingredient =
     
     ##
     attribute class {
-      
+    
+   
       ##
       "fish"
       | 
@@ -6080,13 +6085,13 @@ ingredient =
         "fruit"
       | 
         ##
-        "herbs"
+        "herb"
       | 
         ##
         "grain"
       | 
         ##
-        "spices"
+        "spice"
       | 
         ##
         "meat"
@@ -6104,7 +6109,7 @@ ingredient =
         "extract"
         | 
         ##
-        "eggs"
+        "egg"
         | 
         ##
         "poultry"
@@ -6113,7 +6118,7 @@ ingredient =
         "fat"
         | 
         ##
-        "leaveners"
+        "leavener"
         | 
         ##
         "honey"
