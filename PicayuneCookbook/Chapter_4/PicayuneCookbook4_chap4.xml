@@ -233,7 +233,7 @@
                      slices of lemon. If the meat is served, use only the most delicate portions. 
                   </p>
                </div> 
-         <div type="recipe">
+         <div type = “recipeAddition” corresp= “#pic4.1_fish_soup”>
             <head type="main" rend="align (center) bold">Mock Eggs for Turtle Soup...</head>
             <div type="instructions">
                <p>Should the turtle possess no eggs, the following method of making mock eggs is often used. 
@@ -244,7 +244,7 @@
                </p>
             </div>   
          </div>
-         <div>
+         <div type="recipe">
             <head type="main" rend="align(center) bold">Terrapin Soup</head>
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">Soupe à la Tortue.</foreign>
@@ -263,7 +263,27 @@
                   <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Salt, Pepper and Cayenne</ingredient> . to Taste. </item>
                </list>
             </div>
+            <div type ="orientationNote">
+               <p>
+                  Remember always that the land terrapin is unfit to eat. The fresh-water terrapin can be made into a most 
+                  relishable article of food if cooked according to <name>Creole</name> methods. The diamond-back terrapin is the 
+                  best and the females make the finest and daintiest food, the males being not only of inferior size, 
+                  but of far less delicate flavor. Terrapins must always be bought alive. They are in season November till 
+                  March, and, like all other fish, should not be eaten out of season. The red leg or fresh-water terrapin, 
+                  or the terrapin of common variety, called "<name>Gopher</name>," are eschewed by the <name>Creoles</name>, but are good to eat. 
+                  To have a good terrapin soup the diamond back must be used.
+               </p>
+               <div type="instructions">
+                  <p>
+                     To make the soup, clean the terrapin as you would a turtle. Then place in a kettle and boil till tender. 
+                     Take out and cut into small pieces, saving the water. Proceed as for Turtle Soup. When it boils up take from the 
+                     fire, add a grated nutmeg, a glass of Sherry or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">Madeira wine </ingredient>and serve.
+                     The farci or forcemeat balls is made in exactly the same manner as for <Turtle soup. Serve with green pickle and delicate slices of fried toast. 
+                  </p>
+               </div>
+            </div>   
          </div> 
+         
       </body>
    </text>
 </TEI>
