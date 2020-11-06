@@ -144,7 +144,7 @@
       <head type="sub" rend="align(center)"><foreign xml:lang="fr">Assaisonment Français.</foreign></head>
       <list>
         <item><ingredient type="fat"><measure type="volume" quantity="3" unit="tablespoon" commodity="olive_oil">3 Tablespoonfuls of the Best Olive Oil.</measure></ingredient></item>
-        <item><ingredient type="spice"><measure type="volume" quantity="1" unit="tablespoon" commodity="vinegar">1 Tablespoonful of Vinegar, According to Taste.</measure></ingredient></item>
+        <item><ingredient type="liquid"><measure type="volume" quantity="1" unit="tablespoon" commodity="vinegar">1 Tablespoonful of Vinegar, According to Taste.</measure></ingredient></item>
         <item><ingredient type="spice"><measure type="amount" quantity="¼" unit="teaspoon" commodity ="salt">¼ Teaspoonful of Salt.</measure></ingredient></item>
         <item><ingredient type="spice"><measure type="amount" quantity="¼" unit="teaspoon" commodity ="black_pepper">¼ Teaspoonful of Black Pepper.</measure></ingredient></item>
       </list>
