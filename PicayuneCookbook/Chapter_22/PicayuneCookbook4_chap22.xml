@@ -80,6 +80,7 @@
   </teiHeader>
   <text>
     <body>
+      
 
 <pb n="156"/>
   <div type="chapter">
@@ -718,75 +719,161 @@
 
 
 
-Iced Tomatoes.
-Tomates Frappé.
-6 Whole Tomatoes.
-1 Pint Mayonnaise Sauce.
-A Garnish of Chopped Ice.
-Take the tomatoes whole. Lay on a bed of lettuce or cress, as indicated above. Garnish with chopped ice, and serve very cold with Mayonnaise Sauce. This is delicious and very elegant.
+      <div type="recipe" xml:id="pic22.35_tomato_salad">
+        <head type="main" rend="slant(bold) align(center)">Iced Tomatoes.</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Tomates Frappé.</foreign></head>
+        <list type="ingredientList">
+          <item>6 Whole <ingredient type="vegetable">Tomatoes.</ingredient></item>
+          <item>1 Pint <ingredient corres="#pic30.44_mayonnaise_sauce">Mayonnaise Sauce.</ingredient></item>
+          <item>A Garnish of Chopped Ice.</item>
+        </list>
+        <p type="instructions">
+          Take the tomatoes whole. Lay on a bed of lettuce or cress, as indicated above. 
+          Garnish with chopped ice, and serve very cold with Mayonnaise Sauce. 
+          This is delicious and very elegant.
+        </p>
+      </div>
 
-Tomato, Green Pepper and Onion Salad.
-Salade à la Créole.
-4 Tomatoes.
-2 Green Peppers.
-1 Large Onion.
-French Dressing, Plain.
-Slice the tomatoes, onions and green peppers nicely and thin; arrange on a dish, placing a layer of tomatoes, an alternate layer of onion and green pepper, and tomatoes mixed. Dress either before bringing to the table, or at the table, with French dressing. This is a great family salad among the Creoles, and a very
-<!-- column 2-->
-healthy one. The Creoles follow the old adage, that the taste of the onion must only lurk within the bowl when using it for salad. More than this renders the salad disagreeable and coarse.
+      <div type="recipe" xml:id="pic22.36_tomato_green_pepper_and_onion_salad">
+        <head type="main" rend="slant(bold) align(center)">Tomato, Green Pepper and Onion Salad.</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à la Créole.</foreign></head>
+        <list type="ingredientList">
+          <item>4<ingredient type="vegetable">Tomatoes.</ingredient></item>
+          <item>2<ingredient type="vegetable">Green Peppers.</ingredient></item>
+          <item>1<ingredient type="vegetable">Large Onion.</ingredient></item>
+          <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing, Plain.</ingredient></item>
+        </list>
+        <p type="instructions">
+          Slice the tomatoes, onions and green peppers nicely and thin; arrange on a dish, placing a layer of tomatoes, an alternate layer of onion and green pepper, and tomatoes mixed. 
+          Dress either before bringing to the table, or at the table, with French dressing. 
+          This is a great family salad among the <name>Creoles</name>, and a very
+          
+<cb n="2"/>
+          healthy one. The <name>Creoles</name> follow the old adage, that the taste of the onion must only lurk within the bowl when using it for salad. 
+          More than this renders the salad disagreeable and coarse.
+        </p>
+      </div>
+          
+          <div type="recipe" xml:id="pic22.37_watercress_salad">
+            <head type="main" rend="slant(bold) align(center)">Watercress Salad.</head>
+            <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Cresson.</foreign></head>
+            <list type="ingredientList">
+              <item>1 Pint of <ingredient type="vegetable">Watercress.</ingredient></item>
+              <item><ingredient type="vegetable">Minced Potato, if desired.</ingredient></item>
+              <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
+            </list>
+            <p type="instructions">
+              This salad is made of watercress simply, or watercress and minced potatoes, mixed in equal quantities, and served with a French dressing. 
+              It is a most healthy, light and excellent salad, especially in summer. 
+              The salad is delightful without the potatoes. 
+              They may be added if desired.
+            </p>
+          </div>
+              
+              
+      <div type="recipe" xml:id="pic22.38_the_gardeners_wife_salad">
+        <head type="main" rend="slant(bold) align(center)">The Gardener’s Wife Salad.</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à la Jardiniére.</foreign></head>
+        <list type="ingredientList">
+          <item>1<ingredient type="vegetable">Carrot.</ingredient></item>
+          <item>3<ingredient type="vegetable">Beets.</ingredient></item>
+          <item>½ Cup of<ingredient type="vegetable">Green Peas.</ingredient></item>
+          <item>1 Cup<ingredient type="vegetable">String Beans.</ingredient></item>
+          <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
+        </list>
+        <p type="instructions">
+          Take fine strips of vegetables of different colors, cooked and cold, with green peas and string beans, and dress nicely with oil and Vinegar and serve.
+        </p>
+      </div>
+      
+      <div type="recipe" xml:id="pic22.39_sardine_salad">
+        <head type="main" rend="slant(bold) align(center)">Sardine Salad.</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Sardines.</foreign></head>
+        <list type="ingredientList">
+          <item>1 Box<ingredient type="seafood">Sardines.</ingredient></item>
+          <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
+        </list>
+        <p type="instructions">
+          Cut the sardines into pieces of about half an inch in length. 
+          Season nicely with a French dressing and serve. 
+          This is a delicious luncheon dish.
+        </p>
+      </div>
 
-Watercress Salad.
-Salade de Cresson.
-1 Pint of Watercress.
-Minced Potato, if desired.
-A Plain French Dressing.
-This salad is made of watercress simply, or watercress and minced potatoes, mixed in equal quantities, and served with a French dressing. It is a most healthy, light and excellent salad, especially in summer. The salad is delightful without the potatoes. They may be added if desired.
+      <div type="recipe" xml:id="pic22.40_potato_salad">
+        <head type="main" rend="slant(bold) align(center)">Potato Salad.</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Pommes de Terre.</foreign></head>
+        <list type="ingredientList">
+          <item>3 Large Cold Boiled<ingredient type="vegetable">Potatoes.</ingredient></item>
+          <item>2 Hard-Boiled<ingredient type="egg">Eggs.</ingredient></item>
+          <item>9 Tablespoonfuls of <ingredient type="fat">Olive Oil.</ingredient></item>
+          <item>3 Tablespoonfuls of <ingredient type="liquid">Vinegar.</ingredient></item>
+          <item>1 Large<ingredient type="liquid">Onion</ingredient></item>
+          <item>1 Teaspoonful of<ingredient type="seasoning">Salt.</ingredient></item>
+          <item>4 Sprigs of <ingredient type="seasoning">Parsley.</ingredient></item>
+        </list>
+        <p type="instructions">
+          This is a nice way of utilizing cold left-over potatoes. 
+          But the freshly boiled potatoes always make the nicest salad. 
+          Pare and peel the potatoes, if freshly boiled, and let them cool. 
+          Prepare the salad dressing, following implicitly the directions given for plain French dressing, only here the quantities are larger in proportion. 
+          Add the vinegar, stirring constantly. A dash of mustard may be added, if desired. 
+          Mince the onion very fine, and cut the potatoes into dice or slices, and mix them carefully with the onion. 
+          Then add the dressing, turning the potatoes into it without breaking. Sprinkle all with parsley, nicely chopped, and serve cold.
+        </p>
+      </div>  
+      
+<pb n="162"/>
+      <cb n="1"/>
+      <div type="recipe" xml:id="pic22.41_russian_salad">
+        <head type="main" rend="slant(bold) align(center)">Russian Salad.</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à la Russe.</foreign></head>
+        <div type="ingredientList">
+          <list>
+            <item>2<ingredient type="vegetable">Carrots.</ingredient></item>
+            <item>2<ingredient type="vegetable">Parsnips.</ingredient></item>
+            <item>1 Cup of Cold Minced <ingredient type="poultry">Fowl.</ingredient></item>
+            <item>3<ingredient type="seafood">Anchovies.</ingredient></item>
+            <item>1 Dozen<ingredient type="fruit">Olives.</ingredient></item>
+            <item>3<ingredient type="fruit">Caviares.</ingredient></item>
+            <item>1 Tablespoonful of<ingredient corres="#">Sauce a la Tartare.</ingredient></item><!--find recipe ID-->
+            <item>1 Teaspoonful of<ingredient type="spice">Mustard</ingredient></item>
+          </list>
+        </div>
+        <div type="instructions">
+          <p>
+            This salad is made of cooked carrots, parsnips, beets, cold roast beef, cold ham, a truffle (if it can be afforded), all cut into fancy or dice-shaped pieces. 
+            Use one ounce of each of the meats, or simply one cup of cold minced fowl, as it may not be convenient to have all these meats at hand in households. 
+            Add six boned anchovies and one dozen olives and two caviares, and serve with Tartare Sauce, or with a French salad
+      
+        <cb n="2"/>
+            dressing, to which mustard has been added. 
+            It is a heavy salad.
+          </p>
+          </div>
+        </div>
+      
+      <div type="recipe" xml:id="pic22.42_shrimp_salad">
+        <head type="main" rend="slant(bold) align(center)">Shrimp Salad</head>
+        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Chevrette à la Mayonnaise.</foreign></head>
+        <div type="ingredientList">
+          <item>2 Pints of Cold Boiled <ingredient type="seafood">Shrimp.</ingredient></item>
+          <item>1 Head of Crisp <ingredient type="vegetable">Lettuce.</ingredient></item>
+          <item><ingredient corres="#pic30.44_mayonnaise_sauce">Mayonnaise Sauce.</ingredient></item>
+        </div>
+        <div type="instructions">
+          <p>
+            Take Lake Shrimp and River Shrimp combined, if you have them. 
+            Cut the larger Lake Shrimp into two. 
+            Season well with salt and pepper. 
+            Chop some lettuce. 
+            Season well. 
+            Place first a layer of shrimp and then of lettuce, and spread over all a Mayonnaise Sauce. 
+            Garnish nicely with sliced hard-boiled eggs, sliced beets and celery and lettuce tips, and serve very cold.
+          </p>
+        </div>    
+      </div>
+    </body>
 
-The Gardener’s Wife Salad.
-Salade à la Jardiniére.
-1 Carrot
-3 Beets.
-½ Cup of Green Peas.
-1 Cup String Beans.
-A Plain French Dressing.
-Take fine strips of vegetables of different colors, cooked and cold, with green peas and string beans, and dress nicely with oil and Vinegar and serve.
 
-Sardine Salad.
-Salade de Sardines.
-1 Box Sardines.
-A Plain French Dressing.
-Cut the sardines into pieces of about half an inch in length. Season nicely with a French dressing and serve. This is a delicious luncheon dish.
 
-Potato Salad.
-Salade de Pommes de Terre.
-3 Large Cold Boiled Potatoes.
-2 Hard-Boiled Eggs.
-9 Tablespoonfuls of Olive Oil.
-3 Tablespoonfuls of Vinegar.
-1 Large Onion.
-1 Teaspoonful of Salt.
-4 Sprigs of Parsley.
-This is a nice way of utilizing cold left-over potatoes. But the freshly boiled potatoes always make the nicest salad. Pare and peel the potatoes, if freshly boiled, and let them cool. Prepare the salad dressing, following implicitly the directions given for plain French dressing, only here the quantities are larger in proportion. Add the vinegar, stirring constantly. A dash of mustard may be added, if desired. Mince the onion very fine, and cut the potatoes into dice or slices, and mix them carefully with the onion. Then add the dressing, turning the potatoes into it without breaking. Sprinkle all with parsley, nicely chopped, and serve cold.
-<pb>
-<!--column 1-->
-
-Russian Salad.
-Salade à la Russe.
-2 Carrots.
-2 Parsnips.
-1 Cup of Cold Minced Fowl.
-3 Anchovies.
-1 Dozen Olives.
-3 Caviares.
-1 Tablespoonful of Sauce a la Tartare.
-1 Teaspoonful of Mustard.
-This salad is made of cooked carrots, parsnips, beets, cold roast beef, cold ham, a truffle (if it can be afforded), all cut into fancy or dice-shaped pieces. Use one ounce of each of the meats, or simply one cup of cold minced fowl, as it may not be convenient to have all these meats at hand in households. Add six boned anchovies and one dozen olives and two caviares, and serve with Tartare Sauce, or with a French salad
-<!--column 2-->
-dressing, to which mustard has been added. It is a heavy salad.
-
-Shrimp Salad
-Salade de Chevrette à la Mayonnaise.
-2 Pints of Cold Boiled Shrimp.
-1 Head of Crisp Lettuce.
-Mayonnaise Sauce.
-Take Lake Shrimp and River Shrimp combined, if you have them. Cut the larger Lake Shrimp into two. Season well with salt and pepper. Chop some lettuce. Season well. Place first a layer of shrimp and then of lettuce, and spread over all a Mayonnaise Sauce. Garnish nicely with sliced hard-boiled eggs, sliced beets and celery and lettuce tips, and serve very cold.
