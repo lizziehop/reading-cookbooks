@@ -196,7 +196,7 @@ Last updated: 11/2/20 - AMK
   
   - Fruit Juice
   
-  - Seasonings
+  - Seasoning
   
   - Liquid (vinegar, broth, water, oyster juice, etc )
   

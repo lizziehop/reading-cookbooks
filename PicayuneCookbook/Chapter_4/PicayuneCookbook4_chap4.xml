@@ -93,7 +93,6 @@
                   Bisque</name>, etc. These not only serve as fast-day soups, but are considered elegant introductions to the most <foreign
                      xml:lang="fr">récherché</foreign> feast. </p>
          </div>
-         
          <div type="recipe">
             <head type="main" rend="align(center) bold">Fish Soup.</head>
             <head type="sub" rend="align(center)">
@@ -102,7 +101,7 @@
             <div type="ingredientList">
                <!-- still figuring out how to add closed or semi-open list to @type; for now, write them in, singular, "fat" not "fats" -->
                <list>
-                  <item>6 Slices of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fish">Fish</ingredient> of Almost Any Variety.</item>
+                  <item>6 Slices of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seafood">Fish</ingredient> of Almost Any Variety.</item>
                   <item> 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredient>, Chopped Fine.</item>
                   <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Tomatoes</ingredient>, Chopped Fine.</item>
                   <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Herb Bouquet</ingredient>.</item>
@@ -110,14 +109,14 @@
                   <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">White Wine</ingredient>.</item>
                   <item> 4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fat">Salad Oil</ingredient>.</item>
                   <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Flour</ingredient>.</item>
-                  <item>3 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="water">Water</ingredient>.</item>
+                  <item>3 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="liquid">Water</ingredient>.</item>
                </list>
             </div>
             <div type="instructions">
                <p>Chop the onions and fry them in the salad oil. Cut the tomatoes fine and add onions, and put in all the other ingredients,
                   except the fish, adding the flour to make a good roux. When brown add the water, and, after it has boiled about a half hour,
-                  add the slices of fish. When they are firm remove the herb bouquet, add <ingredient>Cayenne pepper</ingredient>, and salt and pepper to taste, and
-                  serve the fish soup in a tureen, pouring it over crusts of dried toast. </p>
+                  add the slices of fish. When they are firm remove the herb bouquet, add <ingredient key="seasoning">Cayenne pepper</ingredient>, and <ingredient key="seasoning">salt</ingredient> and <ingredient key="seasoning">pepper</ingredient> 
+                  to taste, and serve the fish soup in a tureen, pouring it over crusts of dried toast. </p>
             </div>
          </div>
          <!-- column two starts -->
