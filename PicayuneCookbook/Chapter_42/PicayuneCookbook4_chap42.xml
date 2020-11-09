@@ -5,13 +5,14 @@
         <fileDesc>
             <titleStmt>
                 <title>CHAPTER XLII. FRUIT SYRUPS, CORDIALS, ETC.</title>
-                <!-- Supply the title of chapter -->
                 <title type="chapter" xml:lang="en"/>
                 <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
-                <principal><persName>Elizabeth Hopwood</persName></principal>
+                <principal>
+                    <persName>Elizabeth Hopwood</persName>
+                </principal>
                 <respStmt>
                     <resp>Transcription by</resp>
-                    <persName>Scarlet Andes</persName>
+                    <persName>Eliora Horst</persName>
                 </respStmt>
                 <respStmt>
                     <resp>First round encoding by</resp>
@@ -76,208 +77,579 @@
             <!-- Add date, initials, and what the change was -->
             <change when="2020-10-26" who="EAH">Created header and test template</change>
             <change when="2020-11-2" who="AMK">Added transcription to template and began encoding page 312</change>
+            <change when="2020-11-6" who="AMK">Encoded element level tags</change>
+            <change when="2020-11-9" who="AMK">Added attributes to elements</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div type="chapter">
-                <!-- start page 312 -->
-                <!-- start chapter XLII -->
-                <head>CHAPTER XLII.</head>
+                <pb n="312"/>
+                <head rend="align(center) case(allcaps)">Chapter XLII.</head>
                 <!-- start column one -->
-                <head>FRUIT SYRUPS, CORDIALS, ETC.</head>
-                <head>Des Sirops, des Liqueurs, Etc.</head>
-                <div type="prefatory"><p>No book on Creole cookery would be complete without reference to those delightful fruit syrups which, under the names of "Sirops," "Ratafias," "Granits," etc., enter so largely into the home and social life of the Creoles. Again, the ancient Creole housekeepers are famous for the delicious "Cordials" or "Liqueurs" that they put up each year. Anisette as grateful to the palate as that manufactured by the famous French distilleries is made at home by the Creoles, as also various kinds of domestic wines, than which a better quality could not be purchased from professional manufacturers.</p>
-                    <p>Before entering into a discussion of these "Sirops" and "Liqueurs," the Picayune will refer to the ancient custom the Creoles have of serving sweetened water after a hearty meal, and which, under the name of
-                        <hi>EAU SUCRÉE,</hi>
-                        has been handed down from generation to generation as an integral part of the life of the Creole household.</p>
-                    <p>To one glass of fresh water allow one tablespoonful of sugar, or to a half glass allow a half tablespoonful stir till the sugar is dissolved, and drink after a hearty meal. Every old Creole clings to his glass of "Eau Sucré." He claims that this custom accounts for the singular freedom that the Creoles, as a rule, enjoy from that distressing complaint, becoming so common in America — Dyspepsia. It is the rarest thing in the world to hear a Creole complain of any stomachic trouble, notwithstanding heavy dinners, numbers of courses, and richest viands and wines. The Eau Sucrée is passed around the table at the close of the meal, and the children, as well as their elders, enjoy the drink.
-                        Again "Eau Sucré" is used by all Creole mothers as a sedative for their little ones. Just before kissing her babes "Good-night," the Creole mother will give them a small glass of "Eau Sucrée." It is claimed that it insures digestion and perfect sleep.</p>
-                    <p>"Eau Sucré" parties were famous in old New Orleans in those happy, innocent days when friend met friend in social gatherings for the pleasure of social intercourse, and <!-- end column one --><!-- start column two --> not for the sake of the grand spread of fancy viands and wines that have become such a source of terror in our day to the housewife of limited means who wishes to entertain her friends. "With that beautiful old-time courtesy so peculiar to the Creoles, the poor young woman who entertained was placed on an equal with her richer sister, for it became a kind if unwritten law that beyond a glass of lemonade and cake, or a glass of "Eau Sucrée," nothing more was expected of the household. There was no tax. no drain; the faubourg laughed and sang and danced, night after night, on Iced "Eau Sucrée," or Iced Lemonade, and Orgeats, and Ice Creams, with as much zest as when grand suppers were spread and champagne flowed. There were no heartaches, no pangs, no sad thoughts, because Madame So-and-So, who lived in the Rue Esplanade or Rue Rampart, had given a grander ball than her poorer sister, who lived in the Rue de Bons Enfants or the Rue d'Amour. All this has passed away with the changing life of the old French quarter. But "Eau Sucrée" remains, and the Picayune refers to it upon the merits claimed by the Creoles, that it promotes easy digestion and insures freedom from insomnia. These claims are borne out by the longevity and good spirits for which the race is famous.</p></div>
-                
-                <div><head>SYRUPS.</head>
-                    <head>Sirops.</head>
-                    Under this heading are classed those delightful beverages of fruits or nuts, served by the Creole housewives during the summer season. Of a hot, sultry day, if you enter a well-regulated Creole household, the first thing Madame will do will be to regale you with a glass of Lemonade, or "Iced Orgeat," or "Iced Pineapple," etc. The syrups are put up and bottled by Madame herself, and are al- ways at hand. Old "Tante Zizi," in bandana and tignon, knows the customs of the household well, and does not need to be told by Madame to prepare a nice, cooling glass of "Sirop" for her guest. In a few moments you will see her enter the parlor or sitting room with a dainty <!-- end column two --><!-- end page 312 --><!-- start page 313 --><!-- start column one -->silver salver, covered with a snowy napkin, and bearing, according to the number of visitors, the glasses of iced "Sirop." Of an evening, as the family sit out on the "Esplanade" or the gallery to enjoy the freshening breezes, she will come again unbidden to bring her "people" the daily refreshing summer drink. It is all these pretty little customs and touches that make life in a Creole household so pleasant and full of variety.
-                    
-                    <head>General Directions for Making Syrups.</head>
-                    The Plain Syrup, that is the basis of all fruit syrups, is simply sugar and water boiled together in the pro- portion of two pounds of sugar to a pint and a half of water. Cook the sugar and water till it forms the syrup called "Le Petit Casse" (see recipe under heading "Sugar as Employed in Candy-Making"), or crack, that is, cook it till it instantly snaps asunder when placed between the fingers after dipping them in cold water to enable one to test. Then add the Fruit Syrup, and mix thoroughly. Let it boil for about five minutes; take off the fire and let it get almost cold, then bottle very tight. This is the invariable rule to be followed in making syrups of fruits.
-                    One quart of fruit when mashed and pressed will make a pint of Fruit Syrup, to be added to the Plain Syrup given above.</div>
-                
-                <div><head>Apricot Syrup</head>
-                    <head>Sirop d'Abricots.</head>
-                    12 Pints of Apricot Syrup.
-                    1 Gallon of Plain Syrup.
-                    1 Ounce of Essence of Apricots.
-                    Pare and stone the apricots, then cut them into pieces, pound and mash well and set them aside for thirty-six hours in a cool place. Then strain through a bag, pressing out all the juice. Cook the sugar and water till it forms the syrup called "Le Petit Casse.' (See general directions for Making Syrups). Then add the apricot juice and mix thoroughly; let it boil for five minutes, take off the fire, let it get almost cold, add the essence, and then bottle for use.
+                <head rend="align(center) case(allcaps) bold">Fruit Syrups, Cordials, Etc.</head>
+                <head rend="align(center)">
+                    <foreign xml:lang="fr">Des Sirops, des Liqueurs, Etc.</foreign>
+                </head>
+                <div type="prefatory">
+                    <p>No book on <name>Creole</name> cookery would be complete without reference to those delightful fruit syrups which, under the
+                        names of <foreign xml:lang="fr">"Sirops,"</foreign>
+                        <foreign xml:lang="fr">"Ratafias,"</foreign>
+                        <foreign xml:lang="fr">"Granits,"</foreign> etc., enter so largely into the home and social life of the <name>Creoles</name>.
+                        Again, the ancient <name>Creole</name> housekeepers are famous for the delicious <foreign xml:lang="fr">"Cordials"</foreign>
+                        or <foreign xml:lang="fr">"Liqueurs"</foreign> that they put up each year. Anisette as grateful to the palate as that
+                        manufactured by the famous French distilleries is made at home by the <name>Creoles</name>, as also various kinds of domestic
+                        wines, than which a better quality could not be purchased from professional manufacturers.</p>
+                    <p>Before entering into a discussion of these <foreign xml:lang="fr">"Sirops"</foreign> and <foreign xml:lang="fr"
+                            >"Liqueurs,"</foreign> the Picayune will refer to the ancient custom the <name>Creoles</name> have of serving sweetened
+                        water after a hearty meal, and which, under the name of <hi rend="case(allcaps) bold"><foreign xml:lang="fr">Eau
+                                Sucrée</foreign>,</hi> has been handed down from generation to generation as an integral part of the life of the
+                            <name>Creole</name> household.</p>
+                    <p>To one glass of fresh water allow one tablespoonful of sugar, or to a half glass allow a half tablespoonful stir till the sugar
+                        is dissolved, and drink after a hearty meal. Every old <name>Creole</name> clings to his glass of <foreign xml:lang="fr">"Eau
+                            Sucré."</foreign> He claims that this custom accounts for the singular freedom that the <name>Creoles</name>, as a rule,
+                        enjoy from that distressing complaint, becoming so common in America — Dyspepsia. It is the rarest thing in the world to hear
+                        a <name>Creole</name> complain of any <choice><sic>stomachic</sic><corr>stomach</corr></choice> trouble, notwithstanding heavy
+                        dinners, numbers of courses, and richest viands and wines. The Eau Sucrée is passed around the table at the close of the meal,
+                        and the children, as well as their elders, enjoy the drink. Again "Eau Sucré" is used by all <name>Creole</name> mothers as a
+                        sedative for their little ones. Just before kissing her babes "Good-night," the <name>Creole</name> mother will give them a
+                        small glass of <foreign xml:lang="fr">"Eau Sucrée."</foreign> It is claimed that it insures digestion and perfect sleep.</p>
+                    <p><foreign xml:lang="fr">"Eau Sucré"</foreign> parties were famous in old New Orleans in those happy, innocent days when friend
+                        met friend in social gatherings for the pleasure of social intercourse, and <!-- end column one --><!-- start column two -->
+                        not for the sake of the grand spread of fancy viands and wines that have become such a source of terror in our day to the
+                        housewife of limited means who wishes to entertain her friends. "With that beautiful old-time courtesy so peculiar to the
+                            <name>Creoles</name>, the poor young woman who entertained was placed on an equal with her richer sister, for it became a
+                        kind if unwritten law that beyond a glass of lemonade and cake, or a glass of <foreign xml:lang="fr">"Eau Sucrée,"</foreign>
+                        nothing more was expected of the household. There was no tax. no drain; the faubourg laughed and sang and danced, night after
+                        night, on Iced "Eau Sucrée," or Iced Lemonade, and Orgeats, and Ice Creams, with as much zest as when grand suppers were
+                        spread and champagne flowed. There were no heartaches, no pangs, no sad thoughts, because Madame So-and-So, who lived in the
+                        Rue Esplanade or Rue Rampart, had given a grander ball than her poorer sister, who lived in the Rue de Bons Enfants or the Rue
+                        d'Amour. All this has passed away with the changing life of the old French quarter. But "Eau Sucrée" remains, and the Picayune
+                        refers to it upon the merits claimed by the <name>Creoles</name>, that it promotes easy digestion and insures freedom from
+                        insomnia. These claims are borne out by the longevity and good spirits for which the race is famous.</p>
                 </div>
-                <div>Banana Syrup.
-                    Sirop de Bananes.
-                    2 Pints of Banana Juice.
-                    1 Gallon of Plain Syrup.
-                    1/2 Ounce of Banana Essence.
-                    The Juice of a Lemon.
-                    Peel the bananas, then cut into small pieces and pound and mash well and set aside in a cool place for thirty-six hours. Then strain through a bag and proceed In ex<!-- end column one --><!-- start column two -->actly the same manner as for Apricot Syrup (see recipe), and add the essence and lemon juice when about to bottle.</div>
-                
-                <div> Blackberry Syrup.
-                    Sirop de Mûres.
-                    1/2 Pint of Blackberry Juice.
-                    1 Gallon of Syrup.
-                    Pick, stem and wash the blackberries, then pound and mash them well set aside in a cool place for thirty-six hours. Then strain through a bag, pressing out all the juice, and proceed in exactly the same manner as for Apricot Syrup. (See recipe.)
+
+                <div type="orientationNote">
+                    <head rend=" align(center) case(allcaps) bold">Syrups.</head>
+                    <head rend="align(center)"><foreign xml:lang="fr">Sirops.</foreign></head> Under this heading are classed those delightful
+                    beverages of fruits or nuts, served by the <name>Creole</name> housewives during the summer season. Of a hot, sultry day, if you
+                    enter a well-regulated <name>Creole</name> household, the first thing Madame will do will be to regale you with a glass of
+                    Lemonade, or "Iced Orgeat," or "Iced Pineapple," etc. The syrups are put up and bottled by Madame herself, and are always at hand.
+                    Old "Tante Zizi," in bandana and tignon, knows the customs of the household well, and does not need to be told by Madame to
+                    prepare a nice, cooling glass of <foreign xml:lang="fr">"Sirop"</foreign> for her guest. In a few moments you will see her enter
+                    the parlor or sitting room with a dainty<pb n="313"/><!-- start column one -->silver salver, covered with a snowy napkin, and
+                    bearing, according to the number of visitors, the glasses of iced <foreign xml:lang="fr">"Sirop."</foreign> Of an evening, as the
+                    family sit out on the "Esplanade" or the gallery to enjoy the freshening breezes, she will come again unbidden to bring her
+                    "people" the daily refreshing summer drink. It is all these pretty little customs and touches that make life in a
+                        <name>Creole</name> household so pleasant and full of variety. </div>
+
+                <div type="recipe" xml:id="pic42.1_general_directions_for_making_syrups">
+                    <head rend="align(center) bold">General Directions for Making Syrups.</head>
+                    <div type="instructions">
+                        <p>The Plain Syrup, that is the basis of all fruit syrups, is simply sugar and water boiled together in the pro- portion of
+                            two pounds of <ingredient>sugar</ingredient> to a pint and a half of <ingredient>water</ingredient>. Cook the sugar and
+                            water till it forms the syrup called <foreign xml:lang="fr">"Le Petit Casse"</foreign> (see recipe under heading "Sugar as
+                            Employed in Candy-Making"), or crack, that is, cook it till it instantly snaps asunder when placed between the fingers
+                            after dipping them in cold water to enable one to test. Then add the Fruit Syrup, and mix thoroughly. Let it boil for
+                            about five minutes; take off the fire and let it get almost cold, then bottle very tight. This is the invariable rule to
+                            be followed in making syrups of fruits.</p>
+                        <p>One quart of fruit when mashed and pressed will make a pint of Fruit Syrup, to be added to the Plain Syrup given above.</p>
+                    </div>
                 </div>
-                <div>Cherry Syrup.
-                    Sirop de Cerises.
-                    12 Pints of Cherry Juice.
-                    1 Gallon of Plain Syrup.
-                    Seed the cherries, and stem, pound and mash them well, and let them stand for thirty-six hours in a cool place. Then strain through a bag. Cook the sugar and water till it forms the syrup called "Le Petit Casse," or crack (see recipe under chapter on Creole candies), that is, till it instantly snaps asunder when placed between the fingers, after dipping them in cold water to enable you to test. Then add the fruit syrups and mix thoroughly. Let it boil for about five minutes, take off the fire, let it get almost cold, and then put up in bottles.</div>
-                
-                <div>Cranberry Syrup.
-                    Sirop d'Airelles.
-                    2 Pints of Cranberry Juice.
-                    1 Gallon of Plain Syrup.
-                    1/2 Ounce of Soluble Essence of Lemon.
-                    Proceed in exactly the same manner as for Currant Syrup (see recipe below), adding twice the quantity of sugar, and adding the essence after the syrup has somewhat cooled and you are about to bottle it.</div>
-                
-                <div>Currant Syrup.
-                    Sirop de Groseilles.
-                    2 Pints of Currant Juice.
-                    1 Gallon of Plain Syrup.
-                    Pick, seed, wash and dry the currants carefully. Then pound them well and set aside in a cool place for thirty-six hours. Make a Plain Syrup (see recipe), and proceed as in the (general Directions for Making Fruit Syrups. (See directions.)</div>
-                
-                <div>Currant Syrup with Raspberries.
-                    Sirop de Groseilles Framboisée.
-                    1 Pint of Currant Juice.
-                    2 Pounds of Sugar.
-                    6 Pounds of Currants.
-                    1 Pound of Sour Cherries.
-                    1 Pound of Raspberries.
-                    1 1/2 Pints of Water.
-                    
-                    The cherries and raspberries are not necessary, but they give the sy<!-- end column two --><!-- end page 313 --><!-- start page 314 --><!-- start column one -->rup a most delightful flavor and aroma. Pick, wash, seed and dry the currants carefully. Seed the cherries, and stem them and the raspberries, pound and mash them well, and let them stand for thirty-six hours in a cool place. Then strain through a bag. Cook the sugar and water till it forms the syrup called "Le Petit Cassé," or crack, that is, till it instantly   when placed between the fingers, after dipping them in cold water, to enable you to test. Then add the fruit syrups, and mix thoroughly. Let it boil for about five minutes, take off the fire, let it get almost cold, and then put up in bottles.</div>
-                
-                <div>Grape Syrup.
-                    Sirop de Raisins.
-                    1 Gallon Plain Syrup.
-                    2 Pints of Grape Juice.
-                    1/2 Pint of Grape or Catawba Wine. 
-                    Pick, wash, stem and seed the grapes; then pound and mash well, and set aside in a cool place for thirty-six hours. Then strain through a bag, pressing out all the juice; make a Plain Syrup, and proceed in exactly the same manner as for Currant Syrup, and add the wine when you are about to bottle.</div>
-                
-                <div>Lemon Syrup.
-                    Sirop de Citron.
-                    8 Ounces of Lemon Juice.
-                    15 Ounces of Sugar.
-                    1/2 Ounce of Extract of Lemon.
-                    Press the juice from the lemons and grate the zest of four into the syrup; set aside in a cool place for six or eight hours. Then strain carefully through a bag. Make a Plain Syrup, using the proportions of fifteen ounces of sugar to a pint and a half of water. Prepare a gallon of syrup, and then proceed as in the General Directions for Making Syrups (see directions). Add the essence when about to bottle.
+
+                <div type="recipe" xml:id="pic42.2_apricot_syrup">
+                    <head rend="align(center) bold">Apricot Syrup</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop d'Abricots.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>12 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Apricot Syrup</ingredient>. </item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup</ingredient>. </item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Essence of Apricots</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Pare and stone the apricots, then cut them into pieces, pound and mash well and set them aside for thirty-six hours in a
+                            cool place. Then strain through a bag, pressing out all the juice. Cook the sugar and water till it forms the syrup called
+                            "Le Petit Casse.' (See general directions for Making Syrups). Then add the apricot juice and mix thoroughly; let it boil
+                            for five minutes, take off the fire, let it get almost cold, add the essence, and then bottle for use.</p>
+                    </div>
                 </div>
-                <div>Lime Syrup.
-                    Sirop de Limons.
-                    2 Pints of Lime Juice.
-                    1 Gallon of Plain Syrup.
-                    1/2 Ounce of Soluble Essence of Limes.
-                    
-                    Proceed in exactly the same manner as for Lemon Syrup, and add the essence when about to bottle.</div>
-                
-                <div>Orange Syrup.
-                    Sirop d'Orange.
-                    2 Quarts of Orange Juice.
-                    1 Gallon of Plain Syrup.
-                    1 Ounce of Lemon Juice.
-                    Proceed in exactly the same manner as for Lemon Syrup, and bottle when almost cold. This is a standing Creole Syrup.</div>
-                <!-- end column one →
-                    <!-- start column two -->
-                <div> Orgeat Syrup.
-                    Sirop d'Orgeat.
-                    1 Pound of Sweet Almonds.
-                    4 Ounces of Bitter Almonds.
-                    2 Pounds of Sugar.
-                    1 Quart of Water.
-                    2 Ounces of Orange Flower Water.
-                    The Zest of a Lemon.
-                    Do not throw the almonds into hot water and' blanch them, as in other recipes for almonds, but throw them into cold water, after shelling them, until the peeling or skin comes off easily. Then mash them and pound them in a mortar till they are reduced to a fine powder, adding, from time to time, a little water and the well-grated zest of the lemon, When this paste is perfectly made, moisten it with one-half of the water, and then squeeze it hard through a linen cloth, each end of which is held by some one, when you will have drained thoroughly of all milk. Then return the paste to the mortar, throw over the rest of the water, mix thoroughly, pounding well, and then squeeze again through the towel. Put the sugar into a farina boiler, and let it boil to the degree of "Le Petit Cassé," or crack,' that is, till it forms a thick syrup that will not cling to the teeth in tasting, or instantly snaps asunder between the fingers after testing in cold water. Then take the syrup off the fire and add the milk of almonds, stirring well. Return it to the fire, and let it simmer gently till it begins to boil. Let it boil for several minutes. Then take it off the fire and let it cool. When cold, add the orange flower water and mix well. Then drain all through a cloth or bag, and fill and seal the bottles.
-                    Orgeat, being made of the milk of almonds, easily decomposes or sours, because the oil of almonds, being lighter than the other ingredients, rises to the top. For this reason, it is well to look at the bottles frequently, and shake them daily. This will preserve the exact mingling of the mixture, and also preserve the Orgeat for use.
-                    Orgeat is a great Creole syrup. It is not only a most delicate drink, but a healthy, popular and traditional one. In old Creole households upon the birth of a babe, the friends who call to congratulate the parents upon the new addition to the household are served with a glass of Orgeat, the mother drinking with her friends in honor of the little angel just sent from heaven. This is an ancient Creole custom, dating from earliest days in Louisiana.
-                    Use only the finest white loaf sugar in making Orgeat Syrup.</div>
+                <div type="recipe" xml:id="pic42.3_banana_syrup">
+                    <head rend="align(center) bold">Banana Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Bananes.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Banana Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                            <item>1/2 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract"> Banana Essence.</ingredient></item>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Juice of a Lemon.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Peel the bananas, then cut into small pieces and pound and mash well and set aside in a cool place for thirty-six hours.
+                            Then strain through a bag and proceed In ex<!-- end column one --><!-- start column two -->actly the same manner as for
+                            Apricot Syrup (see recipe), and add the essence and lemon juice when about to bottle.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.4_blackberry_syrup">
+                    <head rend="align(center) bold">Blackberry Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Mûres.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1/2 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Blackberry Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Syrup.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Pick, stem and wash the blackberries, then pound and mash them well set aside in a cool place for thirty-six hours. Then
+                            strain through a bag, pressing out all the juice, and proceed in exactly the same manner as for Apricot Syrup. (See
+                            recipe.)</p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic42.5_cherry_syrup">
+                    <head rend="align(center) bold">Cherry Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Cerises.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>12 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Cherry Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Seed the cherries, and stem, pound and mash them well, and let them stand for thirty-six hours in a cool place. Then strain
+                            through a bag. Cook the sugar and water till it forms the syrup called "Le Petit Casse," or crack (see recipe under
+                            chapter on <name>Creole</name> candies), that is, till it instantly snaps asunder when placed between the fingers, after
+                            dipping them in cold water to enable you to test. Then add the fruit syrups and mix thoroughly. Let it boil for about five
+                            minutes, take off the fire, let it get almost cold, and then put up in bottles.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.6_cranberry_syrup">
+                    <head rend="align(center) bold">Cranberry Syrup. </head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop d'Airelles.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Cranberry Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                            <item>1/2 Ounce of Soluble <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Essence of
+                                Lemon.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Proceed in exactly the same manner as for Currant Syrup (see recipe below), adding twice the quantity of sugar, and adding
+                            the essence after the syrup has somewhat cooled and you are about to bottle it.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.7_currant_syrup">
+                    <head rend="align(center) bold">Currant Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Groseilles.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currant Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Plain Syrup.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Pick, seed, wash and dry the currants carefully. Then pound them well and set aside in a cool place for thirty-six hours.
+                            Make a Plain Syrup (see recipe), and proceed as in the (general Directions for Making Fruit Syrups. (See directions.)</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.8_currant_syrup_with_raspberries">
+                    <head rend="align(center) bold">Currant Syrup with Raspberries.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Groseilles Framboisée.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currant Juice.</ingredient></item>
+                            <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>6 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currants.</ingredient></item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Sour Cherries.</ingredient></item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Raspberries.</ingredient></item>
+                            <item>1 1/2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>The cherries and raspberries are not necessary, but they give the sy<!-- end column two --><pb n="314"
+                            /><!-- start column one -->rup a most delightful flavor and aroma. Pick, wash, seed and dry the currants carefully. Seed
+                            the cherries, and stem them and the raspberries, pound and mash them well, and let them stand for thirty-six hours in a
+                            cool place. Then strain through a bag. Cook the sugar and water till it forms the syrup called <foreign xml:lang="fr">"Le
+                                Petit Cassé,"</foreign> or crack, that is, till it instantly when placed between the fingers, after dipping them in
+                            cold water, to enable you to test. Then add the fruit syrups, and mix thoroughly. Let it boil for about five minutes, take
+                            off the fire, let it get almost cold, and then put up in bottles.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.9_grape_syrup">
+                    <head rend="align(center) bold">Grape Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Raisins.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Gallon <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Grape Juice.</ingredient></item>
+                            <item>1/2 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Grape or Catawba
+                                Wine.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Pick, wash, stem and seed the grapes; then pound and mash well, and set aside in a cool place for thirty-six hours. Then
+                            strain through a bag, pressing out all the juice; make a Plain Syrup, and proceed in exactly the same manner as for
+                            Currant Syrup, and add the wine when you are about to bottle.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.10_lemon_syrup">
+                    <head rend="align(center) bold">Lemon Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Citron.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon Juice.</ingredient></item>
+                            <item>15 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>1/2 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Extract of Lemon.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Press the juice from the lemons and grate the zest of four into the syrup; set aside in a cool place for six or eight
+                            hours. Then strain carefully through a bag. Make a Plain Syrup, using the proportions of fifteen ounces of sugar to a pint
+                            and a half of water. Prepare a gallon of syrup, and then proceed as in the General Directions for Making Syrups (see
+                            directions). Add the essence when about to bottle.</p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic42.11_lime_syrup">
+                    <head rend="align(center) bold">Lime Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Limons.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lime Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                            <item>1/2 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Soluble Essence of
+                                Limes.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Proceed in exactly the same manner as for Lemon Syrup, and add the essence when about to bottle.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.12_orange_syrup">
+                    <head rend="align(center) bold">Orange Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop d'Orange.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Orange Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon Juice.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Proceed in exactly the same manner as for Lemon Syrup, and bottle when almost cold. This is a standing <name>Creole</name>
+                            Syrup.</p>
+                    </div>
+                </div>
+                <!-- end column one start column two -->
+                <div type="recipe" xml:id="pic42.13_orgeat_syrup">
+                    <head rend="align(center) bold">Orgeat Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop d'Orgeat.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Bitter Almonds.</ingredient></item>
+                            <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="water">Water.</ingredient></item>
+                            <item>2 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="???">Orange Flower
+                                    Water.<!-- what is this? --></ingredient></item>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Zest of a Lemon.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Do not throw the almonds into hot water and' blanch them, as in other recipes for almonds, but throw them into cold water,
+                            after shelling them, until the peeling or skin comes off easily. Then mash them and pound them in a mortar till they are
+                            reduced to a fine powder, adding, from time to time, a little water and the well-grated zest of the lemon, When this paste
+                            is perfectly made, moisten it with one-half of the water, and then squeeze it hard through a linen cloth, each end of
+                            which is held by some one, when you will have drained thoroughly of all milk. Then return the paste to the mortar, throw
+                            over the rest of the water, mix thoroughly, pounding well, and then squeeze again through the towel. Put the sugar into a
+                            farina boiler, and let it boil to the degree of <foreign xml:lang="fr">"Le Petit Cassé,"</foreign> or crack,' that is,
+                            till it forms a thick syrup that will not cling to the teeth in tasting, or instantly snaps asunder between the fingers
+                            after testing in cold water. Then take the syrup off the fire and add the milk of almonds, stirring well. Return it to the
+                            fire, and let it simmer gently till it begins to boil. Let it boil for several minutes. Then take it off the fire and let
+                            it cool. When cold, add the orange flower water and mix well. Then drain all through a cloth or bag, and fill and seal the
+                            bottles.</p>
+                        <p>Orgeat, being made of the milk of almonds, easily decomposes or sours, because the oil of almonds, being lighter than the
+                            other ingredients, rises to the top. For this reason, it is well to look at the bottles frequently, and shake them daily.
+                            This will preserve the exact mingling of the mixture, and also preserve the Orgeat for use.</p>
+                        <p>Orgeat is a great <name>Creole</name> syrup. It is not only a most delicate drink, but a healthy, popular and traditional
+                            one. <!-- Interesting for contextual -->In old <name>Creole</name> households upon the birth of a babe, the friends who
+                            call to congratulate the parents upon the new addition to the household are served with a glass of Orgeat, the mother
+                            drinking with her friends in honor of the little angel just sent from heaven. This is an ancient <name>Creole</name>
+                            custom, dating from earliest days in Louisiana.</p>
+                        <p>Use only the finest white loaf sugar in making Orgeat Syrup.</p>
+                    </div>
+                </div>
                 <!-- end column two -->
-                <!-- end page 314 →
-                    <!-- start page 315 -->
+
                 <!-- start column one -->
-                <div>Peach Syrup.
-                    Sirop de Peches.
-                    2 Pints of Peach Juice.
-                    1 Gallon of Plain Syrup.
-                    1/2 Ounce of Peach Essence.
-                    Pare and stone the peaches, then pound and mash well and set aside in a cool place for thirty-six hours. Strain through a bag, pressing out all the juice, then proceed in exactly the same manner as for Apricot Syrup, and add the essence as the syrup cools and you are about to bottle it.
+                <pb n="315"/>
+                <div type="recipe" xml:id="pic42.14_peach_syrup">
+                    <head rend="align(center) bold">Peach Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Peches.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Peach Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient>
+                            </item>
+                            <item>1/2 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Peach Essence.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Pare and stone the peaches, then pound and mash well and set aside in a cool place for thirty-six hours. Strain through a
+                            bag, pressing out all the juice, then proceed in exactly the same manner as for Apricot Syrup, and add the essence as the
+                            syrup cools and you are about to bottle it.</p>
+                    </div>
                 </div>
-                <div>Pineapple Syrup.
-                    Sirop d' Ananas.
-                    2 Pints of Pineapple Juice.
-                    1 Gallon of Plain Syrup.
-                    1 Ounce of Lemon Juice.
-                    Pare the pineapples, cutting out the eyes and the core. Then cut into very fine pieces and mash and pound well, or grate the pineapple, which is better. Set aside for thirty-six hours in a cool place. Then strain through a fine muslin bag, pressing out all the juice. Then make a Plain Syrup and proceed as in the General Directions for Making Fruit Syrups. (See directions.)
+                <div type="recipe" xml:id="pic42.15_pineapple_syrup">
+                    <head rend="align(center) bold">Pineapple Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop d' Ananas.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Pineapple Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon Juice.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Pare the pineapples, cutting out the eyes and the core. Then cut into very fine pieces and mash and pound well, or grate
+                            the pineapple, which is better. Set aside for thirty-six hours in a cool place. Then strain through a fine muslin bag,
+                            pressing out all the juice. Then make a Plain Syrup and proceed as in the General Directions for Making Fruit Syrups. (See
+                            directions.)</p>
+                    </div>
                 </div>
-                <div>Plum Syrup.
-                    Sirop de Prunes.
-                    2 Pints of Plum Juice.
-                    1 Gallon of Plain Syrup.
-                    Stone the plums, pound and mash well and set aside in a cool place for thirty-six hours. Then proceed in exactly the same manner as in the recipe for Apricot Syrup. (See recipe.)</div>
-                
-                <div>Strawberry Syrup.
-                    Syrop de Fraises.
-                    2 Pints of Strawberry Syrup.
-                    1 Gallon of Plain Syrup.
-                    1 Ounce of Raspberry Essence.
-                    Pick, stem and wash the strawberries, then pound and mash them well, and let them stand for thirty-six hours in a cool place. Then strain through a bag. Cook the sugar and water till it forms the syrup called "Le Petit Cassé," or crack, that is, till it instantly snaps asunder when placed between the fingers, after dipping them in cold water, to enable you to test. Then add the fruit syrups, and mix thoroughly. Let it boil for about five minutes, take off the fire, let it get almost cold, and then put up in bottles.</div>
-                
-                <div> Raspberry Syrup.
-                    2 Pints of Raspberry Syrup.
-                    1 Gallon of Plain Syrup.
-                    1 Ounce of Raspberry Esence.
-                    Pick, stem and wash the berries and proceed in exactly the same manner as for Strawberry Syrup, adding the essence when about to bottle.</div>
+                <div type="recipe" xml:id="pic42.16_plum_syrup">
+                    <head rend="align(center) bold">Plum Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Prunes.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Plum Juice.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Stone the plums, pound and mash well and set aside in a cool place for thirty-six hours. Then proceed in exactly the same
+                            manner as in the recipe for Apricot Syrup. (See recipe.)</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.17_strawberry_syrup">
+                    <head rend="align(center) bold">Strawberry Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Syrop de Fraises.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Strawberry Syrup.</ingredient></item>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Raspberry Essence.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Pick, stem and wash the strawberries, then pound and mash them well, and let them stand for thirty-six hours in a cool
+                            place. Then strain through a bag. Cook the sugar and water till it forms the syrup called "Le Petit Cassé," or crack, that
+                            is, till it instantly snaps asunder when placed between the fingers, after dipping them in cold water, to enable you to
+                            test. Then add the fruit syrups, and mix thoroughly. Let it boil for about five minutes, take off the fire, let it get
+                            almost cold, and then put up in bottles.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.17_strawberry_syrup">
+                    <head rend="align(center) bold">Raspberry Syrup.</head>
+                    <!-- missing french heading in text-->
+                    <div type="ingredientList">
+                        <list>
+                            <!-- the recipe is an ingredient??? -->
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Raspberry Syrup.</ingredient></item>
+                            <item>1 Gallon of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups">
+                                    Plain Syrup.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Raspberry Esence.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Pick, stem and wash the berries and proceed in exactly the same manner as for Strawberry Syrup, adding the essence when
+                            about to bottle.</p>
+                    </div>
+                </div>
                 <!-- end column one -->
                 <!-- start column two -->
-                <div>Vanilla Syrup.
-                    Sirop de Vanille.
-                    1 Gallon of Plain Syrup.
-                    3 Ounces of Extract of Vanilla.
-                    1/4 ounce of Caramel.
-                    Boil the syrup and add the Caramel. (See recipe.) Drain, and then add the essence of vanilla. Stir well and bottle.</div>
-                
-                <div> Blackberry Vinegar.
-                    Vinaigre de Mûres.
-                    
-                    2 Quarts of Blackberries.
-                    1 Quart of Good French Vinegar.
-                    Put one quart of blackberries into a jar or deep vessel, and pour over the vinegar. Let them stand for twenty-four hours longer. Strain them again, and again add the fruit, repeating this operation and letting stand twenty-four hours three times. Then strain through a muslin bag, and add one pound of white sugar to every pint of the liquor, and boil the whole in a porcelain kettle for half an hour. When cold, bottle it and keep it in a cool place. Blackberry Vinegar made after this manner will keep for years, improving with age.
-                    Currant Vinegar and Cherry Vinegar are prepared in the same manner as above.</div>
-                
-                <div>Orange Vinegar.
-                    Vinaigre d'Oranges.
-                    36 Oranges.
-                    1 Quart of Good French Cider.
-                    Sugar in Proportion of Two-thirds of a Pound to 1 Quart of Orange Syrup.
-                    Peel the oranges. Slice them very thin and cover with pure cider vinegar, and let them stand for three of four days. Then mash them through a cloth, straining as long as the juice runs clear. To every quart of juice allow one and two-thirds pounds of fine white sugar. Then boil all together for about ten minutes, and skim very carefully, until no scum rises upon the surface. Then take the mixture from the fire, and when it cools somewhat, bottle it. Put a tablespoonful of this extract in a glass of cold ice water in warm weather, and you will have one of the most refreshing of the Creole summer drinks.</div>
-                
-                <div>Pineapple Vinegar.
-                    Vinaigre d'Ananas.
-                    3 Pineapples.
-                    1 Quart of Pure Cider Vinegar.
-                    Sugar In the Proportion of Two-thirds of a Pound to One Quart of the Juice.
-                    Cover the pineapples, which you will have nicely sliced, with pure cider vinegar, and let them stand for three or four days. Then mash them through a cloth, straining as long as the juice runs clear. To every quart, of juice allow one and <!-- end column two --><!-- end page 315 --><!-- start page 316 --><!-- start column one --> two-thirds pounds of fine white sugar. Then boil all together for about ten minutes, and skim very carefully, until no scum rises upon the surface. Then take the mixture from the fire, and when it cools somewhat bottle it. Put a tablespoonful of this extract in a glass of cold ice water in warm weather, and serve as a summer drink.</div>
-                
-                <div>Raspberry Vinegar.
-                    Vinaigre de Framboises.
-                    2 Quarts of Raspberries.
-                    1 Quart of Good French Vinegar.
-                    Put one quart of raspberries into a jar or deep vessel, and pour over the vinegar. Let them stand for twenty-four hours, and then strain through a jelly bag, and add the other quart of raspberries, and let them stand for twenty-four hours longer. Strain them again, and again add the fruit, repeating this operation of straining and letting stand twenty-four hours three times. Then strain through a muslin bag, and add one pound of white sugar to every pint of the liquor, and boil the whole in a porcelain kettle for half an hour. When cold, bottle it and keep it in a cool place. Raspberry Vinegar made ofter this man<!-- end column one --><!-- start column two -->ner will keep for years, improving with age. The Creoles always keep it with Strawberry Vinegar or Blackberry Vinegar on hand, simply putting a teaspoonful of it in a glass of sweetened ice water. It is a most refreshing summer beverage, and is especially grateful to the sick and delicate.</div>
-                
-                <div> Strawberry Vinegar.
-                    Vinaigre de Praises.
-                    2 Quarts of Strawberries.
-                    1 Quart of Good French Vinegar.
-                    Put one quart of strawberries into a jar or deep vessel, and pour over the vinegar. Let them stand for twenty-four hours, and then strain through a jelly bag, and add the other quart of strawberries, and let them stand for twenty-four hours longer. Strain them again, and again add the fruit, repeating this operation of straining and letting stand twenty-four hours three times. Then strain through a muslin bag and add one pound, of white sugar to every pint of the liquor, and boil the whole in a porcelain kettle for half an hour. When cold, bottle it and keep it in a cool place.</div>
-                
-                <!-- end chapter XLII -->
-                
-                
+                <div type="recipe" xml:id="pic42.19_vanilla_syrup">
+                    <head rend="align(center) bold">Vanilla Syrup.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Sirop de Vanille.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
+                                    >Plain Syrup.</ingredient></item>
+                            <item>3 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Extract of Vanilla.</ingredient></item>
+                            <item>1/4 ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#"
+                                    ><!-- need xml:id for caramel recipe -->Caramel.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Boil the syrup and add the Caramel. (See recipe.) Drain, and then add the essence of vanilla. Stir well and bottle.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.20_blackberry_vinegar">
+                    <head rend="align(center) bold">Blackberry Vinegar.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Vinaigre de Mûres.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Blackberries.</ingredient></item>
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Good French Vinegar.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Put one quart of blackberries into a jar or deep vessel, and pour over the vinegar. Let them stand for twenty-four hours
+                            longer. Strain them again, and again add the fruit, repeating this operation and letting stand twenty-four hours three
+                            times. Then strain through a muslin bag, and add one pound of white sugar to every pint of the liquor, and boil the whole
+                            in a porcelain kettle for half an hour. When cold, bottle it and keep it in a cool place. Blackberry Vinegar made after
+                            this manner will keep for years, improving with age.</p>
+                        <p>Currant Vinegar and Cherry Vinegar are prepared in the same manner as above.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.21_orange_vinegar">
+                    <head rend="align(center) bold">Orange Vinegar.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Vinaigre d'Oranges.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>36 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Oranges.</ingredient></item>
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Good French Cider.</ingredient></item>
+                            <item><ingredient xxmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient> in Proportion of Two-thirds of a
+                                Pound to 1 Quart of <ingredient>Orange Syrup.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Peel the oranges. Slice them very thin and cover with pure cider vinegar, and let them stand for three of four days. Then
+                            mash them through a cloth, straining as long as the juice runs clear. To every quart of juice allow one and two-thirds
+                            pounds of fine white sugar. Then boil all together for about ten minutes, and skim very carefully, until no scum rises
+                            upon the surface. Then take the mixture from the fire, and when it cools somewhat, bottle it. Put a tablespoonful of this
+                            extract in a glass of cold ice water in warm weather, and you will have one of the most refreshing of the
+                                <name>Creole</name> summer drinks.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.22_pineapple_vinegar">
+                    <head rend="align(center) bold">Pineapple Vinegar.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Vinaigre d'Ananas.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Pineapples.</ingredient></item>
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Pure Cider Vinegar.</ingredient></item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient> In the Proportion of Two-thirds of
+                                a Pound to One Quart of the Juice.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Cover the pineapples, which you will have nicely sliced, with pure cider vinegar, and let them stand for three or four
+                            days. Then mash them through a cloth, straining as long as the juice runs clear. To every quart, of juice allow one and
+                                <!-- end column two --><pb n="316"/><!-- start column one --> two-thirds pounds of fine white sugar. Then boil all
+                            together for about ten minutes, and skim very carefully, until no scum rises upon the surface. Then take the mixture from
+                            the fire, and when it cools somewhat bottle it. Put a tablespoonful of this extract in a glass of cold ice water in warm
+                            weather, and serve as a summer drink.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.23_raspberry_vinegar">
+                    <head rend="align(center) bold">Raspberry Vinegar.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Vinaigre de Framboises.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Raspberries.</ingredient></item>
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Good French Vinegar.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Put one quart of raspberries into a jar or deep vessel, and pour over the vinegar. Let them stand for twenty-four hours,
+                            and then strain through a jelly bag, and add the other quart of raspberries, and let them stand for twenty-four hours
+                            longer. Strain them again, and again add the fruit, repeating this operation of straining and letting stand twenty-four
+                            hours three times. Then strain through a muslin bag, and add one pound of white sugar to every pint of the liquor, and
+                            boil the whole in a porcelain kettle for half an hour. When cold, bottle it and keep it in a cool place. Raspberry Vinegar
+                            made ofter this man<!-- end column one --><!-- start column two -->ner will keep for years, improving with age. The
+                                <name>Creoles</name> always keep it with Strawberry Vinegar or Blackberry Vinegar on hand, simply putting a
+                            teaspoonful of it in a glass of sweetened ice water. It is a most refreshing summer beverage, and is especially grateful
+                            to the sick and delicate.</p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic42.24_strawberry_vinegar">
+                    <head rend="align(center) bold">Strawberry Vinegar.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Vinaigre de Praises.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Strawberries.</ingredient></item>
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Good French Vinegar.</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>Put one quart of strawberries into a jar or deep vessel, and pour over the vinegar. Let them stand for twenty-four hours,
+                            and then strain through a jelly bag, and add the other quart of strawberries, and let them stand for twenty-four hours
+                            longer. Strain them again, and again add the fruit, repeating this operation of straining and letting stand twenty-four
+                            hours three times. Then strain through a muslin bag and add one pound, of white sugar to every pint of the liquor, and
+                            boil the whole in a porcelain kettle for half an hour. When cold, bottle it and keep it in a cool place.</p>
+                    </div>
+                </div>
             </div>
         </body>
     </text>
