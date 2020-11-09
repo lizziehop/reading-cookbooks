@@ -1,6 +1,6 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 11/2/20 - AMK
+Last updated: 11/9/20 - AMK
 
 ---
 
@@ -196,7 +196,7 @@ Last updated: 11/2/20 - AMK
   
   - Fruit Juice
   
-  - Seasoning
+  - Salt
   
   - Liquid (vinegar, broth, water, oyster juice, etc )
   
@@ -205,6 +205,10 @@ Last updated: 11/2/20 - AMK
   - Legume (beans, lentils, peas, peanuts)
   
   - Nut
+  
+  - Sauce
+  
+  - Condiment
 
 ### Ingredient Lists
 
@@ -351,6 +355,20 @@ Last updated: 11/2/20 - AMK
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
+
+### Recipe Instruction References
+
+- When a recipe's instruction references a previous recipe's instructions for how to complete the task
+
+- ex. "proceed In exactly the same manner as for Apricot Syrup (see recipe)"
+
+- If there is just the recipe title referenced put the `ptr` around that, if it says see recipe put the `ptr` around that.
+
+- ```xml
+  <ptr target="#<!-xml:id of the recipe referenced -->">(see recipe)</ptr>
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ptr.html)
 
 ### Word Standardization
 
