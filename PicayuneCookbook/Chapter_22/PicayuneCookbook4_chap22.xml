@@ -89,7 +89,7 @@
     <head type="sub"><foreign xml:lang="fr">Des Salades.</foreign></head>
   <!-- column 1 -->
     <cb n="1"/>
-    <div type="orientationNote">
+    <div type="prefatory">
       <p>
         The Creoles have always been famous for the excellent salads which grace their tables.
         Salads, like soup, or gumbo, is the daily accompaniment of dinner in even the most humble <name>Creole</name> home.
@@ -114,15 +114,18 @@
         <!--unclear which French Dressing is being referred to here-->
       <p>
         The simple French Dressing for salads is always the best for daily use, and also for formal dinner.
-        It is not only lighter, as compared to the <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing">Mayonnaise Dressing</div>, and therefore, far more acceptable at dinners where the courses are many, but the <name>Creoles</name> hold, like the <name>French</name>, that it is the only dressing for salads that are not intended for luncheons or teas, such as chicken, shrimp or crab salads.
-        A <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing">Mayonnaise Dressing</div> for salad should never be used at the family dinner or formal dinings.
+        It is not only lighter, as compared to the <name xml:id="pic22.5_mayonnaise_dressing">Mayonnaise Dressing"</name>, 
+        and therefore, far more acceptable at dinners where the courses are many, 
+        but the <name>Creoles</name> hold, like the French, 
+        that it is the only dressing for salads that are not intended for luncheons or teas, such as chicken, shrimp or crab salads.
+        A <name xml:id="pic22.5_mayonnaise_dressing">Mayonnaise Dressing</name> for salad should never be used at the family dinner or formal dinings.
       </p>
       <p>
         A meat salad is never an economical article of food, if one counts all the items of cost.
         The wretched combinations, too, which pass for Mayonnaise, and which are nothing more than a paste spread over the top of the salad, or stirred through with a mixture of pepper, vinegar and salt, cannot be too greatly condemned.
-        The making of a good <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing">Mayonnaise</div> is a matter of art, and requires the skill that comes from experience.
-        Practice will teach that there is no need for useless expenditure of time in making this dressing, and that once you have learned the simple trick of securing the good start in the way of blending, or rather “working,” the oil into the egg, drop by drop, the task of making a fine <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing"><foreign xml:id="fr">Sauce à la Mayonnaise</foreign></div>, becomes a very simple and easy one.
-        The <div type="recipe_addition” corresp=“#pic22.5_mayonnaise_dressing">Mayonnaise</div>, which is intended, as stated above, only for meat dressings, and the French Salad Dressing are the only two in general use in <name>Creole</name> households.
+        The making of a good <name xml:id="#pic22.5_mayonnaise_dressing">Mayonnaise</name> is a matter of art, and requires the skill that comes from experience.
+        Practice will teach that there is no need for useless expenditure of time in making this dressing, and that once you have learned the simple trick of securing the good start in the way of blending, or rather “working,” the oil into the egg, drop by drop, the task of making a fine <name xml:id="#pic22.5_mayonnaise_dressing"><foreign xml:id="fr">Sauce à la Mayonnaise</foreign></name>, becomes a very simple and easy one.
+        The <name xml:id="#pic22.5_mayonnaise_dressing">Mayonnaise</name>, which is intended, as stated above, only for meat dressings, and the <name xml:id="pic22.1_plain_french_dressings_for_salads">French Salad Dressing</name> are the only two in general use in <name>Creole</name> households.
       </p>
       <p>
         The <name>Creoles</name> serve salads for breakfast, luncheon and dinners, while no elegant supper is considered complete without a salad.
@@ -131,7 +134,7 @@
         Make the French Dressing according to the directions given in the subjoined recipes, and pour this over the lettuce, with a tablespoonful of parsley, cut very fine, sprinkled over again.
         Salads of this order, are, indeed, the most healthful in the world.
         The old <name>Creoles</name> say that the family that eats much oil will never know a headache, and the medicinal virtues of lettuce and celery are such as are acknowledged by physicians, and all nervous and energetic people require them as sedatives.
-        The <name>French</name> say that the <name>Americans</name> eat too much meat, and too little vegetables.
+        The French say that the Americans eat too much meat, and too little vegetables.
         Happily, the <name>Creoles</name> know how to blend
   <cb n="2"/>
 <!-- column 2 -->
@@ -142,60 +145,72 @@
     <div type="recipe" xml:id="pic22.1_plain_french_dressings_for_salads">
       <head type="main" rend="slant(bold) align(center)">Plain French Dressings for Salads.</head>
       <head type="sub" rend="align(center)"><foreign xml:lang="fr">Assaisonment Français.</foreign></head>
-      <list>
-        <item><ingredient type="fat"><measure type="volume" quantity="3" unit="tablespoon" commodity="olive_oil">3 Tablespoonfuls of the Best Olive Oil.</measure></ingredient></item>
-        <item><ingredient type="liquid"><measure type="volume" quantity="1" unit="tablespoon" commodity="vinegar">1 Tablespoonful of Vinegar, According to Taste.</measure></ingredient></item>
-        <item><ingredient type="spice"><measure type="amount" quantity="¼" unit="teaspoon" commodity ="salt">¼ Teaspoonful of Salt.</measure></ingredient></item>
-        <item><ingredient type="spice"><measure type="amount" quantity="¼" unit="teaspoon" commodity ="black_pepper">¼ Teaspoonful of Black Pepper.</measure></ingredient></item>
-      </list>
-      <p>
-        First put the <ingredient type="fat">oil</ingredient> into a small bowl.
-        Then add gradually the <ingredient type="spice">salt</ingredient> and <ingredient type="spice">pepper</ingredient> until all are thoroughly mixed.
-        Then add gradually the <ingredient type="spice">vinegar</ingredient>, stirring continually for about a minute.
-        It is now ready to pour over the salad, and remember that it must be mixed thoroughly.
-        The proportion of vinegar varies according to the salad to be dressed.
-        <div type="recipe_addition” corresp=“#pic22.28_lettuce_salad">Lettuce salad</div> requires but little; <div type="recipe_addition" corresp="#pic22.33_tomato_salad">tomato salad</div>, <div type="recipe_addition" corresp="#pic22.21_corn_salad">corn salad</div> or <foreign xml:id="fr">Doucette</foreign> requires more.
-        Serve this dressing with <ingredient type="vegetable">lettuce</ingredient>, <ingredient type="fruits">tomato</ingredient>, <ingredient type="vegetable">onion</ingredient>, <ingredient type="vegetable">cucumber</ingredient> and other vegetables and green salads.
-      </p>
+      <div type="ingredientList">
+        <list>
+         <item>3 Tablespoonfuls of the Best<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil.</ingredient></item>
+         <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Vinegar</ingredient>According to Taste</item>
+         <item>¼ Teaspoonful of<ingredient  xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt.</ingredient></item>
+         <item>¼ Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Black Pepper.</ingredient></item>
+        </list>
+      </div>
+      <div type="instructions">
+        <p>
+          First put the oil into a small bowl.
+          Then add gradually the salt and pepper until all are thoroughly mixed.
+          Then add gradually the vinegar, stirring continually for about a minute.
+          It is now ready to pour over the salad, and remember that it must be mixed thoroughly.
+          The proportion of vinegar varies according to the salad to be dressed.
+          <name xml:id="#pic22.28_lettuce_salad">Lettuce salad</name> requires but little; <name corresp="#pic22.33_tomato_salad">tomato salad</name>, <name corresp="#pic22.21_corn_salad">corn salad</name> or <foreign xml:id="fr">Doucette</foreign> requires more.
+          Serve this dressing with lettuce, tomato, onion, cucumber and other vegetables and green salads.
+        </p>
+      </div>
     </div>
 
     <div type="recipe" xml:id="pic22.2_french_dressing_2">
       <head type="main" rend="slant(bold) align(center)">French Dressing No. 2.</head>
       <head type="sub" rend="align(center)"><foreign xml:lang="fr">Assaisonment Français.</foreign></head>
-      <list>
-        <item><ingredient type="fat"><measure type="volume" quantity="3" unit="tablespoon" commodity="oil">3 Tablespoonfuls of Oil.</measure></ingredient></item>
-        <item><ingredient type="spice"><measure type="volume" quantity="1" unit="tablespoon" commodity="tarragon_vinegar">1 Tablespoonful of Tarragon Vinegar</measure></ingredient></item>
-        <item><ingredient type="spice"><measure type="amount" quantity="1" unit="saltspoon" commodity="black_pepper">A Saltspoon Each of Black Pepper</measure></ingredient> and <ingredient type="spice"><measure type="amount" quantity="1" unit="saltspoon" commodity="salt">Salt.</measure></ingredient></item>
-        <item><ingredient type="vegetable"><measure type="item" commodity="onion">Chopped Onion</measure></ingredient>and<ingredient type="herb"><measure type="item" commodity="parsley">Parsley</measure></ingredient></item>
-        <item><ingredient type="vegetable">The Juice of Half an Onion.</ingredient></item>
-      </list>
-      <p>
-        Mix these in the order given above, adding the <ingredient type="vegetable">onion juice</ingredient> and <ingredient type="herb">parsley</ingredient>, well chopped, last.
-        This is a more elaborate French dressing.
-        Serve with the same salads as above.
-        The <ingredient type="fat">oil</ingredient> may be omitted for those who do not like it, but it will be no longer in either of these recipes a French Dressing.
-        The <name>Creoles</name> hold that the oil is a very healthy, digestible and essential ingredient.
-      </p>
+      <div type="ingredientList">
+        <list>
+          <item>3 Tablespoonfuls of <ingredient class="fat">Oil.</ingredient></item>
+          <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Tarragon Vinegar</ingredient></item>
+          <item>A Saltspoon Each of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Black Pepper</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt.</ingredient></item>
+          <item>Chopped<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion</ingredient>and<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient></item>
+          <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">The Juice of Half an Onion.</ingredient></item>
+        </list>
+      </div>
+      <div type="instructions">
+        <p>
+          Mix these in the order given above, adding the onion juice and parsley, well chopped, last.
+          This is a more elaborate French dressing.
+          Serve with the same salads as above.
+          The oil may be omitted for those who do not like it, but it will be no longer in either of these recipes a French Dressing.
+          The <name>Creoles</name> hold that the oil is a very healthy, digestible and essential ingredient.
+        </p>
+      </div>
     </div>
 
     <div type="recipe" xml:id="pic22.3_mustard_dressing">
       <head type="main" rend="slant(bold) align(center)">Mustard Dressing.</head>
       <head type="sub" rend="align(center)"><foreign xml:lang="fr">Assaisonment à la Moutarde.</foreign></head>
-      <list>
-        <item><ingredient type="spice"><measure type="volume" quantity="1" unit="tablespoon" commodity="vinegar">1 Tablespoonful of Vinegar</measure></ingredient></item>
-        <item><ingredient type="spice"><measure type="volume" quantity="1" unit="teaspoon" commodity="mustard">1 Teaspoonful of Prepared Mustard</measure></ingredient></item>
-        <item><ingredient type="fat"><measure type="volume" quantity="2" unit="tablespoon" commodity="olive_oil">2 Tablespoonfuls of Olive Oil.</measure></ingredient></item>
-        <item><ingredient type="eggs"><measure type="amount" quantity="1" unit="item" commodity="egg">The Yolk of 1 Egg, if Desired.</measure></ingredient></item>
-        <item><ingredient type="spice">Salt</ingredient> and <ingredient type="spice">Pepper</ingredient> to Taste.</item>
-      </list>
-      <p>
-        Blend the <ingredient type="spice">mustard</ingredient> and the <ingredient type="fat">oil</ingredient>, adding the latter, drop by drop at first, and then proceeding more confidently.
-        Whenever the dressing appears to be curdling, add a few drops of <ingredient type="spice">vinegar</ingredient>, and work rapidly till it becomes smooth again.
-        Add the <ingredient type="spice">salt</ingredient> and <ingredient type="spice">pepper</ingredient>, and when the dressing is finished, use it for <div type="recipe_addition” corresp=“#pic22.14_celery_salad">celery salad</div>, <ingredient type="fish">fish</ingredient>, <ingredient type="fruits">tomatoes</ingredient>, <ingredient type="vegetable">potatoes</ingredient>, etc.
-        If the oil appears to separate from the other ingredients, it can always be rubbed into them smoothly again by adding a few drops of vinegar.
-        In all these salads the question of oil and its measurements can only be approximated.
-        Good judgment must always be the final test.
-      </p>
+      <div type="ingredientList">
+        <list>
+          <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vinegar</ingredient></item>
+          <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="condiment">Prepared Mustard</ingredient></item>
+          <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat"><measure type="volume" quantity="2" unit="tablespoon" commodity="olive_oil">2 Tablespoonfuls of Olive Oil.</measure></ingredient></item>
+          <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><measure type="amount" quantity="1" unit="item" commodity="egg">The Yolk of 1 Egg, if Desired.</measure></ingredient></item>
+          <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+        </list>
+       </div>
+      <div type="instructions">
+        <p>
+          Blend the mustard and the oil, adding the latter, drop by drop at first, and then proceeding more confidently.
+          Whenever the dressing appears to be curdling, add a few drops of vinegar, and work rapidly till it becomes smooth again.
+          Add the salt and pepper, and when the dressing is finished, use it for <div type="recipe_addition” corresp=“#pic22.14_celery_salad">celery salad</div>, fish, tomatoes, potatoes, etc.
+          If the oil appears to separate from the other ingredients, it can always be rubbed into them smoothly again by adding a few drops of vinegar.
+          In all these salads the question of oil and its measurements can only be approximated.
+          Good judgment must always be the final test.
+        </p>
+      </div>
     </div>
 
 <pb n="158"/>
@@ -204,139 +219,168 @@
   <div type="recipe" xml:id="pic22.4_creole_french_dressing">
     <head type="main" rend="slant(bold) align(center)">Creole French Dressing.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Assaisonment à la Créole.</foreign></head>
-    <list>
-      <item><ingredient type="fat"><measure type="volume" quantity="3" unit="tablespoon" commodity="olive_oil">3 Tablespoonfuls of the Best Olive Oil.</measure></ingredient></item>
-      <item><ingredient type="spice"><measure type="volume" quantity="1" unit="tablespoon" commodity="vinegar">1 Tablespoonful of Vinegar.</measure></ingredient></item>
-      <item><ingredient type="spice"><measure type="volume" quantity="1" unit="teaspoon" commodity="mustard">1 Teaspoonful of Prepared Mustard</measure></ingredient></item>
-      <item><ingredient type="eggs"><measure type="amount" quantity="1" unit="item" commodity="egg">The Yolk of a Hard-Boiled Egg.</measure></ingredient></item>
-      <item><ingredient type="spice">Salt</ingredient> and <ingredient type="spice">Pepper</ingredient> to Taste.</item>
-    </list>
-    <p>
-      Blend the <ingredient type="fat">oil</ingredient> and <ingredient type="spice">salt</ingredient> and <ingredient type="spice">pepper</ingredient> in the manner above indicated, and then add these to the <ingredient type="spice">mustard</ingredient> drop by drop, alternating with the <ingredient type="spice">vinegar</ingredient>.
-      When well blended add the well-mashed <ingredient type="egg">yolk of a hard-boiled egg</ingredient>.
-      Stir well, and serve with <div type="recipe_addition” corresp=“#pic22.28_lettuce_salad">lettuce</div>, <div type="recipe_addition" corresp="#pic22.14_celery_salad">celery</div> or <div type="recipe_addition" corresp="#pic22.39_potato_salad">potato salad</div>.
-    </p>
+    <div type="ingredientList">
+      <list>
+        <item>3 Tablespoonfuls of the Best <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil.</ingredient></item>
+        <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vinegar.</ingredient></item>
+        <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="condiment">Prepared Mustard</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Yolk of a Hard-Boiled Egg.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+      </list>
+    </div>
+    <div type="instructions">
+      <p>
+        Blend the oil and salt and pepper in the manner above indicated, and then add these to the mustard drop by drop, alternating with the vinegar.
+        When well blended add the well-mashed yolk of a hard-boiled egg.
+        Stir well, and serve with <name xml:id="pic22.28_lettuce_salad">lettuce</name>, <name xml:id="pic22.14_celery_salad">celery</name> or <name xml:id="pic22.39_potato_salad">potato salad</name>.
+      </p>
+    </div>
   </div>
 
   <div type="recipe" xml:id="pic22.5_mayonnaise_dressing">
     <head type="main" rend="slant(bold) align(center)">Mayonnaise Dressing.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Sauce Mayonnaise.</foreign></head>
-    <list>
-      <item><ingredient type="eggs"><measure type="amount" quantity="1" unit="item" commodity="egg">Yolk of 1 Egg.</measure></ingredient></item>
-      <item><ingredient type="fat">Sweet Oil.</ingredient></item>
-      <item><ingredient type="fruits">Lemon.</ingredient></item>
-      <item><ingredient type="spice">Vinegar.</ingredient></item>
-      <item><ingredient type="spice">Pepper</ingredient> and <ingredient type="spice">Salt.</ingredient></item>
-    </list>
-    <p>
-      Take the <ingredient type="eggs">yolk of one fresh egg</ingredient>, raw, and put it in a bowl.
-      The egg and the <ingredient type="fat">oil</ingredient> must be cold, and in summer it is well to keep the soup plate in which you make the dressing on cracked ice in a pan, so that the oil will not run.
-      Put the yolk in a plate; add, drop by drop, a little sweet oil from the bottle.
-      When you have dropped about a spoonful being careful to work it into the yolk of the egg drop by drop and blend all the time, take a <ingredient type="fruits">lemon</ingredient> and drop a few drops into the mixture.
-      It will at once begin to harden as you stir it in.
-      Continue stirring till the egg grows hard, and then steadily, drop by drop, let the oil fall, working it all the time with your fork into the egg.
-      Have another spoon, begin to drop in the lemon juice, working it the same way again till it hardens the egg.
-      Then begin again with the oil and work again, and again drop the lemon till you have the juice of half a lemon and about <measure type="volume" quantity="2" unit="gills" commodity="oil">two gills of oil</measure>, finishing with the oil.
-      When the egg begins to curdle, add a little salt, but do not add this salt till the Mayonnaise is complete.
-      Serve very cold, with salads, etc.
-      Mayonnaise is the standing sauce for <div type="recipe_addition" corresp="#pic22.16_chicken_salad">chicken salad</div>, <div type="recipe_addition" corresp="#pic22.42_shrimp_salad">shrimp salad</div>, <div type="recipe_addition" corresp="#pic22.18_crab_salad_à_la_mayonnaise">crab salad</div>, etc.
-      When making for these large salads, as a garnish use <measure type="amount" quantity="3" unit="item" commodity="egg">three yolks of eggs</measure> and other ingredients in proportion.
-    </p>
+    <div type="ingredientList">
+      <list>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Yolk of 1 Egg.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Sweet Oil.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Vinegar.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt.</ingredient></item>
+      </list>
+     </div>
+    <div type="instructions">
+      <p>
+        Take the yolk of one fresh egg, raw, and put it in a bowl.
+        The egg and the oil must be cold, and in summer it is well to keep the soup plate in which you make the dressing on cracked ice in a pan, so that the oil will not run.
+        Put the yolk in a plate; add, drop by drop, a little sweet oil from the bottle.
+        When you have dropped about a spoonful being careful to work it into the yolk of the egg drop by drop and blend all the time, take a lemon and drop a few drops into the mixture.
+        It will at once begin to harden as you stir it in.
+        Continue stirring till the egg grows hard, and then steadily, drop by drop, let the oil fall, working it all the time with your fork into the egg.
+        Have another spoon, begin to drop in the lemon juice, working it the same way again till it hardens the egg.
+        Then begin again with the oil and work again, and again drop the lemon till you have the juice of half a lemon and about two gills of oil, finishing with the oil.
+        When the egg begins to curdle, add a little salt, but do not add this salt till the Mayonnaise is complete.
+        Serve very cold, with salads, etc.
+        Mayonnaise is the standing sauce for <name xml:id="pic22.16_chicken_salad">chicken salad</name>, <name xml:id="pic22.42_shrimp_salad">shrimp salad</name>, <name xml:id="pic22.18_crab_salad_à_la_mayonnaise">crab salad</name>, etc.
+        When making for these large salads, as a garnish use three yolks of eggs and other ingredients in proportion.
+      </p>
+     </div>
   </div>
 
   <div type="recipe" xml:id="pic22.6_rémoulade_dressing">
     <head type="main" rend="slant(bold) align(center)">Rémoulade Dressing.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Sauce Rémoulade.</foreign></head>
-    <list>
-      <item><ingredient type="eggs"><measure type="amount" quantity="3" unit="item" commodity="egg">3 Hard-Boiled Eggs.</measure></ingredient></item>
-      <item><ingredient type="eggs"><measure type="amount" quantity="1" unit="item" commodity="egg">1 Raw Yolk of Egg.</measure></ingredient></item>
-      <item><ingredient type="spice"><measure type="volume" quantity="1" unit="tablespoon" commodity="tarragon_vinegar">1 Tablespoonful of Tarragon Vinegar.</measure></ingredient></item>
-      <item><ingredient type="fat"><measure type="volume" quantity="3" unit="tablespoon" commodity="olive_oil">3 Tablespoonfuls of Olive Oil.</measure></ingredient></item>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="½" unit="clove" commodity="garlic">½ Clove of Garlic, Minced Very Fine.</measure></ingredient></item>
-      <item><ingredient type="spice"><measure type="amount" quantity="½" unit="teaspoon" commodity="mustard">½ Teaspoonful of Prepared Mustard.</measure></ingredient></item>
-      <item><ingredient type="spice">Salt</ingredient>and<ingredient type="spice">Cayenne</ingredient>to taste</item>
-    </list>
-    <p>
-      A Rémoulade is a cold sauce. And is always served with cold meats.
-      Boil the <ingredient type="eggs">eggs</ingredient> till hard. Remove the shells and set aside the whites, which you
+    <div type="ingredientList">
+      <list>
+        <item>3 Hard-Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+        <item>1 Raw<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Yolk of Egg.</ingredient></item>
+        <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Tarragon Vinegar.</ingredient></item>
+        <item>3 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil.</ingredient></item>
+        <item>½ Clove of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Garlic</ingredient>,Minced Very Fine.</item>
+        <item>½ Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="condiment">Prepared Mustard.3</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>and<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient>to taste</item>
+      </list>
+     </div>
+    <div type="instructions">
+      <p>
+        A Rémoulade is a cold sauce. And is always served with cold meats.
+        Boil the eggs till hard. 
+        Remove the shells and set aside the whites, which you
 <!-- column 2-->
   <cb n="2"/>
       will have crumbled fine for a garnish.
       Put the yolks into a bowl, and mash very fine, till perfectly smooth.
-      Add the <ingredient type="spice">mustard</ingredient>, and mix well, and the seasonings of <ingredient type="spice">vinegar</ingredient> and <ingredient type="spice">salt</ingredient> and <ingredient type="spice">Cayenne</ingredient> to taste.
-      Then add the <ingredient type="fat">olive oil</ingredient>, drop by drop, working in the egg all the time, and then add the yolk of the raw egg, and work in thoroughly, till light.
-      Then add the <ingredient type="fruits">juice of half a lemon</ingredient>.
+      Add the mustard, and mix well, and the seasonings of vinegar and salt and Cayenne to taste.
+      Then add the olive oil, drop by drop, working in the egg all the time, and then add the yolk of the raw egg, and work in thoroughly, till light.
+      Then add the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit juice">juice of half a lemon</ingredient>.
       Mix well, increasing the quantity of oil or vinegar, according to taste, very slightly.
       If the sauce is not thoroughly mixed, it will curdle.
       It is now ready to be served with cold meats, fish or salads.
     </p>
+   </div>
   </div>
 
   <div type="recipe" xml:id="pic22.7_vinaigrette_dressing">
     <head type="main" rend="slant(bold) align(center)">Vinaigrette Dressing.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Sauce Vinaigrette.</foreign></head>
-    <list>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="12" unit="item" commodity="shallot">12 Shallots.</measure></ingredient></item>
-      <item><ingredient type="spice"><measure type="volume" quantity="2" unit="tablespoons" commodity="vinegar">2 Tablespoonfuls of Vinegar.</measure></ingredient></item>
-      <item><ingredient type="fat"><measure type="volume" quantity="5" unit="tablespoons" commodity="oil">5 Tablespoonfuls of Oil.</measure></ingredient></item>
-      <item><ingredient type="herb"><measure type="amount" quantity="2" unit="tablespoons" commodity="parsley">2 Tablespoonfuls of Chopped Parsley.</measure></ingredient></item>
-      <item><ingredient type="spice">Salt</ingredient>and<ingredient type="spice">Pepper</ingredient>to Taste</item>
-    </list>
-    <p>
-      Mix all together, as in a <div type="recipe_addition" corresp="#pic30.56_ravigote_sauce_cold">Sauce Ravigote, cold (see recipe)</div>, and add the <ingredient type="fat">oil</ingredient> and <ingredient type="spice">vinegar</ingredient>;
-      serve cold, with cold boiled meat, cold boiled fish, etc.
-    </p>
+    <div type="ingredientList">
+      <list>
+        <item>12<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Shallots.</ingredient></item>
+        <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Vinegar.</ingredient></item>
+        <item>5 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Oil.</ingredient></item>
+        <item>2 Tablespoonfuls of Chopped <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>and<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient>to Taste</item>
+      </list>
+     </div>
+     <div type="instructions">
+      <p>
+        Mix all together, as in a Sauce Ravigote, cold <ptr target="#pic30.56_ravigote_sauce_cold">(see recipe)</ptr>, and add the oil and vinegar;
+        serve cold, with cold boiled meat, cold boiled fish, etc.
+      </p>
+     </div>
   </div>
 
   <div type="recipe" xml:id="pic22.8_anchovy_salad">
     <head type="main" rend="slant(bold) align(center)">Anchovy Salad.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade d’Anchois.</foreign></head>
-    <list>
-      <item><ingredient type="fish"><measure type="amount" quantity="1" unit="box" commodity="anchovy">1 Box of Anchovies.</measure></ingredient></item>
-      <item>A Plain French Dressing.</item>
-    </list>
-    <p>
-      Cut the <ingredient type="fish">sardines</ingredient> into pieces of about an inch in length.
-      Season nicely with a <div type ="recipe_addition" corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing</div> and serve.
-      This is a delicious luncheon dish.
-    </p>
+    <div type="ingredientList">
+      <list>
+        <item>1 Box of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Anchovies.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
+      </list>
+     </div>
+     <div type="instructions">
+      <p>
+        Cut the sardines into pieces of about an inch in length.
+        Season nicely with a French Dressing and serve.
+        This is a delicious luncheon dish.
+      </p>
+     </div>
   </div>
 
   <div type="recipe" xml:id="pic22.9_artichoke_salad">
     <head type="main" rend="slant(bold) align(center)">Artichoke Salad.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Artichauts en Salade.</foreign></head>
-    <list>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="artichoke">1 Pint of Cold Boiled Artichokes.</measure></ingredient></item>
-      <item><ingredient type="spice"><measure type="volume" quantity="1" unit="teaspoon" commodity="vinegar">1 Teaspoonful of Vinegar</measure></ingredient></item>
-      <item><ingredient type="herb"><measure type="amount" quantity="1" unit="teaspoon" commodity="parsley">1 Teaspoonful of Chopped Parsley.</measure></ingredient></item>
-      <item>French Dressing.</item>
-    </list>
-    <p>
-        Boil the <ingredient type="vegetable">Artichokes.</ingredient> <div type="recipe_addition" corresp="#pic29.1_french_artichokes_boiled">(See recipe)</div>.
-        When cold, peel them and cut into quarters.
-        Add <ingredient type="herb">chopped parsley</ingredient> and the French dressing; mix, and serve very cold.
-    </p>
+    <div type="ingredientList">
+      <list>
+        <item>1 Pint of Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Artichokes.</ingredient></item>
+        <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vinegar</ingredient></item>
+        <item>1 Teaspoonful of Chopped<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corres="#pic22.1_plain_french_dressings_for_salads">French Dressing.</ingredient></item>
+      </list>
+     </div>
+     <div type="instructions">
+      <p>
+          Boil the Artichokes.<ptr corresp="#pic29.1_french_artichokes_boiled">(See recipe)</ptr>.
+          When cold, peel them and cut into quarters.
+          Add chopped parsley and the French dressing; mix, and serve very cold.
+      </p>
+   </div>
   </div>
 
   <div type="recipe" xml:id="pic22.10_tips_of_asparagus_salad">
     <head type="main" rend="slant(bold) align(center)">Tips of Asparagus Salad.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pointes d’Asperges en Salade.</foreign></head>
-    <list>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="asparagus">1 Pint of Asparagus Tips.</measure></ingredient></item>
-      <item>A Plain French Dressing.</item>
-    </list>
-    <p>
-      Boil the Asparagus tips. <div type="recipe_addition" corresp="#pic29.8_boiled_asparagus">(See recipe.)</div>
-      When cold, place on a dish and garnish nicely.
-      Serve very cold, with French Dressing.
-    </p>
+    <div type="ingredientList">
+      <list>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="asparagus">1 Pint of Asparagus Tips.</measure></ingredient></item>
+        <item>A Plain French Dressing.</item>
+      </list>
+     </div>
+    <div type="instructions">
+      <p>
+        Boil the Asparagus tips. <ptr corresp="#pic29.8_boiled_asparagus">(See recipe.)</ptr>
+        When cold, place on a dish and garnish nicely.
+        Serve very cold, with French Dressing.
+      </p>
+     </div>
   </div>
 
   <div type="recipe" xml:id="pic22.11_bean_salad">
     <head type="main" rend="slant(bold) align(center)">Bean Salad.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade d’Haricots.</foreign></head>
     <list>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="beans">1 Pint of Cold Beans.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="beans">1 Pint of Cold Beans.</measure></ingredient></item>
       <item>Vinaigrette Sauce.</item>
     </list>
     <p>
@@ -352,12 +396,12 @@
     <head type="main" rend="slant(bold) align(center)">Beet Salad.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Betteraves.</foreign></head>
     <list>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="4" unit="item" commodity="red_beets">4 Large Red Beets.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"><measure type="amount" quantity="4" unit="item" commodity="red_beets">4 Large Red Beets.</measure></ingredient></item>
       <item>French Dressing.</item>
     </list>
     <p>
-      Boil the <ingredient type="vegetable">beets</ingredient> till done, and then peel and slice nicely.
-      Set them to cool and pour over them a French dressing or a plain dressing of <ingredient type="spice">vinegar</ingredient>, <ingredient type="spice">salt</ingredient> and <ingredient type="spice">pepper.</ingredient>
+      Boil the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">beets</ingredient> till done, and then peel and slice nicely.
+      Set them to cool and pour over them a French dressing or a plain dressing of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">vinegar</ingredient>, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">pepper.</ingredient>
       This is a nice spring or winter salad in New Orleans.
     </p>
   </div>
@@ -366,17 +410,17 @@
     <head type="main" rend="slant(bold) align(center)">Cauliflower Salad.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Chou-fleur à la Vinaigrette.</foreign></head>
     <list>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="cauliflower">1 Pint of Boiled Cauliflower.</measure></ingredient></item>
-      <item><ingredient type="herb"><measure type="amount" quantity="1" unit="teaspoon" commodity="parsley">1 Teaspoonful of Chopped Parsley.</measure></ingredient></item>
-      <item><ingredient type="spice"><measure type="volume" quantity="1" unit="teaspoon" commodity="tarragon_vinegar">1 Teaspoonful of Tarragon Vinegar.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="cauliflower">1 Pint of Boiled Cauliflower.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb"><measure type="amount" quantity="1" unit="teaspoon" commodity="parsley">1 Teaspoonful of Chopped Parsley.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice"><measure type="volume" quantity="1" unit="teaspoon" commodity="tarragon_vinegar">1 Teaspoonful of Tarragon Vinegar.</measure></ingredient></item>
       <item>A French Dressing (plain).</item>
     </list>
     <p>
-      Boil the <ingredient type="vegetable">cauliflower</ingredient> as directed. <div type =“recipe_addition” corresp=“#pic29.46_boiled_cauliflower_cream_sauce”>(See recipe.)</div><!--please check number of referenced recipe again-->
-      Then separate the flowerets; mix them with <ingredient type="herb">parsley</ingredient>, and cut the remainder very fine and mix also.
+      Boil the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">cauliflower</ingredient> as directed. <div type =“recipe_addition” corresp=“#pic29.46_boiled_cauliflower_cream_sauce”>(See recipe.)</div><!--please check number of referenced recipe again-->
+      Then separate the flowerets; mix them with <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">parsley</ingredient>, and cut the remainder very fine and mix also.
       Let it cool.
-      Serve with a French dressing, after adding first an extra teaspoonful of <ingredient type="spice">Tarragon vinegar.</ingredient>
-      This is a famous and very popular <name>Creole</name> way of serving <ingredient type="vegetable">cauliflower.</ingredient>
+      Serve with a French dressing, after adding first an extra teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Tarragon vinegar.</ingredient>
+      This is a famous and very popular <name>Creole</name> way of serving <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">cauliflower.</ingredient>
     </p>
   </div>
 
@@ -384,13 +428,13 @@
     <head type="main" rend="slant(bold) align(center)">Celery Salad.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Celeri.</foreign></head>
     <list>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="french_celery">1 Pint of Crisp French Celery.</measure></ingredient></item>
-      <item><ingredient type="eggs"><measure type="amount" quantity="2" unit="item" commodity="egg">2 Hard-Boiled Eggs.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="french_celery">1 Pint of Crisp French Celery.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><measure type="amount" quantity="2" unit="item" commodity="egg">2 Hard-Boiled Eggs.</measure></ingredient></item>
       <item>French Dressing.</item>
     </list>
     <p>
-      Cut the <ingredient type="vegetable">celery</ingredient> into pieces of about a quarter of an inch.
-      Chop <ingredient type="eggs"><measure type="amount" quantity="2" unit="item" commodity="egg">two hardboiled eggs</measure></ingredient>, not too fine, and mix well within the <ingredient type="vegetable">chopped celery</ingredient>.
+      Cut the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">celery</ingredient> into pieces of about a quarter of an inch.
+      Chop <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><measure type="amount" quantity="2" unit="item" commodity="egg">two hardboiled eggs</measure></ingredient>, not too fine, and mix well within the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">chopped celery</ingredient>.
       Blend all with French dressing and serve.
       This is a delicious salad.
     </p>
@@ -400,13 +444,13 @@
     <head type="main" rend="slant(bold) align(center)">Celery Mayonnaise.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Mayonnaise de Celeri.</foreign></head>
     <list>
-      <item><ingredient type="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="white_celery">1 Pint of Crisp White Celery.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"><measure type="amount" quantity="1" unit="pint" commodity="white_celery">1 Pint of Crisp White Celery.</measure></ingredient></item>
       <item>A Mayonnaise Sauce.</item>
     </list>
     <p>
-      Chop the <ingredient type="vegetable">celery</div>, or rather cut fine, as indicated in the above recipe.
+      Chop the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">celery</div>, or rather cut fine, as indicated in the above recipe.
       Mix the <div type="recipe_addition" corresp="#pic30.44_mayonnaise_sauce">Mayonnaise</div><!--to check referenced recipe number again--> with it.
-      Garnish nicely with <ingredient type="vegetable">celery tips</ingredient> and serve.
+      Garnish nicely with <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">celery tips</ingredient> and serve.
       The <div type="recipe_addition" corresp="#pic22.3_mustard_dressing">mustard dressing</div> is even nicer than the Mayonnaise for this salad.
     </p>
   </div>
@@ -415,11 +459,11 @@
     <head type="main" rend="slant(bold) align(center)">Chervil Salad.</head>
     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Cerfeuil.</foreign></head>
     <list>
-      <item><ingredient type="herb"><measure type="amount" quantity="1" unit="pint" commodity="chervil">1 Pint of Chervil.</measure></ingredient></item>
+      <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb"><measure type="amount" quantity="1" unit="pint" commodity="chervil">1 Pint of Chervil.</measure></ingredient></item>
       <item>A Plain French Dressing.</item>
     </list>
     <p>
-      <ingredient type="herb">Chervil</ingredient> is a delicious salad herb, much affected by <name>French</name> and <name>Creole</name> gourmets.
+      <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Chervil</ingredient> is a delicious salad herb, much affected by <name>French</name> and <name>Creole</name> gourmets.
       It is served cut fine between bits, in the same manner as <div type =“recipe_addition” corresp=“#pic22.28_lettuce_salad”>Lettuce Salad,</div> with a French Dressing.
     </p>
   </div>
@@ -434,7 +478,7 @@
       </list>
       <p type="instructions">
         Cut the chicken into small dice.
-        Chop half of the lettuce very fine, and season well with <ingredient type="spice">salt and pepper.</ingredient>
+        Chop half of the lettuce very fine, and season well with <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">salt and pepper.</ingredient>
         Make a bed of the remainder of the lettuce leaves, and place first a layer
 
 
@@ -458,7 +502,7 @@
      </list>
      <p type="instructions">
        Boil and pick crabs sufficient to give a pint of meat. <div type="recipe_addition">(See recipe for Boiling Crabs.)</div><!--needs recipe ID from recipe for Boiling Crabs-->
-       Season well with <ingredient type="spice">salt</ingredient> and <ingredient type="spice">pepper</ingredient>.
+       Season well with <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">pepper</ingredient>.
        Place in a dish, on a bed of crisp lettuce leaves, spreading over them the Mayonnaise Sauce, and garnish nicely with hard-boiled eggs, sliced beets and tips of celery.
      </p>
    </div>
@@ -657,7 +701,7 @@
       <head type="main" rend="slant(bold) align(center)">Okra Salad.</head>
       <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Fevi.</foreign></head>
       <list type="ingredientList">
-        <item><ingredient type="vegetable">4 Dozen Boiled Young Okras.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">4 Dozen Boiled Young Okras.</ingredient></item>
         <item><ingredient>French Dressing.</ingredient></item>
       </list>
       <p type="instructions">
@@ -676,8 +720,8 @@
         <head type="main" rend="slant(bold) align(center)">Spanish Salad.</head>
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à l’Espagnole.</foreign></head>
         <list type="ingredientList">
-          <item><ingredient type="vegetable">4 Sliced Tomatoes.</ingredient></item>
-          <item><ingredient type="vegetable">2 Dozen Pickled Onions.</ingredient></item>
+          <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">4 Sliced Tomatoes.</ingredient></item>
+          <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">2 Dozen Pickled Onions.</ingredient></item>
           <item><ingredient corres="#pic22.5_mayonnaise_dressing">½ Pint of Mayonnaise Dressing.</ingredient></item>
         </list>
         <p type="instructions">
@@ -690,7 +734,7 @@
         <head type="main" rend="slant(bold) align(center)">String Bean Salad.</head>
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Haricots Verts en Salade.</foreign></head>
         <list type="ingredientList">
-          <item><ingredient type="vegetable">1 Pint of Cold Boiled String Beans.</ingredient></item>
+          <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">1 Pint of Cold Boiled String Beans.</ingredient></item>
           <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing (plain).</ingredient></item>
         </list>
         <p type="instructions">
@@ -704,7 +748,7 @@
       <head type="main" rend="slant(bold) align(center)">Tomato Salad.</head>
       <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Tomates.</foreign></head>
       <list type="ingredientList">
-        <item><ingredient type="vegetable">4 Fresh Fine Tomatoes.</ingredient></item>
+        <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">4 Fresh Fine Tomatoes.</ingredient></item>
         <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing.</ingredient></item>
       </list>
       <p type="instructions">
@@ -723,7 +767,7 @@
         <head type="main" rend="slant(bold) align(center)">Iced Tomatoes.</head>
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Tomates Frappé.</foreign></head>
         <list type="ingredientList">
-          <item>6 Whole <ingredient type="vegetable">Tomatoes.</ingredient></item>
+          <item>6 Whole <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes.</ingredient></item>
           <item>1 Pint <ingredient corres="#pic30.44_mayonnaise_sauce">Mayonnaise Sauce.</ingredient></item>
           <item>A Garnish of Chopped Ice.</item>
         </list>
@@ -738,9 +782,9 @@
         <head type="main" rend="slant(bold) align(center)">Tomato, Green Pepper and Onion Salad.</head>
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à la Créole.</foreign></head>
         <list type="ingredientList">
-          <item>4<ingredient type="vegetable">Tomatoes.</ingredient></item>
-          <item>2<ingredient type="vegetable">Green Peppers.</ingredient></item>
-          <item>1<ingredient type="vegetable">Large Onion.</ingredient></item>
+          <item>4<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes.</ingredient></item>
+          <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peppers.</ingredient></item>
+          <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Large Onion.</ingredient></item>
           <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing, Plain.</ingredient></item>
         </list>
         <p type="instructions">
@@ -758,8 +802,8 @@
             <head type="main" rend="slant(bold) align(center)">Watercress Salad.</head>
             <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Cresson.</foreign></head>
             <list type="ingredientList">
-              <item>1 Pint of <ingredient type="vegetable">Watercress.</ingredient></item>
-              <item><ingredient type="vegetable">Minced Potato, if desired.</ingredient></item>
+              <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Watercress.</ingredient></item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Minced Potato, if desired.</ingredient></item>
               <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
             </list>
             <p type="instructions">
@@ -775,10 +819,10 @@
         <head type="main" rend="slant(bold) align(center)">The Gardener’s Wife Salad.</head>
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à la Jardiniére.</foreign></head>
         <list type="ingredientList">
-          <item>1<ingredient type="vegetable">Carrot.</ingredient></item>
-          <item>3<ingredient type="vegetable">Beets.</ingredient></item>
-          <item>½ Cup of<ingredient type="vegetable">Green Peas.</ingredient></item>
-          <item>1 Cup<ingredient type="vegetable">String Beans.</ingredient></item>
+          <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Carrot.</ingredient></item>
+          <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Beets.</ingredient></item>
+          <item>½ Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peas.</ingredient></item>
+          <item>1 Cup<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">String Beans.</ingredient></item>
           <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
         </list>
         <p type="instructions">
@@ -790,7 +834,7 @@
         <head type="main" rend="slant(bold) align(center)">Sardine Salad.</head>
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Sardines.</foreign></head>
         <list type="ingredientList">
-          <item>1 Box<ingredient type="seafood">Sardines.</ingredient></item>
+          <item>1 Box<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Sardines.</ingredient></item>
           <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
         </list>
         <p type="instructions">
@@ -804,9 +848,9 @@
         <head type="main" rend="slant(bold) align(center)">Potato Salad.</head>
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Pommes de Terre.</foreign></head>
         <list type="ingredientList">
-          <item>3 Large Cold Boiled<ingredient type="vegetable">Potatoes.</ingredient></item>
-          <item>2 Hard-Boiled<ingredient type="egg">Eggs.</ingredient></item>
-          <item>9 Tablespoonfuls of <ingredient type="fat">Olive Oil.</ingredient></item>
+          <item>3 Large Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potatoes.</ingredient></item>
+          <item>2 Hard-Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+          <item>9 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil.</ingredient></item>
           <item>3 Tablespoonfuls of <ingredient type="liquid">Vinegar.</ingredient></item>
           <item>1 Large<ingredient type="liquid">Onion</ingredient></item>
           <item>1 Teaspoonful of<ingredient type="seasoning">Salt.</ingredient></item>
@@ -830,14 +874,14 @@
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à la Russe.</foreign></head>
         <div type="ingredientList">
           <list>
-            <item>2<ingredient type="vegetable">Carrots.</ingredient></item>
-            <item>2<ingredient type="vegetable">Parsnips.</ingredient></item>
+            <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Carrots.</ingredient></item>
+            <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Parsnips.</ingredient></item>
             <item>1 Cup of Cold Minced <ingredient type="poultry">Fowl.</ingredient></item>
-            <item>3<ingredient type="seafood">Anchovies.</ingredient></item>
-            <item>1 Dozen<ingredient type="fruit">Olives.</ingredient></item>
-            <item>3<ingredient type="fruit">Caviares.</ingredient></item>
+            <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Anchovies.</ingredient></item>
+            <item>1 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Olives.</ingredient></item>
+            <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Caviares.</ingredient></item>
             <item>1 Tablespoonful of<ingredient corres="#">Sauce a la Tartare.</ingredient></item><!--find recipe ID-->
-            <item>1 Teaspoonful of<ingredient type="spice">Mustard</ingredient></item>
+            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Mustard</ingredient></item>
           </list>
         </div>
         <div type="instructions">
@@ -857,8 +901,8 @@
         <head type="main" rend="slant(bold) align(center)">Shrimp Salad</head>
         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Chevrette à la Mayonnaise.</foreign></head>
         <div type="ingredientList">
-          <item>2 Pints of Cold Boiled <ingredient type="seafood">Shrimp.</ingredient></item>
-          <item>1 Head of Crisp <ingredient type="vegetable">Lettuce.</ingredient></item>
+          <item>2 Pints of Cold Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Shrimp.</ingredient></item>
+          <item>1 Head of Crisp <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce.</ingredient></item>
           <item><ingredient corres="#pic30.44_mayonnaise_sauce">Mayonnaise Sauce.</ingredient></item>
         </div>
         <div type="instructions">
