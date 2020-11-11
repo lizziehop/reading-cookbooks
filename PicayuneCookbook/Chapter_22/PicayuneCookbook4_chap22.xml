@@ -186,7 +186,7 @@
              </p>
            </div>
          </div>
-     
+         
          <div type="recipe" xml:id="pic22.3_mustard_dressing">
            <head type="main" rend="slant(bold) align(center)">Mustard Dressing.</head>
            <head type="sub" rend="align(center)"><foreign xml:lang="fr">Assaisonment à la Moutarde.</foreign></head>
@@ -210,21 +210,21 @@
              </p>
            </div>
          </div>
-     
-     <pb n="158"/>
-       <cb n="1"/>
-     <!-- column 1 -->
-       <div type="recipe" xml:id="pic22.4_creole_french_dressing">
-         <head type="main" rend="slant(bold) align(center)">Creole French Dressing.</head>
-         <head type="sub" rend="align(center)"><foreign xml:lang="fr">Assaisonment à la Créole.</foreign></head>
-         <div type="ingredientList">
-           <list>
-             <item>3 Tablespoonfuls of the Best <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil.</ingredient></item>
-             <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vinegar.</ingredient></item>
-             <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="condiment">Prepared Mustard</ingredient></item>
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Yolk of a Hard-Boiled Egg.</ingredient></item>
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
-           </list>
+         
+         
+         <pb n="158"/>
+         <cb n="1"/>
+         <div type="recipe" xml:id="pic22.4_creole_french_dressing">
+          <head type="main" rend="slant(bold) align(center)">Creole French Dressing.</head>
+          <head type="sub" rend="align(center)"><foreign xml:lang="fr">Assaisonment à la Créole.</foreign></head>
+          <div type="ingredientList">
+            <list>
+              <item>3 Tablespoonfuls of the Best <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil.</ingredient></item>
+              <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vinegar.</ingredient></item>
+              <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="condiment">Prepared Mustard</ingredient></item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Yolk of a Hard-Boiled Egg.</ingredient></item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+            </list>
          </div>
          <div type="instructions">
            <p>
@@ -234,7 +234,7 @@
            </p>
          </div>
        </div>
-     
+         
        <div type="recipe" xml:id="pic22.5_mayonnaise_dressing">
          <head type="main" rend="slant(bold) align(center)">Mayonnaise Dressing.</head>
          <head type="sub" rend="align(center)"><foreign xml:lang="fr">Sauce Mayonnaise.</foreign></head>
@@ -263,7 +263,7 @@
              When making for these large salads, as a garnish use three yolks of eggs and other ingredients in proportion.
            </p>
           </div>
-       </div>
+       </div>  
      
        <div type="recipe" xml:id="pic22.6_rémoulade_dressing">
          <head type="main" rend="slant(bold) align(center)">Rémoulade Dressing.</head>
@@ -724,48 +724,58 @@
          <div type="recipe" xml:id="pic22.29_lettuce_salad">
            <head type="main" rend="slant(bold) align(center)">Lettuce Salad.</head>
            <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Laitue.</foreign></head>
-           <list type="ingredientList">
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">3 Heads of Lettuce.</item>
-             <item type="recipe_addition">French Dressing.</item><!--to check if this is the right ID-->
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">2 Eggs.</item>
-           </list>
-           <p type="instructions">
-             Take fresh, crisp lettuce of sufficient quantity for the number to be served, three young heads being enough for six.
-             Dip in cold water examining each leaf, and pick over carefully, and select the fresh crisp leaves.
-             Place all these in a salad bowl, and garnish nicely with sliced hard-boiled egg.
-             Never dress the lettuce before bringing to the table.
-             The vinegar causes the leaves to wilt utterly, and takes away all the relish which one experiences from looking at a fresh, crisp dish, and also spoils a fine table garnish.
-             Bring to the table, and let the sauce, always a plain French dressing or Creole dressing preferred, be made at the table.
-             Generally each makes the dressing to suit himself or herself, using proportions of greater or lesser quantity than those mentioned in the recipe.
-             If one person dresses the salad for the table, use the proportions given above in any of the French salad dressings for this amount of lettuce.
-             This is one of the nicest and most refreshing as well as one of the healthiest of all salads.
-           </p>
+           <div type="ingredientList">
+             <list>
+               <item>3 Heads of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce.</ingredient></item>
+               <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing.</ingredient></item><!--to check if this is the right ID-->
+               <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+             </list>
+            </div>
+           <div type="instructions">
+             <p>
+               Take fresh, crisp lettuce of sufficient quantity for the number to be served, three young heads being enough for six.
+               Dip in cold water examining each leaf, and pick over carefully, and select the fresh crisp leaves.
+               Place all these in a salad bowl, and garnish nicely with sliced hard-boiled egg.
+               Never dress the lettuce before bringing to the table.
+               The vinegar causes the leaves to wilt utterly, and takes away all the relish which one experiences from looking at a fresh, crisp dish, and also spoils a fine table garnish.
+               Bring to the table, and let the sauce, always a plain French dressing or Creole dressing preferred, be made at the table.
+               Generally each makes the dressing to suit himself or herself, using proportions of greater or lesser quantity than those mentioned in the recipe.
+               If one person dresses the salad for the table, use the proportions given above in any of the French salad dressings for this amount of lettuce.
+               This is one of the nicest and most refreshing as well as one of the healthiest of all salads.
+             </p>
+           </div>
          </div>
      
          <div type="recipe" xml:id="pic22.30_louisiana_salad">
            <head type="main" rend="slant(bold) align(center)">Louisiana Salad.</head>
            <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade Louisianaise.</foreign></head>
-           <list type="ingredientList">
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">2 Lettuce Heads.</item>
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">6 Pickled Cucumbers.</item>
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">2 Dozen Pickled Onions.</item>
-             <item type="recipe_addition" corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</item>
-           </list>
-           <p type="instructions">
-             Use, in this fancy salad, lettuce, pickled cucumbers, pickled onions, cut in dice, and serve with a French dressing.
-           </p>
+           <div type="ingredientList">
+             <list>
+               <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce</ingredient>Heads.</item>
+               <item>6<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickled Cucumbers.</ingredient></item>
+               <item>2 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickled Onions.</ingredient></item>
+               <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
+             </list>
+            </div>
+           <div type="instructions">
+             <p>
+               Use, in this fancy salad, lettuce, pickled cucumbers, pickled onions, cut in dice, and serve with a French dressing.
+             </p>
+           </div>
          </div>
      
          <div type="recipe" xml:id="pic22.31_okra_salad">
            <head type="main" rend="slant(bold) align(center)">Okra Salad.</head>
            <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Fevi.</foreign></head>
-           <list type="ingredientList">
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">4 Dozen Boiled Young Okras.</ingredient></item>
-             <item><ingredient>French Dressing.</ingredient></item>
-           </list>
-           <p type="instructions">
-             Boil the okra as directed. <item div type="recipe_addition">(See recipe.)</div> When cold, dress nicely with
-             <!--to add recipe ID for boiled okra-->
+           <div type="ingredientList">
+            <list>
+              <item>4 Dozen Boiled Young<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Okras.</ingredient></item>
+              <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing.</ingredient></item>
+            </list>
+           </div>
+           <div type="instructions">
+            <p>
+              Boil the okra as directed. <ptr target="#">(See recipe.)</ptr> When cold, dress nicely with <!--recipe ID for boiled okra needed-->
      
      <pb n="161"/>
      <cb n="1"/>
@@ -773,157 +783,192 @@
              vinegar, salt and pepper, or, if preferred, the plain French dressing, and serve very cold. 
              This is a most delightful summer salad, the okra being very cooling in our tropical climate.
            </p>
+          </div>
          </div>
            
-           <div type="recipe" xml:id="pic22.32_spanish_salad">
-             <head type="main" rend="slant(bold) align(center)">Spanish Salad.</head>
-             <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à l’Espagnole.</foreign></head>
-             <list type="ingredientList">
-               <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">4 Sliced Tomatoes.</ingredient></item>
-               <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">2 Dozen Pickled Onions.</ingredient></item>
-               <item><ingredient corres="#pic22.5_mayonnaise_dressing">½ Pint of Mayonnaise Dressing.</ingredient></item>
-             </list>
-             <p type="instructions">
+         <div type="recipe" xml:id="pic22.32_spanish_salad">
+            <head type="main" rend="slant(bold) align(center)">Spanish Salad.</head>
+            <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à l’Espagnole.</foreign></head>
+            <div type="ingredientList">
+              <list>
+                <item>4 Sliced<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes.</ingredient></item>
+                <item>2 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickled Onions.</ingredient></item>
+                <item>½ Pint of<ingredient corres="#pic22.5_mayonnaise_dressing">Mayonnaise Dressing.</ingredient></item>
+               </list>
+            </div>
+            <div type="instructions">
+             <p>
                This is a very much affected salad, made of sliced tomatoes and pickled onions, <!--what is an affected salad? Fancy?-->
                prettily arranged around a small bed of Mayonnaise heaped in the center.
              </p>
+            </div>
            </div>
      
            <div type="recipe" xml:id="pic22.33_string_bean_salad">
              <head type="main" rend="slant(bold) align(center)">String Bean Salad.</head>
              <head type="sub" rend="align(center)"><foreign xml:lang="fr">Haricots Verts en Salade.</foreign></head>
-             <list type="ingredientList">
-               <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">1 Pint of Cold Boiled String Beans.</ingredient></item>
-               <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing (plain).</ingredient></item>
-             </list>
-             <p type="instructions">
-               Only very young and tender beans should be used for this salad. 
-               Boil as directed under the heading “Vegetables” and put the beans in a salad bowl and allow to cool well. <!--to add recipe ID-->
-               Serve with a plain French dressing of vinegar and a dash of Cayenne.
-             </p>
+             <div type="ingredientList">
+               <list>
+                 <item>1 Pint of Cold Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">String Beans.</ingredient></item>
+                 <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing (plain).</ingredient></item>
+               </list>
+             </div>
+             <div type="instructions">
+               <p>
+                 Only very young and tender beans should be used for this salad. 
+                 Boil as <ptr target="#">directed under the heading “Vegetables”</ptr> and put the beans in a salad bowl and allow to cool well. <!--to add recipe ID-->
+                 Serve with a plain French dressing of vinegar and a dash of Cayenne.
+               </p>
+             </div>
            </div>
      
          <div type ="recipe" xml:id="pic22.34_tomato_salad">
            <head type="main" rend="slant(bold) align(center)">Tomato Salad.</head>
            <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Tomates.</foreign></head>
-           <list type="ingredientList">
-             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">4 Fresh Fine Tomatoes.</ingredient></item>
-             <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing.</ingredient></item>
-           </list>
-           <p type="instructions">
-             Slice the tomatoes nicely and place on a salad dish. 
-             Never peel or scald tomatoes intended for salad. 
-             Serve nicely with a plain French dressing or any of the above dressings. 
-             Tomatoes may also be served with Mayonnaise dressing. 
-             In this case place them on a bed of crisp, fresh lettuce, whole, and serve one to each person, or cut them in halves. 
-             Tomatoes with Mayonnaise is a luncheon dish, or a supper dish.
-           </p>
+           <div type="ingredientList">
+            <list>
+              <item>4 Fresh Fine<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes.</ingredient></item>
+              <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing.</ingredient></item>
+            </list>
+           </div>
+           <div type="instructions">
+             <p>
+               Slice the tomatoes nicely and place on a salad dish. 
+               Never peel or scald tomatoes intended for salad. 
+               Serve nicely with a plain French dressing or any of the above dressings. 
+               Tomatoes may also be served with Mayonnaise dressing. 
+               In this case place them on a bed of crisp, fresh lettuce, whole, and serve one to each person, or cut them in halves. 
+               Tomatoes with Mayonnaise is a luncheon dish, or a supper dish.
+             </p>
+           </div>
          </div>
-     
-     
-     
-           <div type="recipe" xml:id="pic22.35_tomato_salad">
-             <head type="main" rend="slant(bold) align(center)">Iced Tomatoes.</head>
-             <head type="sub" rend="align(center)"><foreign xml:lang="fr">Tomates Frappé.</foreign></head>
-             <list type="ingredientList">
-               <item>6 Whole <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes.</ingredient></item>
-               <item>1 Pint <ingredient corres="#pic22.5_mayonnaise_dressing">Mayonnaise Sauce.</ingredient></item>
-               <item>A Garnish of Chopped Ice.</item>
-             </list>
+           
+         <div type="recipe" xml:id="pic22.35_tomato_salad">
+            <head type="main" rend="slant(bold) align(center)">Iced Tomatoes.</head>
+            <head type="sub" rend="align(center)"><foreign xml:lang="fr">Tomates Frappé.</foreign></head>
+            <div type="ingredientList">
+              <list>
+                 <item>6 Whole <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes.</ingredient></item>
+                 <item>1 Pint <ingredient corres="#pic22.5_mayonnaise_dressing">Mayonnaise Sauce.</ingredient></item>
+                 <item>A Garnish of Chopped Ice.</item>
+              </list>
+            </div>
+            <div type="instructions">
              <p type="instructions">
                Take the tomatoes whole. Lay on a bed of lettuce or cress, as indicated above. 
                Garnish with chopped ice, and serve very cold with Mayonnaise Sauce. 
                This is delicious and very elegant.
              </p>
+            </div>
            </div>
      
            <div type="recipe" xml:id="pic22.36_tomato_green_pepper_and_onion_salad">
              <head type="main" rend="slant(bold) align(center)">Tomato, Green Pepper and Onion Salad.</head>
              <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à la Créole.</foreign></head>
-             <list type="ingredientList">
-               <item>4<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes.</ingredient></item>
-               <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peppers.</ingredient></item>
-               <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Large Onion.</ingredient></item>
-               <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing, Plain.</ingredient></item>
-             </list>
-             <p type="instructions">
-               Slice the tomatoes, onions and green peppers nicely and thin; arrange on a dish, placing a layer of tomatoes, an alternate layer of onion and green pepper, and tomatoes mixed. 
-               Dress either before bringing to the table, or at the table, with French dressing. 
-               This is a great family salad among the <name>Creoles</name>, and a very
+             <div type="ingredientList">
+               <list>
+                 <item>4<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes.</ingredient></item>
+                 <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peppers.</ingredient></item>
+                 <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Large Onion.</ingredient></item>
+                 <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">French Dressing, Plain.</ingredient></item>
+               </list>
+             </div>
+             <div type="instructions">
+              <p>
+                Slice the tomatoes, onions and green peppers nicely and thin; arrange on a dish, placing a layer of tomatoes, an alternate layer of onion and green pepper, and tomatoes mixed. 
+                Dress either before bringing to the table, or at the table, with French dressing. 
+                This is a great family salad among the <name>Creoles</name>, and a very
                
      <cb n="2"/>
                healthy one. The <name>Creoles</name> follow the old adage, that the taste of the onion must only lurk within the bowl when using it for salad. 
                More than this renders the salad disagreeable and coarse.
              </p>
+            </div>
            </div>
                
-               <div type="recipe" xml:id="pic22.37_watercress_salad">
-                 <head type="main" rend="slant(bold) align(center)">Watercress Salad.</head>
-                 <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Cresson.</foreign></head>
-                 <list type="ingredientList">
-                   <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Watercress.</ingredient></item>
-                   <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Minced Potato, if desired.</ingredient></item>
-                   <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
-                 </list>
-                 <p type="instructions">
-                   This salad is made of watercress simply, or watercress and minced potatoes, mixed in equal quantities, and served with a French dressing. 
-                   It is a most healthy, light and excellent salad, especially in summer. 
-                   The salad is delightful without the potatoes. 
-                   They may be added if desired.
-                 </p>
-               </div>
+           <div type="recipe" xml:id="pic22.37_watercress_salad">
+             <head type="main" rend="slant(bold) align(center)">Watercress Salad.</head>
+             <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Cresson.</foreign></head>
+             <div type="ingredientList">
+              <list>
+                <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Watercress.</ingredient></item>
+                <item>Minced<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potato</ingredient>, if desired.</item>
+                <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
+               </list>
+             </div>
+             <div type="instructions">
+               <p>
+                 This salad is made of watercress simply, or watercress and minced potatoes, mixed in equal quantities, and served with a French dressing. 
+                 It is a most healthy, light and excellent salad, especially in summer. 
+                 The salad is delightful without the potatoes. 
+                 They may be added if desired.
+               </p>
+              </div>
+             </div>
                    
                    
            <div type="recipe" xml:id="pic22.38_the_gardeners_wife_salad">
              <head type="main" rend="slant(bold) align(center)">The Gardener’s Wife Salad.</head>
              <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade à la Jardiniére.</foreign></head>
-             <list type="ingredientList">
-               <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Carrot.</ingredient></item>
-               <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Beets.</ingredient></item>
-               <item>½ Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peas.</ingredient></item>
-               <item>1 Cup<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">String Beans.</ingredient></item>
-               <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
-             </list>
-             <p type="instructions">
-               Take fine strips of vegetables of different colors, cooked and cold, with green peas and string beans, and dress nicely with oil and Vinegar and serve.
-             </p>
+             <div type="ingredientList">
+               <list>
+                 <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Carrot.</ingredient></item>
+                 <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Beets.</ingredient></item>
+                 <item>½ Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peas.</ingredient></item>
+                 <item>1 Cup<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">String Beans.</ingredient></item>
+                 <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
+               </list>
+             </div>
+             <div type="instructions">
+               <p>
+                 Take fine strips of vegetables of different colors, cooked and cold, with green peas and string beans, and dress nicely with oil and Vinegar and serve.
+               </p>
+             </div>
            </div>
            
            <div type="recipe" xml:id="pic22.39_sardine_salad">
              <head type="main" rend="slant(bold) align(center)">Sardine Salad.</head>
              <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Sardines.</foreign></head>
-             <list type="ingredientList">
-               <item>1 Box<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Sardines.</ingredient></item>
-               <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
-             </list>
-             <p type="instructions">
-               Cut the sardines into pieces of about half an inch in length. 
-               Season nicely with a French dressing and serve. 
-               This is a delicious luncheon dish.
-             </p>
+             <div type="ingredientList">
+               <list>
+                 <item>1 Box<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Sardines.</ingredient></item>
+                 <item><ingredient corres="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing.</ingredient></item>
+               </list>
+             </div>
+             <div type="instructions">
+               <p>
+                 Cut the sardines into pieces of about half an inch in length. 
+                 Season nicely with a French dressing and serve. 
+                 This is a delicious luncheon dish.
+               </p>
+             </div>
            </div>
      
            <div type="recipe" xml:id="pic22.40_potato_salad">
              <head type="main" rend="slant(bold) align(center)">Potato Salad.</head>
              <head type="sub" rend="align(center)"><foreign xml:lang="fr">Salade de Pommes de Terre.</foreign></head>
-             <list type="ingredientList">
-               <item>3 Large Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potatoes.</ingredient></item>
-               <item>2 Hard-Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
-               <item>9 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil.</ingredient></item>
-               <item>3 Tablespoonfuls of <ingredient type="liquid">Vinegar.</ingredient></item>
-               <item>1 Large<ingredient type="liquid">Onion</ingredient></item>
-               <item>1 Teaspoonful of<ingredient type="seasoning">Salt.</ingredient></item>
-               <item>4 Sprigs of <ingredient type="seasoning">Parsley.</ingredient></item>
-             </list>
-             <p type="instructions">
-               This is a nice way of utilizing cold left-over potatoes. 
-               But the freshly boiled potatoes always make the nicest salad. 
-               Pare and peel the potatoes, if freshly boiled, and let them cool. 
-               Prepare the salad dressing, following implicitly the directions given for plain French dressing, only here the quantities are larger in proportion. 
-               Add the vinegar, stirring constantly. A dash of mustard may be added, if desired. 
-               Mince the onion very fine, and cut the potatoes into dice or slices, and mix them carefully with the onion. 
-               Then add the dressing, turning the potatoes into it without breaking. Sprinkle all with parsley, nicely chopped, and serve cold.
-             </p>
+             <div type="ingredientList">
+               <list>
+                 <item>3 Large Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potatoes.</ingredient></item>
+                 <item>2 Hard-Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                 <item>9 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil.</ingredient></item>
+                 <item>3 Tablespoonfuls of <ingredient type="liquid">Vinegar.</ingredient></item>
+                 <item>1 Large<ingredient type="liquid">Onion</ingredient></item>
+                 <item>1 Teaspoonful of<ingredient type="seasoning">Salt.</ingredient></item>
+                 <item>4 Sprigs of <ingredient type="seasoning">Parsley.</ingredient></item>
+               </list>
+             </div>
+             <div type="instructions">
+               <p>
+                 This is a nice way of utilizing cold left-over potatoes. 
+                 But the freshly boiled potatoes always make the nicest salad. 
+                 Pare and peel the potatoes, if freshly boiled, and let them cool. 
+                 Prepare the salad dressing, following implicitly the directions given for plain French dressing, only here the quantities are larger in proportion. 
+                 Add the vinegar, stirring constantly. A dash of mustard may be added, if desired. 
+                 Mince the onion very fine, and cut the potatoes into dice or slices, and mix them carefully with the onion. 
+                 Then add the dressing, turning the potatoes into it without breaking. Sprinkle all with parsley, nicely chopped, and serve cold.
+               </p>
+              </div>
            </div>  
            
      <pb n="162"/>
@@ -953,7 +998,7 @@
                  dressing, to which mustard has been added. 
                  It is a heavy salad.
                </p>
-               </div>
+              </div>
              </div>
            
            <div type="recipe" xml:id="pic22.42_shrimp_salad">
@@ -976,7 +1021,14 @@
                </p>
              </div>    
            </div>
-         </body>
+       </div>
+    </body>
+  </text>
+</TEI>
+         
+
+      
+
      
      
      
