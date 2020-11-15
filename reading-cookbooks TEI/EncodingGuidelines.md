@@ -1,6 +1,6 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 11/9/20 - AMK
+Last updated: 11/15/20 - AMK
 
 ---
 
@@ -71,6 +71,16 @@ Last updated: 11/9/20 - AMK
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html)
+
+### Chapter Section
+
+- When a chapter is divided into multiple sections 
+
+- ```xml
+  <div type="section"> <!-- the entire section of recipes --> </div>
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
 
 ### Chapter Title
 
@@ -205,8 +215,6 @@ Last updated: 11/9/20 - AMK
   - Legume (beans, lentils, peas, peanuts)
   
   - Nut
-  
-  - 
   
   - Condiment
 
