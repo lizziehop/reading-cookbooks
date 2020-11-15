@@ -152,7 +152,7 @@ Last updated: 11/15/20 - AMK
 
 - Element specific to this project to surround an ingredient in the text
 
-- Categorize ingredients by their scientific classification
+- 
 
 - Ingredients that are pre-made things like broths or syrups should have the xml:id of the recipe as a `corresp` attribute rather than a class
 
