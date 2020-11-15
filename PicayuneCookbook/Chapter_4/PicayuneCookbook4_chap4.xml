@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/Users/CTSDH/Desktop/reading-cookbooks/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- This reference to the schema won't work because it is refering to it's place on Liz's computer -->
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,13 +17,13 @@
             </respStmt>
             <respStmt>
                <resp>First round encoding by</resp>
-               <persName who="EAH">
-                  Elizabeth Hopwood</persName> and <persName who="PM">Prakruti Maniar</persName>
+               <persName>
+                  Elizabeth Hopwood</persName> and <persName who="ppm">Prakruti Maniar</persName>
             </respStmt>
             <respStmt>
                <resp>Second round encoding by</resp>
                <persName>
-                  <!-- insert name --></persName>
+                  Prakruti Maniar</persName>
             </respStmt>
             <respStmt>
                <resp>Proofreading by</resp>
@@ -39,7 +39,7 @@
          
          <publicationStmt>
             <authority>Reading Cookbooks Project</authority>
-            <publisher>Elizabeth Hopwood and The Center for Textual Studies and Digital Humanities</publisher>
+            <publisher><persName>Elizabeth Hopwood</persName> and The Center for Textual Studies and Digital Humanities</publisher>
             <availability>
                <p>Reproduced by digitized version from Archive.org, contributed by <name>Cornell University Library</name>. There are no known
                   copyright restrictions in the United States on the use of the texts. More information on rights issues associated with public
@@ -78,28 +78,30 @@
       <revisionDesc>
          <!-- Add date, initials, and what the change was -->
          <change when="2020-10-26" who="EAH">Created header and test template</change>
+         <change when="2020-11-05" who="PPM">Encoded the first four recipes</change>
+         <change when="2020-11-14" who="PPM">Encoded the rest of the recipes, and changed ingredient 'type' to 'class'</change>
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
-         <head rend="align(center) case(allcaps)">Chapter IV.</head>
-         <head rend="align(center) case(allcaps) bold">Fish Soups.</head>
-         <head rend="align(center)"><foreign xml:lang="fr">Soupes de Poissons</foreign>.</head>
-         <div type="prefatory">
-            <!-- divs don't carry a @type, why? -->
-            <!-- why isn't cb allowed? add to schema <cb n="1"/>-->
-            <p>Under this heading come some of the most delightful Creole soups, such as<name xml:id="pic4.2_green_turtle_soup"> Green Turtle
+     <body>
+        <div type="chapter">
+         <pb n="19"/> 
+          <head rend="align(center) case(allcaps)">Chapter IV.</head>
+          <head rend="align(center) case(allcaps) bold">Fish Soups.</head>
+          <head rend="align(center)"><foreign xml:lang="fr">Soupes de Poissons</foreign>.</head>
+          <cb n="1" />
+          <div type="prefatory">
+               <p>Under this heading come some of the most delightful Creole soups, such as<name xml:id="pic4.2_green_turtle_soup"> Green Turtle
                Soup</name>, <name xml:id="pic4.7_oyster_soup">Oyster Soup</name>, <name xml:id="pic4.5_crawfish_bisque">Crawfish
                   Bisque</name>, etc. These not only serve as fast-day soups, but are considered elegant introductions to the most <foreign
                      xml:lang="fr">récherché</foreign> feast. </p>
-         </div>
-         <div type="recipe">
-            <head type="main" rend="align(center) bold">Fish Soup.</head>
-            <head type="sub" rend="align(center)">
+            </div>
+          <div type="recipe">
+               <head type="main" rend="align(center) bold">Fish Soup.</head>
+               <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">Bouillon de Poisson.</foreign>
-            </head>
+               </head>
             <div type="ingredientList">
-               <!-- still figuring out how to add closed or semi-open list to @type; for now, write them in, singular, "fat" not "fats" -->
                <list>
                   <item>6 Slices of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seafood">Fish</ingredient> of Almost Any Variety.</item>
                   <item> 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredient>, Chopped Fine.</item>
@@ -115,43 +117,45 @@
             <div type="instructions">
                <p>Chop the onions and fry them in the salad oil. Cut the tomatoes fine and add onions, and put in all the other ingredients,
                   except the fish, adding the flour to make a good roux. When brown add the water, and, after it has boiled about a half hour,
-                  add the slices of fish. When they are firm remove the herb bouquet, add <ingredient key="seasoning">Cayenne pepper</ingredient>, and <ingredient key="seasoning">salt</ingredient> and <ingredient key="seasoning">pepper</ingredient> 
+                  add the slices of fish. When they are firm remove the herb bouquet, add <ingredient key="spice">Cayenne pepper</ingredient>, and <ingredient key="seasoning">salt</ingredient> and <ingredient key="seasoning">pepper</ingredient> 
                   to taste, and serve the fish soup in a tureen, pouring it over crusts of dried toast. </p>
             </div>
          </div>
-         <!-- column two starts -->
-         <div type="recipe">
+         <cb n="2"/> 
+          <div type="recipe">
             <head type="main" rend="align(center) bold">Green Turtle Soup.</head>
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">Soupe à la Tortue.</foreign>
             </head>
             <div type="ingredientList">
                <list>
-                  <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seafood">Turtle Meat</ingredient>, or a 2-Pound
+                  <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Turtle Meat</ingredient>, or a 2-Pound
                      Turtle.</item>
-                  <item>2 Fine Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredient>.</item>
-                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cloves</ingredient>.</item>
-                  <item>1 Square inch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Ham</ingredient>.</item>
-                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Allspice</ingredient>.</item>
-                  <item>2 Cloves of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="aromatic">Garlic</ingredient>.</item>
-                  <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Flour</ingredient>.</item>
-                  <item>1/4 of a Small <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fruit">Lemon</ingredient>.</item>
-                  <item>2 Hard-Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="egg">Eggs</ingredient>.</item>
-                  <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">Sherry Wine</ingredient>.</item>
-                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley</ingredient>, <ingredient
-                     xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Thyme</ingredient>, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
+                  <item>2 Fine Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cloves</ingredient>.</item>
+                  <item>1 Square inch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Ham</ingredient>.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Allspice</ingredient>.</item>
+                  <item>2 Cloves of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Garlic</ingredient>.</item>
+                  <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                  <item>1/4 of a Small <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon</ingredient>.</item>
+                  <item>2 Hard-Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                  <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Sherry Wine</ingredient>.</item>
+                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>, <ingredient
+                     xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
                         type="herb">Bay Leaf</ingredient>.</item>
-                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Salt</ingredient>, <ingredient
-                     xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Pepper</ingredient>, and <ingredient
-                        xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Cayenne</ingredient> to Taste.</item>
+                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>, <ingredient
+                     xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice>Pepper</ingredient>, and <ingredient
+                        xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient> to Taste.</item>
                </list>
             </div>
-            <div type="instructions">
+            <div type="orientationNote">
                <p>The <name>Creoles</name> pride themselves upon their famous "<foreign xml:lang="fr">Soupe à la Tortue</foreign>," and justly;
                   the old saying that only a good Creole cook knows how to make a good Turtle Soup being testified to by epicurean visitors from
                   every country.</p>
                <p>The following is one of the simplest and best ways of making Turtle Soup—a recipe that may always be relied upon and one that
                   has been used from generation to generation in the most aristocratic Creole homes:</p>
+            </div>
+            <div type="instructions">
                <p>In making Turtle Soup, remember that Green Turtle is always the best for this purpose. Select two pounds of fine Green Turtle
                   meat, if the turtle is not bought whole. This amount will make soup for six persons. Increase proportionately. If <pb n="20"
                   />the turtle is bought whole, first cut off the head. To do this properly, the turtle should be hung with the head downwards,
@@ -174,33 +178,33 @@
                   done—that is, when no blood exudes from the turtle after sticking it with a fork—pour into the tureen. Add the whites and
                   yolks of two hard-boiled eggs, chopped fine, and one good glass of Sherry wine. This is a dish fit for a king and is most
                   highly recommended as a genuine Creole Turtle Soup.</p>
-               <p>If Quenelles or Forcemeat Balls are desired, they may be prepared according to the recipe given under <!--<cb/>-->the heading
+               <p>If Quenelles or Forcemeat Balls are desired, they may be prepared according to the recipe given under <cb n="1"/>the heading
                   <name><!-- xml:id for quenelles, needs to be made -->"Quenelles."</name> (See recipe, under chapter "Stuffings and
                   Dressings," etc.)</p>
             </div>
-         </div>
-         <div type="recipe">
+          </div>
+          <div type="recipe">
             <head type="main" rend="align(center) bold">Turtle Soup No. 2</head>
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">Soupe à la Tortue.</foreign>
             </head>
             <div type="ingredientList">
                <list>
-                  <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seafood">Turtle Meat</ingredient>, or a 2-Pound
+                  <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Turtle Meat</ingredient>, or a 2-Pound
                      Turtle.</item>
-                  <item>1/2 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="leavener">Lard</ingredient>.</item>
-                  <item>1/2 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fat"> Butter</ingredient>.</item>
-                  <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Flour</ingredient>.</item>
-                  <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Tomatoes</ingredient>.</item>
-                  <item>1 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onion</ingredient>.</item>
-                  <item>1 Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Thyme</ingredient>.     2 Sprigs of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley.</ingredient>.</item>
-                  <item>1 Square Inch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Ham</ingredient>.</item>
-                  <item>1 Dozen <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cloves</ingredient> Tied in Muslin.</item>
-                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Allspice </ingredient> Mashed Fine. </item>
-                  <item>3 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="liquid">Water.</ingredient></item> 
-                  <item>2 Hard-boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="egg">Eggs. </ingredient></item>
-                  <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">Sherry or White Wine</ingredient></item>
-                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Cayenne</ingredient> to Taste.</item>
+                  <item>1/2 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                  <item>1/2 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat"> Butter</ingredient>.</item>
+                  <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                  <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+                  <item>1 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion</ingredient>.</item>
+                  <item>1 Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>.     2 Sprigs of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley.</ingredient>.</item>
+                  <item>1 Square Inch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Ham</ingredient>.</item>
+                  <item>1 Dozen <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cloves</ingredient> Tied in Muslin.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Allspice </ingredient> Mashed Fine. </item>
+                  <item>3 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water.</ingredient></item> 
+                  <item>2 Hard-boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs. </ingredient></item>
+                  <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Sherry or White Wine</ingredient></item>
+                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cayenne</ingredient> to Taste.</item>
                </list>
             </div>
             <div type="instructions">
@@ -220,48 +224,50 @@
                   Slice a lemon fine and add to the soup and serve hot.
                </p>
             </div>
-           </div>
-               <div type="instructions">
-                  <head type="main" rend="align (center) bold">How to Serve Turtle Soup.</head>
-                  <p>
-                     Great care should be taken in serving the soup. It should be borne in mind that boiling 
-                     the soup a second time, or warming it over, deprives it of much of its delicious flavor. 
-                     To avoid this, fill two tureens with boil-
+            <div type="orientationNote">
+               <head type="main" rend="align (center) bold">How to Serve Turtle Soup.</head>
+               <p>
+                  Great care should be taken in serving the soup. It should be borne in mind that boiling 
+                  the soup a second time, or warming it over, deprives it of much of its delicious flavor. 
+                  To avoid this, fill two tureens with boil-
                   <pb n="21"/>
-                     ing water; let them stand a few minutes, then dry the inside thoroughly and place the tureens in a "bain-marie," of a hot-water bath. 
-                     Fill the tureens with the soup and cover tightly. Bring them to the table as needed, throwing in just before serving, some dainty
-                     slices of lemon. If the meat is served, use only the most delicate portions. 
-                  </p>
-               </div> 
-         <div type = “recipeAddition” corresp= “#pic4.1_fish_soup”>
-            <head type="main" rend="align (center) bold">Mock Eggs for Turtle Soup...</head>
-            <div type="instructions">
-               <p>Should the turtle possess no eggs, the following method of making mock eggs is often used. 
-                  Break and beat thoroughly one fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="egg">egg</ingredient>; then take the 
-                  yolks of three hard-boiled eggs, and rub them into a fine paste with about a teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fat">butter</ingredient>. Mix this with the raw egg and 
-                  roll into pellets of the identical size and shape of the turtle eggs, let them lie in boiling <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="liquid">water</ingredient> about 
-                  two minutes, and then drop into the soup.
+                  ing water; let them stand a few minutes, then dry the inside thoroughly and place the tureens in a "bain-marie," of a hot-water bath. 
+                  Fill the tureens with the soup and cover tightly. Bring them to the table as needed, throwing in just before serving, some dainty
+                  slices of lemon. If the meat is served, use only the most delicate portions. 
                </p>
-            </div>   
-         </div>
-         <div type="recipe">
+            </div> 
+            <div type= “recipeAddition” corresp= “#pic4.1_fish_soup”>
+                  <head type="main" rend="align (center) bold">Mock Eggs for Turtle Soup...</head>
+                  <div type="instructions">
+                     <p>Should the turtle possess no eggs, the following method of making mock eggs is often used. 
+                        Break and beat thoroughly one fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">egg</ingredient>; then take the 
+                        yolks of three hard-boiled eggs, and rub them into a fine paste with about a teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">butter</ingredient>. Mix this with the raw egg and 
+                        roll into pellets of the identical size and shape of the turtle eggs, let them lie in boiling <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">water</ingredient> about 
+                        two minutes, and then drop into the soup.
+                     </p>
+                  </div>   
+            </div>
+          </div> 
+          <div type="recipe">
             <head type="main" rend="align(center) bold">Terrapin Soup</head>
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">Soupe à la Tortue.</foreign>
             </head>
-            <div type="ingredientList">
-               <list>
-                  <item>1 Two-Pound Diamond-Back <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seafood">Terrapin. </ingredient></item>
-                  <item>2 Fine Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onion</ingredient>.</item>
-                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cloves</ingredient>.</item>
-                  <item>1 Square Inch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Ham</ingredient>.</item>
-                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Allspice</ingredient>.</item>
-                  <item>1/4 of a Small <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="fruit">Lemon</ingredient>.</item>
-                  <item>2 Hard-Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="egg">Eggs</ingredient>.</item>
-                  <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">Sherry Wine</ingredient>.</item>
-                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley, Thyme, and Bay Leaf</ingredient>.</item>
-                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Salt, Pepper and Cayenne</ingredient> . to Taste. </item>
-               </list>
+           <div type="ingredientList">
+             <list>
+                <item>1 Two-Pound Diamond-Back <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Terrapin. </ingredient></item>
+                <item>2 Fine Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion</ingredient>.</item>
+                <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cloves</ingredient>.</item>
+                <item>1 Square Inch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Ham</ingredient>.</item>
+                <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Allspice</ingredient>.</item>
+                <item>1/4 of a Small <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon</ingredient>.</item>
+                <item>2 Hard-Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Sherry Wine</ingredient>.</item>
+                <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley, Thyme, and Bay Leaf</ingredient>.</item>
+                <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>, 
+                   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> and 
+                   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient> . to Taste. </item>
+              </list>
             </div>
             <div type ="orientationNote">
                <p>
@@ -277,13 +283,268 @@
                   <p>
                      To make the soup, clean the terrapin as you would a turtle. Then place in a kettle and boil till tender. 
                      Take out and cut into small pieces, saving the water. Proceed as for Turtle Soup. When it boils up take from the 
-                     fire, add a grated nutmeg, a glass of Sherry or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="alcohol">Madeira wine </ingredient>and serve.
-                     The farci or forcemeat balls is made in exactly the same manner as for <Turtle soup. Serve with green pickle and delicate slices of fried toast. 
+                     fire, add a grated nutmeg, a glass of Sherry or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Madeira wine </ingredient>and serve.
+                     The farci or forcemeat balls is made in exactly the same manner as for Turtle soup. Serve with green pickle and delicate slices of fried toast. 
                   </p>
+                  <cb/>  
                </div>
             </div>   
          </div> 
-         
+          <div type="recipe">
+            <head type="main" rend="align(center) bold">Crawfish Bisque.</head>
+            <head type="sub" rend="align(center)">
+               <foreign xml:lang="fr">Potage à la Bisque d'Ecrevisse.
+               </foreign>
+            </head>
+            <div type="ingredientList">
+               <list>
+                  <item>8 Dozen Fine Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Crawfish</ingredient>.</item>
+                  <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                  <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Carrot</ingredient>.</item>
+                  <item>1 Bunch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Celery</ingredient>.</item>
+                  <item>2 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>.</item>
+                  <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Bay Leaves</ingredient>.</item>
+                  <item>4 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                  <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Cloves</ingredient>.</item>
+                  <item>2 Blades of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Mace</ingredient>.</item>
+                  <item>1 Clove of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Garlic</ingredient>.</item>
+                  <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                  <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Oyster Liquor</ingredient>.</item>
+                  <item>A Dash of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient>.</item>
+                  <item>1 Seedless <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne Pod</ingredient>.</item>
+                  <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">
+                     Pepper</ingredient>to Taste.</item>
+               </list>
+            </div>
+            <cb n="2"/>
+            <div type="instructions">
+               <p>Crawfish Bisque is a distinctive <name>Creole </name>luxury. It is prepared as follows:
+               </p>
+               <p>
+                  Take about eight dozen fine, large crawfish and wash thoroughly being 
+                  careful to cleanse of every particle of dust and sand. Set to boil in about 
+                  a gallon of water. When boiled, take the fish out of the water; save the water. 
+                  Pick out two dozen of the largest crawfish; pick out the inside of the tails 
+                  and save the heads, cleansing them of every particle of meat. Set this meat to one 
+                  side with the shells of the head. Pick the meat from the rest of the crawfish, saving 
+                  all the shells. Take one large onion, a carrot, a bunch of celery, a sprig of thyme, 
+                  one bay leaf, three sprigs of parsley, six cloves and two blades of mace, come clove of garlic; 
+                  chop all very fine and put into the pot of water in which the crawfish were boiled. 
+                  Add all the picked meat, except the reserved tails, and all the shells of the bodies 
+                  and heads, except the reserved heads. Add one cup of rice and let it all boil till the mixture 
+                  becomes thick and mushy. When it is well cooked, take it off the fire and mash the shells 
+                  thoroughly, and the meat also, and strain all through a sieve. Take about a 
+                  tablespoonful of butter and two quarts of oyster liquor and add this to the soup, 
+                  seasoning to taste with Cayenne, salt and black pepper. Set to boil slowly. 
+                  In the meantime, take the reserved crawfish meat and make a stuffing as follows 
+                  for the reserve heads; chop an onion very fine and let brown in a 
+                  tablespoonful of butter. Squeeze thoroughly a cup of bread wet with <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">water</ingredient>. 
+                  When well squeezed, mix with a little <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">milk</ingredient>, sufficient to make a paste, 
+                  season to taste and mix with the well-seasoned crawfish meat. 
+                  Chop another onion and put in melted butter, and add the crawfish 
+                  stuffing, letting all fry about ten minutes, ading, in the meantime, 
+                  a finely-chopped sprig each of thyme and parsley and a bay leaf, 
+                  and mixing thoroughly. Take off the fire and stuff the reserved head of 
+                  crawfish. Put on every stuffed head a dot of butter, and set in the oven 
+                  and bake ten minutes. Place the stuffed heads in the tureen and pour the soup over. 
+                  Serve with hot <ingredient>Croutons</ingredient>
+                  <pb n="22"/>
+                  <cb n="1" />
+                  of buttered toast passing the latter in a separate dish. 
+               </p>
+            </div>   
+          </div>
+          <div type="recipe">
+               <head type="main" rend="align(center) bold">Crawfish Soup.</head>
+               <head type="sub" rend="align(center)">
+                  <foreign xml:lang="fr">Potage d'Écrevisses. 
+                  </foreign>
+               </head>
+               <div type="ingredientList">
+                  <list>
+                     <item>50 Fine Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Crawfish</ingredient>.</item>
+                     <item>1 1/2 finds of a Fillet of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Veal</ingredient>.</item>
+                     <item>1 Slice of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Ham</ingredient>.</item>
+                     <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Herb Bouquet</ingredient>.</item>
+                     <item>1 Half Can of of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="">Mushrooms</ingredient>.</item>
+                     <item>2 Tablespoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                     <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Carrots</ingredient>.</item>
+                     <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                     <item>1 Clove of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromtiac">Garlic</ingredient>.</item>
+                     <item>1 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion</ingredient>.</item>
+                     <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Parsnip</ingredient>.</item>
+                     <item>1 Dozen <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Almonds</ingredient>.</item>
+                     <item>1 Dozen <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Allspice</ingredient>.</item>
+                     <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Shallots</ingredient>.</item>
+                     <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient> or a Half Can.</item>
+                     <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="">Croutons</ingredient>.</item>
+                  </list>
+               </div>
+                  <div type="instructions">
+                     <p>Wash the crawfish thoroughly over and over again to take away every 
+                        particle of dust. Then boil them in plain <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">water</ingredient>. Save the water. Take out the 
+                        crawfish and take off all the shells, putting the meat aside. Pound the 
+                        shells fine; pound one dozen almonds fine and mix thoroughly with the 
+                        meat of the crawfish and pound this in a mortar. In the meanwhile, 
+                        take one pound and a half of a filet of veal and a slice of ham and 
+                        cut in small pieces. Cut up the onion, carrots and parsnips. Put one 
+                        tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">lard</ingredient> in a kettle, and when it begins to heat, add the 
+                        herb bouquet (sweet basil, parsley, bay leaf), the onions, parsnips, 
+                        shallots, clove of garlic, chopped fine; as these brown, add the veal and ham. 
+                        Add two tablespoonfuls of flour and butter rubbed, and the mushrooms, chopped finely. 
+                        Let these simmer for about five minutes and then add the tomatoes, allspice and cloves. 
+                        After ten minutes, when the mixture is well browned, add the pounded 
+                        crawfish shells and the pounded meat and almonds. Pour over all the water 
+                        from the boiled crawfish and set it back on the stove and let it simmer for about 
+                        two hours. Skim off all grease when near time for serving. Then strain through a 
+                        sieve and serve with <ingredient>Croutons</ingredient> of toast, cut in slices, placed in the bottom of the tureen. </p>
+                        <p>On fast days, instead of the veal and ham, substitute butter and 
+                           lard making a <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Roux (see recipe)</ingredient>, and moistening a little with the 
+                           stock of the crawfish. Then proceed as above.</p>
+                     <p><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient> or <ingredient>Crouton Soup</ingredient> is rendered delicious by introducing a small quantity 
+                           of the broth of the crawfish. The broth is also used extensively 
+                           by the <name>Creoles</name> in seasoning ragouts on fast days, and hot pies such 
+                        as pâtés de flies gras; also such entrémets as <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">cauliflower</ingredient>,
+                        <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">artichokes</ingredient>, etc. The chief essential in making the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">broth</ingredient> is to have 
+                        it of the right consistency, and to skim carefully of all the grease before straining. Good judgement must be the guide of the cook in seeking the proper consistency.</p>
+                  </div>
+            </div>
+          <cb n="2"/> 
+          <div type="recipe">
+             <head type="main" rend="align(center) bold">Oyster Soup.</head>
+             <head type="sub" rend="align(center)">
+                <foreign xml:lang="fr">Soupe aux Huîtres.
+                </foreign>
+             </head>
+             <div type="ingredientList">
+                <list>
+                   <item>4 Dozen Large, Fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Oysters</ingredient>.</item>
+                   <item>1 Quart of Rich <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                   <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Oyster Liqor</ingredient>.</item>
+                   <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                   <item>3 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>, Chopped Fine.</item>
+                   <item>1 Dozen <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Peppercorns</ingredient>.</item>
+                   <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>and 
+                      <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient>to Taste.</item>
+                </list>
+             </div>
+             <div type="instructions">
+                <p>
+                   In purchasing the oysters always be careful to make the vendor 
+                   add the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">oyster juice</ingredient> when intended for soup. In making good oyster soup the 
+                   <name>Creoles</name> never use any water, but the liquor from the oysters. Drain the oysters 
+                   through a colander and set them over the ice box to keep fresh and cold. 
+                   Strain the liquor, and put it into a soup kettle, adding the chopper parsley and the 
+                   pepper corns. Let it come to a boil. In the meantime, boil the milk 
+                   separately in a saucepan, as boiling the milk and oyster joule together is likely 
+                   to curdle the milk. When the milk comes to a boil, add to the oyster juice and put 
+                   in the tablespoonful of butter. Some thicken the soup by adding a tablespoonful of 
+                   <ingredient>corn starch</ingredient>, rubbing it into the four before putting it in the soup. But this is 
+                   a matter of taste. If the milk is rich and good, the soup will require no 
+                   thickening, and is far daintier without it. Stir the soup constantly at this 
+                   point, throwing in the oysters and continuing to stir until it comes to a boil again. 
+                   Under no circumstances allow the oysters to boil, as that destroys their flavor 
+                   and makes them tough and indigestible. But one must also be careful to see that 
+                   they are steamed through and through, and then they are delightful and palatable. 
+                   The crowning triumph in making oyster soup is to have the oysters cook just enough. 
+                   The ruffling of the edges indicates the right conditions at this point the soup 
+                   must be served immediately. Serve with sliced <ingredient  xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">lemon</ingredient> and oyster or <ingredient>water crackers</ingredient>. 
+                   Some added a little <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">nutmeg</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">mace</ingredient>, and, still again, some <name>Creoles</name> place chopped 
+                   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">celery</ingredient> in exceedingly small quantities, and a herb bouquet into the oyster juice, 
+                   being careful to allow it to give just the desired flavor, and taking it out before 
+                   adding the milk. But this, too, is a matter of taste. Made according to the above 
+                   formula, oyster soup is a most delightful dish and can be eaten and relished by the 
+                   most delicate stomachs.
+                </p>
+             </div>
+          </div>
+          <div type="recipe">
+             <head type="main" rend="align(center) bold">COyster Soup Without Milk</head>
+             <head type="sub" rend="align(center)">
+                <foreign xml:lang="fr">Soup aux Huîtres à la Creole. 
+                </foreign>
+             </head>
+             <div type="orientationNote">
+                <p>The Creoles have another delightful method of preparing oyster soup, 
+                   a method evolved by the old negro cooks of ante-bellum days, and 
+                   still in vogue in the ancient families.</p>
+             </div>
+             <pb n="23"/>
+             <cb n="1"/>
+             <div type="ingredientList">
+                <p>It is a soup made without milk and is prepared as follows: Take
+                </p>
+                <list>
+                   <item>4 Dozen Bayou Cook <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Oysters</ingredient>.</item>
+                   <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Oyster Liquor</ingredient>.</item>
+                   <item>1 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion</ingredient>.</item>
+                   <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                   <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Sifted Flour</ingredient>.</item>
+                   <item>4 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                   <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                   <item>1 Quart of Boiling <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                </list>
+             </div>
+             <div type="instructions">
+                <p>
+                   Put the table spoonful of lard into the soup kettle. Have ready onion, some 
+                   parsley, chipped very fine. When the lard is hot, stir in two tablespoonfuls of sifted flour, 
+                   and make a <ingredient>Brown Roux (see recipe)</ingredient>, stirring constantly to prevent burning. When 
+                   the Roux is of a light brown color, add the chopped onions and parsley, continuing to stir, 
+                   being exceedingly careful to avoid the semblance of burning. Strain the oyster 
+                   juice of about four dozen oysters into the Roux, mixing thoroughly. to avoid bits 
+                   of shell; mix with about a quart of boiling water and pour When it shouts signs 
+                   of coming to a boil, off the oysters and a teaspoonful of butter. At the boiling 
+                   point reprove from the stove and serve with oyster soda crackers or dry toast, 
+                   the oyster crackers being always preferable.
+                <p>
+                </p>
+                   This form of soup may be improved by using the <ingredient>milk</ingredient> instead of the hot water, 
+                   but either way is very pal<cb n="2"/>atable 
+                   and a great favorite as a fast-day soup.</p>
+             </div>   
+                
+          </div>  
+          <div type="recipe">
+             <head type="main" rend="align(center) bold">Crab Soup.
+             </head>
+             <head type="sub" rend="align(center)">
+                <foreign xml:lang="fr">Potage de Crabes.
+                </foreign>
+             </head>
+             <div type="ingredientList">
+                <list>
+                   <item>1 Dozen Fine <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Crabs</ingredient>.</item>
+                   <item>6 Ripe <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+                   <item>1 Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>.</item>
+                   <item>3 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                   <item>1 of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Sweet Marjoram</ingredient>.</item>
+                   <item>1 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion</ingredient>.</item>
+                   <item>1 Clove of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Garlic</ingredient>.</item>
+                   <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                   <item>2 Tablespoonfuls of (level) <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                   <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon</ingredient>.</item>
+                   <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>,
+                      <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> and
+                      <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient>.</item>
+                </list>
+             </div> 
+             <div type="instructions">
+                <p>
+                   Cleanse the crabs thoroughly and extract all the meat from 
+                   the body and claws; scald and skin tomatoes, and squeeze the 
+                   pulp from the seeds and juice; chop very fine. Pour boiling water 
+                   over the seed and juice and strain. Chop the onion and garlic and 
+                   stew with the tablespoonful of butter and lard. As they begin to brown, 
+                   add the tomatoes, cover, and, after simmering a few minutes, add 
+                   the well-seasoned meat of the crab. Sift over this some grated bread 
+                   or crackers and season with Cayenne, sweet marjoram and thyme. Pour 
+                   in tomato water and add about a quart or more of water, and let it boil 
+                   moderately for about an hour. Add the juice of two lemons and serve.  
+                </p>
+             </div>   
+          </div>      
+        </div>
       </body>
    </text>
 </TEI>
