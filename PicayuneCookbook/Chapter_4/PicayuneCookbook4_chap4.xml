@@ -117,7 +117,7 @@
             <div type="instructions">
                <p>Chop the onions and fry them in the salad oil. Cut the tomatoes fine and add onions, and put in all the other ingredients,
                   except the fish, adding the flour to make a good roux. When brown add the water, and, after it has boiled about a half hour,
-                  add the slices of fish. When they are firm remove the herb bouquet, add <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne pepper</ingredient>, and <ingredient key="seasoning">salt</ingredient> and <ingredient key="seasoning">pepper</ingredient> 
+                  add the slices of fish. When they are firm remove the herb bouquet, add <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"    class="spice">Cayenne pepper</ingredient>, and <ingredient key="seasoning">salt</ingredient> and <ingredient key="seasoning">pepper</ingredient> 
                   to taste, and serve the fish soup in a tureen, pouring it over crusts of dried toast. </p>
             </div>
          </div>
@@ -144,7 +144,7 @@
                      xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
                         type="herb">Bay Leaf</ingredient>.</item>
                   <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>, <ingredient
-                     xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice>Pepper</ingredient>, and <ingredient
+                     xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient>, and <ingredient
                         xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient> to Taste.</item>
                </list>
             </div>
@@ -183,7 +183,7 @@
                   Dressings," etc.)</p>
             </div>
           </div>
-          <div type="recipe">
+           <div type="recipe" xml:id="pic4.3_turtle_soup_no._2">
             <head type="main" rend="align(center) bold">Turtle Soup No. 2</head>
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">Soupe à la Tortue.</foreign>
@@ -248,7 +248,7 @@
                   </div>   
             </div>
           </div> 
-          <div type="recipe">
+           <div type="recipe" xml:id="pic4.5_terrapain_soup">
             <head type="main" rend="align(center) bold">Terrapin Soup</head>
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">Soupe à la Tortue.</foreign>
@@ -290,7 +290,7 @@
                </div>
             </div>   
          </div> 
-          <div type="recipe">
+           <div type="recipe" xml:id="pic4.6_crawfish_bisque">
             <head type="main" rend="align(center) bold">Crawfish Bisque.</head>
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">Potage à la Bisque d'Ecrevisse.
@@ -354,7 +354,7 @@
                </p>
             </div>   
           </div>
-          <div type="recipe">
+           <div type="recipe" xml:id="pic4.7_crawfish_soup">
                <head type="main" rend="align(center) bold">Crawfish Soup.</head>
                <head type="sub" rend="align(center)">
                   <foreign xml:lang="fr">Potage d'Écrevisses. 
@@ -410,7 +410,7 @@
                   </div>
             </div>
           <cb n="2"/> 
-          <div type="recipe">
+           <div type="recipe" xml:id="pic4.8_oyster_soup">
              <head type="main" rend="align(center) bold">Oyster Soup.</head>
              <head type="sub" rend="align(center)">
                 <foreign xml:lang="fr">Soupe aux Huîtres.
@@ -458,7 +458,7 @@
                 </p>
              </div>
           </div>
-          <div type="recipe">
+           <div type="recipe" xml:id="pic4.9_oyster_soup_without_milk">
              <head type="main" rend="align(center) bold">COyster Soup Without Milk</head>
              <head type="sub" rend="align(center)">
                 <foreign xml:lang="fr">Soup aux Huîtres à la Creole. 
@@ -505,7 +505,7 @@
              </div>   
                 
           </div>  
-          <div type="recipe">
+           <div type="recipe" xml:id="pic4.10_crab_soup">
              <head type="main" rend="align(center) bold">Crab Soup.
              </head>
              <head type="sub" rend="align(center)">
