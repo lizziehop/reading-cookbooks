@@ -539,9 +539,9 @@ It in the
          <cb n="2"/>         
 oven and let it bake ten minutes. Take out. Place a dish on the mold. Turn it upside down, and 
 remove the mold. The hollow space in the center can be filled with a 
-<div type = "recipeAddition" corresp= "<!--no xmlid-->" >White or Brown Fricassée of Chicken</div>
+<ptr target= "<!--no xmlid-->" >White or Brown Fricassée of Chicken</ptr>
 or 
-<div type= "recipeAddition" corresp= "#pic24.12_curry_of_crawfish" >Curry of Crawfish</div>.
+<ptr target= "#pic24.12_curry_of_crawfish" >Curry of Crawfish</ptr>.
          </p>
   </div>
          </div>
@@ -600,8 +600,7 @@ or
    </div>
    <div tpye="instructions">
          <p>
-Boil the crawfish according to the recipe given. (See 
-<div type = "recipeAddition" corresp= "<!-- no xmlid -->" >Boiled Crawfish </div>.) 
+Boil the crawfish according to the recipe given. (<ptr target= "<!-- no xmlid -->" >See Boiled Crawfish </ptr>.) 
 Clean and pick the crawfish the same as for a fricassée. Put two ounces of butter in the frying 
 pan. Cut one onion in slices, add it to the butter, letting it brown nicely. Then add the 
 well-seasoned crawfish, and fry them to a golden brown. Add one clove of garlic, finely minced, 
@@ -1012,8 +1011,8 @@ Fry in
 Drain well. When about to serve, put a small piece of 
 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currant Jelly</ingredient> on the 
 top of each croquette. Then dust the whole with powdered sugar, and serve with Sauce à la 
-Vanille. (
-<div type = "recipeAddition" corresp=<!--no xml:id-->> Vanilla Sauce</div>, see recipe.)
+Vanille. (Vanilla Sauce, 
+<ptr target="<!-- no xml:id -->">see recipe</ptr>.)
    </p>
    </div>
 </div> 
@@ -1032,7 +1031,7 @@ Vanille. (
        <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.
             </item>
          <item>1.2 Split 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Vanilla Stick</ingredient>.
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vanilla Stick</ingredient>.
          </item>
          <item>6 Ounces of 
             <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Ground Rice</ingredient>.
@@ -1057,7 +1056,7 @@ Vanille. (
             <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Cherries</ingredient>.
          </item>
          <item>1 Ounce of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Orange Peel</ingredient>. 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Orange Peel</ingredient>. 
          <item>A 
             <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream Sauce</ingredient>.
          </item>
@@ -1084,7 +1083,7 @@ Drain in a heated colander or on a piece of brown paper. Then dress the croquett
 dish, sprinkle with 
 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">vanilla sugar</ingredient>, 
 and serve each separately, with a 
-<div type = "recipeAddition" corresp="<!-- no xmlid -->">Cream Sauce</div>. (See recipe.) This 
+Cream Sauce. (<ptr target="<!-- no xml:id -->"> See recipe</ptr>.) This 
 is a delicious dish.
 </p>
    </div>
@@ -1105,10 +1104,10 @@ is a delicious dish.
  </item>3-4 Cup 
     <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>. 
  <item>½ 
-    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Grated Nutmeg</ingredient>.
+    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Grated Nutmeg</ingredient>.
  </item>
  <item>1 Teaspoonful of 
-    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla</ingredient>.
+    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vanilla</ingredient>.
  </item>
  <item>
     <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">The Peel of a Quarter of an Orange</ingredient>
@@ -1184,7 +1183,7 @@ water to a quick boil, and boil the apples for three-quarters of an hour. When d
 cloth and place the dumplings carefully on a large dish. Sprinkle each with a little grated 
 nutmeg, put on top of each a dot of butter, set in the oven for five or ten minutes to brown, 
 and serve with a 
-<div type = "recipeAddition" corresp="<!-- no xmlid -->"> Hard or Cream Sauce</div>. They are 
+<ptr targert="<!-- no xmlid -->"> Hard or Cream Sauce</ptr>. They are 
 most delicious with a Hard Sauce. They may be served without setting in the oven, immediately 
 after they have been taken from the water, or they may be served cold. Again, in large families,
 the apples may be cut in halves or quarters, and boiled in the same manner, covering with the 
@@ -1208,7 +1207,7 @@ coating of rice, as in the following recipe:
 Take three large, fine 
 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">apples</ingredient>,
 and cut in halves. Pare and core. Then bake in the oven until quite done and juicy. Make a 
-<div type = "recipeAddition" corresp="<!-- no xmlid -->">Rice Pudding</div> (see recipe), using 
+<ptr target="<!-- no xmlid -->">Rice Pudding</ptr> (see recipe), using 
 only one cup of 
 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> and other 
 ingredients in proportion. When the apples are cold, set in a dish, placing each apple over a 
@@ -1327,9 +1326,9 @@ immediately while very hot, or it will fall.
 <item>¼ Cup 
    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Sugar</ingredient>.</item>
 <item>
-   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Whites of Six Eggs</ingredient>.</item>
+   The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"> Whites</ingredient> of Six Eggs.</item>
 <item>A 
-   <div type ="recipeAddition" corresp="<!-- no xmlid -->">Cream Sauce</div>.</item>
+   <ptr target="<!-- no xmlid -->">Cream Sauce</ptr>.</item>
 </list>         
 </div>
    <div type ="instructions">
@@ -1373,7 +1372,7 @@ about four minutes, without browning. Take out, and serve with a
 <item>1 Quart of 
    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item> 
 <item>
-   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Yolks of 6 Eggs</ingredient>.</item>
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Yolks</ingredient> of 6 Eggs.</item>
 <item>¼ of a 
    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Grated Nutmeg</ingredient>.</item>
     </list>        
@@ -1421,7 +1420,7 @@ hot or very cold. The pudding may be made without the addition of the pineapple.
 </div>
 <div type="instructions">
    <p>
-<div type = "recipeAdditions" corresp="#pic24.28_frozen_rice_custard">Prepare exactly as above</div>
+      <div type = "recipeAdditions" corresp="#pic24.27_rice_cream_pudding">Prepare exactly as above</div>
 , as far as boiled, but omit the fruits and use only the grated rind of an orange in making the 
 pudding. When cold, add the juice of an orange and the cream, beaten or whipped to a froth. 
 Four tablespoonfuls of wine or lemon juice may be substituted for the orange juice, according to
@@ -1457,7 +1456,7 @@ mixture, and the sauce will be ready to serve with the pudding or custard.
 <item>1 ½ Cups 
    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
 <item>
-   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Yolks of 8 Eggs</ingredient>.</item> 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Yolks</ingredient> of 8 Eggs.</item> 
 <item>1 Tablespoonful of 
    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla</ingredient>.</item>
 <item>
@@ -1530,12 +1529,12 @@ note the economy that follows in the purchase of bread.
 <p>      
 Left-over rice may be utilized In almost any of the above dishes, but it is more generally used 
 in the making of 
-<div type="recipeAdditions" corresp="#pic24.15_rice_waffles">rice waffles</div> or 
-<div type="recipeAdditions" corresp=""> s for breakfast</div>, 
-<div type="recipeAdditions" corresp="#pic24.14_calas">Calas</div>, 
+<ptr target="#pic24.15_rice_waffles">rice waffles</ptr> or 
+<ptr target="<!-- xml:id -->"> rice cakes </ptr> for breakfast, 
+<ptr target="#pic24.14_calas">Calas</ptr>, 
 etc. It is also 
-<div type="recipeAdditions" corresp="#pic24.31_fried_rice">fried</div> or made into 
-<div type="recipeAdditions" corresp="#pic24.32_rice_fritters">rice fritters</div>, as follows:
+<ptr target="#pic24.31_fried_rice">fried</ptr> or made into 
+<ptr target="#pic24.32_rice_fritters">rice fritters</ptr>, as follows:
 </p>        
    </div>
    <div type="recipe" xml:id="pic24.31_fried_rice">
@@ -1549,10 +1548,10 @@ etc. It is also
       </head>
 <div type="instructions">       
 Take the 
-<div type="recipeAdditions" corresp="#pic24.30_left-over_rice">left-over rice</div> from the day
+<ptr target="#pic24.30_left-over_rice">left-over rice</ptr> from the day
 before, and cut it into slices of proper thickness, and fry to a nice brown, turning it 
 carefully, to avoid breaking the slices. This makes an excellent breakfast dish, with 
-<div type="recipeAdditions" corresp="<!--no xmlid-->"> Grillades à la Sauce</div>. (See recipe.)
+<ptr target="<!--no xmlid-->"> Grillades à la Sauce</ptr>. (See recipe.)
  </div>        
 <div type="recipe" xml:id="pic24.32_rice_fritters">
   <head type="main" rend="align(center) slant(bold)"> 
