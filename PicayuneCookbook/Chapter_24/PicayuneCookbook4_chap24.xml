@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -64,8 +64,7 @@ will give an idea of how
 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> is 
 prepared and made such a delightful article of food in our <name>Creole</name> households:
 </p>
-</div>
-</p>         
+</div>        
 <div type="recipe" xml:id= "pic24.1_how_to_prepare_rice_for_cooking">
    <head type="main" rend = "align(center) slant(bold)">How to Prepare Rice for Cooking. </head>
 <div type="instructions">        
@@ -110,8 +109,8 @@ or
 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">shrimp</ingredient> or 
 okra gumbo, as also with many vegetables, all daubes, and with gravies of all kinds. It is the standing dish on every 
 <name>Creole table</name>.
-            </div>   
             </p>
+            </div> 
          </div> 
 <div type ="recipe" xml:id="pic24.3_things_to_remember_in_boiling_rice">
    <head type="main" rend= "align(center) slant(bold)">Things to Remember in Boiling Rice.</head>
@@ -145,10 +144,10 @@ taste.
                <name>Creole</name> Jambalaya.
          </head>
          <head type="sub" rend = "align(center)">
-         <foreign xml: lang-"fr">
-            Jambalaya à la Créole.
+         <foreign xml:lang="fr">
+            Jambalaya à la Créole.\
+         </foreign>
          </head>
-         </forgein>
          </div>
          <p>
            <div type="orientation_note">
@@ -173,6 +172,7 @@ taste.
             </item>
             <item>2 
                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.
+            </item>
             <item>1 Tablespoonful of 
                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter.</ingredient>
             </item>
@@ -185,20 +185,21 @@ taste.
             </item>
             <item>2 
                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Bay Leaves</ingredient>.
+            </item>
             <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Cloves</ingredient>
                Ground Very Fine.</item>
             <item>3 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Beef Broth</ingredient> or Hot Water
                (Broth Preferred.)</item>
             <item>½ Spoonful of 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice"Chili Pepper.</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Chili Pepper.</ingredient>
             </item>
             <item>
                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt</ingredient>
                , <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Pepper</ingredient>
                and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class  ="spice">Cayenne</ingredient>
                to Taste.</item>
-            </div>
          </list>
+            </div>
          <div type="instructions">
          <p>
          Cut the pork very fine, lean and fat, into pieces of about half an inch square. Chop the 
@@ -227,8 +228,9 @@ taste.
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">
          Jambalaya aux Crabes.
+               </foreign> 
             </head>
-            </foreign> 
+            
          </div>
  <div type="ingredientList">        
          <list>
@@ -274,11 +276,10 @@ taste.
  </div>
      <div type="instructions">
          <p>
-Boil the crabs according to recipe. (<ptr target="<!-- no xml:id  -->"> See Boiled Crabs</ptr>.) Then cut in pieces, 
+Boil the crabs according to recipe. (<ptr target=""> See Boiled Crabs</ptr>.) Then cut in pieces, 
 cutting the bodies into quarters. Proceed in exactly the same manner as in making 
 <ptr target="#pic24.7_shrimp_jambalaya">Shrimp Jambalaya.</ptr>
          </p>
-     </div>
      </div>
          <div type="recipe" xml:id="pic24.6_jambalaya_au_congri">
             <head type="main" rend="align(center) slant(bold)">
@@ -330,8 +331,8 @@ with the meat.
             </head>
             <head type="sub" rend="align(center)"><foreign xml:lang="fr">
             Jambalaya aux Chevrettes.
-            </head>
             </foreign>
+            </head>
          <div type="ingredientList">
             <list>
             <item>1 ½ Cups of 
@@ -386,7 +387,7 @@ with the meat.
             (the former preferred) which has been heated to the boiling point. Let all boil well, 
             and then add the lake shrimp, which you will 
             <choice><sic>alreay</sic><corr>already</corr></choice> have boiled according to 
-            recipe. (<ptr target="<!-- no xml:id --> >See recipe for Boiled shrimp</ptr>).
+            recipe. (<ptr target="" >See recipe for Boiled shrimp</ptr>).
             Let the mixture boil again for five minutes, and add one cup and a half of rice, or 
             half a pound, which has been well washed. Mix all well, and let boil for a half or 
             three- quarters of an hour longer, stirring every once in a while, so as to mix all 
@@ -395,14 +396,14 @@ with the meat.
             </div>
          </div>
          <div type="recipe" xml:id="pic24.8_a_french_pilon">
-            <head type="main" rend="align(center) slant(bold)>
+             <head type="main" rend ="align(center) slant(bold)">
             A French Pilon.
             </head>
             <head type="sub" rend="align(center)"> 
                <foreign xml:lang="fr">
             Pilou Français.
+               </foreign>
             </head>
-            </foreign>
             <div type="ingredientList">
             <list>
                2 
@@ -418,7 +419,7 @@ with the meat.
             </div>
          <div type="instructions">
             <p>
-Boil the fowls according to recipe. (<ptr target=<!--no xmlid-->">See recipe Boiled Chicken</ptr>.)
+Boil the fowls according to recipe. (<ptr target="">See recipe Boiled Chicken</ptr>.)
 When done, take out about a pint of the 
 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">liquor</ingredient> in which it was boiled, 
 and put the rice, which you will have washed well, into the remaining boiling broth. Let it cook 
@@ -457,7 +458,7 @@ bits of butter here and there. Set in the oven, let it brown, and serve hot.
          <p>
 This is a most delightful <name>Creole</name> way of preparing chicken and rice. It is highly 
 recommended. Prepare and cook the chicken as in 
-<ptr target="<!--no xmlid-->"> >Poulet au Riz</ptr>,
+<ptr target=""> >Poulet au Riz</ptr>,
 only do not cut up the chicken, but stew whole. When three-fourths done, add the rice, and in 
 serving place the chicken in the center of the dish and heap the rice around. Young chickens are 
 best for this dish. An old chicken may be cut up and cooked till tender, as in Poulet au Riz, 
@@ -499,7 +500,7 @@ Clean and cut the chicken as you would for a fricassé. Put in a stew-pan and co
 Add salt and pepper again to taste, having, of course, previously rubbed the fowl with salt and 
 pepper. Let the chicken simmer gently for about an hour. Then take a half cup of rice and wash it
 thoroughly. Add it to the chicken. Salt again to taste. Cover and let all simmer for about twenty
-minutes longer. Then make a Tomato Sauce(<ptr target="<!-- no xml:id -->"> see recipe</ptr>). 
+minutes longer. Then make a Tomato Sauce(<ptr target=""> see recipe</ptr>). 
 Dish the chicken and rice together, setting the chicken in the center of the dish and the rice 
 around for a border, serve hot. This dish can be nicely made from the remains of cold chicken or 
 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">mutton</ingredient>.
@@ -510,7 +511,7 @@ around for a border, serve hot. This dish can be nicely made from the remains of
             <head type="main" rend="align(center) slant(bold)">
          How to Make a Rice Border.
             </head>
-      <head type="sub" rend="align(center)>
+      <head type="sub" rend="align(center)">
          Bordure de Riz.
       </head>
   <div type="ingredientList">
@@ -539,7 +540,7 @@ It in the
          <cb n="2"/>         
 oven and let it bake ten minutes. Take out. Place a dish on the mold. Turn it upside down, and 
 remove the mold. The hollow space in the center can be filled with a 
-<ptr target= "<!--no xmlid-->" >White or Brown Fricassée of Chicken</ptr>
+<ptr target= "" >White or Brown Fricassée of Chicken</ptr>
 or 
 <ptr target= "#pic24.12_curry_of_crawfish" >Curry of Crawfish</ptr>.
          </p>
@@ -600,7 +601,7 @@ or
    </div>
    <div tpye="instructions">
          <p>
-Boil the crawfish according to the recipe given. (<ptr target= "<!-- no xmlid -->" >See Boiled Crawfish </ptr>.) 
+Boil the crawfish according to the recipe given. (<ptr target= "" >See Boiled Crawfish </ptr>.) 
 Clean and pick the crawfish the same as for a fricassée. Put two ounces of butter in the frying 
 pan. Cut one onion in slices, add it to the butter, letting it brown nicely. Then add the 
 well-seasoned crawfish, and fry them to a golden brown. Add one clove of garlic, finely minced, 
@@ -688,7 +689,7 @@ early morning as the weak old voice faintly penetrates your chamber. In a second
 in the distance, and you turn over with a sigh for the good old times and the quaint customs of 
 <name>old Creole days</name>,
 which gave such a beautiful and unique tinge to the life of the ancient quarter.
-        </p>
+        </div></p>
     <p>  
 But the custom of making Calas still remains. In many an ancient home the good housewife tells 
 her daughters just how "Tante Zizi" made the Calas in her day, and so are pre- served these 
@@ -696,8 +697,8 @@ ancient traditional recipes.
 From one of the last of the olden Cala women, one who has walked the streets of the French 
 quarter for fifty years and more, the Picayune has gotten the following established <name>Creole</name> 
 recipe:
+    </p> 
  </div> 
-      </p> 
    <div type="ingredientList">
         <list>
          <item>½ Cup of 
@@ -764,7 +765,7 @@ self-raising flour. But these cakes, though very nice and palatable, are not the
 which are made entirely of rice, with only a little flour to bind, as directed above.
          </p>
    </div>
- </div>  
+</div>  
  <div type="recipe" xml:id="pic24.15_rice_waffles">
     <head type="main" rend="align(center) slant(bold)">
          Rice Waffles.
