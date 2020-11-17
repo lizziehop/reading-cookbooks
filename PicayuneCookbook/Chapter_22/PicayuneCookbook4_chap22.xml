@@ -516,8 +516,7 @@
           <div type="ingredientList">
             <list>
               <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Chervil</ingredient>.</item>
-              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient>.
-              </item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -534,12 +533,9 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
-                  class="poultry">Chicken</ingredient>.</item>
-              <item>½ Pint of<ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise
-                  Sauce</ingredient>.</item>
-              <item>1 Head of Crisp Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
-                  class="vegetable">Lettuce</ingredient>.</item>
+              <item>1 Pint of Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="poultry">Chicken</ingredient>.</item>
+              <item>½ Pint of<ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise Sauce</ingredient>.</item>
+              <item>1 Head of Crisp Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -563,17 +559,10 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of the<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood"
-                  >Meat of Crab (hard shell)</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise</ingredient>.
-              </item>
-              <item>Hard-Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"
-                  >Eggs</ingredient>.</item>
-              <item>
-                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Garnishes</ingredient>.
-              </item>
+              <item>1 Pint of the<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Meat of Crab (hard shell)</ingredient>.</item>
+              <item><ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise</ingredient>.</item>
+              <item>Hard-Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Garnishes</ingredient>.</item>
               <!--RH: class set to vegetable based on context of instructions-->
             </list>
           </div>
@@ -594,13 +583,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>3 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood"
-                  >Crawfish</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.5_mayonnaise_dressing">
-                  <foreign xml:lang="fr">A Sauce a la Mayonnaise.</foreign>
-                </ingredient>
-              </item>
+              <item>3 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Crawfish</ingredient>.</item>
+              <item><ingredient corresp="#pic22.5_mayonnaise_dressing"><foreign xml:lang="fr">A Sauce a la Mayonnaise.</foreign></ingredient></item>
             </list>
           </div>
           <div type="instructions">
@@ -617,16 +601,10 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>
-                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Cress</ingredient>.
-              </item>
-              <item>
-                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Vinegar</ingredient>.
-              </item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Cress</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Vinegar</ingredient>.</item>
               <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>
-                and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice"
-                  >Pepper</ingredient>.</item>
+                and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -643,12 +621,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>2 Fine<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Cucumbers</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French
-                  Dressing</ingredient>
-              </item>
+              <item>2 Fine<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Cucumbers</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient></item>
             </list>
           </div>
           <div type="instructions">
@@ -668,12 +642,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Corn
-                  Salad</ingredient></item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French
-                  Dressing</ingredient>
-              </item>
+              <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Corn Salad</ingredient></item>
+              <item><ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient></item>
             </list>
           </div>
           <div type="instructions">
@@ -698,19 +668,14 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >White Dandelion</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French
-                  Dressing</ingredient>
-              </item>
+              <item>1 Pint of Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">White Dandelion</ingredient>.</item>
+              <item><ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient></item>
             </list>
           </div>
           <div type="instructions">
             <p> Cut off the roots and green portion of the leaves; wash and steep in salt and water.
               When they become crisp, drain and press dry; rub the salad bowl with a clove of
-                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                >garlic</ingredient> and season the dandelions with French dressing. This salad may
+                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">garlic</ingredient> and season the dandelions with French dressing. This salad may
               also be served with two hard-boiled eggs cut in quarters or sliced and laid over; or
               with two medium-sized beets, sliced, and seasoned with a plain French dressing. </p>
           </div>
@@ -723,14 +688,9 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Endives</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French
-                  Dressing</ingredient>.
-              </item>
-              <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb"
-                  >Chervil</ingredient>, Chopped Very Fine.</item>
+              <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Endives</ingredient>.</item>
+              <item><ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing</ingredient>.</item>
+              <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Chervil</ingredient>, Chopped Very Fine.</item>
             </list>
           </div>
           <div type="instructions">
@@ -747,13 +707,9 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of Cold Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
-                  class="seafood">Fish</ingredient>.</item>
-              <item>1 Head of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Lettuce</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise Sauce</ingredient>.
-              </item>
+              <item>1 Pint of Cold Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Fish</ingredient>.</item>
+              <item>1 Head of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce</ingredient>.</item>
+              <item><ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise Sauce</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -770,15 +726,10 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>4<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Tomatoes</ingredient>.</item>
-              <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green
-                  Peppers</ingredient>.</item>
-              <item>1 Large<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Onion</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing,
-                  Plain</ingredient>.
+              <item>4<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+              <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peppers</ingredient>.</item>
+              <item>1 Large<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing,Plain</ingredient>.
               </item>
             </list>
           </div>
@@ -801,13 +752,9 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>6<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green
-                  Peppers</ingredient>.</item>
-              <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Tomatoes</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French
-                  Dressing</ingredient>.
+              <item>6<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peppers</ingredient>.</item>
+              <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+              <item><ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient>.
               </item>
             </list>
           </div>
@@ -825,11 +772,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="legume"
-                  >Lentils</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.7_vinaigrette_dressing">A Vinaigrette Sauce (See
-                  Recipe)</ingredient>.
+              <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="legume">Lentils</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.7_vinaigrette_dressing">A Vinaigrette Sauce (See Recipe)</ingredient>.
               </item>
               <!--to check if this is the right ID-->
             </list>
@@ -848,15 +792,11 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>3 Heads of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Lettuce</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French
-                  Dressing</ingredient>.
+              <item>3 Heads of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing</ingredient>.
               </item>
               <!--to check if this is the right ID-->
-              <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"
-                >Eggs</ingredient>.</item>
+              <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -883,16 +823,10 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Lettuce</ingredient>Heads.</item>
-              <item>6<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickled
-                  Cucumbers</ingredient>.</item>
-              <item>2 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickled
-                  Onions</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French
-                  Dressing</ingredient>.
-              </item>
+              <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce</ingredient>Heads.</item>
+              <item>6<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">PickledCucumbers</ingredient>.</item>
+              <item>2 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickled Onions</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -908,11 +842,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>4 Dozen Boiled Young<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
-                  class="vegetable">Okras</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French
-                  Dressing</ingredient>.
+              <item>4 Dozen Boiled Young<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Okras</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing</ingredient>.
               </item>
             </list>
           </div>
@@ -934,12 +865,9 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>4 Sliced<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Tomatoes</ingredient>.</item>
-              <item>2 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickled
-                  Onions</ingredient>.</item>
-              <item>½ Pint of<ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise
-                  Dressing</ingredient>.</item>
+              <item>4 Sliced<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+              <item>2 Dozen<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickled Onions</ingredient>.</item>
+              <item>½ Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.5_mayonnaise_dressing">Mayonnaise Dressing</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -956,12 +884,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of Cold Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
-                  class="vegetable">String Beans</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing
-                  (plain)</ingredient>.
-              </item>
+              <item>1 Pint of Cold Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">String Beans</ingredient>.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing (plain)</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -979,12 +903,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>4 Fresh Fine<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Tomatoes</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French
-                  Dressing</ingredient>.
-              </item>
+              <item>4 Fresh Fine<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+              <item><ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -1003,10 +923,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>6 Whole <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Tomatoes</ingredient>.</item>
-              <item>1 Pint <ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise
-                  Sauce</ingredient>.</item>
+              <item>6 Whole <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+              <item>1 Pint <ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise Sauce</ingredient>.</item>
               <item>A Garnish of Chopped Ice.</item>
             </list>
           </div>
@@ -1025,16 +943,10 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>4<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Tomatoes</ingredient>.</item>
-              <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green
-                  Peppers</ingredient>.</item>
-              <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Large
-                  Onion</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing,
-                  Plain</ingredient>.
-              </item>
+              <item>4<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+              <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peppers</ingredient>.</item>
+              <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Large Onion</ingredient>.</item>
+              <item><ingredient corresp="#pic22.1_plain_french_dressings_for_salads">French Dressing, Plain</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -1055,13 +967,9 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Watercress</ingredient>.</item>
-              <item>Minced<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Potato</ingredient>, if desired.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French
-                  Dressing</ingredient>.
+              <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Watercress</ingredient>.</item>
+              <item>Minced<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potato</ingredient>, if desired.</item>
+              <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient>.
               </item>
             </list>
           </div>
@@ -1080,18 +988,11 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Carrot</ingredient>.</item>
-              <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                  >Beets</ingredient>.</item>
-              <item>½ Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green
-                  Peas</ingredient>.</item>
-              <item>1 Cup<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">String
-                  Beans</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French
-                  Dressing</ingredient>.
-              </item>
+              <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Carrot</ingredient>.</item>
+              <item>3<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Beets</ingredient>.</item>
+              <item>½ Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Peas</ingredient>.</item>
+              <item>1 Cup<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">String Beans</ingredient>.</item>
+              <item><ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -1107,12 +1008,8 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>1 Box<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood"
-                  >Sardines</ingredient>.</item>
-              <item>
-                <ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French
-                  Dressing</ingredient>.
-              </item>
+              <item>1 Box<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Sardines</ingredient>.</item>
+              <item><ingredient corresp="#pic22.1_plain_french_dressings_for_salads">A Plain French Dressing</ingredient>.</item>
             </list>
           </div>
           <div type="instructions">
@@ -1128,14 +1025,11 @@
           </head>
           <div type="ingredientList">
             <list>
-              <item>3 Large Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
-                  class="vegetable">Potatoes</ingredient>.</item>
-              <item>2 Hard-Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"
-                  >Eggs</ingredient>.</item>
-              <item>9 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat"
-                  >Olive Oil</ingredient>.</item>
+              <item>3 Large Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potatoes</ingredient>.</item>
+              <item>2 Hard-Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+              <item>9 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil</ingredient>.</item>
               <item>3 Tablespoonfuls of <ingredient type="liquid">Vinegar</ingredient>.</item>
-              <item>1 Large<ingredient type="liquid">Onion</ingredient></item>
+              <item>1 Large<ingredient type="liquid">Onion</ingredient>.</item>
               <item>1 Teaspoonful of<ingredient type="seasoning">Salt</ingredient>.</item>
               <item>4 Sprigs of <ingredient type="seasoning">Parsley</ingredient>.</item>
             </list>
@@ -1174,8 +1068,8 @@
             </list>
           </div>
           <div type="instructions">
-            <p> This salad is made of cooked carrots, parsnips, beets, cold roast beef, cold ham, a
-              truffle (if it can be afforded), all cut into fancy or dice-shaped pieces. Use one
+            <p> This salad is made of cooked carrots, parsnips, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">beets</ingredient>, 
+              cold roast beef, cold ham, a truffle (if it can be afforded), all cut into fancy or dice-shaped pieces. Use one
               ounce of each of the meats, or simply one cup of cold minced fowl, as it may not be
               convenient to have all these meats at hand in households. Add six boned anchovies and
               one dozen olives and two caviares, and serve with Tartare Sauce, or with a French
@@ -1189,12 +1083,9 @@
             <foreign xml:lang="fr">Salade de Chevrette à la Mayonnaise.</foreign>
           </head>
           <div type="ingredientList">
-            <item>2 Pints of Cold Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
-                class="seafood">Shrimp</ingredient>.</item>
-            <item>1 Head of Crisp <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable"
-                >Lettuce</ingredient>.</item>
-            <item>
-              <ingredient corresp="#pic22.5_mayonnaise_dressing">Mayonnaise Sauce</ingredient>.
+            <item>2 Pints of Cold Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Shrimp</ingredient>.</item>
+            <item>1 Head of Crisp <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce</ingredient>.</item>
+            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic22.5_mayonnaise_dressing">Mayonnaise Sauce</ingredient>.
             </item>
           </div>
           <div type="instructions">
