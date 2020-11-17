@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CHAPTER VI. THE BOUILLI.</title>
+                <title type="chapter" xml:lang="en"/>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
+                <principal>Elizabeth Hopwood</principal>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName>Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>First round encoding by</resp>
+                    <persName>Andrew French</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Second round encoding by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofreading by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial research by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>Reading Cookbooks Project</authority>
+                <publisher>Elizabeth Hopwood and The Center for Textual Studies and Digital Humanities</publisher>
+                <availability>
+                    <p>Reproduced by digitized version from Archive.org, contributed by <name>Cornell University Library</name>. There are no known
+                        copyright restrictions in the United States on the use of the texts. More information on rights issues associated with public
+                        domain texts can be found at https://www.library.cornell.edu/about/policies/public-domain</p>
+                    <p>This text may be freely distributed for personal use, research, and teaching (including distribution to classes) as long as
+                        this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds.</p>
+                    <p>Scholars interested in changing or adding to these texts (for example, creating a new edition or adding additional markup) may
+                        do so.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl>
+                    <title>The Picayune's Creole Cook Book</title>
+                    <publisher>New Orleans, La., The Picayune</publisher>
+                    <date>1910</date>
+                    <edition>4th</edition>
+                    <sponsor>Cornell University Library</sponsor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This editions provides editorial notes</p>
+            <editorialDecl>
+                <p>Page breaks and column breaks have been preserved whenever possible. Abbreviations and spellings have been maintained. Line breaks
+                    have not been encoded. All presentational elements such as alignments, all caps, bold, and italics will be encoded.</p>
+                <normalization method="silent">
+                    <p>Typos have been maintained</p>
+                </normalization>
+                <hyphenation eol="none">
+                    <p>Hyphenated words that appear at the end of columns or lines have been reformed</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <!-- Add date, initials, and what the change was -->
+            <change when="2020-10-26" who="EAH">Created header and test template</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <pb n="29"/>
+                <head rend="align(center) case(allcaps)">Chapter VI.</head>
+                <cb n="1"/>
+                <head rend="align(center) case(allcaps) bold">The Bouilli.</head>
+                <head rend="align(center)">
+                    <foreign xml:lang="fr">Le Bouilli.</foreign>
+                </head>
+                <div type="prefatory">
+                    <p>
+                        Before leaving the <choice>subejct</choice>of soups 
+                        it has been thought advisable to devote a short chapter to the <foreign xml:id="fr">"Bouilli,"</foreign> or the boiled meat that is usually thrown away by other nationalities than the <name>Creole</name> and <name>French</name> when the <foreign xml:id="fr">"Pot-au-Feu,"</foreign> the <foreign xml:id="fr">"Consommé"</foreign> or the <foreign xml:id="fr">"Bouillon"</foreign> has been completed.
+                    </p>
+                    <p>
+                        The <name>Creoles</name> long ago discovered or rather brought over with them from the mother country, <name>France</name>, the delightful possibilities for a good entrée that lurked within the generally despised and cast aside Bouilli, and these possibilities they improved upon in their own unique and palatable styles of cuisine preparations.
+                    </p>
+                    <p>
+                         In <name>France</name> the <foreign xml:id="fr">"Bouilli"</foreign> is always served at the home dinner, and so with the new <name>France</name>, <name>New Orleans</name>. Far from rejecting the "Bouilli" as unpalatable and unfit for food, <name>the Creoles</name> discovered many delightful ways of serving it, and their theories of the nutrition that still remained in the boiled beef have been sustained by medical science. The most eminent scientists have found by experiment that while heat coagulates the nutritious substances of the beef, only a small amount is dissolved when the water is heated gradually, and that the "Bouilli" is still valu- able as an article of food.
+                    </p>
+                    <p>
+                        The pleasant ways that <name>the Creoles</name> have of preparing it restores its flavor and makes it a delightful accompaniment to even the most <cb/>aristocratic dinners. For breakfast the boiled beef left over is utilized in various ways.
+                    </p>
+                    <p>
+                        <name>The Picayune</name> has selected from among many the following recipes which need only to be tried to be repeated often, or perhaps daily, in one form or the other.
+                    </p>
+                    <p>
+                        The recipes for the sauces mentioned will be found in the chapter especially devoted to <!-- xml id for this-->"Creole Sauces."
+                    </p>
+                </div>
+                <div type="recipe" xml:id="pic6.1_mirontous">
+                    <head rend="align(center) bold">Mirontous.</head>
+                    <head rend="align(center)">The Left-Over Bouilli.</head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>3 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Shallots</ingredient>.</item>
+                            <item>1 Clove of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Garlic</ingredient>.</item>
+                            <item>1 Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>.</item>
+                            <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Bay Leaf</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Pickles</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient> to Taste.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            This is a favorite way <name>the Creoles</name> have of serving the cold bouilli that has been saved from the preceding day:
+                        </p>
+                        <p>
+                            Slice the onions fine; brown in one tablespoonful of butter. Chop the shallots and add to the onions, then add the garlic, thyme and bay leaf, all chopped very fine, and season witli salt, Cayenne and black pepper to taste. When the whole is browning nicely, add a tablespoonful of flour and water, or left-over broth, sufficient to cover. Season this to taste and then take two pickles, about one finger long, slice very fine, and add. Let all boil about fifteen minutes and then lay the cold bouilli, which has been thickly sliced, in the sauce.
+                        </p>
+                        <p>
+                            <pb n="30"/><cb n="1"/>Set it to bake in the oven about twenty minutes. Garnish with buttered toast and serve hot.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.2_boiled_beef_saute_a_la_lyonnaise">
+                    <head rend="align(center) bold">Boiled Beef Saute a la Lyonnaise.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli Saute a la Lyonnaise.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Olive Oil</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Chili Vinegar</ingredient>.</item>
+                            <item>The Peel of One <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Slice the onions and brown them in lard, using about one tablespoonful. Skim the lard off the onions and put the beef in the pan. Stir up and smother. Add the oil, the peel of a lemon, cut fine, and the Chili vinegar. Serve hot.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.3_boiled_beef_a_la_bordelaise">
+                    <head rend="align(center) bold">Boiled Beef a la Bordelaise.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli a la Bordelaise.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>1/2 Dozen <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Shallots</ingredient>.</item>
+                            <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">White Wine</ingredient>.</item>
+                        <!-- Ingredient is a sauce recipe -->
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Sauce Espagnole</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Slice the left-over beef. Then hash the shallots into very fine pieces; add a glass of white wine, pepper and salt to taste, and boil to half the quantity over a brisk Are. Then add the mashed beef marrow from the bone and two teaspoonfuls of <ptr target="#">Sauce Espagnole" (see recipe)</ptr>, first melting the marrow in a little bouillon. Stir rapidly over the fire, and as soon as it begins to bubble, withdraw it and set it back on the stove, letting it simmer gently for a quarter of an hour. Add the sliced beef for about ten minutes and then serve with Croûtons or fried crusts.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.4_boiled_beef_a_la_paysanne">
+                    <head rend="align(center) bold">Boiled Beef a la Paysanne.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli a la Paysanne.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>5 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Wineglassful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Claret</ingredient>.</item>
+                            <item>A Dash of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="condiment">Mustard</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Vinegar</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Hash the left-over beef, and then chop five large onions very fine and cook them to a golden brown in butter. When nearly done, dust over them a teaspoonful of flour and moisten with a little red wine. Cook the onions till done and then put in the cold hashed beef, adding a dash of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">French vinegar</ingredient> and a little mustard and serve.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.5_boiled_beef_a_l_indienne">
+                    <head rend="align(center) bold">Boiled Beef a l'Indienne.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli a l'Indienne.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>1 Teaspoonful of Powdered <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Saffron</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne Pepper</ingredient> Pods.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1/2 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Bouillon</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            This is a dinner dish. Crush the pods of two Cayenne peppers and a teaspoonful of powdered saffron and <cb n="2"/>heat and brown in butter. Then  moisten with a little bouillon. Boil the sauce down, and when nearly ready to serve, thicken with a little butter. Serve in a gravy dish with the "Bouilli," which has been nicely and tastefully garnished with <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">lettuce</ingredient> leaves on a <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">parsley</ingredient> bed.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.6_boiled_beef_with_tomoatoes">
+                    <head rend="align(center) bold">Boiled Beef With Tomatoes.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli aux Tomates.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient></item>
+                            <item>1/2 Dozen <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.</item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Bouillon</ingredient>.</item>
+                            <item>1/2 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Clove of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Garlic</ingredient>.</item>
+                            <item>1 Sprig Each of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Bay Leaf</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Take a half dozen fine, ripe tomatoes, and parboil them in butter, being careful not to let them burn. Add a pinch of flour and two good cups of bouillon, a little <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">pepper</ingredient>, a clove of garlic, a sprig of parsley, thyme and bay leaf. After two hours, take out the tomatoes and allow the beef to cook a few minutes in the sauce. Then serve on a flat dish, arranging the tomatoes around the beef and under each tomato put a nice piece of buttered <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">toast</ingredient>.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.7_boiled_beef_a_la_bruxelloise">
+                    <head rend="align(center) bold">Boiled Beef a la Bruxelloise.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli a la Bruxelloise.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient></item>
+                            <item>1 Dozen <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Brussels Sprouts</ingredient>.</item>
+                            <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>3 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Take about a dozen Brussels sprouts and blanch them in boiling water. Drain thoroughly and stew in butter with chopped parsley. After they have cooked ten minutes, take them out of the pan and parboil them in fresh butter, which has been melted before the stove. Salt and pepper to taste and garnish nicely around the bouilli and serve.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.7_boiled_beef_en_papillottes">
+                    <head rend="align(center) bold">Boiled Beef en Papillottes.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli en Papillottes.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli.</ingredient></item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Sausages</ingredient>. (Chaurice.)</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Bread Crumbs</ingredient>.</item>
+                            <item>4 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            This is a nice breakfast dish. Take the left-over bouilli cut in slices and parboil slightly in butter. Make a forcemeat or quenelle of pork sauage, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">garlic</ingredient>, parsley and moistened bread crumbs, add two eggs, salt and pepper. Put a layer of this "farci" between each layer of sliced beef, and, then add the bread crumbs, mixed with chopped parsley. Put the beef in oiled paper, folded as tightly as possible, cook a quarter<pb n="31"/><cb n="1"/> of an hour in the oven and serve in the <choice><foreign xml:id="fr">pappillottes</foreign></choice> (paper.).
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.8_boiled_beef_with_carrot_sauce">
+                    <head rend="align(center) bold">Boiled Beef With Carrot Sauce.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli a la Crecy.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Carrots</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                            <item>1 Gill of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream</ingredient>.</item>
+                            <item>2 Sticks of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Celery</ingredient>.</item>
+                            <item>3 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item>1 Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Make a good purée of fine, red carrots (see recipe), and then strain in butter. Add a gill of rich cream and salt and pepper to the taste. Put the bouilli in the platter and pour the sauce around it, serving hot just after the soup.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.9_boiled_beef_with_lettuce">
+                    <head rend="align(center) bold">Boiled Beef With Lettuce.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli a la Laitue.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>6 Head of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce</ingredient>.</item>
+                            <item>2 Hard-Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>12 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Sausages</ingredient>. (Caurice.)</item>
+                            <item>1 1/2 Cups <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Bread Crumbs</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Take six fine, firm heads of lettuce, strip off all the green leaves, wash thoroughly and soak and blanch in boiling water. Then throw them into cold water. When very cold squeeze in a towel till they are thoroughly dry and cut off the stalks from below without injuring the heart. Fill this open place with forcemeat balls, made from the bouilli after the recipe already given in <ptr target="#pic6.7_boiled_beef_en_papillottes">Boiled Beef en Papillottes</ptr>, that is, fry them in lard, with fresh bread crumbs soaked in bouillon and worked into the meat. Chop up with pepper, salt and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">garlic</ingredient>, and add one or two hard- boiled eggs. Tie the balls up and cook without adding water and fill the heart of the lettuce. This may be served around the body of the bouilli and makes a beautiful garnish.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.10_boiled_beef_a_la_lyonnaise">
+                    <head rend="align(center) bold">Boiled Beef a la Lyonnaise.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli a la Lyonnaise.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Sausages</ingredient>. (Chaurice.)</item>
+                            <item>1 Clove of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Garlic</ingredient>.</item>
+                            <item>3 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item>1 Sprig of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Bread Crumbs</ingredient>.</item>
+                            <item>The Juice of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Make sausage meat of the bouilli, adding the pork sausage, garlic, parsley and thyme. Moisten some bread crumbs in water and dissolve over them two eggs, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">pepper</ingredient>. Chop the whole and tie it tightly in a cabbage leaf. An hour before serving take out the remaining bouilli and the farci or stuffed cabbage leaf. Let them cool and cut the.m into slices and roll these in beaten eggs, and then in bread crumbs, and fry in <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">butter</ingredient>. Throw over them a dash of powdered parsley and squeeze over all the juice of a lemon.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.11_boiled_beef_with_egg_toast">
+                    <head rend="align(center) bold"><cb n="2"/>Boiled Beef With Egg Toast.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli au "Pain Perdu."</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>6 Slices of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>6 Slices of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Stale Bread</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce Leaves</ingredient> to Garnish.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Take left-over or stale bread, slice it thickly and dip in <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">cream</ingredient> or milk. Then dip it in the beaten whites and yolks of egg and fry in butter. Cut the bouilli into slices to match the bread, dip it in the egg and fry also. Serve on a dish with chopped parsley dashed over it and a garnish of parsley or lettuce leaves.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.12_boiled_beef_saute_with_onions">
+                    <head rend="align(center) bold">Boiled Beef Saute With Onions.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli Saute aux Ognons.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>3 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Clove of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Garlic</ingredient>.</item>
+                            <item>3 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item>The Juice of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Take three fine onions and parboil them in butter over a slow fire. When a rich, creamy brown, add clove garlic and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne pepper</ingredient>. Cut the bouillon in thin slices and add, shaking the pan until browned. Place in the platter and serve with chopped parsley dusted over, and the juice of a lemon squeezed over it.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.13_boiled_beef_a_la_marsellaise">
+                    <head rend="align(center) bold">Boiled Beef a la Marsellaise.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli a la Marsellaise.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>1 Dozen Small <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                            <item>1/3 Cup <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Claret</ingredient>.</item>
+                            <item>1/2 Cup <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Meat Gravy</ingredient>.</item>
+                            <item>1/4 Can of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Mushrooms</ingredient>.</item>
+                            <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Herb Bouquet</ingredient>.</item>
+                            <item>1/8 of a Grated <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Nutmeg</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Slice the bouilli into thin, fine slices. Take a dozen onions, the smallest kind, and dust over with <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">sugar</ingredient>, and bake in the oven. When a good color, put a little of the bouillon in the stewing pan and boil down one half. Moisten with a cup of red wine and thick meat sauce, allowing half and half in proportion. Then add the beef, the mushrooms, the bouquet garni, salt, pepper and a little nutmeg, and serve very hot.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.14_boiled_beef_sausage">
+                    <head rend="align(center) bold">Boiled Beef Sausage.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Saucisse de Bouilli.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Pork</ingredient>.</item>
+                            <item>3 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Allspice</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Truffles</ingredient>.</item>
+                            <item>A Dash of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient>.</item>
+                            <item>1 Wineglass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Madelra</ingredient>.</item>
+                            <item>1/2 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Bouillon</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Take the bouilli of the day before, mince and add chopped parsley, a few spices, salt and Cayenne pepper, and a little beef extract saved from the bouillon. Take a pound of pork and add, mixing thoroughly. When the whole is well <pb n="32"/><cb n="1">mixed, add a few truffles and a little Madeira. Fill some entrails that have been thoroughly cleansed with this meat and shape the sausage as one desires. Boil in <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">butter</ingredient> and serve alone. This makes an excellent breakfast dish.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.15_beef_croquettes">
+                    <head rend="align(center) bold">Beef Croquettes.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Croquettes de Boeuf.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Pork</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Sausage</ingredient> Meat.</item>
+                            <item>1 Clove of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Garlic</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.</item>
+                            <item>Whites of 3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>3 Sprigs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Bread Crumbs</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Mince the beef with sausage meat and add garlic, parsley, pepper, salt and onions, and bread crumbs soaked in water. Add the whites of two eggs beaten to a froth. Make into balls and roll in the beaten white of an egg, and fry, being careful not to cook too rapidly. When sufficiently browned, pile in a pyramid shape on a dish, garnish with parsley sprigs and serve.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.16_boiled_beef_gros_sel">
+                    <head rend="align(center) bold">Boiled Beef Gros Sel.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Bouilli Gros Sel.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Bouilli</ingredient>.</item>
+                            <item>1 Bunch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.</item>
+                            <item>1 Head of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Lettuce</ingredient>.</item>
+                            <item>A <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="condiment">French Dressing</ingredient></item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            <cb n="2"/>This is the simplest way of serving the bouilli, and the one most used by the <name>Creoles</name> as a daily dish. Take the bouilli from the bouillon, and serve on a platter, laying the whole on a bed of parsley and lettuce. Serve with <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">salt</ingredient> or French dressing.
+                        </p>
+                    </div>
+                </div>
+                <div type="recipe" xml:id="pic6.17_a_good_every-day_hash">
+                    <head rend="align(center) bold">A Good Every-Day Hash.</head>
+                    <head rend="align(center)">
+                        <foreign xml:id="fr">Hachis.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Quart of Chopped <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Soup Meat</ingredient>.</item>
+                            <item>1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potatoes</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Hard-Boiled Eggs</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1/2 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="water">Water</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Pepper</ingredient> to Taste.</item>
+                            <item>A Dash of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Chop the left-over bouilli fine in dice shapes, and to every quart of the meat allow one onion, a tablespoonful of butter, two hard-boiled eggs, two cold (left-over) potatoes, a half pint of water, and salt and pepper to taste. Chop the potatoes, onions and eggs fine and put them into the stewing pan with the meat, adding by degrees the butter, salt and pepper with a little dash of Cayenne. Stew very slowly for about fifteen or twenty minutes and serve hot.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+
+
+
+</TEI>

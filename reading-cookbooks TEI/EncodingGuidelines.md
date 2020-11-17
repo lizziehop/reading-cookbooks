@@ -1,6 +1,6 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 11/9/20 - AMK
+Last updated: 11/15/20 - AMK
 
 ---
 
@@ -72,6 +72,16 @@ Last updated: 11/9/20 - AMK
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html)
 
+### Chapter Section
+
+- When a chapter is divided into multiple sections 
+
+- ```xml
+  <div type="section"> <!-- the entire section of recipes --> </div>
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
+
 ### Chapter Title
 
 - ```xml
@@ -142,7 +152,7 @@ Last updated: 11/9/20 - AMK
 
 - Element specific to this project to surround an ingredient in the text
 
-- Categorize ingredients by their scientific classification
+- 
 
 - Ingredients that are pre-made things like broths or syrups should have the xml:id of the recipe as a `corresp` attribute rather than a class
 
@@ -205,8 +215,6 @@ Last updated: 11/9/20 - AMK
   - Legume (beans, lentils, peas, peanuts)
   
   - Nut
-  
-  - 
   
   - Condiment
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -25,37 +25,50 @@
               <foreign xml:lang="fr"> Le Riz de la Louisiane. </foreign>
             </head>  
          </div>
-         <!--Column 1 begins-->
          <cb n="1"/> 
          <div type="prefactory">
          <p>
-The cultivation of <ingredient type="grain">rice</ingredient> began in <placeName>Louisiana</placeName> 
-nearly a hundred years after it commenced in <placeName>Georgia </placeName>and <placeName>South Carolina</placeName>, 
-but <placeName>Louisiana</placeName> now produces more of this beautiful grain than both these 
-states combined. It is one of the greatest <placeName>Louisiana</placeName> staples, and 
-<placeName>New Orleans</placeName> is the distributing point of the immense crop that yearly make
-our immense <ingredient type="grain">rice</ingredient> fields of southwestern Louisisana the 
-wonder and admiration of tourists.
+The cultivation of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> began in 
+<placeName>Louisiana</placeName> 
+nearly a hundred years after it commenced in 
+<placeName>Georgia</placeName> and 
+<placeName>South Carolina</placeName>, 
+but 
+<placeName>Louisiana</placeName> now produces more of this beautiful grain than both these 
+states combined. It is one of the greatest 
+<placeName>Louisiana</placeName> staples, and 
+<placeName>New Orleans</placeName> is the distributing point of the immense crop that yearly 
+make our immense 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> fields of 
+<placeName>southwestern Louisisana</placeName> the wonder and admiration of tourists.
          </p>
 <p>
-In no section of the world can <ingredient type="grain">rice</ingredient> be grown at so small a 
-cost as in <placeName>Louisiana</placeName>. The cost of growing the grain in our matchless clime
+In no section of the world can 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> be grown at so 
+small a cost as in 
+<placeName>Louisiana</placeName>. The cost of growing the grain in our matchless clime
 is small, and it requires but little capital to begin. As remarked in the beginning of this book,
-the consumption of <ingredient type="grain">rice</ingredient> has increased enormously of late, 
-and it will continue to become more and more a popular article of food when the people of the 
-great North and West learn how to cook it as well as the <name>Creoles of <placeName>Louisiana</placeName></name>.
+the consumption of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> has increased 
+enormously of late, and it will continue to become more and more a popular article of food when 
+the people of the great North and West learn how to cook it as well as the 
+<name>Creoles of <placeName>Louisiana</placeName></name>.
 </p>
 <p>
-The <sic>folloing</sic><corr>following</corr> recipes, carefully selected from among many that 
-are used in this old <name>Creole</name> city of <placeName>New Orleans</placeName>, will give an
-idea of how <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">rice</ingredient> is 
+The 
+<choice><sic>folloing</sic><corr>following</corr></choice> recipes, carefully selected from 
+among many that are used in this 
+<name>old Creole city of <placeName>New Orleans</placeName></name>,
+will give an idea of how 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> is 
 prepared and made such a delightful article of food in our <name>Creole</name> households:
 </p>
-</div>
-         </p>         
+</div>        
 <div type="recipe" xml:id= "pic24.1_how_to_prepare_rice_for_cooking">
    <head type="main" rend = "align(center) slant(bold)">How to Prepare Rice for Cooking. </head>
-         <p>
+<div type="instructions">        
+   <p>
 The whiteness of the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">rice</ingredient> 
 depends in a great degree, upon its being washed thoroughly. Pick the rice clean, and wash it 
 well in cold <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="water">water</ingredient> 
@@ -64,38 +77,52 @@ off the first water, and add fresh; then pour off this, and add fresh again. The
 be ready to cook.
          </p>
 </div>
+</div>
          <div type="recipe" xml:id="pic24.2_how_to_boil_rice">
             <head type="main" rend = "align(center) slant(bold)">How to Boil Rice.</head>
-         <p>
-            When properly boiled, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">rice</ingredient> should be snowy white, perfectly
-dry and smooth; and every grain separate and distinct. To attain this end, put a quart of 
-<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="water">water</ingredient> on the fire, and let It boil well, with a teaspoonful
-of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spices">salt</ingredient>. Wash a cup of rice well In cold water. When the 
-water commences to boil well add the rice. Stir occasionally, and gently with a wooden spoon. The
-boiling water will toss the grains of rice, and prevent them from clinging together. As soon as 
-the grains commence to soften, do not, under any circumstances, stir or touch the rice again. Let
-it continue to boil rapidly for about   
+         <div type="instructions">
+            <p>
+When properly boiled, 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> should be snowy 
+white, perfectly dry and smooth; and every grain separate and distinct. To attain this end, put 
+a quart of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">water</ingredient> on the fire, 
+and let it boil well, with a teaspoonful of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">salt</ingredient>. Wash a cup 
+of rice well In cold water. When the water commences to boil well add the rice. Stir 
+occasionally, and gently with a wooden spoon. The boiling water will toss the grains of rice, 
+and prevent them from clinging together. As soon as the grains commence to soften, do not, under 
+any circumstances, stir or touch the rice again. Let it continue to boil rapidly for about   
          <cb n="2"/>
 twenty minutes, or until the grains begin to swell out, and it appears to thicken. This is easily
-<sic>asceratined</sic><corr>ascertained</corr>by touching one of the grains with your finger. When
-it has reached this stage, take the cover off and pour off the water, and set the pot in the oven,
-so that the rice may swell up. Let it stand in the oven about ten minutes. Do not let it brown, 
+<choice><sic>asceratined</sic><corr>ascertained</corr></choice>by touching one of the grains with 
+your finger. Whenit has reached this stage, take the cover off and pour off the water, and set the 
+pot in the oven,so that the rice may swell up. Let it stand in the oven about ten minutes. Do not let it brown, 
 but simply dry—that is, let the water which rises dry out of the rice. Take it off, and let it 
 stand a few minutes. Then pour out into a dish. Every grain will be white and beautiful, and 
 stand apart because the drying in the oven will have evaporated the moisture, leaving the rice 
-soft, snowy white and perfectly dry. Boiled rice is delicious served with chicken, turkey, crab or shrimp or okra gumbo, as also with many vegetables, all daubes, and with gravies of all kinds. It is the standing dish on every Creole table.
-         </p>
+soft, snowy white and perfectly dry. Boiled rice is delicious served with 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="poultry">chicken</ingredient>, 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="poultry">turkey</ingredient>, 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">crab</ingredient>
+or 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">shrimp</ingredient> or 
+okra gumbo, as also with many vegetables, all daubes, and with gravies of all kinds. It is the standing dish on every 
+<name>Creole table</name>.
+            </p>
+            </div> 
          </div> 
 <div type ="recipe" xml:id="pic24.3_things_to_remember_in_boiling_rice">
    <head type="main" rend= "align(center) slant(bold)">Things to Remember in Boiling Rice.</head>
-         <p>
-Never set the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">>rice</ingredient> 
+     <div type="instuctions">   
+   <p>
+Never set the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> 
 to cook in cold water, or you will have a thick, mushy dish that is most unpleasant to the sight,
 and equally so to the taste. 
 </p>
 <p>
 Always use boiling 
-<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="water">water</ingredient>. 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">water</ingredient>. 
 Boil rapidly from the time that you cover the pot until you take it off, 
 for this allows each grain to be tossed away from the other constantly, and also allows it to 
 swell to three times its normal size. The constant motion of the water prevents the grains from 
@@ -110,16 +137,17 @@ in the oven and allowing the rice to "sweat," as the <name>old Creoles</name> sa
 have a dish that is not only very beautiful and tempting to the sight, but most delectable to the
 taste.
          </p>
+     </div>
 </div>
          <div type="recipe" xml:id="pic24.4_creole_jambalaya">
             <head type="main" rend="align(center) slant(bold)">
                <name>Creole</name> Jambalaya.
          </head>
          <head type="sub" rend = "align(center)">
-         <foreign xml: lang-"fr">
-            Jambalaya à la Créole.
+         <foreign xml:lang="fr">
+            Jambalaya à la Créole.\
+         </foreign>
          </head>
-         </forgein>
          </div>
          <p>
            <div type="orientation_note">
@@ -130,44 +158,49 @@ taste.
          New Orleans, and is made according to the following recipe:
            </div>
          </p>
+         <div type ="ingredientList">
          <list>
-            <item>One and a Half Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Rice</ingredient>.</item>
+            <item>One and a Half Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item>
             <item>1 Pound of Fresh
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Pork</ingredient>. 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Pork</ingredient>. 
             </item>
             <item>1 Slice of 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Ham</ingredient>.
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Ham</ingredient>.
             </item>
             <item>1 Dozen Fine 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Chaurice (Pork Sausage.)</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Chaurice (Pork Sausage.)</ingredient>
             </item>
             <item>2 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredient>.
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredient>.
+            </item>
             <item>1 Tablespoonful of 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="dairy">Butter.</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter.</ingredient>
             </item>
             <item>2 Cloves of 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Garlic.</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Garlic.</ingredient>
             </item>
             <item>2 Sprigs Each of 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Thyme</ingredient> and 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Parsley.</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient> and 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley.</ingredient>
             </item>
             <item>2 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Bay Leaves</ingredient>.
-            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Cloves</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Bay Leaves</ingredient>.
+            </item>
+            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Cloves</ingredient>
                Ground Very Fine.</item>
-            <item>3 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="liquid">Beef Broth</ingredient> or Hot Water
+            <item>3 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Beef Broth</ingredient> or Hot Water
                (Broth Preferred.)</item>
             <item>½ Spoonful of 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice"Chili Pepper.</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Chili Pepper.</ingredient>
             </item>
             <item>
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Salt</ingredient>
-               , <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Pepper</ingredient>
-               and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cayenne</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt</ingredient>
+               , <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Pepper</ingredient>
+               and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class  ="spice">Cayenne</ingredient>
                to Taste.</item>
          </list>
+            </div>
+         <div type="instructions">
          <p>
          Cut the pork very fine, lean and fat, into pieces of about half an inch square. Chop the 
          onions very fine, and mince the garlic and fine herbs. Grind the cloves. Put a tablespoonful
@@ -183,10 +216,11 @@ taste.
          season highly with Cayenne. Let all boil for a half hour longer, or until the rice is 
          firm, and serve hot. Stir often, to mix all well. You will then have a real 
          <name>Creole Jambalaya</name>. Some use the brisket of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">veal</ingredient>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">veal</ingredient>
             instead of the pork, but there is no comparison in the flavor, the pork being so 
             superior. But, again, this is a matter of taste.
          </p>
+         </div>
          <div type="recipe" xml:id="pic24.5_crab_jambalya">
             <head type="main" rend = "align(center) slant(bold)">
          Crab Jambalaya.
@@ -194,55 +228,59 @@ taste.
             <head type="sub" rend="align(center)">
                <foreign xml:lang="fr">
          Jambalaya aux Crabes.
+               </foreign> 
             </head>
-            </foreign> 
+            
          </div>
-         
+ <div type="ingredientList">        
          <list>
          <item>1 Dozen Fine, Large 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="crab">Crabs</ingredient>.
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="crab">Crabs</ingredient>.
          </item>
          <item>1 ½ Cups of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Rice</ingredient>. 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>. 
          </item>
            <item> 3 Quarts of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="liquid">Broth</ingredient>.
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Broth</ingredient>.
          </item>
-            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Tomatoes</ingredient>.
+            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.
             </item> 
             <item>2 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions.</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions.</ingredient>
             </item>
          <item>1 Tablespoonful of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="diary">Butter.</ingredient>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="diary">Butter.</ingredient>
          </item>
          <item>1 Tablespoonful of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Flour</ingredient>. 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>. 
             </item>
             <item>2 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Cloves of Garlic</ingredient>.
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Cloves of Garlic</ingredient>.
             </item>
          <item>2 Sprigs of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Thyme</ingredient>.
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>.
             </item>
             <item>2 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="herb">Bay Leaves</ingredient>.
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Bay Leaves</ingredient>.
             </item>
          <item>½ Teaspoonful of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Chili Pepper</ingredient>.
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Chili Pepper</ingredient>.
          </item>
          <item>
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Salt</ingredient>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt</ingredient>
             and 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="seasoning">Black Pepper</ingredient>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Black Pepper</ingredient>
             to Taste.
          </item>
          </list>
+ </div>
+     <div type="instructions">
          <p>
-         Boil the crabs according to recipe. (See Boiled Crabs.) Then cut in pieces, cutting the bodies into
-         quarters. Proceed in exactly the same manner as in making 
-            <div type =recipeAddition" corresp="pic24.7_shrimp_jambalaya">Shrimp Jambalaya.</div>
+Boil the crabs according to recipe. (<ptr target=""> See Boiled Crabs</ptr>.) Then cut in pieces, 
+cutting the bodies into quarters. Proceed in exactly the same manner as in making 
+<ptr target="#pic24.7_shrimp_jambalaya">Shrimp Jambalaya.</ptr>
          </p>
+     </div>
          <div type="recipe" xml:id="pic24.6_jambalaya_au_congri">
             <head type="main" rend="align(center) slant(bold)">
          Jambalaya au Congri.
@@ -252,60 +290,65 @@ taste.
                Jambalaya au Congri.
                </foreign>
             </head>
-         </div>
+ <div type="ingredientList">
          <list>
          <item>1 Cup of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Rice</ingredient>.
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
          </item>
          <item>1 Pint of 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Cowpeas</ingredient>.
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Cowpeas</ingredient>.
          </item>
          <item>1 Large 
-            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onion.</ingredient>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onion.</ingredient>
          </item>
         <item> ½ Pound of 
-           <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Salt Meat</ingredient>.
+           <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Salt Meat</ingredient>.
            </item>
             <item>1 Square Inch of 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="meat">Ham</ingredient>.
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Ham</ingredient>.
             </item>
          </list>
+ </div>
+  <div type="instructions">
          <p>
          Chop the small meat, after washing, into dice, and mince the ham.
 <!--Colum 2 Begins-->
   <cb n="2"/>         
 Boil the cowpeas and the salt meat and ham together. Add the onion, minced very fine. 
-<div type = "recipeAddition" corresp= "pic24.2_how_to_boil_rice"Boil the rice 
-according to recipe for boiled rice, (see recipe.)</div>
+Boil the rice 
+according to recipe for boiled rice, <ptr target="#pic24.2_how_to_boil_rice">(see recipe.)</ptr>
 Chop the meat well. After the peas and the rice are cooked, pour the rice into the pot of peas, which must
 not be dry, but very moist. Mix well. Let all simmer for five minutes, and then serve hot. On Fridays and 
 fast days the <name>Creoles</name> boil the peas in water adding a tablespoonful of butter, but no meat. It
 is again buttered according to individual taste at table. The jambalaya, however, is much nicer when made 
 with the meat.
          </p>  
+  </div>
+         </div>
          <div type="recipe" xml:id="pic24.7_shrimp_jambalaya">
             <head type="main" rend="align(center) slant(bold)">
             Shrimp Jambalaya.
             </head>
             <head type="sub" rend="align(center)"><foreign xml:lang="fr">
             Jambalaya aux Chevrettes.
-            </head>
             </foreign>
+            </head>
+         <div type="ingredientList">
             <list>
             <item>1 ½ Cups of 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="grain">Rice</ingredient>.
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
                </item>
                <item>3 
-                  <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Tomatoes</ingredient>.
+                  <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Tomatoes</ingredient>.
                </item>
             <item>80 
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="shellfish">Lake Shrimp</ingredient>.
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Lake Shrimp</ingredient>.
             </item>        
             <item>2 
-               <ingredint xmlns="http://luc.edu/ctsdh/ns/1.0" type="vegetable">Onions</ingredint>.
+               <ingredint xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Onions</ingredint>.
             </item> 
             <item>
-               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" type="spice">Cayenne</ingredient>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cayenne</ingredient>
                to Taste.
             </item>
             <item>1 Tablespoonful 
@@ -328,6 +371,8 @@ with the meat.
                <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Bay Leaf </ingredient>.
             </item>
             </list>
+         </div>
+            <div type="instructions">
             <p>
             Chop two onions very fine, and put them in a saucepan to brown with a tablespoonful of
             butter. After a few minutes add a tablespoonful of flour and stir well. Then add 
@@ -342,35 +387,53 @@ with the meat.
             (the former preferred) which has been heated to the boiling point. Let all boil well, 
             and then add the lake shrimp, which you will 
             <choice><sic>alreay</sic><corr>already</corr></choice> have boiled according to 
-            recipe. (See recipe for 
-            <div type = "recipeAddition" corresp= "#pic> Boiled shrimp</div>.
+            recipe. (<ptr target="" >See recipe for Boiled shrimp</ptr>).
             Let the mixture boil again for five minutes, and add one cup and a half of rice, or 
             half a pound, which has been well washed. Mix all well, and let boil for a half or 
             three- quarters of an hour longer, stirring every once in a while, so as to mix all 
             together. Serve hot.
             </p>
+            </div>
          </div>
          <div type="recipe" xml:id="pic24.8_a_french_pilon">
-            <head type="main" rend="align(center) slant(bold)>
+             <head type="main" rend ="align(center) slant(bold)">
             A French Pilon.
             </head>
             <head type="sub" rend="align(center)"> 
                <foreign xml:lang="fr">
             Pilou Français.
+               </foreign>
             </head>
-            </foreign>
+            <div type="ingredientList">
             <list>
-            2 Chickens. ½ Cup of Rice.
-            2 Tablespoonfuls of Butter.
-            The Yolks of 2 Eggs. Bread Crumbs.
+               2 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Chickens</ingredient>.
+               ½ Cup of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+            2 Tablespoonfuls of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.
+            The Yolks of 2 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>. 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Bread Crumbs</ingredient>.
             </list>
+            </div>
+         <div type="instructions">
             <p>
-            Boil the fowls according to recipe. (See recipe Boiled Chicken.) When done, take out about a pint of the liquor in which it was boiled, and put the rice, which you will have washed well, into the remaining boiling broth. Let it cook well for twenty minutes, and then add two tablespoonfuls of butter to the rice. Butter the bottom of a dish, and put
-            <!--Begin New Page 168-->
+Boil the fowls according to recipe. (<ptr target="">See recipe Boiled Chicken</ptr>.)
+When done, take out about a pint of the 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">liquor</ingredient> in which it was boiled, 
+and put the rice, which you will have washed well, into the remaining boiling broth. Let it cook 
+well for twenty minutes, and then add two tablespoonfuls of butter to the rice. Butter the bottom
+of a dish, and put
             <pb n="168"/>
             <cb n="1"/>
-            upon it one-half of the rice, spreading out nicely. Lay upon it the chickens, which have been disjointed and buttered. Add the remaining chicken broth, pouring over the chicken. Then cover the fowls with the other half of the rice. Make the top perfectly smooth. Spread over it the yolks of two eggs, which have been well beaten. Sprinkle with bread crumbs, and dot with little bits of butter here and there. Set in the oven, let it brown, and serve hot.
+upon it one-half of the rice, spreading out nicely. Lay upon it the chickens, which have been 
+disjointed and buttered. Add the remaining chicken broth, pouring over the chicken. Then cover 
+the fowls with the other half of the rice. Make the top perfectly smooth. Spread over it the 
+yolks of two eggs, which have been well beaten. Sprinkle with bread crumbs, and dot with little 
+bits of butter here and there. Set in the oven, let it brown, and serve hot.
             </p>
+         </div>
          </div>
          <div type="recipe" xml:id="pic24.9_chicken_with_rice">
             <head type="main" rend="align(center) slant(bold)">
@@ -381,14 +444,27 @@ with the meat.
          Poulet au Riz
                </foreign>
             </head>
+        <div type="ingredientList">
             <list>
-         
-         1 Young Chicken[k]. 
-         ½ Cup of Rice.
+         <item>1 
+         <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="poultry">Young Chicken</ingredient>.
+         </item>
+         <item>½ Cup of 
+         <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+         </item>
             </list>
+        </div>
+     <div type="instructions">
          <p>
-         This is a most delightful Creole way of preparing chicken and rice. It is highly recommended. Prepare and cook the chicken as in Poulet au Riz, only do not cut up the chicken, but stew whole. When three-fourths done, add the rice, and in serving place the chicken in the center of the dish and heap the rice around. Young chickens are best for this dish. An old chicken may be cut up and cooked till tender, as in Poulet au Riz, (See recipe Poulet au Riz, under chapter on Meat Soups.)[l]
+This is a most delightful <name>Creole</name> way of preparing chicken and rice. It is highly 
+recommended. Prepare and cook the chicken as in 
+<ptr target=""> >Poulet au Riz</ptr>,
+only do not cut up the chicken, but stew whole. When three-fourths done, add the rice, and in 
+serving place the chicken in the center of the dish and heap the rice around. Young chickens are 
+best for this dish. An old chicken may be cut up and cooked till tender, as in Poulet au Riz, 
+(See recipe Poulet au Riz, under chapter on Meat Soups.)
          </p> 
+     </div>
          </div>
          <div type="recipe" xml:id="pic24.10_pilaff_of_chicken">
             <head type="main" rend="align(center) slant(bold)">
@@ -399,34 +475,76 @@ with the meat.
          Pilaff de Volaille.
                </foreign>
             </head>  
+      <div type="ingredientList">
          <list>
-         1 Chicken About Four Pounds.
-         ½ Cup of Rice. 1 Tablespoonful of Butter.
-         Salt and Pepper to Taste.
+         <item>1 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="poultry">Chicken</ingredient>
+            About Four Pounds.
+         </item>
+         <item>½ Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+         </item> 
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.
+         </item>
+         <item>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt and Pepper</ingredient>
+            to Taste.
+         </item>
          </list>
+      </div>
+   <div type="instructions">
          <p>
-         Clean and cut the chicken as you would for a fricassé. Put in a stew-pan and cover well with water. Add salt and pepper again to taste, having, of course, previously rubbed the fowl with salt and pepper. Let the chicken simmer gently for about an hour. Then take a half cup of rice and wash it thoroughly. Add it to the chicken. Salt again to taste. Cover and let all simmer for about twenty minutes longer. Then make a Tomato Sauce (see recipe)[m]. Dish the chicken and rice together, setting the chicken in the center of the dish and the rice around for a border, serve hot. This dish can be nicely made from the remains of cold chicken or mutton.
+Clean and cut the chicken as you would for a fricassé. Put in a stew-pan and cover well with 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">water</ingredient>.
+Add salt and pepper again to taste, having, of course, previously rubbed the fowl with salt and 
+pepper. Let the chicken simmer gently for about an hour. Then take a half cup of rice and wash it
+thoroughly. Add it to the chicken. Salt again to taste. Cover and let all simmer for about twenty
+minutes longer. Then make a Tomato Sauce(<ptr target=""> see recipe</ptr>). 
+Dish the chicken and rice together, setting the chicken in the center of the dish and the rice 
+around for a border, serve hot. This dish can be nicely made from the remains of cold chicken or 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">mutton</ingredient>.
          </p>
+   </div>
          </div>         
          <div type="recipe" xml:id="pic24.11_how_to_make_a_rice_border">
             <head type="main" rend="align(center) slant(bold)">
          How to Make a Rice Border.
             </head>
-      <head type="sub" rend="align(center)>
+      <head type="sub" rend="align(center)">
          Bordure de Riz.
       </head>
-         
+  <div type="ingredientList">
          <list>
-         1 cup of Rice. 1 Quart of Boiling Water.
-         1 Tablespoonful of Butter. Salt to Taste.
+         <item>1 cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+         </item>
+         <item>1 Quart of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Boiling Water</ingredient>.
+         </item>
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.
+         </item>
+         <item>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt to Taste</ingredient>.
+         </item>
          </list>
+  </div>
+  <div type="instructions">
          <p>
-         Boil the rice according to recipe given above[n], using one cup to one quart of boiling water. Boil rapidly for fifteen minutes. Pour off any water that remains on top. Set in the oven to dry for about ten minutes, then drain. Season with salt and pepper, and press into a well-buttered border mold. Put It in the
-
-         <cb n="2"/>
-         
-         oven and let it bake ten minutes. Take out. Place a dish on the mold. Turn it upside down, and remove the mold. The hollow space in the center can be filled with a White or Brown Fricassée of Chicken or Curry of Crawfish.
+<ptr target="#pic24.2_how_to_boil_rice">Boil the rice</ptr>
+according to recipe given above[n], using one cup to one quart of boiling water. Boil rapidly for
+fifteen minutes. Pour off any water that remains on top. Set in the oven to dry for about ten 
+minutes, then drain. Season with salt and pepper, and press into a well-buttered border mold. Put
+It in the
+         <cb n="2"/>         
+oven and let it bake ten minutes. Take out. Place a dish on the mold. Turn it upside down, and 
+remove the mold. The hollow space in the center can be filled with a 
+<ptr target= "" >White or Brown Fricassée of Chicken</ptr>
+or 
+<ptr target= "#pic24.12_curry_of_crawfish" >Curry of Crawfish</ptr>.
          </p>
+  </div>
          </div>
 <div type="recipe" xml:id="pic24.12_curry_of_crawfish">
    <head type="main" rend="align(center) slant(bold)">
@@ -436,20 +554,67 @@ with the meat.
       <foreign xml:lang="fr">
          Écrevisses au Kari.
       </foreign>
-   </head> 
-   
+   </head>
+   <div type="ingredientList">
         <list>
-         1 Cup of Rice. 3 Dozen Crawfish.
-         2 Ounces of Butter. 1 Clove of Garlic.
-         2 Sprigs of Thyme. 2 Sprigs of Parsley.
-         1 Bay Leaf. Juice of Half a Lemon.
-         1 Tablespoonful of Curry Powder.
-         1 Tablespoonful of Flour. 1 Quart of Water.
-         Salt and Pepper to Taste. A Dash of Cayenne.
+         <item>1 Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+         </item> 
+         <item>3 Dozen 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seafood">Crawfish</ingredient>.
+         </item>
+         <item>2 Ounces of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>. 
+         </item>
+         <item>1 Clove of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Garlic</ingredient>.
+         </item>
+         <item>2 Sprigs of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Thyme</ingredient>.
+         </item>
+         <item>2 Sprigs of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Parsley</ingredient>.
+         </item>
+         <item>1 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Bay Leaf</ingredient>.
+         </item>
+         <item>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit juice">Juice of Half a Lemon</ingredient>.
+         </item>
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Curry Powder</ingredient>.
+         </item>
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>. 
+         </item>
+         <item>1 Quart of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.
+         </item>
+         <item>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt and Pepper</ingredient>
+            to Taste. 
+         </item>
+         <item>A Dash of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Cayenne</ingredient>.
+         </item>
         </list> 
+   </div>
+   <div tpye="instructions">
          <p>
-         Boil the crawfish according to the recipe given. (See Boiled Crawfish.)[o] Clean and pick the crawfish the same as for a fricassée. Put two ounces of butter in the frying pan. Cut one onion in slices, add it to the butter, letting it brown nicely. Then add the well-seasoned crawfish, and fry them to a golden brown. Add one clove of garlic, finely minced, and minced thyme, parsley and bay leaf. Let this brown. After five minutes, add a quart of boiling water. Stir well. Season to taste with salt, pepper and a dash of Cayenne. Simmer gently until the crawfish are very tender. When done, add the juice of half a lemon, and mix one even tablespoonful of Curry Powder and one of flour with a little water. Bring it to a smooth paste by rubbing well, and add it to the crawfish. Stir constantly, and let it boil five minutes longer. Serve with a border of boiled rice heaped around it. Curry of Chicken is made in the same manner, by adding the Curry Powder.
+Boil the crawfish according to the recipe given. (<ptr target= "" >See Boiled Crawfish </ptr>.) 
+Clean and pick the crawfish the same as for a fricassée. Put two ounces of butter in the frying 
+pan. Cut one onion in slices, add it to the butter, letting it brown nicely. Then add the 
+well-seasoned crawfish, and fry them to a golden brown. Add one clove of garlic, finely minced, 
+and minced thyme, parsley and bay leaf. Let this brown. After five minutes, add a quart of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">boiling water</ingredient>.
+Stir well. Season to taste with salt, pepper and a dash of Cayenne. Simmer gently until the 
+crawfish are very tender. When done, add the juice of half a lemon, and mix one even 
+tablespoonful of Curry Powder and one of flour with a little water. Bring it to a smooth paste by
+rubbing well, and add it to the crawfish. Stir constantly, and let it boil five minutes longer. 
+Serve with a border of boiled rice heaped around it. Curry of Chicken is made in the same manner,
+cby adding the Curry Powder.
          </p>
+   </div>
 </div> 
  <div type="recipe" xml:id="pic24.13_boiled_rice_italian_style">
     <head type="main" rend="align(center) slant(bold">
@@ -459,16 +624,39 @@ with the meat.
        <foreign xml:lang="fr">
          Riz Bouilli à l’Italienne.
        </foreign>
-    </head> 
+    </head>
+    <div type="ingredientList">
          <list>
-         1 Cup of Rice. A Slice of Breakfast Bacon.
-         1 Tablespoonful of Grated Parmesan.
-         1 Pinch Saffron. Salt and Pepper to Taste.
-         1 Tablespoonful of Butter.
+            <item>1 Cup of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+            </item>
+            <item>A Slice of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">Breakfast Bacon</ingredient>.
+            </item>
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Grated Parmesan</ingredient>.
+         </item>
+         <item>1 Pinch 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Saffron</ingredient>.
+            </item>
+            <item>
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt and Pepper</ingredient>
+               to Taste.
+            </item>
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.
+         </item>
          </list>
+    </div>
+    <div type="instructions">
         <p>
-         Wash one cup of rice. Take boiling water, using about a quart. Add a slice of bacon and a tablespoonful of grated Parmesan cheese, and a pinch of saffron. Let it boil well for five minutes. Then add the rice gradually, continuing to cook according to the recipe for boiled rice. When done, remove the bacon, dot the top with bits of butter, set in the stove to dry for ten minutes, and serve hot.
+Wash one cup of rice. Take boiling water, using about a quart. Add a slice of bacon and a 
+tablespoonful of grated Parmesan cheese, and a pinch of saffron. Let it boil well for five 
+minutes. Then add the rice gradually, continuing to cook according to the recipe for boiled rice.
+When done, remove the bacon, dot the top with bits of butter, set in the stove to dry for ten 
+minutes, and serve hot.
         </p> 
+    </div>
  </div>
  <div type="recipe" xml:id="pic24.14_calas">
     <head type="main" rend="align(center) slant(bold)">
@@ -478,41 +666,106 @@ with the meat.
        <foreign xml:lang="fr">
          “Belle Cala!..Tout Chaud!”
        </foreign>
-    </head>
-         
-        <p> 
-         Under this cry was sold by the ancient Creole negro women in the French Quarter of New Orleans a delicious rice cake, which was eaten with the morning cup of Café au Lait. The Cala woman was a daily figure in the streets till within the
-         
-         <pb n="169"/>
-    <cb n="1"/>
-         <!--Begin Page 169-->
-         
-         
-         last two or three years. She went her rounds In quaint bandana tignon, guinea blue dress, and white apron, and carried on her head a covered bowl, in which were the dainty and hot Galas. Her cry, "Belle Cala! Tout Chaud!" would penetrate the morning air, and the olden Creole cooks would rush to the doors to get the first fresh, hot Calas to carry to their masters and mistresses with the early morning cup of coffee. The Cala women have almost all passed away, for, as remarked at the beginning of this book, there is a "new colored woman" in New Orleans, as elsewhere in the south, and she disdains all the pretty olden industries and occupations which were a constant and genteel source of revenue to the old negro mothers and grandmothers. Only two or three of the ancient Cala women remain. The cries of "Belle Cala! Tout Chaud!" are now few and far between. Once In a while, like some ghostly voice of the.past, one starts up in bed of an early morning as the weak old voice faintly penetrates your chamber. In a second more it is lost in the distance, and you turn over with a sigh for the good old times and the quaint customs of old Creole days, which gave such a beautiful and unique tinge to the life of the ancient quarter.
-         But the custom of making Calas still remains. In many an ancient home the good housewife tells her daughters just how "Tante Zizi" made the Calas in her day, and so are pre- served these ancient traditional recipes.[p]
-         From one of the last of the olden Cala women, one who has walked the streets of the French quarter for fifty years and more, the Picayune has gotten the following established Creole recipe:
-      </p>  
+    </head>        
+        <p>
+           <div type="orientationNote">
+Under this cry was sold by the <name>ancient Creole negro women</name> 
+in the French Quarter of New Orleans a delicious rice cake, which was eaten with the morning cup 
+of Café au Lait. The Cala woman was a daily figure in the streets till within the             
+              <pb n="169"/>
+    <cb n="1"/> 
+last two or three years. She went her rounds In quaint bandana tignon, guinea blue dress, and 
+white apron, and carried on her head a covered bowl, in which were the dainty and hot Galas. Her 
+cry, "Belle Cala! Tout Chaud!" would penetrate the morning air, and the 
+<name>olden Creole cooks</name> 
+would rush to the doors to get the first fresh, hot Calas to carry to their masters and 
+mistresses with the early morning cup of coffee. The Cala women have almost all passed away, for,
+as remarked at the beginning of this book, there is a "new colored woman" in New Orleans, as 
+elsewhere in the south, and she disdains all the pretty olden industries and occupations which 
+were a constant and genteel source of revenue to the old negro mothers and grandmothers. Only two
+or three of the ancient Cala women remain. The cries of "Belle Cala! Tout Chaud!" are now few and
+far between. Once In a while, like some ghostly voice of the past, one starts up in bed of an 
+early morning as the weak old voice faintly penetrates your chamber. In a second more it is lost 
+in the distance, and you turn over with a sigh for the good old times and the quaint customs of 
+<name>old Creole days</name>,
+which gave such a beautiful and unique tinge to the life of the ancient quarter.
+        </div></p>
+    <p>  
+But the custom of making Calas still remains. In many an ancient home the good housewife tells 
+her daughters just how "Tante Zizi" made the Calas in her day, and so are pre- served these 
+ancient traditional recipes.
+From one of the last of the olden Cala women, one who has walked the streets of the French 
+quarter for fifty years and more, the Picayune has gotten the following established <name>Creole</name> 
+recipe:
+    </p> 
+ </div> 
+   <div type="ingredientList">
         <list>
-         ½ Cup of Rice. 3 Cups of Water (boiling).
-         3 Eggs. ½ Cup of Sugar.
-         ½ Cake of Compressed Yeast.
-         ½ Teaspoonful of grated Nutmeg.
-         Powdered White Sugar. Boiling Lard.
+         <item>½ Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+            </item>
+           <item>3 Cups of 
+              <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water (boiling)</ingredient>.
+          </item>
+         <item>3 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.
+            </item>
+           <item>½ Cup of 
+              <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.
+           </item>
+         <item>½ Cake of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.
+         </item>
+         <item>½ Teaspoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">grated Nutmeg</ingredient>.
+         </item>
+         <item>Powdered 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Sugar</ingredient>.
+            </item>
+           <item>
+              <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Boiling Lard</ingredient>.
+           </item>
         </list> 
-         <p>
-          
-         Put three cups of water in a saucepan and let it boil hard. Wash half a cup of rice thoroughly, and drain and put in the boiling water. Let it boil till very soft and mushy. Take it out and set it to cool. When cold, mash well and mix with the yeast, which you will have dissolved In a half cup of hot water. Set the rice to rise overnight. In the morning beat three eggs thoroughly, and add to the rice, mixing and beating well. Add a half cup of sugar and three tablespoonfuls of flour, to make the rice adhere. Mix well and beat thoroughly, bringing it to a thick batter. Set to rise for fifteen minutes longer. Then add about a half tea-
-         
-            <cb n="2"/>
-         <!--Column 2 Begins-->
-         
-         
-         spoonful of grated nutmeg, and mix well. Have ready a frying pan, in which there is sufficient quantity of lard boiling for the rice cakes to swim in it. Test by dropping in a small piece of bread. If it becomes a golden brown, the lard is ready, but if it burns or browns instantly it is too hot. The golden brown color is the true test. Take a large deep spoon, and drop a spoonful at a time of the preparation into the boiling lard, remembering always that the cake must not touch the bottom of the pan. Let fry to a nice brown. The old Cala women used to take the Calas piping hot, wrap them in a clean towel, basket or bowl, and rush through the streets with the welcome cry, "Belle Cala Tout Chaud!" ringing on the morning air. But in families the cook simply takes the Calas out of the frying pan and drains off the lard by laying in a colander or On heated pieces of brown paper. They are then placed in a hot dish, feind sprinkled over with powdered white sugar, and eaten hot with Café au Lait.
-         The above quantity will make six cakes. Increase in proportion.
-         Calas may also be made of rice flour. In olden days the Cala women used to pound the rice themselves in a mortar till they reduced it to a fine powder or flour. Then it was mixed and set to rise overnight. If the rice flour is used, one tablespoonful of wheat flour is sufficient to bind.
-         Often in large Creole families, where rice is left over from the day before, the quantity is increased by adding a cup of well-sifted self-raising flour. But these cakes, though very nice and palatable, are not the true "Calas," which are made entirely of rice, with only a little flour to bind, as directed above.
+   </div>
+   <div type="instructions">
+         <p>       
+Put three cups of water in a saucepan and let it boil hard. Wash half a cup of rice thoroughly, 
+and drain and put in the boiling water. Let it boil till very soft and mushy. Take it out and set
+it to cool. When cold, mash well and mix with the yeast, which you will have dissolved In a half 
+cup of hot water. Set the rice to rise overnight. In the morning beat three eggs thoroughly, and 
+add to the rice, mixing and beating well. Add a half cup of sugar and three tablespoonfuls of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">flour</ingredient>, 
+to make the rice adhere. Mix well and beat thoroughly, bringing it to a thick batter. Set to rise
+for fifteen minutes longer. Then add about a half tea-        
+            <cb n="2"/>  
+spoonful of grated nutmeg, and mix well. Have ready a frying pan, in which there is sufficient 
+quantity of lard boiling for the rice cakes to swim in it. Test by dropping in a small piece of 
+bread. If it becomes a golden brown, the lard is ready, but if it burns or browns instantly it is
+too hot. The golden brown color is the true test. Take a large deep spoon, and drop a spoonful at
+a time of the preparation into the boiling lard, remembering always that the cake must not touch 
+the bottom of the pan. Let fry to a nice brown. The old Cala women used to take the Calas piping 
+hot, wrap them in a clean towel, basket or bowl, and rush through the streets with the welcome 
+cry, "Belle Cala Tout Chaud!" ringing on the morning air. But in families the cook simply takes 
+the Calas out of the frying pan and drains off the lard by laying in a colander or On heated 
+pieces of brown paper. They are then placed in a hot dish, feind sprinkled over with powdered 
+white sugar, and eaten hot with Café au Lait.
          </p>
- </div>  
+         <p>
+The above quantity will make six cakes. Increase in proportion.
+         </p>
+         <p>
+Calas may also be made of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice flour</ingredient>.
+In olden days the Cala women used to pound the rice themselves in a mortar till they reduced it 
+to a fine powder or flour. Then it was mixed and set to rise overnight. If the rice flour is used,
+one tablespoonful of wheat flour is sufficient to bind. Often in 
+<name>large Creole families</name>, where 
+rice is left over from the day before, the quantity is increased by adding a cup of well-sifted 
+self-raising flour. But these cakes, though very nice and palatable, are not the true "Calas," 
+which are made entirely of rice, with only a little flour to bind, as directed above.
+         </p>
+   </div>
+</div>  
  <div type="recipe" xml:id="pic24.15_rice_waffles">
     <head type="main" rend="align(center) slant(bold)">
          Rice Waffles.
@@ -522,24 +775,837 @@ with the meat.
          Galettes de Riz.
        </foreign>
     </head>
+    <div type="ingredientList">
          <list>
-            <item>1 ½ Cups of Softly Boiled Rice.</item>
-            <item>2 Ounces of Butter.</item> <item>1 Pint of Scalded Milk.</item>
-            <item>3 Eggs.</item> <item>1 Teaspoonful of Baking Powder.</item>
-            <item>½ Teaspoonful of Salt.</item>
-         <item>1 Tablespoonful of Wheat Flour.</item>
+            <item>1 ½ Cups of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Softly Boiled Rice</ingredient>
+               .</item>
+            <item>2 Ounces of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.
+            </item> 
+            <item>1 Pint of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Scalded Milk</ingredient>.
+            </item>
+            <item>3 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.
+            </item> 
+            <item>1 Teaspoonful of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.
+            </item>
+            <item>½ Teaspoonful of 
+               <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt</ingredient>.
+            </item>
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Wheat Flour</ingredient>.
+         </item>
          </list>
+    </div>
+    <div type="instructions">
          <p>
-         The rice must be cold and well mashed. Melt the two tablespoonfuls of butter into the milk, which has been allowed to cool. Beat the yolks of the eggs and the whites seperately[q], making the latter come to a stiff froth. Mix the rice and milk. Beat thoroughly, and then add a half teaspoonful of salt and one of baking powder, and the flour. Put the yolks into the batter, first blending well, and lastly add the whites, and beat well again. The waffle iron should be very hot, and well greased in every part. Always have a little brush with which to grease the waffle
-    
+The rice must be cold and well mashed. Melt the two tablespoonfuls of butter into the milk, which
+has been allowed to cool. Beat the yolks of the eggs and the whites 
+<choice><sic>seperately</sic><corr>separately</corr></choice>, making the latter come to a stiff 
+froth. Mix the rice and milk. Beat thoroughly, and then add a half teaspoonful of salt and one of
+baking powder, and the flour. Put the yolks into the batter, first blending well, and lastly add 
+the whites, and beat well again. The waffle iron should be very hot, and well greased in every 
+part. Always have a little brush with which to grease the waffle    
          <pb n="170"/>
     <cb n="1"/>
-         <!--Begin Page 170-->
-         
-         
-         irons. Pour the batter into a pitcher, so that you may more easily fill the irons. Open the irons, pour the batter from the pitcher and fill the iron quickly. Then close quickly and set on the fire. As soon as the edges are set, turn the iron and bake on the other side. Two minutes should be all the time required to bake a waffle nicely. The waffle must be baked evenly. Always select the simple waffle baker with four compartments in preference to the more elaborate designs. Better results will be achieved. When the waffles are baked, remove them carefully, place on a hot dish, piling them in double rows, and butter them generously. Rice waffles are generally served with ground cinnamon and sugar mixed and sprinkled over. But this is a matter of taste. They are very delicious when served with butter and Louisiana Syrup or Molasses.
+irons. Pour the batter into a pitcher, so that you may more easily fill the irons. Open the irons,
+pour the batter from the pitcher and fill the iron quickly. Then close quickly and set on the fire
+. As soon as the edges are set, turn the iron and bake on the other side. Two minutes should be 
+all the time required to bake a waffle nicely. The waffle must be baked evenly. Always select the
+simple waffle baker with four compartments in preference to the more elaborate designs. Better 
+results will be achieved. When the waffles are baked, remove them carefully, place on a hot dish,
+piling them in double rows, and butter them generously. Rice waffles are generally served with 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">ground cinnamon</ingredient>
+and 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">sugar</ingredient>
+mixed and sprinkled over. But this is a matter of taste. They are very delicious when served with
+butter and 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Louisiana Syrup or Molasses</ingredient>.
          </p>
+    </div>
  </div>
+<div type="recipe" xml:id="pic24.16_rice_griddle_cakes">
+   <head type="main" rend="align(center) slant(bold)">
+      Rice Griddle Cakes.
+   </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Gateaux de Riz.
+      </foreign>
+   </head>
+   <div type="ingredientList">
+ <list> 
+    <item>1 Pint of 
+       <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.
+    </item>
+    <item>1 ½ Cups of 
+       <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cold Boiled Rice</ingredient>.
+    </item>
+    <item>1 ½ Cups of 
+       <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.
+    </item>
+    <item>2 
+       <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.
+    </item>
+    <item>2 Heaping Teaspoonfuls of 
+       <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.
+     </item>
+    <item>1 Large Teaspoonful of 
+       <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt</ingredient>.
+    </item>
+ </list> 
+   </div>
+   <div type="instructions">
+<p>
+Scald the milk and set it to cool. Press the rice through a sieve, and then add the well-beaten 
+yolks of two eggs, then the salt, yeast powder and flour, blended, and beat well. Then add the 
+milk, blending thoroughly, and finally the whites of the eggs, beaten to a stiff froth. Mix 
+thoroughly and bake on a hot griddle.
+</p>  
+   </div>      
+</div>  
+<div type="recipe" xml:id="pic24.17_rice_bread">
+    <head type="main" rend="align(center) slant(bold)">         
+         Rice Bread.
+    </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Pain de Riz.
+      </foreign>
+   </head> 
+ <div type="ingredientList">
+ <list>        
+         <item>1 Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cold Boiled Rice</ingredient>.
+         </item>
+         <item>2 Cups of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">White Indian Meal</ingredient>.
+         </item>
+         <item>3 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.
+         </item>
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Melted Butter</ingredient>.
+         </item>
+         <item>2 Heaping Teaspoonfuls of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.
+         </item>
+         <item>1 ¼ Pints 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.
+         </item>
+         <item>1 Teaspoonful 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt</ingredient>.
+         </item>
+ </list>
+ </div>
+   <div type="instructions">
+ <p>        
+Beat the yolks and whites of the eggs together until very light, and then pour in the milk, 
+mixing gradually. Add the well-prepared meal, into which you will have mixed the salt and baking
+powder. Beat well. Then add the melted butter and the rice, which you will have pressed through 
+a sieve. Mix all thoroughly and beat till very light. Then grease the bottom of a shallow pan 
+and turn the mixture in and bake half an hour in a hot oven. Serve hot, buttering the slices 
+freely. This is a delicious breakfast bread, and, as in any of the above recipes, cold rice left
+over may be utilized in its making.
+ </p>
+   </div>
+</div>
+   <cb n="2"/>
+<div type="recipe" xml:id="pic24.18_rice_croquettes_with_parsley">
+   <head type="main" rend="align(center) slant(bold)">         
+         Rice Croquettes With Parsley.
+   </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Croquettes de Riz au Persil.
+      </foreign>
+   </head>  
+   <div type="ingredientList">
+ <list>       
+         <item>1 Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+         </item>
+         <item>1 Quart of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.
+         </item>
+         <item>1 Tablespoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="herb">Chopped Parsley</ingredient>.
+         </item>
+         <item>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Yolks of 4 Eggs</ingredient>.
+         </item>
+         <item>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt and Pepper to Taste</ingredient>.
+         </item>
+ </list>
+   </div>
+  <div type="instructions">
+ <p>        
+Wash the rice well, and put it on to boil in a farina boiler with the milk, or use cold boiled 
+rice, and set it to boil with the milk, after pressing through a sieve. If the rice has not been
+cooked, let it boil about an hour. If it has already been cooked, twenty minutes will suffice. 
+When very thick take from the fire and beat until very smooth, mashing all the grains. Then add 
+the well-beaten yolks of the eggs, and cook for about eight or ten minutes longer. Add the 
+parsley and seasoning, using the 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">white pepper</ingredient>. 
+Take from the fire and mix well, and turn out on a plate, and let it cool. When cool, form it 
+into pretty cylinders of about three inches in length and one and a half in thickness. Roll 
+these in a beaten egg, to bind, and then in 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">bread crumbs</ingredient>,
+and fry in 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">boiling lard</ingredient>.
+Drain and serve with any daube, or with any 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="meat">meat cooked with gravy</ingredient>.
+ </p>  
+  </div>
+</div> 
+<div type="recipe" xml:id="pic24.19_rice_croquettes_with_fruit">
+    <head type="main" rend="align(center) slant(bold)">    
+         Rice Croquettes With Fruits.
+    </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Croquettes de Riz aux Fruits.
+      </foreign>
+   </head>
+   <div type="ingredientList">
+<list>        
+         <item>½ Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.
+         </item>
+         <item>1 Plot of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.
+         </item>
+         <item>2 Large Tablespoonfuls of
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.
+         </item>
+         <item>¼ Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currants</ingredient>.
+         </item>
+         <item>¼ Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Raisins</ingredient>.
+         </item>
+         <item>¼ Cup of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Citron</ingredient>.
+         </item>
+         <item>½ Teaspoonful of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla Essence</ingredient>.
+         </item>
+         <item>
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Yolks of two Eggs</ingredient>.
+         </item>  
+</list>  
+   </div>
+   <div type="instructions">
+   <p>
+Put the milk Into a farina boiler, and add the dice which you will have washed well. Boil until 
+very thick. Seed the raisins and prepare the other fruits. Beat the eggs well and add them to 
+the rice, and then stir in the sugar. Beat until very smooth. Then take from the fire, and add 
+the essence of vanilla, the raisins and currants, and the citron. Turn out all into a dish to 
+cool. Then form into pretty pyramids, and dip first in a well-beaten egg, and then in 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">bread crumbs</ingredient>.
+Fry in 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">boiling lard</ingredient>.
+Drain well. When about to serve, put a small piece of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currant Jelly</ingredient> on the 
+top of each croquette. Then dust the whole with powdered sugar, and serve with Sauce à la 
+Vanille. (Vanilla Sauce, 
+<ptr target="<!-- no xml:id -->">see recipe</ptr>.)
+   </p>
+   </div>
+</div> 
+<div type="recipe" xml:id="pic24.20_rice_flour_croquettes">
+  <head type="main" rend="align(center) slant(bold)">        
+         Rice Flour Croquettes.
+  </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Croquettes de Farine de Riz.
+      </foreign>
+   </head>
+<div type= "ingredientList">
+ <list>                
+    <item>1 Quart 
+       <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.
+            </item>
+         <item>1.2 Split 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vanilla Stick</ingredient>.
+         </item>
+         <item>6 Ounces of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Ground Rice</ingredient>.
+         </item>
+         <item>¼ Pound of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.
+         </item>
+         <item>2 Ounces 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.
+         </item>
+         <item>
+            Yolks of 8 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.
+         </item>
+         <item> Ounce of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Pineapple</ingredient>.
+            </item>
+         <item>2 Ounces of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Apricots</ingredient>.
+         </item>
+         <item>3 Ounces of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Cherries</ingredient>.
+         </item>
+         <item>1 Ounce of 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Orange Peel</ingredient>. 
+         <item>A 
+            <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream Sauce</ingredient>.
+         </item>
+ </list>
+</div>
+   <div type="instructions">
+ <p>
+Boil a quart of milk, and add to it while boiling the split vanilla stick.   
+<pb n="171"/>
+    <cb n=1/>    
+Take out the vanilla after you have cut all the fruit and orange peel into small dice, throwing 
+away the seeds. Drop the ground rice like a shower of rain into the boiling milk, stirring it 
+continuously with a whisk of the hand. When it begins to soften, set it back, and let it cook 
+for fifteen minutes longer. Then mix in the cut fruits, and add the butter, which you will have 
+melted. Add the eggs, which have been beaten very light in the sugar. Mix thoroughly, and add 
+the orange peel; cut into quarter dice. When the mixture is very light, set it to cool, by 
+spreading it out on a baking sheet, covered with white paper. When cold, divide it into small 
+balls, roll these in powdered Macaroons (see recipe Macaroons), dip in beaten egg, and then roll
+in 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">white bread crumbs</ingredient>. 
+Fry in 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">boiling lard</ingredient>. 
+Drain in a heated colander or on a piece of brown paper. Then dress the croquettes nicely on a 
+dish, sprinkle with 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">vanilla sugar</ingredient>, 
+and serve each separately, with a 
+Cream Sauce. (<ptr target="<!-- no xml:id -->"> See recipe</ptr>.) This 
+is a delicious dish.
+</p>
+   </div>
+</div> 
+<div type="recipe" xml:id="pic24.21_rice_custard">
+   <head type="main" rend="align(center) slant(bold)">       
+         Rice Custard.
+   </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Riz au Lait.
+      </foreign>
+   </head>
+ <div type = "ingredientList">   
+ <list>     
+ <item>1 Cup 
+    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>. 
+ </item>3-4 Cup 
+    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>. 
+ <item>½ 
+    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Grated Nutmeg</ingredient>.
+ </item>
+ <item>1 Teaspoonful of 
+    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Vanilla</ingredient>.
+ </item>
+ <item>
+    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">The Peel of a Quarter of an Orange</ingredient>
+    , Cut in Dice.
+ </item>         
+ </list>
+ </div>
+   <div type="instructions">
+   <p>
+ Boil the rice very soft, and then add the milk, and let it come to a good boil. Add the orange 
+peel, cut in quarter dice. Beat the eggs and sugar well together till very light, and add to the
+boiling custard. Cook for one minute longer. Then take from the fire, and add the vanilla and 
+one-quarter of the grated nutmeg. Place all in a dish to cool. Sprinkle the top with grated 
+nutmeg, and serve cold. This is a <name>famous Creole dish</name>.
+   </p>
+   <p>
+If you wish to have a baked custard, Place the custard in a pan or in cups. Set in the oven to 
+brown, and serve hot, with a 
+<div type = "recipeAddition" corresp="<!--no xmlid-->">Cream Sauce</div>. The above amount will 
+fill about eight cups.
+   </p>  
+   </div>      
+   <div type="recipe" xml:id="pic24.22_rice_dumplings">
+      <head type="main" rend="align(center) slant(bold)">            
+         Rice Dumplings.
+      </head>
+      <head type= "sub" rend="align(center)">
+         <foreign xml:lang="fr">
+         Echaudés de Riz.
+         </foreign>
+      </head>
+<div type = "orientationNote">
+It was the 
+<name>old Creole negro cooks</name> who first evolved that <name>famous Creole dessert</name>, 
+Rice Dumplings. They are made as follows:
+</div>        
+ <div type = "ingredientList">
+    <list>
+<item>½ Cup of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.
+   </item>
+<item>3 Cups of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Ground Rice</ingredient>.
+</item>
+<item>8 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Apples</ingredient>,
+   Tart and Not Overripe.
+</item>
+<item>2 Quarts of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>, 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient> and 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cinnamon</ingredient>.
+</item>
+<item>¼ of the 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Peel of an Orange</ingredient>.
+</item>
+<item>½ of a 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Grated Nutmeg</ingredient>.
+    </item>
+    </list>       
+ </div>
+  <div type="ingredientList">
+<p>
+Pare the apples and take out the cores, leaving the apples whole. Take the ground cinnamon and 
+sugar, and mix well, and fill the cores with this mixture. In the meantime boil       
+ <cb n="2"/>               
+the rice in milk till it comes to the consistency of flour, having added the grated peel of an 
+orange and a half teaspoonful of grated nutmeg and a half cup of flour. Take off the fire, and 
+let it cool. Then cover each apple all over with a very thick coating of the rice, and tie each 
+dumpling in a cloth very tightly, and put them in a pot of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="water">cold water</ingredient>. Bring the
+water to a quick boil, and boil the apples for three-quarters of an hour. When done, untie the 
+cloth and place the dumplings carefully on a large dish. Sprinkle each with a little grated 
+nutmeg, put on top of each a dot of butter, set in the oven for five or ten minutes to brown, 
+and serve with a 
+<ptr targert="<!-- no xmlid -->"> Hard or Cream Sauce</ptr>. They are 
+most delicious with a Hard Sauce. They may be served without setting in the oven, immediately 
+after they have been taken from the water, or they may be served cold. Again, in large families,
+the apples may be cut in halves or quarters, and boiled in the same manner, covering with the 
+coating of rice, as in the following recipe: 
+</p>
+  </div>
+   </div>
+<div type="recipe" xml:id="pic24.23_apples_and_rice">
+   <head type="main" rend="align(center) slant(bold)"> 
+      <div type = "recipeAddition" corresp="#pic24.22_rice_dumplings">
+         Apples and Rice.
+      </div>
+   </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Riz à la Condé.
+      </foreign>
+   </head>
+<div type="instructions">
+         <p>       
+Take three large, fine 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">apples</ingredient>,
+and cut in halves. Pare and core. Then bake in the oven until quite done and juicy. Make a 
+<ptr target="<!-- no xmlid -->">Rice Pudding</ptr> (see recipe), using 
+only one cup of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient> and other 
+ingredients in proportion. When the apples are cold, set in a dish, placing each apple over a 
+small bed of Rice Pudding. Place the same quantity on top of the apple, so that it will be 
+inclosed between the rice as in a ball. Serve in saucers, and pour over each riced apple two 
+tablespoonfuls of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Brandy</ingredient> or 
+<div type = "recipeAddition" corresp="<!-- no xmild -->">Cream Sauce</div>. (See 
+<div type = "recipeAddition" corresp="<!-- no xmid -->"> Sauces for Puddings</div>, etc.)
+         </p>
+</div>
+</div>
+   <div type="recipe" xml:id="pic24.24_rice_meringue">
+      <head type="main" rend="align(center) slant(bold)">          
+         Rice Meringue.
+      </head>
+      <head type= "sub" rend="align(center)">
+         <foreign xml:lang="fr">
+         Meringue de Riz.
+         </foreign>
+      </head>
+ <div type = "ingredientList">        
+<list>         
+<item>1 Cup 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>. 
+</item>6 Creole 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>. 
+<item>2 Cups 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.
+</item>
+<item>1 Pint 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.
+</item>
+<item>2 Tablespoonfuls 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.
+</item>
+<item>
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">The Grated Rind of a Lemon</ingredient>.
+</item>
+ </list>         
+ </div> 
+ <div type = "instructions">
+    <p>
+Wash the rice thoroughly, and boil it in a quart of boiling water. When very soft, drain the 
+rice of all water by pressing through a colander, and add it to the milk. Beat the yolks of the
+eggs and the sugar together till very light and add the butter. Then add the juice and the 
+grated rind of a lemon, and mix thoroughly. Place the whole mixture into a baking dish, and bake
+for half an hour in a quick oven. Beat the whites to a stiff froth, and add gradually six 
+tablespoonfuls of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">powdered sugar (white)</ingredient>
+, beating them well all the time. Continue beating till the whites are stiff enough to stand 
+alone. Pour this over the top of the rice, and set it back In the oven a
+<cb ="1"/>         
+<pb ="172"/>                 
+few minutes to brown. It may be served either hot or cold.
+    </div>
+ </p>       
+   </div> 
+   <div type="recipe" xml:id="pic24.25_rice_soufflé">
+      <head type="main" rend="align(center) slant(bold)"> 
+         Rice Soufflé.
+      </head>
+      <head type= "sub" rend="align(center)">
+         <foreign xml:lang="fr">
+         Soufflé de Riz
+         </foreign>
+      </head>
+<div type ="ingredientList">         
+<list>         
+<item>¼ Pound of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice Flour</ingredient>.</item>
+<item>½ Pound of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</item>
+<item>½ Pint 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream</ingredient>.</item>
+<item>6 Fresh 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Creole Eggs</ingredient>.</item>
+<item>1 Teaspoonful 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla</ingredient>.</item> 
+<item>¼ Teaspoonful 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt.</item>
+<item> 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">The Grated Peel of Half an Orange</ingredient>.</item>
+</list>
+</div>
+<div type ="instuctions">
+   <p>
+<div type = "recipeAddition" corresp="24.2_how_to_boil_rice">Boil the rice</div> well, according
+to recipe, and when very soft add the half pint of cream, and let it come to a boil. Beat the 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">butter</ingredient> and sugar and 
+the yolks of the eggs together until very light. Then add the 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">rice</ingredient>, which has been 
+boiled in the 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">milk</ingredient>. Set on the fire,
+and add the grated peel of a half orange, and stir continually till it thickens. Add the salt. 
+Stir well. Then take from the fire, and add the vanilla. Have the whites of the eggs beaten to a
+stiff thick froth. Pour this over the rice. Set in the oven a few minutes to brown, and serve 
+immediately while very hot, or it will fall.
+   </p>       
+</div> 
+<div type="recipe" xml:id="pic24.26_snowballs">
+  <head type="main" rend="align(center) slant(bold)">       
+         Snowballs.
+  </head>
+     <head type= "sub" rend="align(center)">
+        <foreign xml:lang="fr">
+         Riz à La Neige.
+        </foreign>
+     </head>
+<div type = "ingredientList">        
+<list>         
+<item>1 Cup 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item>
+<item>1 Pint 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item> 
+<item>¼ Cup 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Sugar</ingredient>.</item>
+<item>
+   The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"> Whites</ingredient> of Six Eggs.</item>
+<item>A 
+   <ptr target="<!-- no xmlid -->">Cream Sauce</ptr>.</item>
+</list>         
+</div>
+   <div type ="instructions">
+      <p>
+Boil the rice with the milk, and add the whites of three eggs, well beaten with the sugar. Stir 
+well, and flavor with the juice of one lemon. The mixture should be white as snow. Take from the
+fire as it thickens well, and set in a dish to cool. Form the rice into small balls of about two
+and a half inches square (little "boulettes," as the Creoles call them.) Have the rest of the 
+eggs beaten to a stiff froth, with two tablespoonfuls of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">powdered sugar</ingredient>. Cover
+the tops of the balls with the mixture and place in the stove to heat. Let the balls remain 
+about four minutes, without browning. Take out, and serve with a 
+<div type="recipeAddition" corresp="<!--  -->">Cream Sauce</div> 
+(see recipe Sauces for Puddings,) or just as they are.
+      </p>
+   </div>       
+</div>
+<div type="recipe" xml:id="pic24.27_rice_cream_pudding">
+    <head type="main" rend="align(center) slant(bold)"> 
+         Rice Cream Pudding.
+    </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Pouding de Riz à la Crème.
+      </foreign>
+   </head>
+ <div type="ingredientList">        
+    <list>     
+<item>Cup of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Boiled Rice</ingredient>.</item> 
+<item>3-4 Cups of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+<item>1 Ounce of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Pineapple</ingredient>.</item> 
+<item>2 Ounces of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Raisins</ingredient>.</item>
+<item>2 Ounces of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currants</ingredient>.</item>
+<item>1 Ounce of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Grated Orange Peel</ingredient>.</item>
+<item>1 Quart of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item> 
+<item>
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">The Yolks</ingredient> of 6 Eggs.</item>
+<item>¼ of a 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Grated Nutmeg</ingredient>.</item>
+    </list>        
+ </div>
+   <div type = "instructions">
+      <p>
+Boil the rice well, and then drain through a colander and set to boil with the milk. When it has
+cooked for twenty minutes, add all the fruits, being careful to have the pineapple cut into dice,
+and the raisins seeded, and the currants picked, washed and dried. Then add the orange peel and 
+grated nutmeg, and finally the eggs, which have been well beaten in the sugar till very         
+ <cb n="2"/>                 
+light. Let all simmer for just one minute. Then take off the stove, place in a baking pan, and 
+set to brown nicely in a quick oven for about twenty-five minutes. When well browned, have ready
+a meringue, which you will have made by beating the whites of two eggs to a froth (reserve the 
+whites of two eggs), and add to this two tablespoonfuls of powdered white sugar. Spread all this
+over the pudding. Let it brown slightly in a hot oven, or the meringue will fall. Serve either 
+hot or very cold. The pudding may be made without the addition of the pineapple.
+      </p>
+   </div>        
+</div>
+<div type="recipe" xml:id="pic24.28_frozen_rice_custard">
+   <head type="main" rend="align(center) slant(bold)">     
+         Frozen Rice Custard.
+   </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Crème de Riz Glacèe.
+      </foreign>
+   </head>
+<div type = "ingredientList">
+   <list>
+<item>1 Cupful of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item> 
+<item>1 Quart of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+<item>A Pint of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream</ingredient>.</item> 
+<item>1 Cup of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+<item>1 Teaspoonful of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">Salt</ingredient>.</item> 
+<item>6 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Oranges</ingredient>.</item>
+   </list>        
+</div>
+<div type="instructions">
+   <p>
+      <div type = "recipeAdditions" corresp="#pic24.27_rice_cream_pudding">Prepare exactly as above</div>
+, as far as boiled, but omit the fruits and use only the grated rind of an orange in making the 
+pudding. When cold, add the juice of an orange and the cream, beaten or whipped to a froth. 
+Four tablespoonfuls of wine or lemon juice may be substituted for the orange juice, according to
+taste. Then freeze, the same as you would toe cream, and serve with an Orange Sauce, prepared as
+follows:
+   </p>
+   <p>
+Boil together for ten minutes one cupful of water, one-half cup of sugar, the grated yellow rind
+or zest of two oranges. Add to this the strained juice of four oranges. Cool and set to freeze. 
+Boil three tablespoonfuls of sugar with three of water for two minutes. Beat this into the white
+of one egg, which has already been brought to a stiff froth. Stir this meringue into the frozen 
+mixture, and the sauce will be ready to serve with the pudding or custard.
+   </p>
+</div>        
+</div> 
+<div type="recipe" xml:id="pic24.29_rice_with_compote_of_oranges">
+   <head type="main" rend="align(center) slant(bold)">        
+         Rice With Compote of Oranges.
+   </head>
+   <head type= "sub" rend="align(center)">
+      <foreign xml:lang="fr">
+         Riz à la Compote d’Oranges.
+      </foreign>
+   </head>
+<div type="ingredientListgitgit ">        
+ <list>       
+<item>3-4 Cup 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item>
+<item>1 ½ Pints 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item> 
+<item>1 Quart 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream</ingredient>.</item>
+<item>1 ½ Cups 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+<item>
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Yolks</ingredient> of 8 Eggs.</item> 
+<item>1 Tablespoonful of 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla</ingredient>.</item>
+<item>
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">The Grated Peel of an Orange</ingredient>.</item>
+<item>12 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Sweet Louisiana Oranges</ingredient>.</item> 
+<item>1 Pound 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+<item>1 Gill 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+<item>¼ of a 
+   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Grated Nutmeg</ingredient>.</item>
+ </list>        
+</div>      
+<div type="instructions">
+   <p>
+Wash the rice clean, and boll according to recipe in about a pint and a quarter of water. In 
+half an hour take off and drain of all water, and press through a sieve. Then add it to the milk,
+and let it boil slowly a half hour longer without burning. Whip the cream to a stiff froth, and 
+add the drain to the rice or milk, and set the whipped cream to cool until it is needed. Beat 
+the yolks of the eggs and the sugar until they are very light. Add them to the boiling rice, 
+stirring constantly and well, and let it cook for two min-        
+<pb n="173"/>
+<cb n="1"/>          
+utes, adding in the meantime the grated peel of the orange. Take the mixture from the fire. Then
+add the tablespoonful of vanilla, and the grated nutmeg. Mix well and set out to cool. Remove 
+the dasher from the ice cream freezer, and when the mixture has become very cool, turn It into 
+the freezer and let it set packed in rock salt and ice for three hours.
+</p>
+   <p>
+In the meantime take a dozen sweet Louisiana oranges, and peel and cut them crosswise into 
+halves. Take out the cores with the share point of a penknife, and set them in a dish ready for 
+use. Put a round of sugar to boil with one gill of water, and after ten minutes add the 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit juice">juice of half a lemon</ingredient>
+. Put a few pieces at a time of the oranges into this boiling liquid, and lay them out side by 
+side in a flat dish. Pour over them the syrup that remains from the boiling, and set the dish 
+in the ice box to cool. When ready to serve, wipe thoroughly the outside of the can that contains
+the pudding, and all around the edges, so as to remove any traces of salt. Wet a towel in 
+boiling water and stand the can upon it. Open the can. Put a round dish on top, and then turn 
+quickly upside down, and remove the can. If the pudding adheres, repeat the applcations of the 
+hot towel at the bottom and around. Place the oranges on top and all around the pudding, and 
+pour over them the syrup, which has become cool, but not frozen. Serve immediately. This is one
+of the most delicious, as well as one of the most typical of our Louisiana methods of serving 
+rice as a dessert.
+   </p>        
+</div>
+</div>
+      <div type="recipe" xml:id="pic24.30_left-over_rice">
+         <head type="main" rend="align(center) slant(bold)"> 
+         Left-Over Rice.
+         </head>
+<div type="instructions">
+         <p>
+Enough has been said and written In these recipes to give an idea of the possibilities of 
+Louisiana rice under proper methods of culinary preparation. It enters into many different 
+combinations in cooking, and among the poorer Creoles of large families it takes, in a great 
+measure, the place of bread. A meal of boiled rice, with 
+<div type="recipeAdditions" corresp="<!--no xmlid-->"> Grillades à la Sauce</div>, and 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="legume">Red Beans</ingredient> or 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="legume">White Beans</ingredient>, 
+is very popular among the <name>Creoles</name>, especially those of limited means, all of these 
+being good, nourishing, as well as economical, dishes, the rice not only saving the expenditure 
+of money for
+         </div>
+      </div>
+      <cb n="2"/>     
+bread, but making a most welcome and palatable substitute. The family that uses rice daily will 
+note the economy that follows in the purchase of bread.
+   </p>
+<p>      
+Left-over rice may be utilized In almost any of the above dishes, but it is more generally used 
+in the making of 
+<ptr target="#pic24.15_rice_waffles">rice waffles</ptr> or 
+<ptr target="<!-- xml:id -->"> rice cakes </ptr> for breakfast, 
+<ptr target="#pic24.14_calas">Calas</ptr>, 
+etc. It is also 
+<ptr target="#pic24.31_fried_rice">fried</ptr> or made into 
+<ptr target="#pic24.32_rice_fritters">rice fritters</ptr>, as follows:
+</p>        
+   </div>
+   <div type="recipe" xml:id="pic24.31_fried_rice">
+      <head type="main" rend="align(center) slant(bold)"> 
+         Fried Rice.
+      </head>
+      <head type= "sub" rend="align(center)">
+         <foreign xml:lang="fr">
+         Riz Frit.
+         </foreign>
+      </head>
+<div type="instructions">       
+Take the 
+<ptr target="#pic24.30_left-over_rice">left-over rice</ptr> from the day
+before, and cut it into slices of proper thickness, and fry to a nice brown, turning it 
+carefully, to avoid breaking the slices. This makes an excellent breakfast dish, with 
+<ptr target="<!--no xmlid-->"> Grillades à la Sauce</ptr>. (See recipe.)
+ </div>        
+<div type="recipe" xml:id="pic24.32_rice_fritters">
+  <head type="main" rend="align(center) slant(bold)"> 
+         Rice Fritters.
+  </head>
+     <head type= "sub" rend="align(center)">
+        <foreign xml:lang="fr">
+         Beignets de Riz.
+        </foreign>
+     </head>
+<div type="instructions">        
+   <p>
+Take the 
+<div type="recipeAddition" corresp="#pic24.30_left-over_rice">left-over rice</div> and mash very
+fine. If you have only a cupful, take three 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">eggs</ingredient>, a half cup of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">flour</ingredient>, one 
+teaspoonful of 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">yeast powder</ingredient>, and 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">sugar</ingredient> to taste, and 
+beat all into a light, thick batter. Cook by dropping a spoonful at a time into 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">boiling lard</ingredient>. This is 
+a sweet entremet, as also an excellent breakfast dish.
+   </p>
+</div>
+ </div>   
+      <div type="recipe" xml:id="pic24.33_parched_rice">
+         <head type="main" rend="align(center) slant(bold)"> 
+         Parched Rice.
+         </head>
+         <head type= "sub" rend="align(center)">
+            <foreign xml:lang="fr">
+         Riz Grillé.
+            </foreign>
+         </head>
+<div type="instructions">
+   <p>
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>
+may be parched in the same manner as popcorn. It is a method of cooking rice that came to 
+New Orleans from the West Indies, and was brought into general use by the San Domingo refugees, 
+who came to New Orleans in numbers after the great insurrection. When the culture of rice became
+general in the southwestern parishes of our State, these old settlers began to give 
+rice-parching parties, and they became very fashionable. The <name>Creole children</name>
+and the belles and beaux of eighty years ago enjoyed parching rice just as much as northern 
+children, youths and maidens enjoy roasting chestnuts or parching corn. Rice Is parched in the 
+same manner as the <name>Creoles</name> parch popcorn. The parched grain of rice becomes a 
+beautiful open ball, which is eaten with 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="seasoning">salt</ingredient> or 
+<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">sugar</ingredient>, and is very 
+delicious.
+   </p>
+</div>
+      </div>
       </body>
   </text>
 </TEI>

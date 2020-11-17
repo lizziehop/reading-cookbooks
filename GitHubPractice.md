@@ -2,7 +2,7 @@
 
 Add your favorite cookie next to your name then push back to the git!
 
-- Andrew
+- Andrew: Oatmeal Raisin
 - Anna, molasses cookie
 - Eliora: Dream Cookie (Chocolate chips and lost of warm spices)
 - Liz
