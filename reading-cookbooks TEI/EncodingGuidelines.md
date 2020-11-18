@@ -1,6 +1,6 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 11/15/20 - AMK
+Last updated: 11/18/20 - AMK
 
 ---
 
@@ -74,13 +74,23 @@ Last updated: 11/15/20 - AMK
 
 ### Chapter Section
 
-- When a chapter is divided into multiple sections 
+- When a chapter is divided into multiple sections, usually by type of dish
 
 - ```xml
   <div type="section"> <!-- the entire section of recipes --> </div>
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
+
+### Chapter Section Title
+
+- The title for a sigle section in a chapter
+
+- ```xml
+  <head rend="align(center) case(allcaps) bold">
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
 
 ### Chapter Title
 
@@ -148,11 +158,21 @@ Last updated: 11/15/20 - AMK
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-front.html)
 
+### Highlight
+
+- For content that is renditionally distinct from other text surrounding it that does not have another tag the `@rend` attribute can be applied to
+
+- Example: an emphasized word in the middle of a paragraph
+
+- ```xml
+  <hi rend="<!-add the values for the text's rendition like bold, italic, allcaps, etc. -->">
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-hi.html)
+
 ### Ingredient
 
 - Element specific to this project to surround an ingredient in the text
-
-- 
 
 - Ingredients that are pre-made things like broths or syrups should have the xml:id of the recipe as a `corresp` attribute rather than a class
 
