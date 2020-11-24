@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CHAPTER XLVII</title>
+                <!-- Supply the title of chapter -->
+                <title type="chapter" xml:lang="en"/>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal>
+                    <persName>Elizabeth Hopwood</persName>
+                </principal>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName>Ve'Amber Miller</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>First round encoding by</resp>
+                    <persName>Regina Hong</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Second round encoding by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofreading by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial research by</resp>
+                    <persName>
+                        <!-- insert name --></persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>Reading Cookbooks Project</authority>
+                <publisher><persName>Elizabeth Hopwood</persName> and The Center for Textual Studies
+                    and Digital Humanities</publisher>
+                <availability>
+                    <p>Reproduced by digitized version from Archive.org, contributed by
+                            <name>Cornell University Library</name>. There are no known copyright
+                        restrictions in the United States on the use of the texts. More information
+                        on rights issues associated with public domain texts can be found at
+                        https://www.library.cornell.edu/about/policies/public-domain</p>
+                    <p>This text may be freely distributed for personal use, research, and teaching
+                        (including distribution to classes) as long as this statement of
+                        availability is included in the text. It may be linked to freely in Internet
+                        editions of all kinds.</p>
+                    <p>Scholars interested in changing or adding to these texts (for example,
+                        creating a new edition or adding additional markup) may do so.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl>
+                    <title>The Picayune's Creole Cook Book</title>
+                    <publisher>New Orleans, La., The Picayune</publisher>
+                    <date>1910</date>
+                    <edition>4th</edition>
+                    <sponsor>Cornell University Library</sponsor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This editions provides editorial notes</p>
+            <editorialDecl>
+                <p>Page breaks and column breaks have been preserved whenever possible.
+                    Abbreviations and spellings have been maintained. Line breaks have not been
+                    encoded. All presentational elements such as alignments, all caps, bold, and
+                    italics will be encoded.</p>
+                <normalization method="silent">
+                    <p>Typos have been maintained</p>
+                </normalization>
+                <hyphenation eol="none">
+                    <p>Hyphenated words that appear at the end of columns or lines have been
+                        reformed</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <!-- Add date, initials, and what the change was -->
+            <change when="2020-10-26" who="EAH">Created header and test template</change>
+            <change when="2020-11-23" who="RH">Added transcription to template and began
+                encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <pb n="356"/>
+                <head rend="align(center) case(allcaps)"> Chapter XLVII.</head>
+                <head type="main" rend="bold">Creole Breads.</head>
+                <head type="sub">
+                    <foreign xml:lang="fr">Des Pains à la Créole.</foreign>
+                </head>
+                <cb n="1"/>
+                <div type="prefatory">
+                    <p> Perhaps no branch of <name>Creole</name> cookery so interests visitors to
+                        New Orleans as our <name>Creole</name> Breads. While in breakfast relishes,
+                        such as batter cakes, flannel cakes, waffles, buckwheat cakes, biscuit, etc.
+                        we have much in common with out sections, there is a distinctiveness about
+                        our “Brioches,” “Babas,” “Calas,” “Sacamités,” “Sweet Potato Bread,” French
+                        Loaves, French Rolls, etc., which are peculiar to ourselves alone. Our
+                        “Baker’s Bred,” or “Pain de Boulanger,” of itself stands unique among the
+                        breads of the United States, and has been the subject of more than one
+                        interesting newspaper and magazine article. It has this peculiarity, that
+                        one never tries if it, as they do of other breads, and the reason for this
+                        is that it is of exquisite lightness, white and tender , of an even porous
+                        character, with a thin, crisp crust, and, best of all, is just such a bread
+                        as is required in our climate. Made into toasts, it is the most delightful
+                        of all breads, no home-made light bread or bakers’ bread in any other part
+                        of the United States standing comparison with it. Bakers’ Bread is the daily
+                        offering, morning,
+                   <cb n="2"/> 
+                        noon and night, on every New Orleans table. 
+                    </p>
+                    <p> 
+                        Out “Calas” are famous, and have been treated on under the chapter on
+                        Louisiana Rice, while our “Brioches” are not only the joy of the natives,
+                        but the delight of visitors from all parts of the country. A cup of Cafè
+                        Noir in the French Market and a Brioche is one of the standing treats to
+                        which every visitor to New Orleans is invited. 
+                    </p>
+                    <head rend="align(center) bold">How to Make and Bake Bread.</head>
+                    <p>
+                        Bread, to be perfect, should be light and sweet, with a rich nutty flavor of the wheat. 
+                        To obtain this result, only the best flour and the best dough must be used. 
+                        While the bread is rising the temperature of the oven should be at the 75 degrees Fahrenheit, 
+                        and the heat of the oven in baking should be about 360 degrees, or hot enough to raise the inside 
+                        of the bread to about 220 degrees. This is necessary to cook the starch, expand the carbonic gas, 
+                        steam and air, and also to drive off the alcohol which is used in the yeast. 
+                        The bakers in New Orleans have a way of testing the temperature of the oven by putting a piece of white paper in it. If 
+                    </p>                   
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
