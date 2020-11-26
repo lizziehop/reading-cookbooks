@@ -136,8 +136,50 @@
                         of the bread to about 220 degrees. This is necessary to cook the starch, expand the carbonic gas, 
                         steam and air, and also to drive off the alcohol which is used in the yeast. 
                         The bakers in New Orleans have a way of testing the temperature of the oven by putting a piece of white paper in it. If 
-                    </p>                   
+                <pb n="357"/>
+                <cb n="1"/>
+                        it turns dark in five minutes the oven is of the right temperature. 
+                        If it burns, the over is too hot, and must be cooled before putting the bread in, and if the paper is only a light brown at the end of the five minutes, the oven must be made hotter. 
+                        Again, they sprinkle flour and if it browns or smokes before you can count ten, thte oven is too hot; if it browns at ten, the oven is of the right temperature. 
+                        Brick ovens are used, and the loaves of bread are shoved into the oven generally on baking boards. 
+                        Rolls are always baked first; then the bread, and afterwards the pies and cakes. 
+                        It is best to have the oven heated in time and close for one hour at least before beginning to bake. 
+                        Bread should be in the oven about ten minutes before it begins to brown. 
+                        When done, remove carefully from the pan, and tip it against a bread board, just as they do in New Orleans bakeries. 
+                        This allows the air to circulate freely around it. Never cover bread that has been freshly baked, if you wish it to be fresh and sweet and crisp. 
+                        When cool, place in a clean bread box, without using a “bread bag,” as is so common among many families. 
+                        This bag absorbs the moisture from the bread, and causes it to sour quickly. 
+                        The New Orleans bakers always use Compressed Yeast for leavening bread, as it does not necessitate making a ferment or setting sponge before mixing the dough. 
+                    </p>
                 </div>
+                
+                <div type="recipe" xml:id="pic47.1_bakers_bread">
+                    <head type="main" rend="slant(bold) align(center)">Bakers' Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Boulanger.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Compressed Yeast</ingredient>.</item> <!--what class?-->
+                            <item>1 1/2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Make a Smooth Dough.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Allow one ounce of Compressed Yeast to one quart of lukewarm water, and mix well in a wooden bread trough. 
+                            Then add flour enough to make a nice smooth doubt of medium degree, not too stiff, nor yet too soft. 
+                            Work it well, and then let it stand for about five hours in a warm place so as to rise well. 
+                            When it drops, or begins to fall (you can tell this by watching side of the dough), add the same amount of water that was used in making the dough, putting two teaspoonfuls of salt into the water before adding it. 
+                            Work this well, and then thrown down on the table, cut and mold the dough into loaves of whatever length is desired, and take a smooth stick and press lightly down across the loaf about two inches from the edge. 
+                            The bakers put the loaves into the oven without setting in a pan. Watch carefully, and see that the oven is of the 
+                  <cb n="2"/>
+                            temperature mentioned above. By following these directions, you will have nice, fresh, sweet New Orleans Bakers’ Bread. 
+                            The above quantity will make about five loaves. 
+                        </p>
+                    </div>
+                </div>
+                
             </div>
         </body>
     </text>
