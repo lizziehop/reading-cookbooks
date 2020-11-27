@@ -159,8 +159,8 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Compressed Yeast</ingredient>.</item> <!--what class?-->
-                            <item>1 1/2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
+                            <item>1½ Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
                             <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
                             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Make a Smooth Dough.</item>
                         </list>
@@ -179,7 +179,1324 @@
                         </p>
                     </div>
                 </div>
+               
+                <div type="recipe" xml:id="pic47.2_french_bread"> 
+                    <head type="main" rend="slant(bold) align(center)">French Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain Français</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>.</item> 
+                            <item>1½  Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>1½  Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Make a Smooth Dough.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Dissolve the yeast, salt and sugar into the water and mix in flour sufficient to make a nice smooth dough of medium degree, not too stiff, nor yet too soft. 
+                            Work until it no longer adheres to the hand or bowl, and then cover with a cloth and set to rinse until has doubled its size.
+                            This will be in about four or five hours. 
+                            When it begins to sink, work it well again and set to rise anew. 
+                            When well risen divide the dough into equal pieces, and mold into round ball shapes, or into long loaves of about two inches in thickness. 
+                            Lay the loaves on a board previously sprinkled with flour and at sufficient distance apart not to touch one another, and set to rise again. 
+                            Let them rise to nearly double the previous size. Have the oven heated, transfer the loaves into it, wash over with eggs mixed with water, make diagonal cuts half way across on each loaf, half way through, and close the oven. 
+                            When baked, brush off the flour, wipe the tops with a damp cloth and the bread is ready to serve.
+                        </p>
+                    </div>
+                </div>
+                      
+                <div type="recipe" xml:id="pic47.3_pan_bread"> 
+                    <head type="main" rend="slant(bold) align(center)">Pan Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Plaque.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
+                            <item>¼ Pound of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>1½  Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Make a Smooth Dough.</item>
+                            <item>½ Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>, if Desired.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            This is a nice, large-loafed bread, with a dainty crust, that is somewhat glutinous, and, as the name indicates, is baked in a pan by our bakers. 
+                            It is remarkable for the daintiness of grain of the bread after baking. 
+                            Make the same dough as for Bakers’ Bread, only work the loaves twice over; then put them in the oven and dredge lightly with flour. 
+                            As they begin to rise make a light past of flour and water or egg and water and spread very lightly over the. 
+                            This is brushed lightly with lard, to keep from getting too crusty. 
+                            Bake in a rather hotter oven than the other bread.
+                        </p>
+                    </div>
+                </div>
+             
+                <pb n="358"/><!--page break, 358-->
+                <cb n="1"/><!--column 1-->
                 
+                <div type="recipe" xml:id="pic47.4_french_loaves">
+                    <head type="main" rend="slant(bold) align(center)">French Loaves.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Des Petits Pains Francais.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item> 
+                            <item>1 1/2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Make a Smooth Dough.</item>
+                        </list>
+                    </div>
+                    <div type="orientationNote">
+                        <p>
+                            These are the dainty little loaves so generally used in our New Orleans restaurants and hotels. 
+                        </p>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Make the dough as in<ptr target="#pic47.1_bakers_bread">Bakers’ Bread</ptr>,and after it has risen and begins to drop, scale the dough off, and cut and mold them into little loaves of about the length of a man’s hand. 
+                            Mold them rough and set them to rise again. 
+                            When they are very light, which will be in a few minutes, take them up and work them well separately, and then mold them again and gently press in the center with a smooth stick. 
+                            Lay them in a box with a stiff cloth over them and let them lie for a few minutes. 
+                            Take off the cloth and set them in the oven to brown nicely. 
+                            Set to cool as above indicated.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.5_twist_loaves">
+                    <head type="main" rend="slant(bold) align(center)">Twist Loaves.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain Tressé.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">aWter</ingredient>.</item> 
+                            <item>1½ Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Make a Smooth Dough.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Make the identical dough as in <ptr target="#pic47.1_bakers_bread">"Bakers’ Bread"</ptr>.
+                            After the first rising and throwing in of water and working the bread, cut the dough, and divide each portion into three pieces of dough. 
+                            Dust this dough well with parched flour and roll the pieces into lengths of about two feet, or a foot and a half, and plait them. 
+                            Then lay them in a long box or on a board, and cover with a stiff cloth, as in French Loaves, and let them lie till they begin to rise. 
+                            Place in the oven and bake to a nice brown.
+                        </p>
+                    </div>
+                </div>           
+
+                <div type="recipe" xml:id="pic47.6_rye_bread">
+                    <head type="main" rend="slant(bold) align(center)">Rye Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Seigle.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">aWter</ingredient>.</item> 
+                            <item>1½ Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rye</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Make a Smooth Dough.</item>
+                            <item>A Few<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Kummel Seed</ingredient>.</item> <!--what class-->
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Make the dough a little stiffer than for <ptr target="">White Bread</ptr>, allowing one-half of wheat flour and one-half rye. 
+                            Allow the same amount of yeast, and add a few Kummel seeds and a little more salt than for White Bread. 
+                            Set to rise. After one rising, work again as in <ptr target="#pic47.1_bakers_bread">Bakers' Bread</ptr>, divide it into loaves, and set it to rise again. 
+                            When about twice its original size, bake in a moderate oven.
+                        </p>
+                    </div>
+                </div> 
+                
+                <cb n="2"/><!--column 2--> 
+                
+                <div type="recipe" xml:id="pic47.7_home-made_creole_light_bread">
+                    <head type="main" rend="slant(bold) align(center)">Home-Made Creole Light Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Manage à la Créole.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
+                            <item>½ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
+                            <item>1½ Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk or Water</ingredient>.</item> 
+                            <item>Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Sift the flour. 
+                            Then put into a wooden bread trough or a pan, and make a hole in the center of the flour. 
+                            Add warm water or milk sufficient to make a nice, smooth, rather stiff batter. 
+                            Mix the yeast with a little tepid water till well-dissolved, and add'. 
+                            Then set to rise over night in a warm place. 
+                            In the morning take up and again make a hole in the center of the dough, and add half a tablespoonful of melted lard or butter, one and one-half teaspoonfuls of salt, and one and one-half pints of warm milk or water. 
+                            Then add the flour and knead well about ten times. 
+                            When it forms a smooth dough, form into a cake, and set to rise again. 
+                            When risen to about twice its size, take it up and knead again about five times, that is, work one piece of dough over the other about five times, and set to rise again. 
+                            Always, when setting to rise, sprinkle the bottom of the pan with a little flour. 
+                            After an hour, take up the bread and knead for about ten minutes, till you have a nice dough, that can be worked without sprinkling the biscuit board with flour. 
+                            Then form the dough into two loaves. 
+                            Place them side by side in the baking pan, and bake in a moderate oven for about three quarters of an hour. Serve hot or cold.
+                        </p>
+                    </div>
+                </div>   
+
+                <div type="recipe" xml:id="pic47.8_milk_bread">
+                    <head type="main" rend="slant(bold) align(center)">Milk Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain au Lait.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>2 Quarts of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
+                            <item>½ Teacup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>or ½ Cake of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
+                            <item>1 Pint of Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item> 
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the milk, and then turn it into the bread trough or pan. 
+                            Add immediately the butter and the salt. 
+                            When it becomes tepid add the yeast and about three-quarters of a pint or half a pint of flour, using always good judgment in adding sufficient, more or less, to make a thick batter. 
+                            Then beat thoroughly till air bubbles accumulate all over the surface of the batter. 
+                            Then cover and set in a warm place over night. 
+                            Very early in the morning work in the rest of the flour, and take it out of the pan and put on a board and knead quickly and lightly until the dough is perfectly smooth and does not cling to the hands or the board. 
+                            Then put it back in the trough or pan and cover with a cloth, and set to rise again in a warm place. When it
+                    <pb n="359"/><!--page break, 359-->
+                    <cb n="1"/> 
+                            has increased to twice Its bulk, turn again upon the board, and then divide the dough into two parts. 
+                            Mold these lightly and gently into small loaves, and stand away to rise for about half an hour. 
+                            Then set in the oven, which should be moderately quick, and bake for three-quarters of an hour.
+                            The famous Vienna Bread, now so much sought after, is nothing else, than this ancient Milk Bread, or <name>Creole</name><foreign xml:lang="fr">"Pain au Lait,"</foreign> that has been used for generations in <name>Creole</name>homes.
+                        </p>
+                    </div>
+                </div>  
+
+                <div type="recipe" xml:id="pic47.9_buttermilk_bread">
+                    <head type="main" rend="slant(bold) align(center)">Buttermilk Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain au Babeurre.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Quart of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
+                            <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Buttermilk</ingredient>.</item> 
+                            <item>1 Dessertspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>.</item> 
+                            <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>½ Pound of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar</ingredient>.</item>
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Warm the milk, add the sugar, butter and soda, the latter dissolved in a little warm water. 
+                            Then add the flour and set to rise. 
+                            When well risen knead lightly, place in a baking pan, let it rise again for half an hour, and bake in a moderate oven. 
+                            This makes an excellent, nutritious and very white bread, and is much used by the <name>Creoles</name>in making French Toasts.
+                            Buttermilk Rolls are made by simply pinching off the above dough into pieces about the size of a walnut or egg, shaping into little balls, and proceeding as above.
+                        </p>
+                    </div>
+                </div>  
+
+                <div type="recipe" xml:id="pic47.10_rice_bread">
+                    <head type="main" rend="slant(bold) align(center)">Rice Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Riz.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>                            
+                            <item>1 Cup of Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item>
+                            <item>2 Cups of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">White Indian Meal</ingredient>.</item> 
+                            <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Tablespoonful of Melted<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>2 Heaping Teaspoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>1¼ Pints of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item>
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>                           
+                            Beat the yolks and whites of the eggs together until very light, and then pour in the milk, mixing gradually. 
+                            Add the well-prepared meal, into which you will have mixed the salt and Baking Powder. Beat well. 
+                            Then add the melted butter and the rice, which you will have pressed through a sieve. 
+                            Mix all thoroughly, and beat till very light. Then grease the bottom of a shallow pan and turn the mixture in and bake half an hour in a hot oven. 
+                            Serve hot, buttering the slices freely. 
+                            This Is a delicious breakfast bread, and, as in any of the above recipes, cold rice left over may be utilized in its making.
+                        </p>
+                    </div>
+                </div>  
+                
+                <cb n="2"/><!--column 2-->
+                
+                <div type="recipe" xml:id="pic47.11_sweet_potato_bread">
+                    <head type="main" rend="slant(bold) align(center)">Sweet Potato Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Patates.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>                            
+                            <item>1 Quart of Mashed<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetables">Sweet Potatoes</ingredient>.</item>
+                            <item>1½ Pints of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
+                            <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Milk or Warm Water</ingredient>.</item>
+                            <item>2 Tablespoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>½ Teacup of Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>or Half a Cake of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>                           
+                            This is a delicious<name>Creole</name>Bread. The potatoes must be baked, peeled and mashed. Put the milk, or water, and the yeast and salt into a bowl or pan; add the butter, which must
+                            be melted. Beat thoroughly, and set over night in a warm place. In the morning add the potatoes, mashed and pressed through a sieve, and gradually add, the flour, which must
+                            be sifted three times. Beat to a light sponge; then cover, and set to rise in a warm place till it doubles its size. 
+                            Then turn out on a bread board and mold into loaves; put in a slightly greased pan and let rise till light. 
+                            Then bake in a moderate oven 45 minutes.
+                        </p>
+                    </div>
+                </div>  
+                
+                <div type="recipe" xml:id="pic47.12_rolls">
+                    <head type="main" rend="slant(bold) align(center)">ROLLS.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Bourrelet.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>                            
+                            <item>1 Quart of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item>
+                            <item>1 Quart of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>¾ Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>.</item>
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>¼ Pound of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Sugar</ingredient>(if desired.)</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>                                    
+                            Dissolve the sugar (if desired), the, yeast and salt, with the milk and the water. 
+                            Then add flour sufficient to make a nice dough of medium firmness. 
+                            Add the lard, and work the dough until smooth. 
+                            Then form into a round mass and set to rise. 
+                            When the dough has doubled it size, work anew and mold into small round balls and set into greased baking pans at a little distance apart from one another. 
+                            Set to rise again and when they have doubled their size bake in a brisk oven.
+                        </p>
+                    </div>
+                </div> 
+ 
+                <div type="recipe" xml:id="pic47.13_french_rolls">
+                    <head type="main" rend="slant(bold) align(center)">French Rolls.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Bourrelets à la Française.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>                            
+                            <item>½ Pints of Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item>
+                            <item>2 Quarts of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">White Flour</ingredient>.</item>
+                            <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Sugar</ingredient>(which may be omitted, according to taste).</item>
+                            <item>⅔ Cake of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Compressed Yeast</ingredient>Dissolved in Warm Water.</item>
+                            
+                            <item>1 Quart of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>¾ Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Yeast</ingredient>.</item>
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>¼ Pound of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>   
+                            Boil the milk, take off the stove, and add the butter, sugar and salt. 
+                            Then add the well-beaten eggs. Stir in about one and a half pounds of flour, more or less, to make a stiff batter, and beat till air bubbles accumulate all over the surface. 
+                            Then cover with a close cloth and set to rise oven night in a warm place. 
+                            Then take up the dough and knead lightly    
+                            
+                    <pb n="360"/> <!--page break, 360-->
+                    <cb n="1"/><!--column 1-->
+                            with the remaining flour to make a nice, soft dough, and shape with your hands into nice, small rolls or balls. 
+                            Set them together in the baking pan, which you will have lightly sprinkled with flour. 
+                            Then set to rise for an hour longer. Set in the oven, and bake about a half hour. 
+                            These rolls are delicious for breakfast, or for luncheon or supper. 
+                            They may be set to rise in the early morning, and served hot at luncheon.
+                        </p> 
+                    </div>
+                </div> 
+
+
+
+Tea Rolls.
+Bourrelets pour le Thé
+ 
+1 Quart of Flour.
+1 Pint of Milk
+1/2 Cake of Compressed Yeast.
+1 Teaspoonful of Salt.
+1 Gill of Warm Water.
+ 
+Sift the flour and salt together. Scald the milk, and when tepid add the yeast, dissolved in a little warm water, to one-half of the milk. Add one-half of the flour, and make a thin batter, stirring very smooth. Set it to rise in a warm place, and at the end of three hours make it into a dough with the remainder of the milk and flour, and knead well till the dough no longer, adheres to the
+board or to your hands. Then shape it with your hands into small balls, set to rise for a half hour longer, or an hour, and bake in a moderate oven for a half hour.
+ 
+RUSKS.
+Echandés Secs.
+ 
+1 Pint of Warm Milk.
+1/2 Cup of Butter.
+1 Cup of Sugar. 2 Esgs.
+1 Teaspoonful of Salt.
+1 Cake of Compressed Yeast.
+Flour Sufficient to Hake a Batter.
+ 
+Dissolve the yeast in the warm milk, and then add flour sufficient to make a thin batter. Set to rise over night. In the morning beat the sugar and the butter to a cream, and add the eggs, well beaten. Add these to the batter, beat well, add the salt, and sufficient flour to make a soft
+dough. Then mold the dough into balls with your hands, or into small loaves. Set to rise until they have reached about twice their bulk. Then place in the oven and bake for thirty
+minutes. If sweet rusks are not desired, omit the sugar.
+ 
+TOAST.
+Pain Roti.
+6 Slices of Bread.
+Butter to Taste.
+ 
+Slice the bread, neither too thick nor too thin. Cut off the rough edges of the crust. Hold on a fork before burning coals till nicely toasted on one side. Then turn on the other, and proceed as before. If dry toast is desired, the bread is not
+ 
+<!--column 2-->
+ 
+buttered. If buttered toast, butter nicely, set in the oven a second and send to the table hot. Some cooks toast, bread by simply setting the slices in the oven and letting them brown on either side. But there is no comparison in lightness to the toast prepared in the above old-fashioned way.
+ 
+Cream or Milk Toast.
+Rotis à la Crème ou au Lait.
+ 
+6 Slices of Bread.
+1 Pint of Hot Cream or Milk.
+1 Tablespoonful of Butter.
+ 
+Toast the bread nicely, and butter well on both sides. Lay in a dish, and pour over hot milk. Serve hot. Or, heat one pint of Cream, add one large tablespoonful of butter, and pour over the hot toast. Slightly stale bread may be utilized in this way.
+ 
+Soda crackers may be toasted and served in the same way. This is a great supper dish among the Creole plantation homes of Louisiana.
+ 
+Lost Bread or Egg Toast.
+Pain Perdu.
+ 
+5 Eggs.
+2 Tablespoonfuls of Orange Flower Water.
+1/2 Cup of Sugar.
+Slices of Stale Bread.
+The Finely-Grated Zest of a Lemon.
+3 Tablespoonfuls of Brandy (if desired).
+ 
+The Creoles utilize left-over stale bread in that delightful breakfast relish known as "Pain Perdu." Break the eggs into a bowl, beat them till very light, add the Orange Flower Water and the Brandy, if desired, and then add the sugar, and beat thoroughly. Add the grated zest of a
+lemon, mix well, and then cut the bread into slices or round pieces, taking off the crust, or still again into diamond shapes, and soak them well for a half hour in the mixture. Have ready a frying pan of boiling lard (see General Directions for Frying), lay in the bread, and fry to a
+golden brown. Lift the slices out with a skimmer, and drain on brown paper in the mouth of the oven. Then place on a hot dish, sprinkle with powdered sugar, as you would fritters,
+add a little grated nutmeg, if desired, and serve hot.
+ 
+Spanish Toast.
+Rotis à I'Espagnole.
+ 
+1 Egg
+1 Cup of Milk.
+1 Gill of Brandy or Rum (if desired).
+3 Tablespoonfuls of Powdered Sugar.
+1/2 Ounce Each of Powdered Nutmeg and Cinnamon.
+6 Slices of Stale Bread.
+Lard for Frying.
+ 
+Beat the egg and sugar well, and add the milk and the rum or brandy,
+ 
+<!--page break, 361-->
+<!--column 1-->
+ 
+if desired. Have ready the slices of stale bread, cut in diamond shapes or square, and let them soak for about a half hour in the mixture. Then lay into a pan of boiling lard, and fry to a golden brown. Skim out and drain on brown paper in the mouth of the oven, and place on a hot dish. Sprinkle with powdered sugar and grated cinnamon and nutmeg, and serve with milk or cream.
+ 
+BRIOCHES.
+2 Pounds of the Best Flour.
+1/2 Ounce of Yeast.
+1 Cup of Sugar.
+1/2 Ounce of Salt.
+1 Pound of the Best Butter.
+12 or 8 Eggs.
+ 
+Under the name of "Brioche" is known the dainty "Roll Cake Bread' that is sold by all New Orleans bakers; that is brought to your door in the early morning by the "Bread Man," and which forms such a delightful accompaniment to the morning cup of Café Noir, whether in the exclusive homes of the old French Quarter, or at the world-famed coffee stands in the French Market.
+ 
+To make "Brioches." take a pound and a half of the best quality of flour, and put it in a wooden bread trough. Make a hole in the center of the flour, and put in a half ounce of yeast, dissolved in a little warm water. Take milk or tepid water to make the dough, using milk if you want it to be very rich and delicate, and water if you have not the milk. Knead and mix the flour with one hand, while adding the milk or water with the other. Make a dough that is neither too stiff nor too soft, and when perfectly smooth set the dough to rise in a moderately warm place, covering with a cloth. Remember that if you use milk to make the dough, the milk must be scalded, that is, it must be heated to the boiling point and then allowed to grow tepid. Let the dough rise for five or
+six hours, and when increased to twice its bulk, take it and add the reserved half pound of flour, into which you will have sifted the salt. Add six eggs, beaten very light, with the sugar and butter, and mix all well together, kneading lightly with your hands, and adding more eggs
+If the dough is a little stiff. Then knead the dough by turning it over on itself three times, and set to rise again for an hour or three-quarters of an hour. Cover with a cloth. At the end of this time take it up and work again lightly, and then form into "Brioches," that is, work the dough gently with your hands, and then break it into pieces about the size of an egg. Pat these gently, forming them into neat rolls, a little flattened, and then make one roll
+ 
+<!--column 2-->
+ 
+about twice the size of the others. This roll will form the head of the Brioche. Have ready a baking pan with a buttered sheet of paper in it, and set the central roll in the middle. Arrange around the other rolls, having at least six or eight, to form a perfect-looking cake. Cover the
+pan with a clean, stiff cloth, and set the cake to rise for an hour longer. When well risen, set in an oven a few degrees cooler than that used for baking Bread. If the rolls are large, let them bake an hour and a half; if medium, one hour, and if very small, a half hour. Some bakers
+and cooks glace the Brioche lightly with a beaten egg, which is spread lightly over the top, before placing in the oven. This gives the rich, glossy surface so often seen on the Brioche
+Again, if you cannot afford butter, use lard, or half butter and lard, but the Brioche made with butter and milk is the most delicate and refined, and the true Creole Brioche, peculiar to New Orleans. After the Brioches are baked, set them to cool, if you do not wish to eat them hot. When serving, whether hot or cold, sprinkle lightly with powdered white sugar.
+ 
+BABA.
+3 Pounds of the Best Flour.
+1/2 Ounce of Yeast.
+1 Cup of Sugar.
+1/2 Ounce of Salt.
+1 Pound of the Best Butter.
+12 or 14 Eggs.
+1/2 Pound of Seeded Raisins.
+1/2 Pound of Currants.
+1/2 Glass of Sweetened Water.
+A Tinge of Saffron.
+ 
+The dough for the "Baba" is exactly the same as that for the Brioche. Proceed in exactly the same manner, only at the moment of adding the reserved flour to the leavened add a half pound of raisins seeded, and a half pound of currants, washed, picked and dried. Add also a half
+glass of sweetened, tepid water, in which you will have put a little saffron. Be careful to keep this dough much softer than that for the Brioche, adding more eggs, if necessary, to insure the proper degree of consistency. The dough must rise at least six or seven hours. When it
+has increased to twice its volume, after the third rising, cook as you would the Brioche, in an oven a few degrees cooler than that used in baking Bread. The "Baba" is made into a round cake, just like a Pound Cake or Sponge Cake, and" is formed into this round shape with the hands. After baking let cool and sprinkle with powdered white sugar. This is the cake that the Creole bakers of New Orleans send as a "Christmas" or "New Year's Offering" to their
+customers.
+ 
+<!--page break, 362-->
+<!--column 1-->
+ 
+The German bakers of New Orleans took up the custom, and make the "Baba" by adding to the raisins and currants a little Aniseed, instead of the Saffron.
+ 
+BULLFROGS.
+Grenouilles.
+ 
+1/2 Pound of the Best Flour.
+1/2 Ounce of Yeast.
+1/2 Cup of Sugar. 1/2 Ounce of Salt.
+1 Pound of the Best Butter.
+12 or 8 Eggs.
+ 
+Under this amusing name are sold the delicious small rolls, so dainty and fine, and which are served in all our Creole homes and restaurants. The rolls are joined together lightly in long rows of about eight inches in length and three in width. They are brought to the doors by the
+bakers every morning in this old French city. The dough for "Bullfrogs" is just the same as that for the Brioche, only a half pound of flour is used, instead of a pound, and a cup of butter. Bake in the same manner. They are delightful accompaniments to the most recherché breakfast.
+ 
+ 
+CHEESE CAKES.
+Talmouses.
+ 
+14 Pound of Flour.
+1 Glass of Water.
+A Pinch of Salt.
+2 Tablespoonfuls of Flour.
+6 Eggs. 2 Cream Cheeses.
+A Brioche or Plain Paste (see Recipe Plain
+Paste.)
+ 
+Put the butter in a saucepan, and add the water and the salt. Let all come to a boil, stirring constantly. Then take from the fire and add the eggs, beaten well, and the cream cheese. Mix all well. Then take small molds or tins and line with the Plain Paste, or Brioche Paste, rolled
+very thin. Place within the preparation of cream cheese in quantity equal to an egg in size. Then cover the cakes with a piece of rolled dough, and bake in a slow oven. These are delicious breakfast cakes, and much in vogue in ancient Creole homes.
+ 
+PEILLARO.
+2 Pounds of Flour.
+1 Pound of Butter, or Half Butter and Lard
+12 Eggs. 1/2 Ounce of Yeast.
+1 Gill of Brandy.
+1 Tablespoonful of Orange Flower Water.
+Milk or Tepid Water to Form a Dough.
+1 Pound of Figs or Stoned Cherries.
+ 
+Make the same dough as for the Brioche. At the moment of adding the leavened flour and the reserved flour, add the stoned cherries or peeled figs, the latter cut in halves. Then proceed as for "Brioches," and at the last kneading add the orange flower water and the brandy. Bake
+as you would the "Brioche."
+ 
+<!--column 2-->
+ 
+WINE CAKE.
+Savarin.
+ 
+2 Pounds of the Best Flour.
+1/2 Ounce of Yeast.
+1 Cup of Sugar.
+1/2 Ounce of Salt.
+1 Pound of the Best, Butter.
+12 or 8 Eggs.
+ 
+Make the same dough as for the "Brioche," and at the last kneading place it in a cake pan lined with a buttered paper. Set it to rise for an hour longer. Then place it in the oven, and brush over lightly with a beaten egg. Let it bake for about an hour and a half, according to the size, and then take from the oven and soak in a syrup made of one pound of sugar and a pint of water,
+and boiled to a syrup, and into which you will add a wineglass of brandy or Jamaica rum.
+ 
+These delicious cakes may be formed into small cakes, like the "Brioche," only they must not be
+joined together around a central cake. But the "Savarin" is nearly always baked in small cake tins.
+ 
+BISCUIT.
+Des Biscuits.
+ 
+1 Quart of Flour.
+1 Heaping Teaspoonful of Lard.
+1 Teaspoonful of Salt.
+2 Teaspoonfuls of Yeast Powder.
+1 Pint of Water or Sweet Milk.
+ 
+Sift the flour well, and add the salt and yeast powder, rubbing in thoroughly with your hands. Then rub in the lard, rubbing the flour between your hands till every portion is permeated by the lard, and there are no lumps. Gradually add water or milk, using about a pint, more or less, mixing in with your hands. Then knead the dough until smooth and elastic. Form into molds, and
+lay on the biscuit board, and roll out till about a quarter of an inch in thickness. Cut into round cakes with the biscuit cutter. Stick lightly with a fork here and there over the surface, and bake in a quick oven for about five or six minutes. By adding four or five eggs, and, instead of the
+lard, one tablespoonful of butter, to the above, you will have egg biscuit.
+ 
+Benten Biscuit.
+Biscuit Battu.
+ 
+This is a great Southern biscuit, and is much affected by the ancient Creoles. Take
+ 
+1 Quart of Flour.
+1 Teaspoonful of Salt.
+1 Heaping Teaspoonful of Lard.
+1 Pint of Milk or Water, or Half and Half.
+ 
+Sift the flour and add" the salt, mixing thoroughly. Then add the lard, and blend by rubbing through the hands till not a lump remains
+ 
+<!--page break, 363-->
+<!--column 1-->
+ 
+ 
+in the flour. Now add gradually the water or milk, or the milk and water combined, using half and half of each, and knead all the whole till the dough, which must not be too soft, but rather stiff, is formed. Then lay the dough on a biscuit board on a block, and beat, for a half hour with a rolling pin. Knead lightly, and beat again for a full ten minutes, till from every portion of the surface
+and sides the air bubbles or "blisters" form. Then roll out and cut into round biscuits with the cutter, or square ones with a knife, and stick here and there with a fork. Bake in a moderate oven for about ten or fifteen minutes, till a delicate brown above and below.
+ 
+These biscuits are delicious and are much liked by delicate people. The biscuit should be white as snow within. The sides should be slightly cracked. It was the pride of the ancient Creole cooks as to how long they could beat these biscuits without growing tired. The steady "beat-beat" would gently echo through the olden manors from the kitchen in the rear, and every one knew what to expect when Tante Zizi came in smiling with her beautiful biscuit, that had risen fresh, sweet and light without yeast powder or soda.
+ 
+Stewed Biscuits.
+Biscuits Sautes.
+ 
+6 Left-Over Biscuits.
+1/2 Pound of Butter.
+1 1/2 Pints of Milk.
+ 
+Left-over biscuits may be thus utilized. Take a porcelain-lined saucepan, cut the biscuit in halves, lay in the bottom of the saucepan, place a layer of butter over this, and then a layer of biscuit, and so on till all are used up. Pour milk over the whole, let it come to a boil, and serve hot.
+ 
+Soda and Milk Biscuit.
+Biscuit au Lait et à la Soude.
+ 
+1 Quart of Flour.
+1 Heaping Teaspoonful of Lard.
+2 Cups of Sour Milk.
+1/2 Teaspoonful of Soda.
+1 Teaspoonful of Salt.
+ 
+Sift the flour and add the salt and lard, rubbing them in thoroughly with your hands, as above indicated. Then dissolve the soda in a little warm water and add to the milk, and work rapidly and lightly. Then lay on a biscuit board or a block of wood, and beat till the surface of the dough is full of air bubbles, or "blisters," as the old Creole cooks call them. Roll the dough out to
+about a quarter of an inch in thickness, out into round biscuits with a biscuit cutter, or square ones with a knife. Stick here and there over the surface with a fork, and bake
+ 
+<!--column 2-->
+ 
+for about six minutes in a quick oven. If too much is used, it not only imparts a bitter taste, but gives the flour an ugly yellowish green color, that is neither tempting nor inviting.
+ 
+The Graham Biscuit is made by using three cups of Graham flour, one cup of white flour, one teaspoonful of Baking Powder, one heaping tablespoonful of sugar or molasses, and two cups of lukewarm water, mixing the batter until it reaches the consistency of oatmeal porridge,
+and then pouring into buttered tins. Let it rise till light, and bake in a moderate oven. Milk may be used instead of water, if you have it.
+ 
+Sweet Potato Biscuit.
+Biscuits de Patates Douces.
+ 
+6 Potatoes.
+4 Tablespoonfuls of Butter or Lard.
+1 Pint of Milk.
+1/2 Cake of Compressed Yeast.
+1 Teaspoonful of Salt.
+1 Tablespoonful of White Sugar.
+Sufficient Flour to Make a Batter.
+ 
+Boil the potatoes, pare and mash them very fine through a sieve. Scald the milk and add the salt and sugar. Then beat till perfectly smooth. Add these to the potatoes and mix well. Then add about half a cup of flour, well-sifted several times, so that it will be very light. When the mixture
+grows tepid, add the yeast, which you will have dissolved in warm water, and beat well till you
+have a good batter. Then cover the mixture with a thick cloth, and put to rise in a warm place. After three or four hours, when it is, well-risen, add flour sufficient to make a nice, soft dough. Knead very lightly and quickly for about ten or fifteen minutes. At the end of this time take
+up and knead, lightly several times, and roll the dough out. Cut into little biscuits, place them in a slightly-buttered or greased pan, about, two inches apart, let them stand for half an hour in a warm place and then bake in a quick oven for twenty minutes.
+ 
+ 
+Tea Biscuits.
+Biscuits de Thé.
+ 
+1 Quart of Flour.
+1/2 Pint of Milk. 3 Eggs.
+2 Ounces of Butter or Lard.
+1 Teaspoonful of Sugar.
+1/4 Cake of Compressed Yeast.
+ 
+Scald the milk and add the butter. Set to cool, and then add the salt and the sugar and yeast. Add one-half of the flour. Mix well, and then beat rapidly for about five or ten minutes. Cover up the pan with a cloth, and set in a warm place for about two hours. Then take up, add the well-beaten eggs and the remainder of the flour. Make a soft dough, and
+ 
+<!-page break, 364-->
+<!--column 1-->
+ 
+knead lightly but constantly for about twenty minutes. If the dough is then elastic, form into loaves and set to rise in a warm place. When it has increased to twice its bulk, which will be in about two hours, pinch off into small pieces about half the size of a hen's egg, and mold into a small ball. Place all in a pan about two inches apart, and cover again for half an hour. Then bake in a moderate oven for about a quarter of an hour. They must be baked to a nice
+brown.
+ 
+Soda Crackers.
+Biscuits de Soda.
+ 
+1 Quart of Flour.
+3 Tablespoonfuls of Butter.
+2 Cups of Sweet Milk or Water.
+1/2 Teaspoonful of Soda.
+1 Teaspoonful of Salt.
+ 
+Sift the flour several times and add the salt. Mix well. Then rub in the butter thoroughly. Add the soda, which you will have dissolved in a little boiling water, and the milk, and mix all well together. Then knead well and put upon the biscuit board and beat with a rolling pin for upwards of half an hour, frequently rolling the dough over, and beating hard until the air bubbles cover every part, above and below. Then roll out into a nice square even sheet of dough, about one-eighth of an inch in thickness, and cut into nice square cakes. Stick through and through with a fork here and there over the surface in even rows, and bake them in a moderate oven till
+they are hard and crisp, but not brown. Then hang in a muslin bag for about two days to thoroughly dry, and they are ready to be served.
+ 
+WAFERS.
+Gaufres.
+ 
+1 Pint of Flour.
+1 Tablespoonful of Butter.
+1/2 Teaspoonful of Salt.
+1/2 Pint of Sweet Milk.
+Sift the flour very, very fine, and then add the salt, and mix well. Add the milk and make into a nice, rather stiff dough. Place on a biscuit board and beat for fully a half hour, and then turn the dough over and beat for fifteen minutes more, the lightness depending upon the beating. Roll them out into cakes that are almost transparent in thinness, but which can also be handled without losing their shape. Lay them gently in the pan, or better still, roll them out on a baking sheet which has been sprinkled with flour; then they will not require handling. Bake quickly
+in a hot oven.
+ 
+<!--column 2-->
+ 
+SHORT CAKE.
+Gateau de Pate au Beurre.
+ 
+1 Pound of Flour.
+4 Tablespoonfuls of Butter or 2 of Lard.
+1/2 Teaspoonful of Salt.
+A Pinch of Soda, or 1/2 Teaspoonful of Yeast Powder.
+ 
+Sift the flour and yeast powder together, it you desire it instead of soda. Otherwise sift the flour, add the salt, and mix the lard or butter thoroughly together, rubbing between your hands till there is not a lump left. Then add sufficient tepid water to make a nice, rather stiff dough. Roll out into a thin sheet, about- half an inch thick, and criss-cross with a knife lightly in diamond shapes. Set in the oven and bake for about fifteen minutes to a light brown. This is brought to the table split open and buttered, and eaten while hot.
+ 
+The short cake for fruits is made in exactly the same manner, only a quarter of a pound of butter is used, and two eggs, well beaten, and instead of water sour milk or buttermilk is used to mix, if you use soda, and sweet milk if you use yeast powder. This dough is divided in two, one for the upper, and the other for the lower crust, and is sprinkled thickly between with such fruits as strawberries, raspberries, etc. The dough should be soft and crisp.
+ 
+CORN BREAD.
+Pain de Maïs.
+ 
+It has been said, and justly, that the only people who know how to make corn bread are the Southern people, and that the further you go south of Mason and Dixon's line, the better the corn bread, corn cakes, corn muffins, that will be offered you. Throughout Louisiana the dainty
+"Egg Breads," Corn Cakes, Muffins, "Crackling Bread," etc., are the gracious offerings that typical Creole planters place before the guests who have been invited to partake of morning hospitality. As in these ancient Southern manors, so also is the olden Creole homes of New Orleans. The Creole planters of the ancient regime had their plantation and city homes, and life gravitated between the one and the other with pleasing and infinite variety. And so the cookery of the Creole New Orleans is the cookery of Creole Louisiana, and in this cookery Corn Bread
+occupies, with "Potato," "Hominy," "Rice," and "Wheat Breads," its unique and interesting place.
+ 
+It may be added here that the Creoles, like all true Southerners, never use the yellow corn meal for making bread, but always the whitest and best meal. In the South the yellow meal is only used to feed chickens and cattle.
+ 
+<!--page break, 365-->
+<!--column 1-->
+ 
+Plain Corn Bread.
+Pain de Maïs.
+ 
+1 Quart of the Finest Indian Meal.
+1 Teaspoonful of Salt.
+A Heaping Tablespoonful of Lard or Butter.
+1 Pint of Water.
+ 
+Pour just enough boiling water over the meal to scald it through and through, without making a dough or batter. Stir it well, and let it grow tepid. It will then be quite dry. Add a melted teaspoonful of lard or butter. Mix this well, and add water, and beat till the batter is very smooth. Dissolve one teaspoonful of soda in a little boiling water, and add to the mixture, and grease a
+baking pan. Turn the mixture in and bake in a quick oven for about thirty-five minutes, till a golden brown. Take the bread from the pan whole, and place on a hot platter, and serve,
+cutting it at the table into slices about two inches long and three wide, and serving with butter.
+ 
+Egg Corn Bread.
+Pain de Maïs aux Oeufs.
+ 
+1 Quart of Cornmeal. 4 Eggs.
+1 Tablespoonful of Butter or Lard.
+1 Pint of Milk (Buttermilk if Possible).
+1 Teaspoonful of Salt.
+ 
+Scald the meal with boiling water sufficient to melt. Beat the yolks of the eggs very, very light. Add the corn meal and melted butter, and the salt, and beat till very light, moistening
+with the milk. Then add the whites of the eggs, beaten to a stiff froth. Beat all well together. Pour into a buttered or greased pan, or into shallow tins, and bake quickly. This is the real Creole Corn Bread, so highly praised by all tourists through Louisiana. The secret of the exquisite flavor depends upon the proper beating of the eggs, as well as on the rising of the corn bread itself. If the eggs are well-beaten, the corn bread will need neither soda nor yeast to make it rise properly. Some add a tablespoonful of sugar when they wish to have sweetened corn bread. Corn bread, to be delicious, should always be served hot and generously buttered.
+ 
+Nonpareil Corn Bread.
+Pain de Maïs Nonpareil.
+ 
+2 Cups of Indian Meal.
+1 Cup of Flour. 3 Eggs.
+2 1/2 Cups of Sweet Milk.
+1 Tablespoonful of Lard.
+2 Tablespoonfuls of Sugar (if desired).
+2 Teaspoonfuls of Baking Powder.
+1 Teaspoonful of Salt.
+ 
+Beat the eggs very, very light, the whites and yolks separately. Melt the lard or butter, and gift the Baking Powder into the sifted meal and flour. Stir this into the yolks of the eggs and the milk. Blend thorough-
+ 
+<!--column 2-->
+ 
+ 
+ly. Add the whites, beaten to a stiff froth. Beat well together, and bake quickly and steadily in a quick oven for about a half hour. Serve hot, with butter.
+ 
+ 
+Risen Corn Bread.
+Pain de Maïs au Levain.
+ 
+1 Quart of Cornmeal.
+1 Pint of Milk or Water. 3 Eggs.
+1 Teaspoonful of Salt.
+2 Tablespoonfuls of Yeast.
+ 
+Beat the eggs well, and use boiling water or milk to blend the cornmeal, eggs and salt together. Then add the yeast, which you will have dissolved in a little hot water. Set the bread to rise for three or four hours and then bake in tins or in a greased pan, like a pone of bread, or make
+it into loaves.
+ 
+Again, the risen corn bread can be made much more quickly by simply adding two tablespoonfuls of yeast powder to the batter, or a half teaspoonful of soda, dissolved in a cup
+of milk. Mix thoroughly, and bake in buttered tins or a pan. Always scald the meal with boiling water first.
+ 
+ 
+Steamed Corn Bread.
+Pain de Maïs à la Vapeur.
+ 
+1 Cup of Flour.
+1 Cup of Louisiana Molasses.
+2 Cups of Sweet Milk.
+2 Teaspoonfuls of Baking Powder.
+ 
+Scald the meal. Beat the eggs very light, and beat the milk into them till very light. Add the molasses and yeast powder, and blend well. Then add the flour, mixing and beating till thoroughly blended. A half cup of sugar may be used instead of the molasses. Tie in a cloth, as you would roll a pudding, and place in a steamer, on top of a pot of boiling water, and cover first with a close cloth, and then with the steamer cover, and steam for three hours. Then turn into a hot dish, and eat as a plain dessert, with a Brandy or Hard or Cream Sauce. (See Pudding
+Sauces.)
+ 
+Cornmeal Pone.
+Pain de Maïs Créole.
+ 
+1 Quart of the Finest Indian Meal.
+1 Teaspoonful of Salt.
+A Heaping Teaspoonful of Lard or Butter.
+1 Pint of Sour Milk or Buttermilk.
+3 Eggs.
+ 
+Pour just enough boiling water over the meal to scald it through and through, without making a dough or batter. Stir it well, and let it grow tepid. It will be then quite dry. Beat two eggs very light, and add to the meal, and add a melted tablespoonful of lard or butter. Mix this well, and
+add the milk or buttermilk, and beat till the batter is very smooth. Dissolve one teaspoonful of soda in a
+ 
+<!--page break, 366-->
+<!--column 1-->
+ 
+little boiling water, and add to the mixture, and grease a baking pan. Turn the mixture in and bake in a quick oven for about thirty-live minutes, till a golden brown. Take the pone from the pan whole, and place on a hot platter, and serve, cutting it at the table into slices about three
+inches long and two wide, and serving with butter.
+ 
+A Plain Pone may be made by using hot water and lard, instead of milk and butter, making a thick dough, and form into loaves and bake. But it bears no comparison to the real Creole Pone, as made above. Nevertheless, this is a very good and nutritious white corn bread. In the rural districts of Louisiana the lard is often omitted, and the pone made simply of the hot water and cornmeal.
+ 
+ 
+Corn Dodgers.
+Petits Pain de Maïs.
+ 
+1 Quart of Indian Meal.
+1 Tablespoonful of Lard.
+1 Teaspoonful of Salt.
+ 
+Scald the meal with boiling water. Add the melted lard and the salt. Use sufficient boiling water to make a very stiff batter or soft dough. Then take up a handful of the mixture, and mold it with your hands into oval mounds, tossing the cake of dough lightly between your hands in a dexterous manner, and leaving the impression of your fingers across. Bake the pones thus formed in a quick oven. They may be served at dinner, and are delicious when properly
+made.
+ 
+ 
+Ash Cake.
+Petits Gateaux Cuits dans la Cendre.
+ 
+1 Quart of Indian Meal.
+1 Tablespoonful of Lard.
+1 Teaspoonful of Salt.
+ 
+This is a real old Southern darky cake. The ancient Creole negroes of Louisiana excelled in making and baking it, so that no ashes clung to the clean white cake. An ash cake, as the name suggests, is always baked in the ashes, on the open hearth, and wood ashes must be
+used. The darkies had a roaring fire and a sufficient quantity of hot ashes. They swept a clean place on the hearth and drew out a pile of hot ashes, and placed the pone of bread, shaped like the Corn Dodgers, on top of the ashes. This was covered with hot ashes, and let bake to a nice
+brown. Then the cake was drawn out of the ashes, wiped clean with a cloth till every particle of ashes that adhered in the crevices disappeared, and served hot with butter or molasses.
+ 
+Again, the old Creole darkies wrap the cake in a layer of fig leaves, to bake more neatly, but the real Ash Cake is baked as above.
+ 
+<!--column 2-->
+ 
+Fried Corn Cakes.
+Gateaux de Maïs Frits.
+ 
+1 Quart of Indian Meal.
+1 Tablespoonful of Lard.
+1 Teaspoonful of Salt.
+ 
+Make the dough as above, adding, if you wish, a well-beaten egg, and milk instead of water. Beat till very light, and drop the stiff batter in large spoonfuls on a frying pan that will have greased well with fat bacon skin. These cakes are very delicious when properly made. They
+must be fried to a golden brown. After each cake is taken from the skillet, the latter must be wiped off and regreased with the fat bacon before putting the next cake upon It. Serve hot at breakfast or dinner.
+ 
+HOECAKE.
+Gateau a la Houe.
+ 
+1 Pint of Flour.
+1/2 Teaspoonful of Salt.
+Boiling Water Sufficient to Make a Batter.
+ 
+These cakes may be baked on a griddle, just as you would a griddle cake, and served with butter. But the old Southern cooks, of which the Louisiana Creole plantation cooks were not the least, always baked these cakes on a hoe on hot coals in front of a wood fire, right out in
+the open air, before their cabin doors, or in their cabins before the roaring hearth fire. Hence the name Hoecake. The Hoecake was made of flour, with sufficient water to moisten it well. A teaspoonful of butter or lard was added.
+ 
+The term Hoecake, so extensively used by the field hands, was taken up by masters and mistresses, and applied to a biscuit bread made of one pint of flour, one-half pint of milk, one teaspoonful of yeast powder, and two spoonfuls of butter or one of lard, kneaded well together,
+rolled out with a rolling pin, and cut criss-cross, like diamonds, with a knife, and baked in the oven.
+ 
+This delightful refinement of the ancient Hoecake is served at dinner with a glass of milk or cream, as an accompaniment to Compotes of Fruits.
+ 
+ 
+JOHNNY CAKE.
+1 1/2 Pints of Indian Meal. 3 Eggs.
+A Pint of Sweet Milk or Buttermilk or Hot Water.
+2 Tablespoonfuls of Melted Butter, or 1 of Lard.
+1/2 Teaspoonful of Soda (May Be Omitted.)
+ 
+Beat the eggs till very light, and add the cornmeal, and beat till light. Add the melted butter and the milk or water. If buttermilk is used, you may use the soda, dissolving it in two tablespoonfuls of boiling water. Do not use the soda with the sweet milk. Make a dough or batter thick enough to be spread into cakes a
+ 
+<!--page break, 367-->
+<!--column 1-->
+ 
+half inch in thickness and about five inches in diameter, the cakes, of course, being formed round. Place in buttered tins, and bake in a moderate oven for about a half hour, frequently brushing across while baking with melted butter. Do this about four or five times.
+ 
+In the olden days, Johnny Cake was baked on a clean, sweet board, before a hot coal fire. The board had to be made of oak wood. The cake was formed and placed on the board, and the board was inclined at an angle before the hot coal are, with a piece of wood or a flatiron to
+hold it up, and the cake was placed at such an angle that it could harden without slipping oft. When quite hard it was stood upright and baked to a nice, crisp brown on both sides, turning as needed, and frequently basting with butter. The Johnny Cake was served hot for lunch or tea,
+being sent to the table hot, split and buttered, or served with fresh, sweet butter and buttermilk. Hence the old Creole song, which was sung to the little children, and which, being translated, runs:
+ 
+<!--quoteà "Come, Butter Cake! Come, Butter Cake!
+Two little boys are waiting at the gate
+For a hot Johnny Cake.
+Come, Butter Cake!" <!--quote-->
+ 
+And so on, the lines varying "Two little girls," or "Little girl and boy are waiting at the gate," according to the number of children the old mammy was tending. The old Southern darkies also sang this song while churning.
+ 
+ 
+CRACKLING BREAD.
+Gratons.
+ 
+Cracklings are the bits of fat meat left after all the lard has been rendered from the fat pork. They are eaten extensively throughout rural Creole Louisiana. The fat pork is cut into small bits, about the size of a man's hand, and then fried till every bit of grease has been extracted. This grease is then clarified and used as lard. The cracklings are saved, and eaten from time to time within the next two weeks, simply being warmed over again. Again, they may be made at any time by frying small bits of fat pork. These cracklings, to use the country parlance, "Go very well with Corn Bread," and are not only eaten with it "au naturel," but also made into that typical rural bread of the country parishes, "Crackling Bread," or "Gratons."
+ 
+To make this, take one pint of meal, a half teaspoonful of salt, and cold water enough to make a thick batter. Mix the cracklings, already fried of course, in the batter, and pour a large tablespoonful at a time on a griddle. Fry to a golden brown.
+ 
+<!--column 2-->
+ 
+Crackling bread is very crisp, and if properly made is a very palatable bread, requiring no butter or other accompaniment to make it toothsome.
+ 
+MUFFINS.
+Galettes.
+ 
+No breakfast cake admits of greater variety than the Muffin. We have Plain Muffins, Egg Muffins, Corn meal Muffins, Rice, Hominy and Cream Muffins, besides several fancy Muffins, and that delicious breakfast accompaniment, "Muffin Bread."
+ 
+Muffin Bread.
+Pain Levé â la Pate de Galette.
+ 
+3 Cups of Flour.
+1 Pint of Milk.
+1/2 Cake of Compressed Yeast.
+4 Eggs. 1/4 Pound of Butter.
+1 Teaspoonful of Salt.
+ 
+Scald the milk and add the butter. When it grows lukewarm, add the yeast, dissolved in about three tablespoonfuls of warm water. Add the salt and flour, and beat well for about ten minutes. Then set in a warm place over night. In the morning beat the yolks of the eggs well, and then the whites to a stiff froth; add the yolks and , beat well, and then add the whites, and mix all
+thoroughly. Beat till very light, let it stand for about a quarter of an hour, and then bake in a buttered pan for about twenty minutes in a quick oven.
+ 
+Bread Muffins.
+Galettes de Pain.
+ 
+Left-over bread may be utilized in this way:
+ 
+2 Pints of Stale Bread Crumbs.
+1 Pint of Milk.
+1/2 Cup of Sifted Flour. 2 Eggs.
+1 Tablespoonful of Melted Butter.
+2 Teaspoonfuls of Baking Powder.
+ 
+Soak the stale bread crumbs in the milk for a half hour. Beat the yolks of the eggs till very light, and the whites to a stiff froth. Add a teaspoonful of salt to the bread, and then pour in the melted butter, and mix thoroughly. Add the flour, into which you will have sifted the baking
+powder, and beat well. Lastly, add the whites of the eggs, and put the muffins into the muffin rings or gem pans, and bake for about a half hour in a quick oven.
+ 
+Cornmeal Muffins.
+Galettes de Farine de Maïs.
+ 
+2 Cups of Cornmeal.
+1/2 Cup of Sifted Flour. 2 Eggs.
+1 1/2 Cups of Buttermilk or Sweet Milk.
+2 Spoonfuls of Butter.
+2 Teaspoonfuls of Baking Powder.
+1/4 Teaspoonful of Salt.
+ 
+Scald the meal. Scald the milk,
+ 
+<!--page break, 368-->
+<!--column 1-->
+ 
+and add the butter. When lukewarm add to the cornmeal and beat well. Add the well-beaten yolks of the eggs, and beat well. Add the flour, into which the. yeast powder must previously be sifted. Mix well and add the whites of the eggs, beaten to a stiff froth. Beat steadily for about ten minutes, and then pour into greased muffin rings or gem pans, and bake for twenty minutes, in a quick oven. If buttermilk is used, add a teaspoonful of soda, dissolved in the milk.
+ 
+In making Muffins, if milk is not available, use lukewarm water, or half milk and half water, if possible.
+ 
+Cream Muffins.
+Galettes à la Crème.
+ 
+1 Pint of Cream.
+1 Pint of Flour. 3 Eggs.
+1 Tablespoonful of Butter.
+1 1/2 Teaspoonfuls of Yeast Powder.
+ 
+Beat the whites and yolks of the eggs separately. Then add the cream and salt, and finally the flour, into which you will have blended the yeast powder. Beat well and fill the muffin ring or gem pans one-half full. Place in a quick oven and bake for twenty minutes.
+ 
+Egg Muffins.
+Galettes aux Oeufs.
+3 Cups of Flour.
+1 Pint of Milk.
+1/4 Cake of Compressed Yeast, or 2 Teaspoonfuls of Baking Powder.
+1 Large Tablespoonful of Butter.
+1 Teaspoonful of Salt.
+ 
+Prepare the Muffin batter as above, and set to rise over night. In the morning prepare the eggs as above indicated. Blend and beat till light. Then turn the muffin batter into greased muffin rings, and bake about twenty minutes in a hot oven. The Muffins must be eaten hot.
+Graham Muffins are made in exactly the same manner, only the Graham flour is used instead. Sometimes the Graham flour is mixed with the plain flour in the proportion of two cups of the former to one of the latter. In Plain Muffins the eggs are omitted.
+ 
+Hominy Muffins.
+Galettes de Saccamité.
+ 
+2 Cups of Fine Hominy. 3 Eggs.
+½ Cup of Melted Butter.
+3 Cups of Fresh Milk or Sour Milk.
+2 Tablespoonfuls of White Sugar.
+2 Teaspoonfuls of Salt.
+1 Teaspoonful of Soda, If Sour Milk Is Used.
+3/4 Cup of Flour.
+ 
+Mash the hominy through a sieve, and then stir in the milk, salt, yeast powder and sugar. Add the yolks of the eggs, beaten very light, and then the flour, well-sifted. Lastly, add
+                                                                                                             	
+<!--column 2-->
+ 
+the whites of the eggs, beaten to a stiff froth, and bake in a quick oven for twenty minutes.
+ 
+If buttermilk is used, add a half teaspoonful of soda, instead of the yeast powder. These Muffins may also be made out of the left-over cornmeal.
+ 
+Queen Muffins.
+Galettes à la Reine.
+ 
+1 Cup of Sugar.
+3 Cups of Flour. 3 Eggs.
+1 Pint of Sweet Milk.
+1 Tablespoonful of Melted Butler.
+1 Teaspoonful of Salt.
+2 Teaspoonfuls of Baking Powder or 1/2 Cake of Compressed Yeast.
+ 
+If yeast is used, set the batter to rise over night, as in Egg Muffins, and then proceed in exactly the same manner, adding the eggs in the morning. Beat the eggs separately till very light, add to the batter, and pour into muffin rings or gem pans and let the mixture rise a half hour longer. Then bake for twenty minutes in a quick oven. If yeast powder is used, beat the yolks of the
+eggs to a cream, add the scalded milk and butter, and add the flour. Beat till very light, and add the yeast powder, and finally the whites of the eggs, beaten to a stiff froth. Turn into gem pans or muffin rings, and bake for twenty minutes in a hot oven.
+ 
+Quick Muffins,
+Galettes à la Vitesse.
+ 
+3 Cups of Flour.
+1 Pint of Milk.
+1/4 Cake of Compressed Yeast, or 2 Teaspoonfuls of Baking Powder.
+1 Large Tablespoonful of Butter.
+1 Teaspoonful of Salt.
+ 
+Scald the milk, and add the butter. When it grows lukewarm, add the yeast, the flour and salt, and beat all well for about ten minutes. Then set the bowl in a warm place, cover with a cloth, and let the mixture rise for about two hours. When very light, beat well again, and add two
+eggs well beaten. Turn into muffin rings or gem pans, and let them rise a half hour longer. At the end of that time place them in the oven and bake for about twenty minutes. If yeast powder is used, beat into the batter, and proceed to bake immediately. The Muffins may be baked in muffin rings, on a griddle, or as above indicated.
+ 
+Rice Muffins.
+Galettes de Riz.
+2 Cups of Boiled Rice.
+1 Cup of Flour. 3 Eggs.
+1 1/2 Pints of Milk.
+1 Tablespoonful of Lard or Butter.
+2 Tablespoonfuls of Sugar (May be Omitter).
+1 Teaspoonful of Salt.
+ 
+Mash the rice through a close sieve,
+<!--page break, 369-->
+<!--column 1-->
+and beat the yolks very light, and add. Add the milk and butter, and then sift in the flour and half a teaspoonful of baking powder. Add the sugar and the whites of the eggs, beaten to a stiff froth. Add the salt, and bake in muffin rings, in a quick oven for about fifteen or twenty minutes.
+
+GEMS.
+Petits Bijoux.
+Prepare the same batter as for Quick Muffins. Pour into gem pans, and bake for about twenty-five minutes. Graham Gems are made by using two cups of Graham meal to one cup of boiled rice or cornmeal, or two cups of Graham flour to one of wheat flour, and the other ingredients
+in the same proportion as for Quick Muffins.
+ 
+Corn Gems.
+Petits Bijoux à la Farine de Maïs.
+ 
+2 Cups of Cornmeal.
+1 Cup of Flour.
+2 Tablespoonfuls of Butter.
+4 Eggs. 1 Pint of Sweet Milk.
+2 Tablespoonfuls of Baking Powder.
+ 
+Boil one-half of the milk and pour it over the cornmeal. Add the butter instantly, and stir well. When thoroughly mixed add the cold milk and the well-beaten yolks of the eggs. Add the salt and then the flour, into you will have sifted the baking powder. Mix thoroughly, and then add the whites of the eggs, beaten to a stiff froth. Pour into greased or buttered gem pans, and bake about a half hour in a hot oven. Always remember to fill the pans only half full, leaving room for
+the batter to rise.
+ 
+CRUMPETS.
+Emietes.
+ 
+1 Pint of Milk.
+3 Cups of Flour.
+4 Tablespoonfuls of Butter.
+1/2 Cake of Compressed Yeast.
+1 Tablespoonful of Salt.
+ 
+Scald the milk and set to cool. Add the salt, and gradually beat in the flour. Beat till very smooth, and add the yeast Beat continuously for ten minutes and then set in a warm place to rise. After several hours beat well again, and add the melted butter. Mix thoroughly and then turn into greased muffin rings and bake till a beautiful brown, turning first on one side and then on the
+other. Send to the table very hot. Break open with your fingers, and butter nicely.
+ 
+SALLY LUNN.
+Pain â la Vielle Tante Zoe.
+ 
+Sally Lunn is nothing more than the old breakfast dish known to the
+ 
+<!--column break-->
+<!--column 1-->
+ 
+Creoles for generations as "Pain à la Vielle de Tante Zoe." Take
+ 
+1 Pint of Milk.
+1 1/2 Pints of Flour.
+1/2 Cupful Of Butter.
+4 Eggs. 1 Teaspoonful of Salt.
+1/2 Cup of Sugar.
+1/4 Cake of Compressed Yeast.
+ 
+Warm the butter in a pint of milk till the milk reaches the boiling point. Do not let it boil. Simply
+scald. Then add the salt and a tablespoonful of sugar. Let it cool. When tepid add the flour, well sifted, and beat thoroughly into the mixture. Lastly, add the yeast, dissolved in a little hot milk or water. Beat it continuously for at least five minutes. Then, when the batter begins to break into blisters, cover it and set to rise for the night. In the morning add the yolks of the eggs, beaten till very light, and the whites, beaten to a stiff froth. Mix carefully, and dissolve a half teaspoonful of soda in the mixture, if it seems anyway sour. Turn the whole into a shallow buttered dish, and set to rise for fifteen minutes longer. Bake about twenty or twenty-five minutes in a moderately quick oven, till it is a light brown.
+ 
+This cake, like all muffin batter, not be cut with a knife, but torn apart with your hands. If cut,
+all muffin batter at once becomes heavy. The cake may be also made much more quickly by mixing in the morning, using the above ingredients, only adding three teaspoonfuls of baking powder, instead of the yeast. Beat quickly and thoroughly, and turn into a buttered tin, and set
+to bake at once. Send to the table hot, and eat with a generous endowment of butter.
+ 
+WAFFLES.
+Gaufres.
+ 
+Waffles are delightful accompaniments of breakfast, lunch or tea, and may be made of flour, rice, hominy or cornmeal. In all recipes for Waffles, if you have not the milk, substitute
+lukewarm water, and if you have no butter, use instead a half spoon of lard, but certainly the taste of the Waffles is much improved by the butter and milk, especially the butter. Half milk and half water, boiled and grown tepid, may also be used in the proportions indicated in the recipes.
+ 
+Plain Waffles.
+Gaufres de Froment.
+ 
+These Waffles are made of flour, and are more especially known as "Plain Waffles." They are the Waffles most generally served. They are made as follows:
+ 
+<!--page break, 370-->
+<!--column 1-->
+ 
+3 Cups of Flour.
+2 Eggs. 2 Cups of Milk.
+1 1/2 Teaspoonfuls of Baking Powder.
+1 Large Tablesspoonful of Butter.
+1 Teaspoonful of Salt.
+ 
+Sift the flour and salt and baking powder together. Beat the yolk of the egg till very light. Add the
+melted butter to the milk, which should be scalded and grown lukewarm, and then mix in the whites of the eggs. Now add the flour gradually, making a nice, light batter. If it appears at all stiff, add a little more milk. Have your waffle irons ready, thoroughly heated. Have at hand a small brush or a stick with a piece of clean, fringed cloth wrapped around the end. Dip this
+In a little melted lard, and brush over the interior of the irons, till every part is greased. Pour the batter into a pitcher, so that you may the more easily fill the irons. Fill until the elevations are lightly covered, and then close the irons quickly and turn it over. Bake the Waffle about two minutes, or till a nice, delicate brown. Carefully remove from the irons, place in a hot plate
+or waffle dish in the mouth of the oven, and proceed with the baking. Send to the table very hot.
+ 
+Cornmeal Waffles.
+Gaufres de Farine de Maïs.
+ 
+2 Cups of Cornmeal.
+1 Cup of Flour. 3 Eggs.
+1 Pint of Milk.
+1 Tablespoonful of Melted Butter.
+1/2 Teaspoonful of Soda. Dissolved in Hot Water.
+1 Teaspoonful of Salt.
+ 
+Scald the milk and then add the well-beaten yolks of the eggs. Add the milk and the soda, dissolved in a little hot water, and then add the melted butter and the whites of the eggs, beaten to a stiff froth. Now add the flour, gradually making a nice batter, not too thick, nor yet too thin. Beat till all is very smooth and proceed to bake as above.
+ 
+Rice may be substituted for the flour, if you desire rice and cornmeal muffins; add about two tablespoonfuls of flour to bind.
+ 
+Waffles of left-over grits may be prepared by adding one cup of grits to two of flour, and proceeding as above.
+ 
+Potato -Waffles.
+Gaufres de Pommes de Terre.
+ 
+1 Pint of Irish Potatoes.
+4 Eggs. 1 Pint of Flour.
+1 1/2 Pints of Milk.
+1/2 Cake of Compressed Yeast.
+ 
+Mash the boiled, left-over potatoes through a sieve, and then add the milk and the sifted flour. Add the yeast, which you will have dissolved in a little warm water, and set the
+ 
+<!--column 2-->
+ 
+whole to rise for two hours. At the end of that time add the eggs, beaten separately, and mix well. Set to rise again for a half hour, till light, and then proceed to bake as in Plain Waffles.
+ 
+Sweet Potato Waffles.
+Gaufres de Patates Douces.
+ 
+2 Cups of Mashed Sweet Potatoes.
+1 Cup of Melted Butter.
+1/2 Cup of Sugar.
+1 Pint of Milk. 2 Eggs.
+4 Tablespoonfuls of Flour.
+
+Mash the potatoes through a sieve, and add the eggs, beaten separately. Mix well, and add the sugar, and beat till very light. Then add the butter and beat again, and add the milk, mixing thoroughly. Now add the flour, using sufficient to make a thin batter, that will bind the potatoes. Grease the waffle irons well, and proceed to bake as above indicated. Properly made these waffles are delicious. Left-over potatoes may be thus utilized. The eggs may be omitted.
+ 
+Rice Waffles.
+Gaufres de Riz.
+ 
+1 Cup of Boiled Rice.
+1 1/2 Pints of Milk. 2 Eggs.
+1 Cup of Flour or 2 Cups of Rice Flour.
+2 Teaspoonfuls of Baking Powder.
+1 Teaspoonful of Salt.
+1 Tablespoonful of Butter.
+ 
+Mash the rice through a sieve. Beat the yolks light, and add, and then add the salt, the baking powder and the milk. Beat well, and add the whites of the eggs, beaten to a stiff froth. Now add the rice flour to make a thin batter, and proceed to bake as above. Be careful to grease the irons very well, so that the rice may not adhere. If white flour, rather than the rice flour, is used, use in proportion two cups of boiled rice, instead of one.
+ 
+Risen Waffles.
+Gaufres au Levain.
+ 
+1 Quart of Flour.
+1 1/2 Quarts of Milk.
+1/2 Cake of Compressed Yeast.
+3 Eggs.
+2 Tablespoonfuls of Melted Butter.
+1 Tablespoonful of Salt.
+ 
+Scald the milk, add the butter, and let it grow tepid. Sift the flour arid salt together, and add the milk and butter, and finally the yeast. Beat all continuously for five or ten minutes, and then cover well and set in a warm place for about two hours. Beat the whites and the yolks of the eggs separately, and add first the yolks to the batter, after it has risen well, and then add the
+whites. Beat in thoroughly, and set to rise again for about a quarter of an hour. Then beat lightly and pour
+ 
+<!--page break, 371-->
+<!--column 1-->
+ 
+into a pitcher. Prepare the waffle irons as indicated above, and proceed to bake in the same manner. These Risen Waffles may also be made by mixing the flour, milk and salt and yeast together, and setting to rise over night. In the morning add the melted butter and the eggs, beaten separately, set to rise fifteen minutes longer, and proceed as above.
+ 
+Other Breakfast Cakes.
+Autres Gateaux de Déjeuner.
+ 
+In addition to Muffins, Waffles, etc., "Batter Cakes." "Flannel Cakes," "Buckwheat Cakes," "Griddle Cakes," etc., form pleasing and toothsome varieties for the morning meal, and. It might be added, not only for the morning meal, but for luncheon and tea as well.
+ 
+BATTER CAKES.
+Galettes de Pâte.
+ 
+2 Cups of Flour, Finely Sifted.
+2 Cupfuls of Sweet Milk.
+2 Tablespoonfuls of Baking Powder.
+3 Eggs.
+ 
+Beat the whites and the yolks of the eggs separately, the former to a stiff froth. Add the flour to the yolks, and beat till very light. Add the yeast powder and bake again. Then add the sweet milk and beat well. Now add the whites of the eggs and mix all to a very smooth, light batter, as thick as a batter that will run in a stream from the mouth of a spoon. Have ready the hot
+griddles, which you will grease with lard lightly, or better still, with a piece of fat bacon. Drop the cakes on the griddle from a large spoon, and bake about two minutes to a nice brown, turning first on one side and then quickly on the other. Pile the cakes on a plate in the mouth of the oven, buttering each generously as soon as baked, and send to the table almost as fast as
+you bake. These are the most delicate and delightful of all Griddle Cakes.
+ 
+They may also be made with sour milk, instead of sweet, in which case use a half teaspoonful of soda, instead of the baking powder.
+ 
+BUCKWHEAT CAKES.
+Galettes de Sarrasin.
+ 
+8 Cups of Buckwheat Flour (Perfectly Pure).
+1 3/4 Pints of Sweet Milk or Water.
+1/2 Cake of Compressed Yeast.
+1/2 Teaspoonful of Salt.
+ 
+Take a small earthen crock, or a pitcher, and put the warm milk or water, or half milk and water, into it, and then add the salt and the buckwheat flour. Beat till perfectly smooth, and then, when you have a stiff batter, add the yeast, dissolved In a little water. Beat this till
+ 
+<!--column 2-->
+ 
+smooth, and then cover well and set to rise over night. In the morning add a half teaspoonful of soda or saleratus, to remove any sourness that may have accrued during the night, and this addition will also increase the lightness of the cakes. Bake on a griddle, like Batter Cakes.
+ 
+Buckwheat Cakes are also often made by taking two cups of buck wheat flour, one cup of wheat flour, one and three-quarters pints of milk, one teaspoonful of salt, three teaspoonfuls of baking powder, and mixing all together till very light, and baking immediately on griddles. Many, indeed, prefer them combined with the flour. This mixture may also be made as in the above recipe, by using compressed yeast, and setting to rise over night. A tablespoonful of butter may also be added if desired. Serve with Louisiana Syrup.
+ 
+FLANNEL CAKES.
+Galettes de Pâte au Levain.
+ 
+1 Pint of Milk. 2 Eggs.
+1/4 Cake of Compressed Yeast.
+3 Cups of Flour.
+1/2 Teaspoonful of Salt.
+ 
+Heat the milk, and when it grows tepid, add the yeast, dissolved in a little hot milk or water, and flour sufficient to make a stiff batter. Set to rise over night, or for at least three hours in the morning. In the morning add the yolks of the eggs, beaten light, and the melted butter, and mix well. Then add the whites beaten to a stiff froth. Beat well, and then bake on a griddle, as in
+the above recipe for Batter Cakes. Be sure to make the batter stiff enough at the start to allow for the admixture of the eggs and butter in the morning. When once the cakes have risen, no flour must be added, unless the cakes are set to rise for an hour again.
+ 
+Sweet Flannel Cakes are made by adding a half cup of sugar. These are nice for tea.
+ 
+Again, Flannel Cakes may be made without yeast, by using one pint of buttermilk and one teaspoonful of soda. The batter is then made in the morning, without setting to rise over night, and is baked on the griddle immediately after mixing. Omit the butter in these buttermilk
+cakes. They will be very light and spongy without the butter.
+ 
+GRIDDLE CAKES.
+Gateau à la Plaque.
+ 
+3 Cups of Flour.
+3 Cups of Sour Milk or Warm Water.
+1 Teaspoonful of Soda.
+3 Eggs, Beaten Very Light.
+1 Teaspoonful of Salt.
+ 
+Mix the flour and meal, and pour
+ 
+<!--page break, 372-->
+<!--column 1-->
+ 
+on the milk or warm water. Make a batter somewhat stiffer than for Buckwheat Cakes, and add the eggs, well-beaten, the whites and yolks separately, and finally add the soda, dissolved in a little warm water. Bake on a griddle, making the cakes large and generous. Serve with Louisiana Syrup.
+ 
+Bread Griddle Cakes.
+Gateau de Pain à la Plaque.
+ 
+Utilize stale, left-over bread for these cakes. Take
+ 
+1 Quart of Boiling Milk.
+2 Cups of Fine Bread Crumbs.
+3 Eggs.
+1 Tablespoonful of Melted Butter.
+1/2 Teaspoonful of Salt.
+ 
+Soak the bread in the boiling milk, and as it cools beat it to a very smooth paste. Then add the yolks of the eggs, beaten very light, and the soda, dissolved in a little warm water. Finally add the whites of the eggs, beaten to a stiff froth, and a half cupful of sifted flour to bind well. Bake on a hot griddle, and butter, and serve with Louisiana Molasses or Syrup.
+ 
+Cornmeal Griddle Cakes.
+Gateau de Farine de Maïs à la Plaque.
+ 
+1/2 Teaspoonful of Soda.
+2 Cups of Cornmeal.
+1 Cup of Flour.
+1 Teaspoonful of Salt.
+3 Eggs.
+3 Cups of Sour Milk or Warm Water.
+1 Teaspoonful of Soda.
+ 
+Scald the meal and mix with the milk. Add the flour, into which you will have mixed the salt. Beat the eggs very light and add, and when all has been beaten very light add a teaspoonful of soda, dissolved in a little warm water. Bake on a griddle to a nice brown. If sweet milk is used, be careful to use, instead of the soda, two teaspoonfuls of baking powder.
+ 
+Graham flour, which is now used so much, may be made into griddle cakes, using two cups of the flour to one of wheat flour, and adding also one large tablespoonful of lard or butter. Cook as other Griddle Cakes on a hot griddle.
+ 
+ 
+Hominy Griddle Cakes.
+Gateau de Saccamité â la Plaque.
+ 
+2 Cups of Hominy.
+1 Cup of Flour.
+1 Teaspoonful of Salt.
+3 Eggs.
+3 Cups of Sour Milk or Warm Water.
+1 Teaspoonful of Soda.
+ 
+Boil and mash the hominy, or utilize left-over hominy. Add the flour, into which you will have mixed the <upside down> salt. Beat the egg very light, and </ud>
+ 
+<!--column 2-->
+ 
+add, and when all has been beaten very light add a teaspoonful of soda, dissolved in a little warm water. Bake on a griddle to a nice brown. If sweet milk is used, be careful to use, instead of the soda, two teaspoonfuls of baking powder. Serve with Louisiana Molasses or Syrup.
+ 
+French Griddle Cakes.
+Gateau de Plaque à la Française.
+ 
+1 1/2 Pints of Sifted Flour.
+6 Eggs.
+1 Tablespoonful of Butter.
+1 Ounce of Sugar.
+1 Cup of Milk.
+ 
+Beat the yolks of the eggs and the sugar very light; then add the flour and melted butter, and then add the warm milk. Beat all till very light. Add a half teaspoonful of baking powder, and then add the whites of the eggs, beaten to a stiff froth. Beat all till very smooth. Drop a tablespoonful at a time upon the hot griddle; turn quickly and bake on the other side, allowing about two minutes in all; place on a hot platter, butter well and spread with Jelly; then roll up, dust with powdered sugar and serve very hot.
+ 
+Green Corn Griddle Cakes.
+Gateau de Maïs Tendre à la Plaque.
+ 
+1 Quart of Finely-Grated Green Corn.
+1 Pint of Milk. 4 Eggs.
+1/2 Teaspoonful of Salt.
+1 Cup of Flour.
+1 Tablespoonful of Melted Butter.
+ 
+Beat the eggs separately, and then add the yolks, well beaten, to the corn. Add the salt, melted butter and the milk, and mix well. Then add sufficient flour to make a thin batter, and finally the whites of the eggs, beaten to a stiff froth. Bake on a hot griddle, butter generously, and serve very hot. This is a great Creole cake, and very delicious.
+ 
+Rice Griddle Cakes.
+Gateau de Riz à la Plaque.
+ 
+2 Cups of Boiled Rice.
+1 Cup of Flour. 2 Eggs.
+1 Pint of Milk or Water.
+1/2 Teaspoonful of Salt.
+1 1/2 Teaspoonfuls of Baking Powder.
+1 Teaspoonful of Sugar.
+ 
+Mash the rice through a sieve. Sift the flour, baking powder and salt together, and add the sugar to the milk. Add this to the flour and mix in the rice till free from any lumps. Then add the eggs, the whites and yolks beaten separately, and mix into a very smooth batter. Have the griddle well-heated. Bake the cakes to a nice brown, and serve with Louisiana Syrup.
+ 
+<!--page break, 373-->
+<!--column 1-->
+ 
+PUFFS.
+Soufflés.
+ 
+1 Pint of Sweet Milk.
+1/2 Pound of Flour.
+2 Ounces of Butter.
+4 Eggs.
+ 
+Beat the whites and the yolks separately till very, very light. Warm the milk and add the melted
+butter. When cold, mix with the yolks of the eggs, and add the flour and salt, beating till very light. Now add the whites of the eggs, beaten to a stiff froth. Stir lightly, turn into buttered tins, filling each about half full, and bake to a light brown.
+ 
+CRACKNELS.
+Craquelins.
+ 
+2 Cups of Rich Milk.
+4 Tablespoonfuls of Butter.
+1 Gill of yeast.
+1 Teaspoonful of Salt.
+ 
+Scald the milk and add the butter, and let it grow tepid. Then add the yeast and dissolve well. Add the salt, and now add the flour sufficient to make a light dough. Set to rise, and when twice its bulk work lightly, and roll out very thin, and cut into pieces about two and a half inches square. Stick well with a fork through and through, and bake in a slow oven, as you would soda
+crackers.
+ 
+HOME-MADE YEAST.
+Levain de Ménage.
+ 
+6 Large Potatoes.
+A Handful of Hops.
+3 Pints of Water.
+1/2 Cup of Sugar.
+1/2 Cup of Yeast.
+Flour Sufficient to Make a Batter.
+Cornmeal to Blend.
+ 
+In these days of baking powders and prepared yeasts that are sold by all grocers, and that have proved
+ 
+<!--column 2-->
+ 
+such a saving of time and trouble to the housekeeper, it might seem superfluous
+to add a recipe for making yeast. Nevertheless, the following ancient recipe, in use for many years in Creole homes, is given as the final recipe of the Picayune's Creole Cook
+Book:
+ 
+Take six large potatoes, and pare them, and then boil in about three pints of water. Take a handful of hops, and tie them in a muslin bag, and boil with the potatoes. When these are thoroughly cooked, drain the water on sufficient flour to make a good batter, and set the mixture
+on the stove for a few minutes, till the flour is well-scalded. Do not let it boil or simmer under any consideration. Take it from the fire, and let it cool. Then mash the potatoes and add them to the flour, and add a half cup of sugar and a half cup of yeast. Let it stand in a warm place till it has thoroughly risen. Then add cornmeal that has been sifted and dried, and knead well, until you have a dough thick enough to roll out, and that will crumble when dry. Cut this dough into cakes, and spread on a board and place in the shade to dry. Then keep in a box in a dry place.
+This mixture may be also kept and used as a liquid by simply stopping when you have come to the point where you must add the cornmeal. Let the mixture thus stand in a warm place till it has thoroughly risen. Then scald a large jar, wipe dry, and put in the yeast. Cover tight, and keep in a cool place. One- third of a cupful of yeast will make two loaves of bread. But as Compressed Yeast can be had at any grocer's, and is a great saving of time and trouble, it is always better to get it, and it has this advantage, that it may be procured when needed.
+
             </div>
         </body>
     </text>
