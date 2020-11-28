@@ -1125,245 +1125,507 @@
                         </p>
                     </div>
                 </div>
+                
+                
+                <div type="orientationNote">
+                    <head type="main" rend="slant(bold) align(center)">CORN BREAD.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Maïs.</foreign></head>
+                    <p>
+                        It has been said, and justly, that the only people who know how to make corn bread are the Southern people, 
+                        and that the further you go south of Mason and Dixon's line, the better the corn bread, corn cakes, corn muffins, that will be offered you. 
+                        Throughout Louisiana the dainty "Egg Breads," Corn Cakes, Muffins, "<name xml:id="pic47.47_crackling_bread">Crackling Bread</name>," etc., are the gracious offerings that <name>typical Creole planters</name> place 
+                        before the guests who have been invited to partake of morning hospitality. As in these ancient Southern manors, so also is the <name>olden Creole homes</name> of New Orleans. 
+                        The <name>Creole planters</name> of the ancient regime had their plantation and city homes, and life gravitated between the one and the other with pleasing and infinite variety. 
+                        And so the cookery of the <name>Creole New Orleans</name> is the cookery of <name>Creole Louisiana</name>, and in this cookery Corn Bread occupies, with "Potato," "Hominy," "Rice," and "Wheat Breads," its unique and interesting place.
+                    </p>
+                    <p>
+                        It may be added here that the <name>Creoles</name>, like all true Southerners, never use the yellow corn meal for making bread, but always the whitest and best meal. 
+                        In the South the yellow meal is only used to feed chickens and cattle.
+                    </p>
+                </div>
+                
+                <pb n="365"/><!--page break, 365-->
+                <cb n="1"/><!--column 1-->
+                
+                <div type="recipe" xml:id="pic47.36_plain_corn_bread">
+                    <head type="main" rend="slant(bold) align(center)">Plain Corn Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Maïs.</foreign></head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Quart of the Finest <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Indian Meal</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>A Heaping Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Pour just enough boiling water over the meal to scald it through and through, without making a dough or batter. 
+                            Stir it well, and let it grow tepid. It will then be quite dry. 
+                            Add a melted teaspoonful of lard or butter. 
+                            Mix this well, and add water, and beat till the batter is very smooth. 
+                            Dissolve one teaspoonful of soda in a little boiling water, and add to the mixture, and grease a
+                            baking pan. Turn the mixture in and bake in a quick oven for about thirty-five minutes, till a golden brown. 
+                            Take the bread from the pan whole, and place on a hot platter, and serve,
+                            cutting it at the table into slices about two inches long and three wide, and serving with butter.
+                            Sift the flour and yeast powder together, it you desire it instead of soda. 
+                            Otherwise sift the flour, add the salt, and mix the lard or butter thoroughly together, 
+                            rubbing between your hands till there is not a lump left. 
+                            Then add sufficient tepid water to make a nice, rather stiff dough. 
+                            Roll out into a thin sheet, about- half an inch thick, and criss-cross with a knife lightly in diamond shapes. 
+                            Set in the oven and bake for about fifteen minutes to a light brown. 
+                            This is brought to the table split open and buttered, and eaten while hot.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.37_egg_corn_bread">
+                    <head type="main" rend="slant(bold) align(center)">Egg Corn Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Maïs aux Oeufs.</foreign></head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cornmeal</ingredient>. </item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient> (<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Buttermilk</ingredient> if Possible).</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the meal with boiling water sufficient to melt. 
+                            Beat the yolks of the eggs very, very light. 
+                            Add the corn meal and melted butter, and the salt, and beat till very light, moistening
+                            with the milk. Then add the whites of the eggs, beaten to a stiff froth. 
+                            Beat all well together. 
+                            Pour into a buttered or greased pan, or into shallow tins, and bake quickly. 
+                            This is the <name>real Creole Corn Bread</name>, so highly praised by all tourists through Louisiana. 
+                            The secret of the exquisite flavor depends upon the proper beating of the eggs, as well as on the rising of the corn bread itself. 
+                            If the eggs are well-beaten, the corn bread will need neither soda nor yeast to make it rise properly. 
+                            Some add a tablespoonful of sugar when they wish to have sweetened corn bread. 
+                            Corn bread, to be delicious, should always be served hot and generously buttered.                  
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.38_nonpareil_corn_bread">
+                    <head type="main" rend="slant(bold) align(center)">Nonpareil Corn Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Maïs Nonpareil.</foreign></head>
+                    <div type="ingredientList">
+                        <list>                         
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Indian Meal</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>. </item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>2½ Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient> (if desired).</item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Beat the eggs very, very light, the whites and yolks separately. 
+                            Melt the lard or butter, and gift the Baking Powder into the sifted meal and flour. 
+                            Stir this into the yolks of the eggs and the milk. Blend thorough-  
+                        <cb n="2"/><!--column 2-->
+                            ly. Add the whites, beaten to a stiff froth. 
+                            Beat well together, and bake quickly and steadily in a quick oven for about a half hour. 
+                            Serve hot, with butter.
+                        </p>
+                    </div>
+                </div>
 
-CORN BREAD.
-Pain de Maïs.
- 
-It has been said, and justly, that the only people who know how to make corn bread are the Southern people, and that the further you go south of Mason and Dixon's line, the better the corn bread, corn cakes, corn muffins, that will be offered you. Throughout Louisiana the dainty
-"Egg Breads," Corn Cakes, Muffins, "Crackling Bread," etc., are the gracious offerings that typical Creole planters place before the guests who have been invited to partake of morning hospitality. As in these ancient Southern manors, so also is the olden Creole homes of New Orleans. The Creole planters of the ancient regime had their plantation and city homes, and life gravitated between the one and the other with pleasing and infinite variety. And so the cookery of the Creole New Orleans is the cookery of Creole Louisiana, and in this cookery Corn Bread
-occupies, with "Potato," "Hominy," "Rice," and "Wheat Breads," its unique and interesting place.
- 
-It may be added here that the Creoles, like all true Southerners, never use the yellow corn meal for making bread, but always the whitest and best meal. In the South the yellow meal is only used to feed chickens and cattle.
- 
-<!--page break, 365-->
-<!--column 1-->
- 
-Plain Corn Bread.
-Pain de Maïs.
- 
-1 Quart of the Finest Indian Meal.
-1 Teaspoonful of Salt.
-A Heaping Tablespoonful of Lard or Butter.
-1 Pint of Water.
- 
-Pour just enough boiling water over the meal to scald it through and through, without making a dough or batter. Stir it well, and let it grow tepid. It will then be quite dry. Add a melted teaspoonful of lard or butter. Mix this well, and add water, and beat till the batter is very smooth. Dissolve one teaspoonful of soda in a little boiling water, and add to the mixture, and grease a
-baking pan. Turn the mixture in and bake in a quick oven for about thirty-five minutes, till a golden brown. Take the bread from the pan whole, and place on a hot platter, and serve,
-cutting it at the table into slices about two inches long and three wide, and serving with butter.
- 
-Egg Corn Bread.
-Pain de Maïs aux Oeufs.
- 
-1 Quart of Cornmeal. 4 Eggs.
-1 Tablespoonful of Butter or Lard.
-1 Pint of Milk (Buttermilk if Possible).
-1 Teaspoonful of Salt.
- 
-Scald the meal with boiling water sufficient to melt. Beat the yolks of the eggs very, very light. Add the corn meal and melted butter, and the salt, and beat till very light, moistening
-with the milk. Then add the whites of the eggs, beaten to a stiff froth. Beat all well together. Pour into a buttered or greased pan, or into shallow tins, and bake quickly. This is the real Creole Corn Bread, so highly praised by all tourists through Louisiana. The secret of the exquisite flavor depends upon the proper beating of the eggs, as well as on the rising of the corn bread itself. If the eggs are well-beaten, the corn bread will need neither soda nor yeast to make it rise properly. Some add a tablespoonful of sugar when they wish to have sweetened corn bread. Corn bread, to be delicious, should always be served hot and generously buttered.
- 
-Nonpareil Corn Bread.
-Pain de Maïs Nonpareil.
- 
-2 Cups of Indian Meal.
-1 Cup of Flour. 3 Eggs.
-2 1/2 Cups of Sweet Milk.
-1 Tablespoonful of Lard.
-2 Tablespoonfuls of Sugar (if desired).
-2 Teaspoonfuls of Baking Powder.
-1 Teaspoonful of Salt.
- 
-Beat the eggs very, very light, the whites and yolks separately. Melt the lard or butter, and gift the Baking Powder into the sifted meal and flour. Stir this into the yolks of the eggs and the milk. Blend thorough-
- 
-<!--column 2-->
- 
- 
-ly. Add the whites, beaten to a stiff froth. Beat well together, and bake quickly and steadily in a quick oven for about a half hour. Serve hot, with butter.
- 
- 
-Risen Corn Bread.
-Pain de Maïs au Levain.
- 
-1 Quart of Cornmeal.
-1 Pint of Milk or Water. 3 Eggs.
-1 Teaspoonful of Salt.
-2 Tablespoonfuls of Yeast.
- 
-Beat the eggs well, and use boiling water or milk to blend the cornmeal, eggs and salt together. Then add the yeast, which you will have dissolved in a little hot water. Set the bread to rise for three or four hours and then bake in tins or in a greased pan, like a pone of bread, or make
-it into loaves.
- 
-Again, the risen corn bread can be made much more quickly by simply adding two tablespoonfuls of yeast powder to the batter, or a half teaspoonful of soda, dissolved in a cup
-of milk. Mix thoroughly, and bake in buttered tins or a pan. Always scald the meal with boiling water first.
- 
- 
-Steamed Corn Bread.
-Pain de Maïs à la Vapeur.
- 
-1 Cup of Flour.
-1 Cup of Louisiana Molasses.
-2 Cups of Sweet Milk.
-2 Teaspoonfuls of Baking Powder.
- 
-Scald the meal. Beat the eggs very light, and beat the milk into them till very light. Add the molasses and yeast powder, and blend well. Then add the flour, mixing and beating till thoroughly blended. A half cup of sugar may be used instead of the molasses. Tie in a cloth, as you would roll a pudding, and place in a steamer, on top of a pot of boiling water, and cover first with a close cloth, and then with the steamer cover, and steam for three hours. Then turn into a hot dish, and eat as a plain dessert, with a Brandy or Hard or Cream Sauce. (See Pudding
-Sauces.)
- 
-Cornmeal Pone.
-Pain de Maïs Créole.
- 
-1 Quart of the Finest Indian Meal.
-1 Teaspoonful of Salt.
-A Heaping Teaspoonful of Lard or Butter.
-1 Pint of Sour Milk or Buttermilk.
-3 Eggs.
- 
-Pour just enough boiling water over the meal to scald it through and through, without making a dough or batter. Stir it well, and let it grow tepid. It will be then quite dry. Beat two eggs very light, and add to the meal, and add a melted tablespoonful of lard or butter. Mix this well, and
-add the milk or buttermilk, and beat till the batter is very smooth. Dissolve one teaspoonful of soda in a
- 
-<!--page break, 366-->
-<!--column 1-->
- 
-little boiling water, and add to the mixture, and grease a baking pan. Turn the mixture in and bake in a quick oven for about thirty-live minutes, till a golden brown. Take the pone from the pan whole, and place on a hot platter, and serve, cutting it at the table into slices about three
-inches long and two wide, and serving with butter.
- 
-A Plain Pone may be made by using hot water and lard, instead of milk and butter, making a thick dough, and form into loaves and bake. But it bears no comparison to the real Creole Pone, as made above. Nevertheless, this is a very good and nutritious white corn bread. In the rural districts of Louisiana the lard is often omitted, and the pone made simply of the hot water and cornmeal.
- 
- 
-Corn Dodgers.
-Petits Pain de Maïs.
- 
-1 Quart of Indian Meal.
-1 Tablespoonful of Lard.
-1 Teaspoonful of Salt.
- 
-Scald the meal with boiling water. Add the melted lard and the salt. Use sufficient boiling water to make a very stiff batter or soft dough. Then take up a handful of the mixture, and mold it with your hands into oval mounds, tossing the cake of dough lightly between your hands in a dexterous manner, and leaving the impression of your fingers across. Bake the pones thus formed in a quick oven. They may be served at dinner, and are delicious when properly
-made.
- 
- 
-Ash Cake.
-Petits Gateaux Cuits dans la Cendre.
- 
-1 Quart of Indian Meal.
-1 Tablespoonful of Lard.
-1 Teaspoonful of Salt.
- 
-This is a real old Southern darky cake. The ancient Creole negroes of Louisiana excelled in making and baking it, so that no ashes clung to the clean white cake. An ash cake, as the name suggests, is always baked in the ashes, on the open hearth, and wood ashes must be
-used. The darkies had a roaring fire and a sufficient quantity of hot ashes. They swept a clean place on the hearth and drew out a pile of hot ashes, and placed the pone of bread, shaped like the Corn Dodgers, on top of the ashes. This was covered with hot ashes, and let bake to a nice
-brown. Then the cake was drawn out of the ashes, wiped clean with a cloth till every particle of ashes that adhered in the crevices disappeared, and served hot with butter or molasses.
- 
-Again, the old Creole darkies wrap the cake in a layer of fig leaves, to bake more neatly, but the real Ash Cake is baked as above.
- 
-<!--column 2-->
- 
-Fried Corn Cakes.
-Gateaux de Maïs Frits.
- 
-1 Quart of Indian Meal.
-1 Tablespoonful of Lard.
-1 Teaspoonful of Salt.
- 
-Make the dough as above, adding, if you wish, a well-beaten egg, and milk instead of water. Beat till very light, and drop the stiff batter in large spoonfuls on a frying pan that will have greased well with fat bacon skin. These cakes are very delicious when properly made. They
-must be fried to a golden brown. After each cake is taken from the skillet, the latter must be wiped off and regreased with the fat bacon before putting the next cake upon It. Serve hot at breakfast or dinner.
- 
-HOECAKE.
-Gateau a la Houe.
- 
-1 Pint of Flour.
-1/2 Teaspoonful of Salt.
-Boiling Water Sufficient to Make a Batter.
- 
-These cakes may be baked on a griddle, just as you would a griddle cake, and served with butter. But the old Southern cooks, of which the Louisiana Creole plantation cooks were not the least, always baked these cakes on a hoe on hot coals in front of a wood fire, right out in
-the open air, before their cabin doors, or in their cabins before the roaring hearth fire. Hence the name Hoecake. The Hoecake was made of flour, with sufficient water to moisten it well. A teaspoonful of butter or lard was added.
- 
-The term Hoecake, so extensively used by the field hands, was taken up by masters and mistresses, and applied to a biscuit bread made of one pint of flour, one-half pint of milk, one teaspoonful of yeast powder, and two spoonfuls of butter or one of lard, kneaded well together,
-rolled out with a rolling pin, and cut criss-cross, like diamonds, with a knife, and baked in the oven.
- 
-This delightful refinement of the ancient Hoecake is served at dinner with a glass of milk or cream, as an accompaniment to Compotes of Fruits.
- 
- 
-JOHNNY CAKE.
-1 1/2 Pints of Indian Meal. 3 Eggs.
-A Pint of Sweet Milk or Buttermilk or Hot Water.
-2 Tablespoonfuls of Melted Butter, or 1 of Lard.
-1/2 Teaspoonful of Soda (May Be Omitted.)
- 
-Beat the eggs till very light, and add the cornmeal, and beat till light. Add the melted butter and the milk or water. If buttermilk is used, you may use the soda, dissolving it in two tablespoonfuls of boiling water. Do not use the soda with the sweet milk. Make a dough or batter thick enough to be spread into cakes a
- 
-<!--page break, 367-->
-<!--column 1-->
- 
-half inch in thickness and about five inches in diameter, the cakes, of course, being formed round. Place in buttered tins, and bake in a moderate oven for about a half hour, frequently brushing across while baking with melted butter. Do this about four or five times.
- 
-In the olden days, Johnny Cake was baked on a clean, sweet board, before a hot coal fire. The board had to be made of oak wood. The cake was formed and placed on the board, and the board was inclined at an angle before the hot coal are, with a piece of wood or a flatiron to
-hold it up, and the cake was placed at such an angle that it could harden without slipping oft. When quite hard it was stood upright and baked to a nice, crisp brown on both sides, turning as needed, and frequently basting with butter. The Johnny Cake was served hot for lunch or tea,
-being sent to the table hot, split and buttered, or served with fresh, sweet butter and buttermilk. Hence the old Creole song, which was sung to the little children, and which, being translated, runs:
- 
-<!--quoteà "Come, Butter Cake! Come, Butter Cake!
-Two little boys are waiting at the gate
-For a hot Johnny Cake.
-Come, Butter Cake!" <!--quote-->
- 
-And so on, the lines varying "Two little girls," or "Little girl and boy are waiting at the gate," according to the number of children the old mammy was tending. The old Southern darkies also sang this song while churning.
- 
- 
-CRACKLING BREAD.
-Gratons.
- 
-Cracklings are the bits of fat meat left after all the lard has been rendered from the fat pork. They are eaten extensively throughout rural Creole Louisiana. The fat pork is cut into small bits, about the size of a man's hand, and then fried till every bit of grease has been extracted. This grease is then clarified and used as lard. The cracklings are saved, and eaten from time to time within the next two weeks, simply being warmed over again. Again, they may be made at any time by frying small bits of fat pork. These cracklings, to use the country parlance, "Go very well with Corn Bread," and are not only eaten with it "au naturel," but also made into that typical rural bread of the country parishes, "Crackling Bread," or "Gratons."
- 
-To make this, take one pint of meal, a half teaspoonful of salt, and cold water enough to make a thick batter. Mix the cracklings, already fried of course, in the batter, and pour a large tablespoonful at a time on a griddle. Fry to a golden brown.
- 
-<!--column 2-->
- 
-Crackling bread is very crisp, and if properly made is a very palatable bread, requiring no butter or other accompaniment to make it toothsome.
- 
-MUFFINS.
-Galettes.
- 
-No breakfast cake admits of greater variety than the Muffin. We have Plain Muffins, Egg Muffins, Corn meal Muffins, Rice, Hominy and Cream Muffins, besides several fancy Muffins, and that delicious breakfast accompaniment, "Muffin Bread."
- 
-Muffin Bread.
-Pain Levé â la Pate de Galette.
- 
-3 Cups of Flour.
-1 Pint of Milk.
-1/2 Cake of Compressed Yeast.
-4 Eggs. 1/4 Pound of Butter.
-1 Teaspoonful of Salt.
- 
-Scald the milk and add the butter. When it grows lukewarm, add the yeast, dissolved in about three tablespoonfuls of warm water. Add the salt and flour, and beat well for about ten minutes. Then set in a warm place over night. In the morning beat the yolks of the eggs well, and then the whites to a stiff froth; add the yolks and , beat well, and then add the whites, and mix all
-thoroughly. Beat till very light, let it stand for about a quarter of an hour, and then bake in a buttered pan for about twenty minutes in a quick oven.
- 
-Bread Muffins.
-Galettes de Pain.
- 
-Left-over bread may be utilized in this way:
- 
-2 Pints of Stale Bread Crumbs.
-1 Pint of Milk.
-1/2 Cup of Sifted Flour. 2 Eggs.
-1 Tablespoonful of Melted Butter.
-2 Teaspoonfuls of Baking Powder.
- 
-Soak the stale bread crumbs in the milk for a half hour. Beat the yolks of the eggs till very light, and the whites to a stiff froth. Add a teaspoonful of salt to the bread, and then pour in the melted butter, and mix thoroughly. Add the flour, into which you will have sifted the baking
-powder, and beat well. Lastly, add the whites of the eggs, and put the muffins into the muffin rings or gem pans, and bake for about a half hour in a quick oven.
- 
-Cornmeal Muffins.
-Galettes de Farine de Maïs.
- 
-2 Cups of Cornmeal.
-1/2 Cup of Sifted Flour. 2 Eggs.
-1 1/2 Cups of Buttermilk or Sweet Milk.
-2 Spoonfuls of Butter.
-2 Teaspoonfuls of Baking Powder.
-1/4 Teaspoonful of Salt.
- 
-Scald the meal. Scald the milk,
- 
-<!--page break, 368-->
-<!--column 1-->
- 
-and add the butter. When lukewarm add to the cornmeal and beat well. Add the well-beaten yolks of the eggs, and beat well. Add the flour, into which the. yeast powder must previously be sifted. Mix well and add the whites of the eggs, beaten to a stiff froth. Beat steadily for about ten minutes, and then pour into greased muffin rings or gem pans, and bake for twenty minutes, in a quick oven. If buttermilk is used, add a teaspoonful of soda, dissolved in the milk.
- 
-In making Muffins, if milk is not available, use lukewarm water, or half milk and half water, if possible.
+                <div type="recipe" xml:id="pic47.39_risen_corn_bread">
+                    <head type="main" rend="slant(bold) align(center)">Risen Corn Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Maïs au Levain.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cornmeal</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>. </item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Eggs</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient></item>.
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Beat the eggs well, and use boiling water or milk to blend the cornmeal, eggs and salt together. 
+                            Then add the yeast, which you will have dissolved in a little hot water. 
+                            Set the bread to rise for three or four hours and then bake in tins or in a greased pan, like a pone of bread, or make
+                            it into loaves.
+                        </p>
+                        <p>
+                            Again, the risen corn bread can be made much more quickly by simply adding two tablespoonfuls of yeast powder to the batter, 
+                            or a half teaspoonful of soda, dissolved in a cup of milk. 
+                            Mix thoroughly, and bake in buttered tins or a pan. Always scald the meal with boiling water first.
+                        </p>
+                    </div>
+                </div>
+                  
+                <div type="recipe" xml:id="pic47.40_steamed_corn_bread">
+                    <head type="main" rend="slant(bold) align(center)">Steamed Corn Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Maïs à la Vapeur.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Louisiana Molasses</ingredient>.</item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient>.</item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the meal. 
+                            Beat the eggs very light, and beat the milk into them till very light. 
+                            Add the molasses and yeast powder, and blend well. 
+                            Then add the flour, mixing and beating till thoroughly blended. 
+                            A half cup of sugar may be used instead of the molasses. 
+                            Tie in a cloth, as you would roll a pudding, and place in a steamer, 
+                            on top of a pot of boiling water, and cover first with a close cloth, 
+                            and then with the steamer cover, and steam for three hours. 
+                            Then turn into a hot dish, and eat as a plain dessert, with a <name>Brandy</name> or <name>Hard or Cream Sauce</name>. <ptr>(See Pudding
+                            Sauces.)</ptr><!--to add xml ids for brandy, hard or cream sauce, pudding sauces-->
+                        </p>
+                    </div>
+                </div>
+ 
+                <div type="recipe" xml:id="pic47.41_cornmeal_pone">
+                    <head type="main" rend="slant(bold) align(center)">Cornmeal Pone.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Maïs Créole.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of the Finest <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Indian Meal</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>A Heaping Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Milk </ingredient>or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Buttermilk</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Eggs</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Pour just enough boiling water over the meal to scald it through and through, without making a dough or batter. 
+                            Stir it well, and let it grow tepid. It will be then quite dry. 
+                            Beat two eggs very light, and add to the meal, and add a melted tablespoonful of lard or butter. 
+                            Mix this well, and add the milk or buttermilk, and beat till the batter is very smooth. 
+                            Dissolve one teaspoonful of soda in a
+                            <pb n="366"/><!--page break, 366-->
+                            <cb n="1"/><!--column 1-->
+                            little boiling water, and add to the mixture, and grease a baking pan. 
+                            Turn the mixture in and bake in a quick oven for about thirty-live minutes, till a golden brown. 
+                            Take the pone from the pan whole, and place on a hot platter, and serve, cutting it at the table into slices about three
+                            inches long and two wide, and serving with butter.
+                         </p>
+                        <div type="orientationNote">
+                          <p>
+                            A Plain Pone may be made by using hot water and lard, instead of milk and butter, making a thick dough, and form into loaves and bake. 
+                            But it bears no comparison to the <name>real Creole Pone</name>, as made above. 
+                            Nevertheless, this is a very good and nutritious white corn bread. 
+                            In the rural districts of Louisiana the lard is often omitted, and the pone made simply of the hot water and cornmeal.
+                         </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic47.42_corn_dodgers">
+                    <head type="main" rend="slant(bold) align(center)">Corn Dodgers.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Petits Pain de Maïs.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Indian Meal</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the meal with boiling water. 
+                            Add the melted lard and the salt. 
+                            Use sufficient boiling water to make a very stiff batter or soft dough. 
+                            Then take up a handful of the mixture, and mold it with your hands into oval mounds, 
+                            tossing the cake of dough lightly between your hands in a dexterous manner, 
+                            and leaving the impression of your fingers across. 
+                            Bake the pones thus formed in a quick oven. 
+                            They may be served at dinner, and are delicious when properly made.
+                        </p>
+                    </div>
+                </div>
+ 
+                <div type="recipe" xml:id="pic47.43_ash_cake">
+                    <head type="main" rend="slant(bold) align(center)">Ash Cake.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Petits Gateaux Cuits dans la Cendre.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Indian Meal</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            This is a real old Southern darky cake. 
+                            The <name>ancient Creole negroes</name> of Louisiana excelled in making and baking it, so that no ashes clung to the clean white cake. 
+                            An ash cake, as the name suggests, is always baked in the ashes, on the open hearth, and wood ashes must be
+                            used. The darkies had a roaring fire and a sufficient quantity of hot ashes. 
+                            They swept a clean place on the hearth and drew out a pile of hot ashes, and placed the pone of bread, 
+                            shaped like the <name xml:id="pic47.2_corn_dodgers">Corn Dodgers</name>, on top of the ashes. This was covered with hot ashes, and let bake to a nice brown. 
+                            Then the cake was drawn out of the ashes, 
+                            wiped clean with a cloth till every particle of ashes that adhered in the crevices disappeared, 
+                            and served hot with butter or molasses.
+                        </p>
+                        <p>
+                            Again, the <name>old Creole darkies</name> wrap the cake in a layer of fig leaves, to bake more neatly, but the real Ash Cake is baked as above.
+                        </p>
+                    </div>
+                </div>
+                
+                <cb n="2"/><!--column 2-->
+                
+                <div type="recipe" xml:id="pic47.44_fried_corn_cakes">
+                    <head type="main" rend="slant(bold) align(center)">Fried Corn Cakes.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateaux de Maïs Frits.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Indian Meal</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Make the dough as above, adding, if you wish, a well-beaten egg, and milk instead of water. 
+                            Beat till very light, and drop the stiff batter in large spoonfuls on a frying pan that will have greased well with fat bacon skin. 
+                            These cakes are very delicious when properly made. They must be fried to a golden brown. 
+                            After each cake is taken from the skillet, the latter must be wiped off and regreased with the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">fat bacon</ingredient> before putting the next cake upon It. 
+                            Serve hot at breakfast or dinner.                
+                        </p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic47.45_hoe_cake">
+                    <head type="main" rend="slant(bold) align(center)">HOECAKE.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau a la Houe.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Boiling Water</ingredient> Sufficient to Make a Batter.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            These cakes may be baked on a griddle, just as you would a griddle cake, and served with butter. 
+                            But the old Southern cooks, of which the <name>Louisiana Creole plantation cooks</name> were not the least, always baked these cakes on a hoe on hot coals in front of a wood fire, right out in
+                            the open air, before their cabin doors, or in their cabins before the roaring hearth fire. 
+                            Hence the name Hoecake. 
+                            The Hoecake was made of flour, with sufficient water to moisten it well. A teaspoonful of butter or lard was added.
+                        </p>
+                        <p>
+                            The term Hoecake, so extensively used by the field hands, was taken up by masters and mistresses, 
+                            and applied to a biscuit bread made of one pint of flour, one-half pint of milk, one teaspoonful of yeast powder, 
+                            and two spoonfuls of butter or one of lard, kneaded well together,
+                            rolled out with a rolling pin, and cut criss-cross, like diamonds, with a knife, and baked in the oven.   
+                        </p>
+                        <p>
+                            This delightful refinement of the ancient Hoecake is served at dinner with a glass of milk or cream, 
+                            as an accompaniment to <name>Compotes of Fruits</name>.<!--add xml id-->
+                        </p>
+                    </div>
+                </div>
+                               
+                <div type="recipe" xml:id="pic47.46_johnny_cake">
+                    <head type="main" rend="slant(bold) align(center)">JOHNNY CAKE.</head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1½ Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Indian Meal</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>A Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Buttermilk</ingredient> or Hot <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>2 Tablespoonfuls of Melted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>, or 1 of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient> (May Be Omitted.)</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Beat the eggs till very light, and add the cornmeal, and beat till light. 
+                            Add the melted butter and the milk or water. 
+                            If buttermilk is used, you may use the soda, dissolving it in two tablespoonfuls of boiling water. 
+                            Do not use the soda with the sweet milk. Make a dough or batter thick enough to be spread into cakes a
+                        <pb n="367"/><!--page break, 367-->
+                        <cb n="1"/><!--column 1-->
+                            half inch in thickness and about five inches in diameter, the cakes, of course, being formed round. 
+                            Place in buttered tins, and bake in a moderate oven for about a half hour, frequently brushing across while baking with melted butter. 
+                        </p>
+                    </div>
+                    <div type="orientationNote">
+                        <p>
+                            In the olden days, Johnny Cake was baked on a clean, sweet board, before a hot coal fire. 
+                            The board had to be made of oak wood. 
+                            The cake was formed and placed on the board, and the board was inclined at an angle before the hot coal are, 
+                            with a piece of wood or a flatiron to hold it up, and the cake was placed at such an angle that it could harden without slipping oft. 
+                            When quite hard it was stood upright and baked to a nice, crisp brown on both sides, turning as needed, and frequently basting with butter. 
+                            The Johnny Cake was served hot for lunch or tea, being sent to the table hot, split and buttered, or served with fresh, sweet butter and buttermilk. 
+                            Hence the old Creole song, which was sung to the little children, and which, being translated, runs:
+                            <quote>
+                                <l>"Come, Butter Cake! Come, Butter Cake!</l>
+                                <l>Two little boys are waiting at the gate</l>
+                                <l>For a hot Johnny Cake.</l>
+                                <l>Come, Butter Cake!"</l>
+                            </quote>
+                        </p>
+                        <p>
+                            And so on, the lines varying <quote>"Two little girls,"</quote> or <quote>"Little girl and boy are waiting at the gate,"</quote> 
+                            according to the number of children the old mammy was tending. 
+                            The old Southern darkies also sang this song while churning.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.47_crackling_bread">
+                    <head type="main" rend="slant(bold) align(center)">CRACKLING BREAD.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gratons.</foreign></head>
+                    <div type="orientationNote">
+                        <p>
+                            Cracklings are the bits of fat meat left after all the lard has been rendered from the fat pork. 
+                            They are eaten extensively throughout <name>rural Creole Louisiana</name>. 
+                            The fat pork is cut into small bits, about the size of a man's hand, and then fried till every bit of grease has been extracted. 
+                            This grease is then clarified and used as lard. 
+                            The cracklings are saved, and eaten from time to time within the next two weeks, simply being warmed over again. 
+                            Again, they may be made at any time by frying small bits of fat pork. 
+                            These cracklings, to use the country parlance, <quote>"Go very well with Corn Bread,"</quote> and are not only eaten with it "<foreign xml:lang="fr">au naturel</foreign>," 
+                            but also made into that typical rural bread of the country parishes, "Crackling Bread," or "<foreign xml:id="fr">Gratons</foreign>."
+                        </p>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            To make this, take one pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">meal</ingredient>, a half teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">salt</ingredient>, and cold <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">water</ingredient> enough to make a thick batter. 
+                            Mix the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">cracklings</ingredient><!--class needed-->, already fried of course, in the batter, and pour a large tablespoonful at a time on a griddle. 
+                            Fry to a golden brown.
+                        </p>
+                        <cb n="2"/><!--column 2-->
+                        <p>
+                            Crackling bread is very crisp, and if properly made is a very palatable bread, requiring no butter or other accompaniment to make it toothsome.
+                        </p>
+                    </div>
+                </div>
+
+                <div type="orientationNote">
+                    <head type="main" rend="slant(bold) align(center)">MUFFINS.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes.</foreign></head>
+                    <p>
+                        No breakfast cake admits of greater variety than the Muffin. 
+                        We have Plain Muffins, <name xml:id="pic47.52_egg_muffins">Egg Muffins</name>, <name xml:id="pic47.50_cornmeal_muffins">Corn meal Muffins</name>, <name xml:id="pic47.56_rice_muffins">Rice</name>, <name xml:id="pic47.53_hominy_muffins">Hominy</name> and <name xml:id="pic47.51_cream_muffins">Cream Muffins</name>, besides several fancy Muffins, 
+                        and that delicious breakfast accompaniment, "<name xml:id="pic47.48_muffin_bread">Muffin Bread</name>."
+                    </p>
+                </div>
+
+                <div type="recipe" xml:id="pic47.48_muffin_bread">
+                    <head type="main" rend="slant(bold) align(center)">Muffin Bread.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain Levé â la Pate de Galette.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Milk</ingredient>.</item>
+                            <item>½ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>. </item>
+                            <item>¼ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>                  
+                       </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the milk and add the butter. 
+                            When it grows lukewarm, add the yeast, dissolved in about three tablespoonfuls of warm water. 
+                            Add the salt and flour, and beat well for about ten minutes. 
+                            Then set in a warm place over night. 
+                            In the morning beat the yolks of the eggs well, and then the whites to a stiff froth; 
+                            add the yolks and , beat well, and then add the whites, and mix all thoroughly. 
+                            Beat till very light, let it stand for about a quarter of an hour, and then bake in a buttered pan for about twenty minutes in a quick oven.
+                        </p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic47.49_bread_muffins">
+                    <head type="main" rend="slant(bold) align(center)">Bread Muffins.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes de Pain.</foreign></head>
+                    <div type="orientationNote">
+                        <p>
+                            Left-over bread may be utilized in this way:
+                        </p>
+                    </div>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Stale Bread Crumbs</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>½ Cup of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Melted Butter</ingredient>.</item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>                 
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>   
+                            Soak the stale bread crumbs in the milk for a half hour. 
+                            Beat the yolks of the eggs till very light, and the whites to a stiff froth. 
+                            Add a teaspoonful of salt to the bread, and then pour in the melted butter, and mix thoroughly. 
+                            Add the flour, into which you will have sifted the baking powder, and beat well. 
+                            Lastly, add the whites of the eggs, and put the muffins into the muffin rings or gem pans, and bake for about a half hour in a quick oven.
+                        </p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic47.50_cornmeal_muffins">
+                    <head type="main" rend="slant(bold) align(center)">Cornmeal Muffins.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes de Farine de Maïs.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cornmeal</ingredient>.</item>
+                            <item>½ Cup of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1½ Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Buttermilk</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient>.</item>
+                            <item>2 Spoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>¼ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>            
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>   
+                            Scald the meal. Scald the milk,
+                        <pb n="368"/><!--page break, 368--> 
+                        <cb n="1"/><!--column 1-->
+                            and add the butter. When lukewarm add to the cornmeal and beat well. 
+                            Add the well-beaten yolks of the eggs, and beat well. 
+                            Add the flour, into which the. yeast powder must previously be sifted. 
+                            Mix well and add the whites of the eggs, beaten to a stiff froth. 
+                            Beat steadily for about ten minutes, and then pour into greased muffin rings or gem pans, and bake for twenty minutes, in a quick oven. 
+                            If buttermilk is used, add a teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">soda</ingredient>, dissolved in the milk.
+                        </p>
+                        <p>
+                            In making Muffins, if milk is not available, use lukewarm water, or half milk and half water, if possible.
+                        </p>
+                    </div>
+                </div>
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
+
+
  
 Cream Muffins.
 Galettes à la Crème.
