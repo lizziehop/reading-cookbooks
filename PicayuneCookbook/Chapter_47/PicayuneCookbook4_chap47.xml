@@ -1605,237 +1605,430 @@
                     </div>
                 </div>
  
+                <div type="recipe" xml:id="pic47.51_cream_muffins">
+                    <head type="main" rend="slant(bold) align(center)">Cream Muffins.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes à la Crème.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>. </item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1½ Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast Powder</ingredient>.</item>           
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Beat the whites and yolks of the eggs separately. 
+                            Then add the cream and salt, and finally the flour, into which you will have blended the yeast powder. 
+                            Beat well and fill the muffin ring or gem pans one-half full. 
+                            Place in a quick oven and bake for twenty minutes.
+                        </p>              
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic47.52_egg_muffins">
+                    <head type="main" rend="slant(bold) align(center)">Egg Muffins.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes aux Oeufs.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>¼ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>, or 2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>1 Large Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item> 
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Prepare the Muffin batter as <ptr target="#pic47.51_cream_muffins">above</ptr>, and set to rise over night. In the morning prepare the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">eggs</ingredient> as <ptr target="#pic47.51_cream_muffins">above indicated</ptr>. 
+                            Blend and beat till light. 
+                            Then turn the muffin batter into greased muffin rings, and bake about twenty minutes in a hot oven. 
+                            The Muffins must be eaten hot.
+                            Graham Muffins are made in exactly the same manner, only the Graham flour is used instead. 
+                            Sometimes the Graham flour is mixed with the plain flour in the proportion of two cups of the former to one of the latter. 
+                            In Plain Muffins the eggs are omitted.
+                        </p>              
+                    </div>
+                </div>
+                    
+                <div type="recipe" xml:id="pic47.53_hominy_muffins">
+                    <head type="main" rend="slant(bold) align(center)">Hominy Muffins.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes de Saccamité.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of Fine <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Hominy</ingredient>. </item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>½ Cup of Melted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>3 Cups of Fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Milk</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Sugar</ingredient>.</item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>, If Sour Milk Is Used.</item>
+                            <item>¾ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Mash the hominy through a sieve, and then stir in the milk, salt, yeast powder and sugar. 
+                            Add the yolks of the eggs, beaten very light, and then the flour, well-sifted. Lastly, add
+                            <cb n="2"/><!--column 2-->
+                            the whites of the eggs, beaten to a stiff froth, and bake in a quick oven for twenty minutes.
+                            </p>
+                        <p>
+                            If buttermilk is used, add a half teaspoonful of soda, instead of the yeast powder.
+                            These Muffins may also be made out of the left-over cornmeal.           
+                        </p>              
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.54_queen_muffins">
+                    <head type="main" rend="slant(bold) align(center)">Queen Muffins.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes à la Reine.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Melted Butler</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient> or ½ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            If yeast is used, set the batter to rise over night, as in Egg Muffins, and then proceed in exactly the same manner, adding the eggs in the morning. 
+                            Beat the eggs separately till very light, add to the batter, and pour into muffin rings or gem pans and let the mixture rise a half hour longer. 
+                            Then bake for twenty minutes in a quick oven. If yeast powder is used, beat the yolks of the
+                            eggs to a cream, add the scalded milk and butter, and add the flour. 
+                            Beat till very light, and add the yeast powder, 
+                            and finally the whites of the eggs, beaten to a stiff froth. 
+                            Turn into gem pans or muffin rings, and bake for twenty minutes in a hot oven.
+                        </p>
+                      
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.55_quick_muffins">
+                    <head type="main" rend="slant(bold) align(center)">Quick Muffins.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes à la Vitesse.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Milk</ingredient>.</item>
+                            <item>¼ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>, or 2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>1 Large Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the milk, and add the butter. 
+                            When it grows lukewarm, add the yeast, the flour and salt, and beat all well for about ten minutes. 
+                            Then set the bowl in a warm place, cover with a cloth, and let the mixture rise for about two hours. 
+                            When very light, beat well again, and add two
+                            eggs well beaten. Turn into muffin rings or gem pans, and let them rise a half hour longer. 
+                            At the end of that time place them in the oven and bake for about twenty minutes. 
+                            If yeast powder is used, beat into the batter, and proceed to bake immediately. 
+                            The Muffins may be baked in muffin rings, on a griddle, or as above indicated.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.56_rice_muffins">
+                    <head type="main" rend="slant(bold) align(center)">Rice Muffins.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes de Riz.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>. </item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1½ Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient> (May be Omitter).</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Mash the rice through a close sieve,
+                            <pb n="369"/><!--page break, 369-->
+                            <cb n="1"/><!--column 1-->
+                            and beat the yolks very light, and add. 
+                            Add the milk and butter, and then sift in the flour and half a teaspoonful of baking powder. 
+                            Add the sugar and the whites of the eggs, beaten to a stiff froth. 
+                            Add the salt, and bake in muffin rings, in a quick oven for about fifteen or twenty minutes.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.57_gems">
+                    <head type="main" rend="slant(bold) align(center)">GEMS.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Petits Bijoux.</foreign></head>
+                    <div type="instructions">
+                        <p>
+                        Prepare the same batter as for <ptr target="#pic47.55_quick_muffins">Quick Muffins</ptr>. 
+                        Pour into gem pans, and bake for about twenty-five minutes. 
+                        Graham Gems are made by using two cups of Graham meal to one cup of boiled rice or cornmeal, or two cups of Graham flour to one of wheat flour, 
+                        and the other ingredients in the same proportion as for Quick Muffins.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.58_corn_gems">
+                    <head type="main" rend="slant(bold) align(center)">Corn Gems.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Petits Bijoux à la Farine de Maïs.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cornmeal</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Boil one-half of the milk and pour it over the cornmeal. 
+                            Add the butter instantly, and stir well. 
+                            When thoroughly mixed add the cold milk and the well-beaten yolks of the eggs. 
+                            Add the salt and then the flour, into you will have sifted the baking powder. 
+                            Mix thoroughly, and then add the whites of the eggs, beaten to a stiff froth. 
+                            Pour into greased or buttered gem pans, and bake about a half hour in a hot oven. 
+                            Always remember to fill the pans only half full, leaving room for the batter to rise.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.59_crumpets">
+                    <head type="main" rend="slant(bold) align(center)">CRUMPETS.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Emietes.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>½ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the milk and set to cool. 
+                            Add the salt, and gradually beat in the flour. 
+                            Beat till very smooth, and add the yeast Beat continuously for ten minutes and then set in a warm place to rise. 
+                            After several hours beat well again, and add the melted butter. 
+                            Mix thoroughly and then turn into greased muffin rings and bake till a beautiful brown, turning first on one side and then on the
+                            other. Send to the table very hot. Break open with your fingers, and butter nicely.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.60_sally_lunn">
+                    <head type="main" rend="slant(bold) align(center)">SALLY LUNN.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain â la Vielle Tante Zoe.</foreign></head>
+                    <div type="orientationNote">
+                        <p>
+                            Sally Lunn is nothing more than the old breakfast dish known to the
+                            <cb n="1"/>
+                            <name>Creoles</name> for generations as "<foreign xml:id="fr">Pain à la Vielle de Tante Zoe</foreign>." Take
+                        </p>
+                    </div>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>1½ Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>½ Cupful Of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>. </item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item>¼ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Warm the butter in a pint of milk till the milk reaches the boiling point. Do not let it boil. Simply
+                            scald. Then add the salt and a tablespoonful of sugar. Let it cool. 
+                            When tepid add the flour, well sifted, and beat thoroughly into the mixture. 
+                            Lastly, add the yeast, dissolved in a little hot milk or water. 
+                            Beat it continuously for at least five minutes. 
+                            Then, when the batter begins to break into blisters, cover it and set to rise for the night. 
+                            In the morning add the yolks of the eggs, beaten till very light, and the whites, beaten to a stiff froth. 
+                            Mix carefully, and dissolve a half teaspoonful of soda in the mixture, if it seems anyway sour. 
+                            Turn the whole into a shallow buttered dish, and set to rise for fifteen minutes longer. 
+                            Bake about twenty or twenty-five minutes in a moderately quick oven, till it is a light brown.
+                            </p>
+                        <p>
+                            This cake, like all muffin batter, not be cut with a knife, but torn apart with your hands. If cut,
+                            all muffin batter at once becomes heavy. 
+                            The cake may be also made much more quickly by mixing in the morning, using the above ingredients, only adding three teaspoonfuls of baking powder, instead of the yeast. 
+                            Beat quickly and thoroughly, and turn into a buttered tin, and set to bake at once. 
+                            Send to the table hot, and eat with a generous endowment of butter.
+                        </p>
+                    </div>
+                </div>
+                 
+                <div type="orientationNote">
+                    <head type="main" rend="slant(bold) align(center)">WAFFLES.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gaufres.</foreign></head>
+                    <p>
+                        Waffles are delightful accompaniments of breakfast, lunch or tea, and may be made of flour, rice, hominy or cornmeal. 
+                        In all recipes for Waffles, if you have not the milk, substitute
+                        lukewarm water, and if you have no butter, use instead a half spoon of lard, 
+                        but certainly the taste of the Waffles is much improved by the butter and milk, 
+                        especially the butter. Half milk and half water, boiled and grown tepid, may also be used in the proportions indicated in the recipes.                
+                    </p>
+                    </div>
+                    
+                <div type="recipe" xml:id="pic47.61_plain_waffles">
+                    <head type="main" rend="slant(bold) align(center)">Plain Waffles.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gaufres de Froment.</foreign></head>
+                    <div type="orientationNote">
+                        <p>
+                            These Waffles are made of flour, and are more especially known as "Plain Waffles." 
+                            They are the Waffles most generally served. They are made as follows:
+                        </p>
+                    </div>
+                    <pb n="370"/><!--page break, 370-->
+                    <cb n="1"/><!--column 1-->
+                    <div type="ingredientList">
+                        <list>  
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item> 
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>1½ Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>1 Large Tablesspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                           Sift the flour and salt and baking powder together. Beat the yolk of the egg till very light. Add the
+                           melted butter to the milk, which should be scalded and grown lukewarm, and then mix in the whites of the eggs. 
+                           Now add the flour gradually, making a nice, light batter. If it appears at all stiff, add a little more milk. 
+                           Have your waffle irons ready, thoroughly heated. 
+                           Have at hand a small brush or a stick with a piece of clean, fringed cloth wrapped around the end. Dip this
+                           In a little melted lard, and brush over the interior of the irons, till every part is greased. 
+                           Pour the batter into a pitcher, so that you may the more easily fill the irons. 
+                           Fill until the elevations are lightly covered, and then close the irons quickly and turn it over. 
+                           Bake the Waffle about two minutes, or till a nice, delicate brown. 
+                           Carefully remove from the irons, place in a hot plate
+                           or waffle dish in the mouth of the oven, and proceed with the baking. Send to the table very hot.
+                        </p>
+                    </div>
+                </div>
+ 
+                <div type="recipe" xml:id="pic47.62_cornmeal_waffles">
+                    <head type="main" rend="slant(bold) align(center)">Cornmeal Waffles.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gaufres de Farine de Maïs.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cornmeal</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>1 Tablespoonful of Melted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>. Dissolved in Hot Water.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the milk and then add the well-beaten yolks of the eggs. 
+                            Add the milk and the soda, dissolved in a little hot water, and then add the melted butter and the whites of the eggs, beaten to a stiff froth. 
+                            Now add the flour, gradually making a nice batter, not too thick, nor yet too thin. 
+                            Beat till all is very smooth and proceed to bake as above.
+                        </p>
+                        <p>
+                            Rice may be substituted for the flour, if you desire rice and cornmeal muffins; add about two tablespoonfuls of flour to bind.
+                            </p>
+                            <p>
+                            Waffles of left-over grits may be prepared by adding one cup of grits to two of flour, and proceeding as above.
+                            </p>
+                    </div>
+                </div>
+
+                <div type="recipe" xml:id="pic47.63_potato_waffles">
+                    <head type="main" rend="slant(bold) align(center)">Potato -Waffles.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gaufres de Pommes de Terre.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Irish Potatoes</ingredient>.</item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>. </item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1½ Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>½ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Mash the boiled, left-over potatoes through a sieve, and then add the milk and the sifted flour. 
+                            Add the yeast, which you will have dissolved in a little warm water, and set the
+                            <cb n="2"/><!--column 2-->
+                            whole to rise for two hours. At the end of that time add the eggs, beaten separately, and mix well. 
+                            Set to rise again for a half hour, till light, and then proceed to bake as in Plain Waffles.
+                        </p>
+                        </div>
+                    </div>
+               
+                <div type="recipe" xml:id="pic47.64_sweet_potato_waffles">
+                    <head type="main" rend="slant(bold) align(center)">Sweet Potato Waffles.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gaufres de Patates Douces.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of Mashed <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Sweet Potatoes</ingredient>.</item>
+                            <item>1 Cup of Melted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item> 
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Mash the potatoes through a sieve, and add the eggs, beaten separately. 
+                            Mix well, and add the sugar, and beat till very light. 
+                            Then add the butter and beat again, and add the milk, mixing thoroughly. 
+                            Now add the flour, using sufficient to make a thin batter, that will bind the potatoes. 
+                            Grease the waffle irons well, and proceed to bake as above indicated. 
+                            Properly made these waffles are delicious. Left-over potatoes may be thus utilized. The eggs may be omitted.
+                        </p>
+                    </div>
+                </div>
+            
+                <div type="recipe" xml:id="pic47.65_rice_waffles">
+                    <head type="main" rend="slant(bold) align(center)">Rice Waffles.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gaufres de Riz.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Cup of Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item>
+                            <item>1½ Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>. </item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient> or 2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice Flour</ingredient>.</item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Mash the rice through a sieve. 
+                            Beat the yolks light, and add, and then add the salt, the baking powder and the milk. 
+                            Beat well, and add the whites of the eggs, beaten to a stiff froth. 
+                            Now add the rice flour to make a thin batter, and proceed to bake as above. 
+                            Be careful to grease the irons very well, so that the rice may not adhere. 
+                            If white flour, rather than the rice flour, is used, use in proportion two cups of boiled rice, instead of one.
+                        </p>
+                    </div>
+                </div>
+            
+            
 
 
  
 
  
-
- 
-
-
- 
-
-
-
- 
-
-
- 
-
- 
-
-
- 
-Cream Muffins.
-Galettes à la Crème.
- 
-1 Pint of Cream.
-1 Pint of Flour. 3 Eggs.
-1 Tablespoonful of Butter.
-1 1/2 Teaspoonfuls of Yeast Powder.
- 
-Beat the whites and yolks of the eggs separately. Then add the cream and salt, and finally the flour, into which you will have blended the yeast powder. Beat well and fill the muffin ring or gem pans one-half full. Place in a quick oven and bake for twenty minutes.
- 
-Egg Muffins.
-Galettes aux Oeufs.
-3 Cups of Flour.
-1 Pint of Milk.
-1/4 Cake of Compressed Yeast, or 2 Teaspoonfuls of Baking Powder.
-1 Large Tablespoonful of Butter.
-1 Teaspoonful of Salt.
- 
-Prepare the Muffin batter as above, and set to rise over night. In the morning prepare the eggs as above indicated. Blend and beat till light. Then turn the muffin batter into greased muffin rings, and bake about twenty minutes in a hot oven. The Muffins must be eaten hot.
-Graham Muffins are made in exactly the same manner, only the Graham flour is used instead. Sometimes the Graham flour is mixed with the plain flour in the proportion of two cups of the former to one of the latter. In Plain Muffins the eggs are omitted.
- 
-Hominy Muffins.
-Galettes de Saccamité.
- 
-2 Cups of Fine Hominy. 3 Eggs.
-½ Cup of Melted Butter.
-3 Cups of Fresh Milk or Sour Milk.
-2 Tablespoonfuls of White Sugar.
-2 Teaspoonfuls of Salt.
-1 Teaspoonful of Soda, If Sour Milk Is Used.
-3/4 Cup of Flour.
- 
-Mash the hominy through a sieve, and then stir in the milk, salt, yeast powder and sugar. Add the yolks of the eggs, beaten very light, and then the flour, well-sifted. Lastly, add
-                                                                                                             	
-<!--column 2-->
- 
-the whites of the eggs, beaten to a stiff froth, and bake in a quick oven for twenty minutes.
- 
-If buttermilk is used, add a half teaspoonful of soda, instead of the yeast powder. These Muffins may also be made out of the left-over cornmeal.
- 
-Queen Muffins.
-Galettes à la Reine.
- 
-1 Cup of Sugar.
-3 Cups of Flour. 3 Eggs.
-1 Pint of Sweet Milk.
-1 Tablespoonful of Melted Butler.
-1 Teaspoonful of Salt.
-2 Teaspoonfuls of Baking Powder or 1/2 Cake of Compressed Yeast.
- 
-If yeast is used, set the batter to rise over night, as in Egg Muffins, and then proceed in exactly the same manner, adding the eggs in the morning. Beat the eggs separately till very light, add to the batter, and pour into muffin rings or gem pans and let the mixture rise a half hour longer. Then bake for twenty minutes in a quick oven. If yeast powder is used, beat the yolks of the
-eggs to a cream, add the scalded milk and butter, and add the flour. Beat till very light, and add the yeast powder, and finally the whites of the eggs, beaten to a stiff froth. Turn into gem pans or muffin rings, and bake for twenty minutes in a hot oven.
- 
-Quick Muffins,
-Galettes à la Vitesse.
- 
-3 Cups of Flour.
-1 Pint of Milk.
-1/4 Cake of Compressed Yeast, or 2 Teaspoonfuls of Baking Powder.
-1 Large Tablespoonful of Butter.
-1 Teaspoonful of Salt.
- 
-Scald the milk, and add the butter. When it grows lukewarm, add the yeast, the flour and salt, and beat all well for about ten minutes. Then set the bowl in a warm place, cover with a cloth, and let the mixture rise for about two hours. When very light, beat well again, and add two
-eggs well beaten. Turn into muffin rings or gem pans, and let them rise a half hour longer. At the end of that time place them in the oven and bake for about twenty minutes. If yeast powder is used, beat into the batter, and proceed to bake immediately. The Muffins may be baked in muffin rings, on a griddle, or as above indicated.
- 
-Rice Muffins.
-Galettes de Riz.
-2 Cups of Boiled Rice.
-1 Cup of Flour. 3 Eggs.
-1 1/2 Pints of Milk.
-1 Tablespoonful of Lard or Butter.
-2 Tablespoonfuls of Sugar (May be Omitter).
-1 Teaspoonful of Salt.
- 
-Mash the rice through a close sieve,
-<!--page break, 369-->
-<!--column 1-->
-and beat the yolks very light, and add. Add the milk and butter, and then sift in the flour and half a teaspoonful of baking powder. Add the sugar and the whites of the eggs, beaten to a stiff froth. Add the salt, and bake in muffin rings, in a quick oven for about fifteen or twenty minutes.
-
-GEMS.
-Petits Bijoux.
-Prepare the same batter as for Quick Muffins. Pour into gem pans, and bake for about twenty-five minutes. Graham Gems are made by using two cups of Graham meal to one cup of boiled rice or cornmeal, or two cups of Graham flour to one of wheat flour, and the other ingredients
-in the same proportion as for Quick Muffins.
- 
-Corn Gems.
-Petits Bijoux à la Farine de Maïs.
- 
-2 Cups of Cornmeal.
-1 Cup of Flour.
-2 Tablespoonfuls of Butter.
-4 Eggs. 1 Pint of Sweet Milk.
-2 Tablespoonfuls of Baking Powder.
- 
-Boil one-half of the milk and pour it over the cornmeal. Add the butter instantly, and stir well. When thoroughly mixed add the cold milk and the well-beaten yolks of the eggs. Add the salt and then the flour, into you will have sifted the baking powder. Mix thoroughly, and then add the whites of the eggs, beaten to a stiff froth. Pour into greased or buttered gem pans, and bake about a half hour in a hot oven. Always remember to fill the pans only half full, leaving room for
-the batter to rise.
- 
-CRUMPETS.
-Emietes.
- 
-1 Pint of Milk.
-3 Cups of Flour.
-4 Tablespoonfuls of Butter.
-1/2 Cake of Compressed Yeast.
-1 Tablespoonful of Salt.
- 
-Scald the milk and set to cool. Add the salt, and gradually beat in the flour. Beat till very smooth, and add the yeast Beat continuously for ten minutes and then set in a warm place to rise. After several hours beat well again, and add the melted butter. Mix thoroughly and then turn into greased muffin rings and bake till a beautiful brown, turning first on one side and then on the
-other. Send to the table very hot. Break open with your fingers, and butter nicely.
- 
-SALLY LUNN.
-Pain â la Vielle Tante Zoe.
- 
-Sally Lunn is nothing more than the old breakfast dish known to the
- 
-<!--column break-->
-<!--column 1-->
- 
-Creoles for generations as "Pain à la Vielle de Tante Zoe." Take
- 
-1 Pint of Milk.
-1 1/2 Pints of Flour.
-1/2 Cupful Of Butter.
-4 Eggs. 1 Teaspoonful of Salt.
-1/2 Cup of Sugar.
-1/4 Cake of Compressed Yeast.
- 
-Warm the butter in a pint of milk till the milk reaches the boiling point. Do not let it boil. Simply
-scald. Then add the salt and a tablespoonful of sugar. Let it cool. When tepid add the flour, well sifted, and beat thoroughly into the mixture. Lastly, add the yeast, dissolved in a little hot milk or water. Beat it continuously for at least five minutes. Then, when the batter begins to break into blisters, cover it and set to rise for the night. In the morning add the yolks of the eggs, beaten till very light, and the whites, beaten to a stiff froth. Mix carefully, and dissolve a half teaspoonful of soda in the mixture, if it seems anyway sour. Turn the whole into a shallow buttered dish, and set to rise for fifteen minutes longer. Bake about twenty or twenty-five minutes in a moderately quick oven, till it is a light brown.
- 
-This cake, like all muffin batter, not be cut with a knife, but torn apart with your hands. If cut,
-all muffin batter at once becomes heavy. The cake may be also made much more quickly by mixing in the morning, using the above ingredients, only adding three teaspoonfuls of baking powder, instead of the yeast. Beat quickly and thoroughly, and turn into a buttered tin, and set
-to bake at once. Send to the table hot, and eat with a generous endowment of butter.
- 
-WAFFLES.
-Gaufres.
- 
-Waffles are delightful accompaniments of breakfast, lunch or tea, and may be made of flour, rice, hominy or cornmeal. In all recipes for Waffles, if you have not the milk, substitute
-lukewarm water, and if you have no butter, use instead a half spoon of lard, but certainly the taste of the Waffles is much improved by the butter and milk, especially the butter. Half milk and half water, boiled and grown tepid, may also be used in the proportions indicated in the recipes.
- 
-Plain Waffles.
-Gaufres de Froment.
- 
-These Waffles are made of flour, and are more especially known as "Plain Waffles." They are the Waffles most generally served. They are made as follows:
- 
-<!--page break, 370-->
-<!--column 1-->
- 
-3 Cups of Flour.
-2 Eggs. 2 Cups of Milk.
-1 1/2 Teaspoonfuls of Baking Powder.
-1 Large Tablesspoonful of Butter.
-1 Teaspoonful of Salt.
- 
-Sift the flour and salt and baking powder together. Beat the yolk of the egg till very light. Add the
-melted butter to the milk, which should be scalded and grown lukewarm, and then mix in the whites of the eggs. Now add the flour gradually, making a nice, light batter. If it appears at all stiff, add a little more milk. Have your waffle irons ready, thoroughly heated. Have at hand a small brush or a stick with a piece of clean, fringed cloth wrapped around the end. Dip this
-In a little melted lard, and brush over the interior of the irons, till every part is greased. Pour the batter into a pitcher, so that you may the more easily fill the irons. Fill until the elevations are lightly covered, and then close the irons quickly and turn it over. Bake the Waffle about two minutes, or till a nice, delicate brown. Carefully remove from the irons, place in a hot plate
-or waffle dish in the mouth of the oven, and proceed with the baking. Send to the table very hot.
- 
-Cornmeal Waffles.
-Gaufres de Farine de Maïs.
- 
-2 Cups of Cornmeal.
-1 Cup of Flour. 3 Eggs.
-1 Pint of Milk.
-1 Tablespoonful of Melted Butter.
-1/2 Teaspoonful of Soda. Dissolved in Hot Water.
-1 Teaspoonful of Salt.
- 
-Scald the milk and then add the well-beaten yolks of the eggs. Add the milk and the soda, dissolved in a little hot water, and then add the melted butter and the whites of the eggs, beaten to a stiff froth. Now add the flour, gradually making a nice batter, not too thick, nor yet too thin. Beat till all is very smooth and proceed to bake as above.
- 
-Rice may be substituted for the flour, if you desire rice and cornmeal muffins; add about two tablespoonfuls of flour to bind.
- 
-Waffles of left-over grits may be prepared by adding one cup of grits to two of flour, and proceeding as above.
- 
-Potato -Waffles.
-Gaufres de Pommes de Terre.
- 
-1 Pint of Irish Potatoes.
-4 Eggs. 1 Pint of Flour.
-1 1/2 Pints of Milk.
-1/2 Cake of Compressed Yeast.
- 
-Mash the boiled, left-over potatoes through a sieve, and then add the milk and the sifted flour. Add the yeast, which you will have dissolved in a little warm water, and set the
- 
-<!--column 2-->
- 
-whole to rise for two hours. At the end of that time add the eggs, beaten separately, and mix well. Set to rise again for a half hour, till light, and then proceed to bake as in Plain Waffles.
- 
-Sweet Potato Waffles.
-Gaufres de Patates Douces.
- 
-2 Cups of Mashed Sweet Potatoes.
-1 Cup of Melted Butter.
-1/2 Cup of Sugar.
-1 Pint of Milk. 2 Eggs.
-4 Tablespoonfuls of Flour.
-
-Mash the potatoes through a sieve, and add the eggs, beaten separately. Mix well, and add the sugar, and beat till very light. Then add the butter and beat again, and add the milk, mixing thoroughly. Now add the flour, using sufficient to make a thin batter, that will bind the potatoes. Grease the waffle irons well, and proceed to bake as above indicated. Properly made these waffles are delicious. Left-over potatoes may be thus utilized. The eggs may be omitted.
- 
-Rice Waffles.
-Gaufres de Riz.
- 
-1 Cup of Boiled Rice.
-1 1/2 Pints of Milk. 2 Eggs.
-1 Cup of Flour or 2 Cups of Rice Flour.
-2 Teaspoonfuls of Baking Powder.
-1 Teaspoonful of Salt.
-1 Tablespoonful of Butter.
- 
-Mash the rice through a sieve. Beat the yolks light, and add, and then add the salt, the baking powder and the milk. Beat well, and add the whites of the eggs, beaten to a stiff froth. Now add the rice flour to make a thin batter, and proceed to bake as above. Be careful to grease the irons very well, so that the rice may not adhere. If white flour, rather than the rice flour, is used, use in proportion two cups of boiled rice, instead of one.
  
 Risen Waffles.
 Gaufres au Levain.
