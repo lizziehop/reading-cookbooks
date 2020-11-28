@@ -2023,225 +2023,416 @@
                     </div>
                 </div>
             
+                <div type="recipe" xml:id="pic47.66_risen_waffles">
+                    <head type="main" rend="slant(bold) align(center)">Risen Waffles.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gaufres au Levain.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1½ Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>½ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>2 Tablespoonfuls of Melted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the milk, add the butter, and let it grow tepid. 
+                            Sift the flour arid salt together, and add the milk and butter, and finally the yeast. 
+                            Beat all continuously for five or ten minutes, and then cover well and set in a warm place for about two hours. 
+                            Beat the whites and the yolks of the eggs separately, and add first the yolks to the batter, after it has risen well, 
+                            and then add the whites. 
+                            Beat in thoroughly, and set to rise again for about a quarter of an hour. Then beat lightly and pour
+                            <pb n="371"/><!--page break, 371-->
+                            <cb n="1"/><!--column 1-->
+                            into a pitcher. Prepare the waffle irons as indicated above, and proceed to bake in the same manner. 
+                            These Risen Waffles may also be made by mixing the flour, milk and salt and yeast together, and setting to rise over night. 
+                            In the morning add the melted butter and the eggs, beaten separately, set to rise fifteen minutes longer, and proceed as above.
+                        </p>
+                    </div>
+                </div>
             
+                <div type="orientationNote">
+                    <head type="main" rend="slant(bold) align(center)">Other Breakfast Cakes.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Autres Gateaux de Déjeuner.</foreign></head> 
+                    <p>
+                        In addition to Muffins, Waffles, etc., "<name xml:id="pic47.67_batter_cakes">Batter Cakes</name>." "<name xml:id="pic47.69_flannel cakes">Flannel Cakes</name>," "<name xml:id="pic47.68_buckwheat cakes">Buckwheat Cakes</name>," "<name xml:id="pic47.70_griddle_cakes">Griddle Cakes</name>," etc., 
+                        form pleasing and toothsome varieties for the morning meal, and. 
+                        It might be added, not only for the morning meal, but for luncheon and tea as well.
+                    </p>
+                </div>
+                   
+                <div type="recipe" xml:id="pic47.67_batter_cakes">
+                    <head type="main" rend="slant(bold) align(center)">BATTER CAKES.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes de Pâte.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>, Finely Sifted.</item>
+                            <item>2 Cupfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Beat the whites and the yolks of the eggs separately, the former to a stiff froth. 
+                            Add the flour to the yolks, and beat till very light. 
+                            Add the yeast powder and bake again. 
+                            Then add the sweet milk and beat well. 
+                            Now add the whites of the eggs and mix all to a very smooth, light batter, as thick as a batter that will run in a stream from the mouth of a spoon. 
+                            Have ready the hot griddles, which you will grease with lard lightly, or better still, with a piece of fat bacon. 
+                            Drop the cakes on the griddle from a large spoon, and bake about two minutes to a nice brown, turning first on one side and then quickly on the other. 
+                            Pile the cakes on a plate in the mouth of the oven, buttering each generously as soon as baked, and send to the table almost as fast as
+                            you bake. These are the most delicate and delightful of all Griddle Cakes.
+                            </p>
+                            <p>
+                            They may also be made with sour milk, instead of sweet, in which case use a half teaspoonful of soda, instead of the baking powder.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.68_buckwheat_cakes">
+                    <head type="main" rend="slant(bold) align(center)">BUCKWHEAT CAKES.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes de Sarrasin.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>8 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Buckwheat Flour</ingredient> (Perfectly Pure).</item>
+                            <item>1¾ Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>½ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                        Take a small earthen crock, or a pitcher, and put the warm milk or water, 
+                        or half milk and water, into it, and then add the salt and the buckwheat flour. 
+                        Beat till perfectly smooth, and then, when you have a stiff batter, 
+                        add the yeast, dissolved In a little water. Beat this till
+                        <cb n="2"/><!--column 2-->
+                        smooth, and then cover well and set to rise over night. 
+                        In the morning add a half teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">soda</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">saleratus</ingredient>, to remove any sourness that may have accrued during the night, 
+                        and this addition will also increase the lightness of the cakes. Bake on a griddle, like <name xml:id="pic47.67_batter_cakes">Batter Cakes</name>.
+                        </p>
+                        <p>
+                            Buckwheat Cakes are also often made by taking two cups of buck wheat flour, one cup of wheat flour, one and three-quarters pints of milk, one teaspoonful of salt, three teaspoonfuls of baking powder, and mixing all together till very light, and baking immediately on griddles. 
+                            Many, indeed, prefer them combined with the flour. This mixture may also be made as in the above recipe, by using compressed yeast, and setting to rise over night. 
+                            A tablespoonful of butter may also be added if desired. Serve with <name>Louisiana Syrup</name>.<!--to add xml id-->
+                        </p>                  
+                    </div>
+                </div>
 
+                <div type="recipe" xml:id="pic47.69_flannel_cakes">
+                    <head type="main" rend="slant(bold) align(center)">FLANNEL CAKES.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Galettes de Pâte au Levain.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>¼ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Heat the milk, and when it grows tepid, add the yeast, dissolved in a little hot milk or water, and flour sufficient to make a stiff batter. 
+                            Set to rise over night, or for at least three hours in the morning. 
+                            In the morning add the yolks of the eggs, beaten light, and the melted butter, and mix well. 
+                            Then add the whites beaten to a stiff froth. Beat well, and then bake on a griddle, as in
+                            the above recipe for <name xml:id="pic47.67_batter_cakes">Batter Cakes</name>. 
+                            Be sure to make the batter stiff enough at the start to allow for the admixture of the eggs and butter in the morning. 
+                            When once the cakes have risen, no flour must be added, unless the cakes are set to rise for an hour again.
+                        </p>
+                        <p>
+                            Sweet Flannel Cakes are made by adding a half cup of sugar. These are nice for tea.
+                        </p>
+                        <p>
+                            Again, Flannel Cakes may be made without yeast, by using one pint of buttermilk and one teaspoonful of soda. 
+                            The batter is then made in the morning, without setting to rise over night, and is baked on the griddle immediately after mixing. 
+                            Omit the butter in these buttermilk cakes. They will be very light and spongy without the butter.
+                        </p>
+                    </div>
+                </div>
 
+                <div type="recipe" xml:id="pic47.70_griddle_cakes">
+                    <head type="main" rend="slant(bold) align(center)">GRIDDLE CAKES.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau à la Plaque.</foreign></head>    
+                    <div type="ingredientList">
+                        <list>  
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Milk</ingredient> or Warm <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>, Beaten Very Light.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                        Mix the flour and meal, and pour
+                        <pb n="372"/><!--page break, 372-->
+                        <cb n="1"/><!--column 1-->
+                            on the milk or warm water. Make a batter somewhat stiffer than for <name xml:id="pic47.68_buckwheat_cakes">Buckwheat Cakes</name>, and add the eggs, well-beaten, 
+                        the whites and yolks separately, and finally add the soda, dissolved in a little warm water. 
+                        Bake on a griddle, making the cakes large and generous. Serve with <name>Louisiana Syrup</name>.<!--add xml id-->
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.71_bread_griddle_cakes">
+                    <head type="main" rend="slant(bold) align(center)">Bread Griddle Cakes.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau de Pain à la Plaque.</foreign></head>  
+                    <div type="orientationNote">
+                        <p>
+                            Utilize stale, left-over bread for these cakes. Take
+                        </p>
+                    </div>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of Boiling <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <!--add class--><item>2 Cups of Fine <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Bread Crumbs</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Tablespoonful of Melted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Soak the bread in the boiling milk, and as it cools beat it to a very smooth paste. 
+                            Then add the yolks of the eggs, beaten very light, and the soda, dissolved in a little warm water. 
+                            Finally add the whites of the eggs, beaten to a stiff froth, and a half cupful of sifted flour to bind well. 
+                            Bake on a hot griddle, and butter, and serve with <name>Louisiana Molasses</name> or <name>Syrup</name>.<!--add xml id-->                     
+                        </p>
+                    </div>
+                </div>
  
+                <div type="recipe" xml:id="pic47.72_cornmeal_griddle_cakes">
+                    <head type="main" rend="slant(bold) align(center)">Cornmeal Griddle Cakes.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau de Farine de Maïs à la Plaque.</foreign></head>  
+                    <div type="orientationNote">
+                        <p>
+                            Utilize stale, left-over bread for these cakes. Take
+                        </p>
+                    </div>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>.</item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cornmeal</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Milk</ingredient> or Warm <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Scald the meal and mix with the milk. 
+                            Add the flour, into which you will have mixed the salt. 
+                            Beat the eggs very light and add, and when all has been beaten very light add a teaspoonful of soda, dissolved in a little warm water. 
+                            Bake on a griddle to a nice brown. 
+                            If sweet milk is used, be careful to use, instead of the soda, two teaspoonfuls of baking powder.
+                            </p>
+                        <p>
+                            Graham flour, which is now used so much, may be made into griddle cakes, using two cups of the flour to one of wheat flour, 
+                            and adding also one large tablespoonful of lard or butter. Cook as other <name xml:id="pic47.71_bread_griddle_cakes">Griddle Cakes</name> on a hot griddle.
+                        </p>
+                    </div>
+                </div>
+ 
+                <div type="recipe" xml:id="pic47.73_hominy_griddle_cakes">
+                    <head type="main" rend="slant(bold) align(center)">Hominy Griddle Cakes.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau de Saccamité â la Plaque.</foreign></head>  
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Hominy</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Milk</ingredient> or Warm <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Boil and mash the hominy, or utilize left-over hominy. 
+                            Add the flour, into which you will have mixed the <upside-down>salt. Beat the egg very light, and</upside-down>
+                            <cb n="2"/><!--column 2-->
+                            add, and when all has been beaten very light add a teaspoonful of soda, dissolved in a little warm water. 
+                            Bake on a griddle to a nice brown. 
+                            If sweet milk is used, be careful to use, instead of the soda, two teaspoonfuls of baking powder. 
+                            Serve with <name>Louisiana Molasses</name> or <name>Syrup</name>.<!--add xml id-->                      
+                        </p>
+                    </div>
+                </div>
 
- 
- 
-Risen Waffles.
-Gaufres au Levain.
- 
-1 Quart of Flour.
-1 1/2 Quarts of Milk.
-1/2 Cake of Compressed Yeast.
-3 Eggs.
-2 Tablespoonfuls of Melted Butter.
-1 Tablespoonful of Salt.
- 
-Scald the milk, add the butter, and let it grow tepid. Sift the flour arid salt together, and add the milk and butter, and finally the yeast. Beat all continuously for five or ten minutes, and then cover well and set in a warm place for about two hours. Beat the whites and the yolks of the eggs separately, and add first the yolks to the batter, after it has risen well, and then add the
-whites. Beat in thoroughly, and set to rise again for about a quarter of an hour. Then beat lightly and pour
- 
-<!--page break, 371-->
-<!--column 1-->
- 
-into a pitcher. Prepare the waffle irons as indicated above, and proceed to bake in the same manner. These Risen Waffles may also be made by mixing the flour, milk and salt and yeast together, and setting to rise over night. In the morning add the melted butter and the eggs, beaten separately, set to rise fifteen minutes longer, and proceed as above.
- 
-Other Breakfast Cakes.
-Autres Gateaux de Déjeuner.
- 
-In addition to Muffins, Waffles, etc., "Batter Cakes." "Flannel Cakes," "Buckwheat Cakes," "Griddle Cakes," etc., form pleasing and toothsome varieties for the morning meal, and. It might be added, not only for the morning meal, but for luncheon and tea as well.
- 
-BATTER CAKES.
-Galettes de Pâte.
- 
-2 Cups of Flour, Finely Sifted.
-2 Cupfuls of Sweet Milk.
-2 Tablespoonfuls of Baking Powder.
-3 Eggs.
- 
-Beat the whites and the yolks of the eggs separately, the former to a stiff froth. Add the flour to the yolks, and beat till very light. Add the yeast powder and bake again. Then add the sweet milk and beat well. Now add the whites of the eggs and mix all to a very smooth, light batter, as thick as a batter that will run in a stream from the mouth of a spoon. Have ready the hot
-griddles, which you will grease with lard lightly, or better still, with a piece of fat bacon. Drop the cakes on the griddle from a large spoon, and bake about two minutes to a nice brown, turning first on one side and then quickly on the other. Pile the cakes on a plate in the mouth of the oven, buttering each generously as soon as baked, and send to the table almost as fast as
-you bake. These are the most delicate and delightful of all Griddle Cakes.
- 
-They may also be made with sour milk, instead of sweet, in which case use a half teaspoonful of soda, instead of the baking powder.
- 
-BUCKWHEAT CAKES.
-Galettes de Sarrasin.
- 
-8 Cups of Buckwheat Flour (Perfectly Pure).
-1 3/4 Pints of Sweet Milk or Water.
-1/2 Cake of Compressed Yeast.
-1/2 Teaspoonful of Salt.
- 
-Take a small earthen crock, or a pitcher, and put the warm milk or water, or half milk and water, into it, and then add the salt and the buckwheat flour. Beat till perfectly smooth, and then, when you have a stiff batter, add the yeast, dissolved In a little water. Beat this till
- 
-<!--column 2-->
- 
-smooth, and then cover well and set to rise over night. In the morning add a half teaspoonful of soda or saleratus, to remove any sourness that may have accrued during the night, and this addition will also increase the lightness of the cakes. Bake on a griddle, like Batter Cakes.
- 
-Buckwheat Cakes are also often made by taking two cups of buck wheat flour, one cup of wheat flour, one and three-quarters pints of milk, one teaspoonful of salt, three teaspoonfuls of baking powder, and mixing all together till very light, and baking immediately on griddles. Many, indeed, prefer them combined with the flour. This mixture may also be made as in the above recipe, by using compressed yeast, and setting to rise over night. A tablespoonful of butter may also be added if desired. Serve with Louisiana Syrup.
- 
-FLANNEL CAKES.
-Galettes de Pâte au Levain.
- 
-1 Pint of Milk. 2 Eggs.
-1/4 Cake of Compressed Yeast.
-3 Cups of Flour.
-1/2 Teaspoonful of Salt.
- 
-Heat the milk, and when it grows tepid, add the yeast, dissolved in a little hot milk or water, and flour sufficient to make a stiff batter. Set to rise over night, or for at least three hours in the morning. In the morning add the yolks of the eggs, beaten light, and the melted butter, and mix well. Then add the whites beaten to a stiff froth. Beat well, and then bake on a griddle, as in
-the above recipe for Batter Cakes. Be sure to make the batter stiff enough at the start to allow for the admixture of the eggs and butter in the morning. When once the cakes have risen, no flour must be added, unless the cakes are set to rise for an hour again.
- 
-Sweet Flannel Cakes are made by adding a half cup of sugar. These are nice for tea.
- 
-Again, Flannel Cakes may be made without yeast, by using one pint of buttermilk and one teaspoonful of soda. The batter is then made in the morning, without setting to rise over night, and is baked on the griddle immediately after mixing. Omit the butter in these buttermilk
-cakes. They will be very light and spongy without the butter.
- 
-GRIDDLE CAKES.
-Gateau à la Plaque.
- 
-3 Cups of Flour.
-3 Cups of Sour Milk or Warm Water.
-1 Teaspoonful of Soda.
-3 Eggs, Beaten Very Light.
-1 Teaspoonful of Salt.
- 
-Mix the flour and meal, and pour
- 
-<!--page break, 372-->
-<!--column 1-->
- 
-on the milk or warm water. Make a batter somewhat stiffer than for Buckwheat Cakes, and add the eggs, well-beaten, the whites and yolks separately, and finally add the soda, dissolved in a little warm water. Bake on a griddle, making the cakes large and generous. Serve with Louisiana Syrup.
- 
-Bread Griddle Cakes.
-Gateau de Pain à la Plaque.
- 
-Utilize stale, left-over bread for these cakes. Take
- 
-1 Quart of Boiling Milk.
-2 Cups of Fine Bread Crumbs.
-3 Eggs.
-1 Tablespoonful of Melted Butter.
-1/2 Teaspoonful of Salt.
- 
-Soak the bread in the boiling milk, and as it cools beat it to a very smooth paste. Then add the yolks of the eggs, beaten very light, and the soda, dissolved in a little warm water. Finally add the whites of the eggs, beaten to a stiff froth, and a half cupful of sifted flour to bind well. Bake on a hot griddle, and butter, and serve with Louisiana Molasses or Syrup.
- 
-Cornmeal Griddle Cakes.
-Gateau de Farine de Maïs à la Plaque.
- 
-1/2 Teaspoonful of Soda.
-2 Cups of Cornmeal.
-1 Cup of Flour.
-1 Teaspoonful of Salt.
-3 Eggs.
-3 Cups of Sour Milk or Warm Water.
-1 Teaspoonful of Soda.
- 
-Scald the meal and mix with the milk. Add the flour, into which you will have mixed the salt. Beat the eggs very light and add, and when all has been beaten very light add a teaspoonful of soda, dissolved in a little warm water. Bake on a griddle to a nice brown. If sweet milk is used, be careful to use, instead of the soda, two teaspoonfuls of baking powder.
- 
-Graham flour, which is now used so much, may be made into griddle cakes, using two cups of the flour to one of wheat flour, and adding also one large tablespoonful of lard or butter. Cook as other Griddle Cakes on a hot griddle.
- 
- 
-Hominy Griddle Cakes.
-Gateau de Saccamité â la Plaque.
- 
-2 Cups of Hominy.
-1 Cup of Flour.
-1 Teaspoonful of Salt.
-3 Eggs.
-3 Cups of Sour Milk or Warm Water.
-1 Teaspoonful of Soda.
- 
-Boil and mash the hominy, or utilize left-over hominy. Add the flour, into which you will have mixed the <upside down> salt. Beat the egg very light, and </ud>
- 
-<!--column 2-->
- 
-add, and when all has been beaten very light add a teaspoonful of soda, dissolved in a little warm water. Bake on a griddle to a nice brown. If sweet milk is used, be careful to use, instead of the soda, two teaspoonfuls of baking powder. Serve with Louisiana Molasses or Syrup.
- 
-French Griddle Cakes.
-Gateau de Plaque à la Française.
- 
-1 1/2 Pints of Sifted Flour.
-6 Eggs.
-1 Tablespoonful of Butter.
-1 Ounce of Sugar.
-1 Cup of Milk.
- 
-Beat the yolks of the eggs and the sugar very light; then add the flour and melted butter, and then add the warm milk. Beat all till very light. Add a half teaspoonful of baking powder, and then add the whites of the eggs, beaten to a stiff froth. Beat all till very smooth. Drop a tablespoonful at a time upon the hot griddle; turn quickly and bake on the other side, allowing about two minutes in all; place on a hot platter, butter well and spread with Jelly; then roll up, dust with powdered sugar and serve very hot.
- 
-Green Corn Griddle Cakes.
-Gateau de Maïs Tendre à la Plaque.
- 
-1 Quart of Finely-Grated Green Corn.
-1 Pint of Milk. 4 Eggs.
-1/2 Teaspoonful of Salt.
-1 Cup of Flour.
-1 Tablespoonful of Melted Butter.
- 
-Beat the eggs separately, and then add the yolks, well beaten, to the corn. Add the salt, melted butter and the milk, and mix well. Then add sufficient flour to make a thin batter, and finally the whites of the eggs, beaten to a stiff froth. Bake on a hot griddle, butter generously, and serve very hot. This is a great Creole cake, and very delicious.
- 
-Rice Griddle Cakes.
-Gateau de Riz à la Plaque.
- 
-2 Cups of Boiled Rice.
-1 Cup of Flour. 2 Eggs.
-1 Pint of Milk or Water.
-1/2 Teaspoonful of Salt.
-1 1/2 Teaspoonfuls of Baking Powder.
-1 Teaspoonful of Sugar.
- 
-Mash the rice through a sieve. Sift the flour, baking powder and salt together, and add the sugar to the milk. Add this to the flour and mix in the rice till free from any lumps. Then add the eggs, the whites and yolks beaten separately, and mix into a very smooth batter. Have the griddle well-heated. Bake the cakes to a nice brown, and serve with Louisiana Syrup.
- 
-<!--page break, 373-->
-<!--column 1-->
- 
-PUFFS.
-Soufflés.
- 
-1 Pint of Sweet Milk.
-1/2 Pound of Flour.
-2 Ounces of Butter.
-4 Eggs.
- 
-Beat the whites and the yolks separately till very, very light. Warm the milk and add the melted
-butter. When cold, mix with the yolks of the eggs, and add the flour and salt, beating till very light. Now add the whites of the eggs, beaten to a stiff froth. Stir lightly, turn into buttered tins, filling each about half full, and bake to a light brown.
- 
-CRACKNELS.
-Craquelins.
- 
-2 Cups of Rich Milk.
-4 Tablespoonfuls of Butter.
-1 Gill of yeast.
-1 Teaspoonful of Salt.
- 
-Scald the milk and add the butter, and let it grow tepid. Then add the yeast and dissolve well. Add the salt, and now add the flour sufficient to make a light dough. Set to rise, and when twice its bulk work lightly, and roll out very thin, and cut into pieces about two and a half inches square. Stick well with a fork through and through, and bake in a slow oven, as you would soda
-crackers.
- 
-HOME-MADE YEAST.
-Levain de Ménage.
- 
-6 Large Potatoes.
-A Handful of Hops.
-3 Pints of Water.
-1/2 Cup of Sugar.
-1/2 Cup of Yeast.
-Flour Sufficient to Make a Batter.
-Cornmeal to Blend.
- 
-In these days of baking powders and prepared yeasts that are sold by all grocers, and that have proved
- 
-<!--column 2-->
- 
-such a saving of time and trouble to the housekeeper, it might seem superfluous
-to add a recipe for making yeast. Nevertheless, the following ancient recipe, in use for many years in Creole homes, is given as the final recipe of the Picayune's Creole Cook
-Book:
- 
-Take six large potatoes, and pare them, and then boil in about three pints of water. Take a handful of hops, and tie them in a muslin bag, and boil with the potatoes. When these are thoroughly cooked, drain the water on sufficient flour to make a good batter, and set the mixture
-on the stove for a few minutes, till the flour is well-scalded. Do not let it boil or simmer under any consideration. Take it from the fire, and let it cool. Then mash the potatoes and add them to the flour, and add a half cup of sugar and a half cup of yeast. Let it stand in a warm place till it has thoroughly risen. Then add cornmeal that has been sifted and dried, and knead well, until you have a dough thick enough to roll out, and that will crumble when dry. Cut this dough into cakes, and spread on a board and place in the shade to dry. Then keep in a box in a dry place.
-This mixture may be also kept and used as a liquid by simply stopping when you have come to the point where you must add the cornmeal. Let the mixture thus stand in a warm place till it has thoroughly risen. Then scald a large jar, wipe dry, and put in the yeast. Cover tight, and keep in a cool place. One- third of a cupful of yeast will make two loaves of bread. But as Compressed Yeast can be had at any grocer's, and is a great saving of time and trouble, it is always better to get it, and it has this advantage, that it may be procured when needed.
+                <div type="recipe" xml:id="pic47.74_french_griddle_cakes">
+                    <head type="main" rend="slant(bold) align(center)">French Griddle Cakes.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau de Plaque à la Française.</foreign></head>  
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1½ Pints of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Eggs</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Beat the yolks of the eggs and the sugar very light; then add the flour and melted butter, 
+                            and then add the warm milk. Beat all till very light. 
+                            Add a half teaspoonful of baking powder, and then add the whites of the eggs, beaten to a stiff froth. 
+                            Beat all till very smooth. 
+                            Drop a tablespoonful at a time upon the hot griddle; turn quickly and bake on the other side, allowing about two minutes in all; 
+                            place on a hot platter, butter well and spread with Jelly; then roll up, dust with powdered sugar and serve very hot.
+                        </p>
+                    </div>
+                </div>
+ 
+                <div type="recipe" xml:id="pic47.75_green_corn_griddle_cakes">
+                    <head type="main" rend="slant(bold) align(center)">Green Corn Griddle Cakes.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau de Maïs Tendre à la Plaque.</foreign></head>  
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of Finely-Grated <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Green Corn</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>. </item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Tablespoonful of Melted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Beat the eggs separately, and then add the yolks, well beaten, to the corn. 
+                            Add the salt, melted butter and the milk, and mix well. 
+                            Then add sufficient flour to make a thin batter, and finally the whites of the eggs, beaten to a stiff froth. 
+                            Bake on a hot griddle, butter generously, and serve very hot. 
+                            This is a <name>great Creole cake</name>, and very delicious. 
+                        </p>
+                    </div>
+                </div>
 
+                <div type="recipe" xml:id="pic47.76_rice_griddle_cakes">
+                    <head type="main" rend="slant(bold) align(center)">Rice Griddle Cakes.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau de Riz à la Plaque.</foreign></head>  
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of Boiled <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>. </item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1½ Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Mash the rice through a sieve. 
+                            Sift the flour, baking powder and salt together, and add the sugar to the milk. 
+                            Add this to the flour and mix in the rice till free from any lumps. 
+                            Then add the eggs, the whites and yolks beaten separately, and mix into a very smooth batter. 
+                            Have the griddle well-heated. Bake the cakes to a nice brown, and serve with <name>Louisiana Syrup</name>.<!--add xml id-->
+                        </p>
+                    </div>
+                </div>
+                
+                <pb n="373"/><!--page break, 373-->
+                <cb n="1"/><!--column 1-->
+                
+                <div type="recipe" xml:id="pic47.77_puffs">
+                    <head type="main" rend="slant(bold) align(center)">PUFFS.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Soufflés.</foreign></head>  
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient>.</item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>2 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Beat the whites and the yolks separately till very, very light. 
+                            Warm the milk and add the melted butter. 
+                            When cold, mix with the yolks of the eggs, and add the flour and salt, beating till very light. 
+                            Now add the whites of the eggs, beaten to a stiff froth. 
+                            Stir lightly, turn into buttered tins, filling each about half full, and bake to a light brown.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.78_cracknels">
+                    <head type="main" rend="slant(bold) align(center)">CRACKNELS.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Craquelins.</foreign></head>  
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Rich Milk</ingredient>.</item>
+                            <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Gill of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">yeast</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Scald the milk and add the butter, and let it grow tepid. 
+                            Then add the yeast and dissolve well. 
+                            Add the salt, and now add the flour sufficient to make a light dough. 
+                            Set to rise, and when twice its bulk work lightly, and roll out very thin, and cut into pieces about two and a half inches square. 
+                            <!--add id for soda crackers-->Stick well with a fork through and through, and bake in a slow oven, as you would <ptr target="">soda crackers</ptr>.
+                        </p>
+                    </div>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.79_home-made_yeast">
+                    <head type="main" rend="slant(bold) align(center)">HOME-MADE YEAST.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Levain de Ménage.</foreign></head>  
+                    <div type="ingredientList">
+                        <list> 
+                            <item>6 Large <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potatoes</ingredient>.</item>
+                            <item>A Handful of <ingredient>Hops</ingredient>.</item>
+                            <item>3 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient></item>.
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient> Sufficient to Make a Batter.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cornmeal</ingredient> to Blend.</item>
+                        </list>
+                    </div>
+                    <div type="orientationNoate">
+                        <p> 
+                            In these days of baking powders and prepared yeasts that are sold by all grocers, and that have proved
+                            <cb n="2"/><!--column 2-->
+                            such a saving of time and trouble to the housekeeper, it might seem superfluous
+                            to add a recipe for making yeast. Nevertheless, the following ancient recipe, in use for many years in <name>Creole homes</name>, 
+                            is given as the final recipe of the Picayune's Creole Cook Book:
+                            </p>
+                        </div>
+                    <div type="instructions">
+                            <p>
+                            Take six large potatoes, and pare them, and then boil in about three pints of water. 
+                            Take a handful of hops, and tie them in a muslin bag, and boil with the potatoes. 
+                            When these are thoroughly cooked, drain the water on sufficient flour to make a good batter, and set the mixture
+                            on the stove for a few minutes, till the flour is well-scalded. 
+                            Do not let it boil or simmer under any consideration. Take it from the fire, and let it cool. 
+                            Then mash the potatoes and add them to the flour, and add a half cup of sugar and a half cup of yeast. 
+                            Let it stand in a warm place till it has thoroughly risen. 
+                            Then add cornmeal that has been sifted and dried, and knead well, until you have a dough thick enough to roll out, and that will crumble when dry. 
+                            Cut this dough into cakes, and spread on a board and place in the shade to dry. 
+                            Then keep in a box in a dry place.
+                            </p>
+                        <p>
+                            This mixture may be also kept and used as a liquid by simply stopping when you have come to the point where you must add the cornmeal. 
+                            Let the mixture thus stand in a warm place till it has thoroughly risen. 
+                            Then scald a large jar, wipe dry, and put in the yeast. 
+                            Cover tight, and keep in a cool place. 
+                            One- third of a cupful of yeast will make two loaves of bread. 
+                            But as Compressed Yeast can be had at any grocer's, and is a great saving of time and trouble, it is always better to get it, and it has this advantage, that it may be procured when needed.
+                        </p>
+                    </div>
+                </div>
+               
             </div>
         </body>
     </text>
