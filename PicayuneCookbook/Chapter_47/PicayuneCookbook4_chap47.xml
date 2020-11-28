@@ -127,14 +127,17 @@
                         Noir in the French Market and a Brioche is one of the standing treats to
                         which every visitor to New Orleans is invited. 
                     </p>
-                    <head rend="align(center) bold">How to Make and Bake Bread.</head>
-                    <p>
+                </div>
+                
+                <div type="recipe" xml:id="pic47.1_how_to_make_and_bake_bread">
+                        <head rend="align(center) bold">How to Make and Bake Bread.</head>
+                        <p>
                         Bread, to be perfect, should be light and sweet, with a rich nutty flavor of the wheat. 
-                        To obtain this result, only the best flour and the best dough must be used. 
+                        To obtain this result, only the best <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">flour</ingredient> and the best <ingredient>dough</ingredient> must be used. 
                         While the bread is rising the temperature of the oven should be at the 75 degrees Fahrenheit, 
                         and the heat of the oven in baking should be about 360 degrees, or hot enough to raise the inside 
                         of the bread to about 220 degrees. This is necessary to cook the starch, expand the carbonic gas, 
-                        steam and air, and also to drive off the alcohol which is used in the yeast. 
+                        steam and air, and also to drive off the alcohol which is used in the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">yeast</ingredient>. 
                         The bakers in New Orleans have a way of testing the temperature of the oven by putting a piece of white paper in it. If 
                 <pb n="357"/>
                 <cb n="1"/>
@@ -149,11 +152,11 @@
                         This allows the air to circulate freely around it. Never cover bread that has been freshly baked, if you wish it to be fresh and sweet and crisp. 
                         When cool, place in a clean bread box, without using a “bread bag,” as is so common among many families. 
                         This bag absorbs the moisture from the bread, and causes it to sour quickly. 
-                        The New Orleans bakers always use Compressed Yeast for leavening bread, as it does not necessitate making a ferment or setting sponge before mixing the dough. 
+                        The New Orleans bakers always use <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient> for leavening bread, as it does not necessitate making a ferment or setting sponge before mixing the dough. 
                     </p>
                 </div>
                 
-                <div type="recipe" xml:id="pic47.1_bakers_bread">
+                <div type="recipe" xml:id="pic47.2_bakers_bread">
                     <head type="main" rend="slant(bold) align(center)">Bakers' Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Boulanger.</foreign>
                     </head>
@@ -180,7 +183,7 @@
                     </div>
                 </div>
                
-                <div type="recipe" xml:id="pic47.2_french_bread"> 
+                <div type="recipe" xml:id="pic47.3_french_bread"> 
                     <head type="main" rend="slant(bold) align(center)">French Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain Français</foreign>
                     </head>
@@ -207,7 +210,7 @@
                     </div>
                 </div>
                       
-                <div type="recipe" xml:id="pic47.3_pan_bread"> 
+                <div type="recipe" xml:id="pic47.4_pan_bread"> 
                     <head type="main" rend="slant(bold) align(center)">Pan Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Plaque.</foreign>
                     </head>
@@ -236,7 +239,7 @@
                 <pb n="358"/><!--page break, 358-->
                 <cb n="1"/><!--column 1-->
                 
-                <div type="recipe" xml:id="pic47.4_french_loaves">
+                <div type="recipe" xml:id="pic47.5_french_loaves">
                     <head type="main" rend="slant(bold) align(center)">French Loaves.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Des Petits Pains Francais.</foreign>
                     </head>
@@ -265,7 +268,7 @@
                     </div>
                 </div>
                 
-                <div type="recipe" xml:id="pic47.5_twist_loaves">
+                <div type="recipe" xml:id="pic47.6_twist_loaves">
                     <head type="main" rend="slant(bold) align(center)">Twist Loaves.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain Tressé.</foreign>
                     </head>
@@ -288,7 +291,7 @@
                     </div>
                 </div>           
 
-                <div type="recipe" xml:id="pic47.6_rye_bread">
+                <div type="recipe" xml:id="pic47.7_rye_bread">
                     <head type="main" rend="slant(bold) align(center)">Rye Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Seigle.</foreign>
                     </head>
@@ -298,7 +301,7 @@
                             <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">aWter</ingredient>.</item> 
                             <item>1½ Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
                             <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rye</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Make a Smooth Dough.</item>
-                            <item>A Few<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Kummel Seed</ingredient>.</item> <!--what class-->
+                            <item>A Few<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Kummel Seed</ingredient>.</item>
                         </list>
                     </div>
                     <div type="instructions">
@@ -313,7 +316,7 @@
                 
                 <cb n="2"/><!--column 2--> 
                 
-                <div type="recipe" xml:id="pic47.7_home-made_creole_light_bread">
+                <div type="recipe" xml:id="pic47.8_home-made_creole_light_bread">
                     <head type="main" rend="slant(bold) align(center)">Home-Made Creole Light Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Manage à la Créole.</foreign>
                     </head>
@@ -345,7 +348,7 @@
                     </div>
                 </div>   
 
-                <div type="recipe" xml:id="pic47.8_milk_bread">
+                <div type="recipe" xml:id="pic47.9_milk_bread">
                     <head type="main" rend="slant(bold) align(center)">Milk Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain au Lait.</foreign>
                     </head>
@@ -355,7 +358,7 @@
                             <item>½ Teacup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>or ½ Cake of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
                             <item>1 Pint of Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item> 
                             <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
-                            <item>2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
                         </list>
                     </div>
                     <div type="instructions">
@@ -377,16 +380,16 @@
                     </div>
                 </div>  
 
-                <div type="recipe" xml:id="pic47.9_buttermilk_bread">
+                <div type="recipe" xml:id="pic47.10_buttermilk_bread">
                     <head type="main" rend="slant(bold) align(center)">Buttermilk Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain au Babeurre.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
                             <item>1 Quart of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
-                            <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Buttermilk</ingredient>.</item> 
+                            <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Buttermilk</ingredient>.</item> 
                             <item>1 Dessertspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>.</item> 
-                            <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
                             <item>½ Pound of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar</ingredient>.</item>
                             <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
                         </list>
@@ -402,7 +405,7 @@
                     </div>
                 </div>  
 
-                <div type="recipe" xml:id="pic47.10_rice_bread">
+                <div type="recipe" xml:id="pic47.11_rice_bread">
                     <head type="main" rend="slant(bold) align(center)">Rice Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Riz.</foreign>
                     </head>
@@ -411,7 +414,7 @@
                             <item>1 Cup of Cold Boiled<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Rice</ingredient>.</item>
                             <item>2 Cups of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">White Indian Meal</ingredient>.</item> 
                             <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
-                            <item>1 Tablespoonful of Melted<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>1 Tablespoonful of Melted<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
                             <item>2 Heaping Teaspoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking Powder</ingredient>.</item>
                             <item>1¼ Pints of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item>
                             <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
@@ -431,7 +434,7 @@
                 
                 <cb n="2"/><!--column 2-->
                 
-                <div type="recipe" xml:id="pic47.11_sweet_potato_bread">
+                <div type="recipe" xml:id="pic47.12_sweet_potato_bread">
                     <head type="main" rend="slant(bold) align(center)">Sweet Potato Bread.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain de Patates.</foreign>
                     </head>
@@ -440,7 +443,7 @@
                             <item>1 Quart of Mashed<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetables">Sweet Potatoes</ingredient>.</item>
                             <item>1½ Pints of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item> 
                             <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Milk or Warm Water</ingredient>.</item>
-                            <item>2 Tablespoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>2 Tablespoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
                             <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
                             <item>½ Teacup of Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>or Half a Cake of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item> 
                         </list>
@@ -456,7 +459,7 @@
                     </div>
                 </div>  
                 
-                <div type="recipe" xml:id="pic47.12_rolls">
+                <div type="recipe" xml:id="pic47.13_rolls">
                     <head type="main" rend="slant(bold) align(center)">ROLLS.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Bourrelet.</foreign>
                     </head>
@@ -482,7 +485,7 @@
                     </div>
                 </div> 
  
-                <div type="recipe" xml:id="pic47.13_french_rolls">
+                <div type="recipe" xml:id="pic47.14_french_rolls">
                     <head type="main" rend="slant(bold) align(center)">French Rolls.</head>
                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Bourrelets à la Française.</foreign>
                     </head>
@@ -491,16 +494,10 @@
                             <item>½ Pints of Fresh<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item>
                             <item>2 Quarts of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">White Flour</ingredient>.</item>
                             <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
-                            <item>2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>.</item>
+                            <item>2 Ounces of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
                             <item>Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
                             <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Sugar</ingredient>(which may be omitted, according to taste).</item>
                             <item>⅔ Cake of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Compressed Yeast</ingredient>Dissolved in Warm Water.</item>
-                            
-                            <item>1 Quart of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
-                            <item>¾ Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Yeast</ingredient>.</item>
-                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
-                            <item>¼ Pound of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
-                            
                         </list>
                     </div>
                     <div type="instructions">
@@ -521,321 +518,614 @@
                     </div>
                 </div> 
 
+                <div type="recipe" xml:id="pic47.15_tea_rolls">
+                    <head type="main" rend="slant(bold) align(center)">Tea Rolls.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Bourrelets pour le Thé</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Pint of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item>
+                            <item>½ Cake of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Gill of Warm<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>   
+                            Sift the flour and salt together. 
+                            Scald the milk, and when tepid add the yeast, dissolved in a little warm water, to one-half of the milk. 
+                            Add one-half of the flour, and make a thin batter, stirring very smooth. 
+                            Set it to rise in a warm place, and at the end of three hours make it into a dough with the remainder of the milk and flour, and knead well till the dough no longer, adheres to the
+                            board or to your hands. Then shape it with your hands into small balls, set to rise for a half hour longer, or an hour, and bake in a moderate oven for a half hour.
+                        </p> 
+                    </div>
+                </div> 
+                
+                <div type="recipe" xml:id="pic47.16_rusks">
+                    <head type="main" rend="slant(bold) align(center)">RUSKS.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Echandés Secs.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Pint of Warm<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>.</item>
+                            <item>½ Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>1 Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>. </item>
+                            <item>2<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Esgs</ingredient>.</item>
+                            <item>1 Teaspoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Cake of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>Sufficient to Hake a Batter.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>   
+                            Dissolve the yeast in the warm milk, and then add flour sufficient to make a thin batter. 
+                            Set to rise over night. In the morning beat the sugar and the butter to a cream, and add the eggs, well beaten. 
+                            Add these to the batter, beat well, add the salt, and sufficient flour to make a soft dough. 
+                            Then mold the dough into balls with your hands, or into small loaves. Set to rise until they have reached about twice their bulk. 
+                            Then place in the oven and bake for thirty minutes. If sweet rusks are not desired, omit the sugar.
+                        </p>
+                    </div>
+                </div> 
+ 
+                <div type="recipe" xml:id="pic47.17_toast">
+                    <head type="main" rend="slant(bold) align(center)">TOASTS.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain Roti.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>6 Slices of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Bread</ingredient>.</item><!--add class-->
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>to Taste.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>   
+                            Slice the bread, neither too thick nor too thin. 
+                            Cut off the rough edges of the crust. 
+                            Hold on a fork before burning coals till nicely toasted on one side. 
+                            Then turn on the other, and proceed as before. If dry toast is desired, the bread is not
+                        <cb n="2"/><!--column 2-->
+                            buttered. If buttered toast, butter nicely, set in the oven a second and send to the table hot. 
+                            Some cooks toast, bread by simply setting the slices in the oven and letting them brown on either side. 
+                            But there is no comparison in lightness to the toast prepared in the above old-fashioned way.
+                        </p>
+                    </div>
+                </div> 
 
+                <div type="recipe" xml:id="pic47.18_cream_or_milk_toast">
+                    <head type="main" rend="slant(bold) align(center)">Cream or Milk Toast.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Rotis à la Crème ou au Lait.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>6 Slices of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Bread</ingredient>.</item><!--add class-->
+                            <item>1 Pint of Hot<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Cream</ingredient> or<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid"> Milk</ingredient>.</item>
+                            <item>1 Tablespoonful of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>               
+                            Toast the bread nicely, and butter well on both sides. 
+                            Lay in a dish, and pour over hot milk. Serve hot. 
+                            Or, heat one pint of Cream, add one large tablespoonful of butter, and pour over the hot toast. 
+                            Slightly stale bread may be utilized in this way.
+                            Soda crackers may be toasted and served in the same way. 
+                            This is a great supper dish among the <name>Creole plantation homes</name>of Louisiana.
+                        </p>
+                    </div>
+                </div> 
+                              
+                <div type="recipe" xml:id="pic47.19_lost_bread_or_egg_toast">
+                    <head type="main" rend="slant(bold) align(center)">Lost Bread or Egg Toast.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Pain Perdu.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>5<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>2 Tablespoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Orange Flower Water</ingredient>.</item>
+                            <item>½ Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item>Slices of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Stale Bread</ingredient>.</item>
+                            <item>The Finely-Grated<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Zest of a Lemon</ingredient>.</item>
+                            <item>3 Tablespoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Brandy</ingredient>(if desired).</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>               
+                            The <name>Creoles</name>utilize left-over stale bread in that delightful breakfast relish known as "<foreign xml:lang="fr">Pain Perdu</foreign>." 
+                            Break the eggs into a bowl, beat them till very light, add the Orange Flower Water and the Brandy, if desired, and then add the sugar, and beat thoroughly. 
+                            Add the grated zest of a lemon, mix well, and then cut the bread into slices or round pieces, taking off the crust, or still again into diamond shapes, and soak them well for a half hour in the mixture. 
+                            Have ready a frying pan of boiling lard <ptr target="#">(see General Directions for Frying)</ptr>,<!--add id for General Directions for Frying-->
+                            lay in the bread, and fry to a golden brown. Lift the slices out with a skimmer, and drain on brown paper in the mouth of the oven. 
+                            Then place on a hot dish, sprinkle with powdered sugar, as you would fritters, add a little grated nutmeg, if desired, and serve hot.
+                        </p>
+                    </div>
+                </div> 
 
-Tea Rolls.
-Bourrelets pour le Thé
- 
-1 Quart of Flour.
-1 Pint of Milk
-1/2 Cake of Compressed Yeast.
-1 Teaspoonful of Salt.
-1 Gill of Warm Water.
- 
-Sift the flour and salt together. Scald the milk, and when tepid add the yeast, dissolved in a little warm water, to one-half of the milk. Add one-half of the flour, and make a thin batter, stirring very smooth. Set it to rise in a warm place, and at the end of three hours make it into a dough with the remainder of the milk and flour, and knead well till the dough no longer, adheres to the
-board or to your hands. Then shape it with your hands into small balls, set to rise for a half hour longer, or an hour, and bake in a moderate oven for a half hour.
- 
-RUSKS.
-Echandés Secs.
- 
-1 Pint of Warm Milk.
-1/2 Cup of Butter.
-1 Cup of Sugar. 2 Esgs.
-1 Teaspoonful of Salt.
-1 Cake of Compressed Yeast.
-Flour Sufficient to Hake a Batter.
- 
-Dissolve the yeast in the warm milk, and then add flour sufficient to make a thin batter. Set to rise over night. In the morning beat the sugar and the butter to a cream, and add the eggs, well beaten. Add these to the batter, beat well, add the salt, and sufficient flour to make a soft
-dough. Then mold the dough into balls with your hands, or into small loaves. Set to rise until they have reached about twice their bulk. Then place in the oven and bake for thirty
-minutes. If sweet rusks are not desired, omit the sugar.
- 
-TOAST.
-Pain Roti.
-6 Slices of Bread.
-Butter to Taste.
- 
-Slice the bread, neither too thick nor too thin. Cut off the rough edges of the crust. Hold on a fork before burning coals till nicely toasted on one side. Then turn on the other, and proceed as before. If dry toast is desired, the bread is not
- 
-<!--column 2-->
- 
-buttered. If buttered toast, butter nicely, set in the oven a second and send to the table hot. Some cooks toast, bread by simply setting the slices in the oven and letting them brown on either side. But there is no comparison in lightness to the toast prepared in the above old-fashioned way.
- 
-Cream or Milk Toast.
-Rotis à la Crème ou au Lait.
- 
-6 Slices of Bread.
-1 Pint of Hot Cream or Milk.
-1 Tablespoonful of Butter.
- 
-Toast the bread nicely, and butter well on both sides. Lay in a dish, and pour over hot milk. Serve hot. Or, heat one pint of Cream, add one large tablespoonful of butter, and pour over the hot toast. Slightly stale bread may be utilized in this way.
- 
-Soda crackers may be toasted and served in the same way. This is a great supper dish among the Creole plantation homes of Louisiana.
- 
-Lost Bread or Egg Toast.
-Pain Perdu.
- 
-5 Eggs.
-2 Tablespoonfuls of Orange Flower Water.
-1/2 Cup of Sugar.
-Slices of Stale Bread.
-The Finely-Grated Zest of a Lemon.
-3 Tablespoonfuls of Brandy (if desired).
- 
-The Creoles utilize left-over stale bread in that delightful breakfast relish known as "Pain Perdu." Break the eggs into a bowl, beat them till very light, add the Orange Flower Water and the Brandy, if desired, and then add the sugar, and beat thoroughly. Add the grated zest of a
-lemon, mix well, and then cut the bread into slices or round pieces, taking off the crust, or still again into diamond shapes, and soak them well for a half hour in the mixture. Have ready a frying pan of boiling lard (see General Directions for Frying), lay in the bread, and fry to a
-golden brown. Lift the slices out with a skimmer, and drain on brown paper in the mouth of the oven. Then place on a hot dish, sprinkle with powdered sugar, as you would fritters,
-add a little grated nutmeg, if desired, and serve hot.
- 
-Spanish Toast.
-Rotis à I'Espagnole.
- 
-1 Egg
-1 Cup of Milk.
-1 Gill of Brandy or Rum (if desired).
-3 Tablespoonfuls of Powdered Sugar.
-1/2 Ounce Each of Powdered Nutmeg and Cinnamon.
-6 Slices of Stale Bread.
-Lard for Frying.
- 
-Beat the egg and sugar well, and add the milk and the rum or brandy,
- 
-<!--page break, 361-->
-<!--column 1-->
- 
-if desired. Have ready the slices of stale bread, cut in diamond shapes or square, and let them soak for about a half hour in the mixture. Then lay into a pan of boiling lard, and fry to a golden brown. Skim out and drain on brown paper in the mouth of the oven, and place on a hot dish. Sprinkle with powdered sugar and grated cinnamon and nutmeg, and serve with milk or cream.
- 
-BRIOCHES.
-2 Pounds of the Best Flour.
-1/2 Ounce of Yeast.
-1 Cup of Sugar.
-1/2 Ounce of Salt.
-1 Pound of the Best Butter.
-12 or 8 Eggs.
- 
-Under the name of "Brioche" is known the dainty "Roll Cake Bread' that is sold by all New Orleans bakers; that is brought to your door in the early morning by the "Bread Man," and which forms such a delightful accompaniment to the morning cup of Café Noir, whether in the exclusive homes of the old French Quarter, or at the world-famed coffee stands in the French Market.
- 
-To make "Brioches." take a pound and a half of the best quality of flour, and put it in a wooden bread trough. Make a hole in the center of the flour, and put in a half ounce of yeast, dissolved in a little warm water. Take milk or tepid water to make the dough, using milk if you want it to be very rich and delicate, and water if you have not the milk. Knead and mix the flour with one hand, while adding the milk or water with the other. Make a dough that is neither too stiff nor too soft, and when perfectly smooth set the dough to rise in a moderately warm place, covering with a cloth. Remember that if you use milk to make the dough, the milk must be scalded, that is, it must be heated to the boiling point and then allowed to grow tepid. Let the dough rise for five or
-six hours, and when increased to twice its bulk, take it and add the reserved half pound of flour, into which you will have sifted the salt. Add six eggs, beaten very light, with the sugar and butter, and mix all well together, kneading lightly with your hands, and adding more eggs
-If the dough is a little stiff. Then knead the dough by turning it over on itself three times, and set to rise again for an hour or three-quarters of an hour. Cover with a cloth. At the end of this time take it up and work again lightly, and then form into "Brioches," that is, work the dough gently with your hands, and then break it into pieces about the size of an egg. Pat these gently, forming them into neat rolls, a little flattened, and then make one roll
- 
-<!--column 2-->
- 
-about twice the size of the others. This roll will form the head of the Brioche. Have ready a baking pan with a buttered sheet of paper in it, and set the central roll in the middle. Arrange around the other rolls, having at least six or eight, to form a perfect-looking cake. Cover the
-pan with a clean, stiff cloth, and set the cake to rise for an hour longer. When well risen, set in an oven a few degrees cooler than that used for baking Bread. If the rolls are large, let them bake an hour and a half; if medium, one hour, and if very small, a half hour. Some bakers
-and cooks glace the Brioche lightly with a beaten egg, which is spread lightly over the top, before placing in the oven. This gives the rich, glossy surface so often seen on the Brioche
-Again, if you cannot afford butter, use lard, or half butter and lard, but the Brioche made with butter and milk is the most delicate and refined, and the true Creole Brioche, peculiar to New Orleans. After the Brioches are baked, set them to cool, if you do not wish to eat them hot. When serving, whether hot or cold, sprinkle lightly with powdered white sugar.
- 
-BABA.
-3 Pounds of the Best Flour.
-1/2 Ounce of Yeast.
-1 Cup of Sugar.
-1/2 Ounce of Salt.
-1 Pound of the Best Butter.
-12 or 14 Eggs.
-1/2 Pound of Seeded Raisins.
-1/2 Pound of Currants.
-1/2 Glass of Sweetened Water.
-A Tinge of Saffron.
- 
-The dough for the "Baba" is exactly the same as that for the Brioche. Proceed in exactly the same manner, only at the moment of adding the reserved flour to the leavened add a half pound of raisins seeded, and a half pound of currants, washed, picked and dried. Add also a half
-glass of sweetened, tepid water, in which you will have put a little saffron. Be careful to keep this dough much softer than that for the Brioche, adding more eggs, if necessary, to insure the proper degree of consistency. The dough must rise at least six or seven hours. When it
-has increased to twice its volume, after the third rising, cook as you would the Brioche, in an oven a few degrees cooler than that used in baking Bread. The "Baba" is made into a round cake, just like a Pound Cake or Sponge Cake, and" is formed into this round shape with the hands. After baking let cool and sprinkle with powdered white sugar. This is the cake that the Creole bakers of New Orleans send as a "Christmas" or "New Year's Offering" to their
-customers.
- 
-<!--page break, 362-->
-<!--column 1-->
- 
-The German bakers of New Orleans took up the custom, and make the "Baba" by adding to the raisins and currants a little Aniseed, instead of the Saffron.
- 
-BULLFROGS.
-Grenouilles.
- 
-1/2 Pound of the Best Flour.
-1/2 Ounce of Yeast.
-1/2 Cup of Sugar. 1/2 Ounce of Salt.
-1 Pound of the Best Butter.
-12 or 8 Eggs.
- 
-Under this amusing name are sold the delicious small rolls, so dainty and fine, and which are served in all our Creole homes and restaurants. The rolls are joined together lightly in long rows of about eight inches in length and three in width. They are brought to the doors by the
-bakers every morning in this old French city. The dough for "Bullfrogs" is just the same as that for the Brioche, only a half pound of flour is used, instead of a pound, and a cup of butter. Bake in the same manner. They are delightful accompaniments to the most recherché breakfast.
- 
- 
-CHEESE CAKES.
-Talmouses.
- 
-14 Pound of Flour.
-1 Glass of Water.
-A Pinch of Salt.
-2 Tablespoonfuls of Flour.
-6 Eggs. 2 Cream Cheeses.
-A Brioche or Plain Paste (see Recipe Plain
-Paste.)
- 
-Put the butter in a saucepan, and add the water and the salt. Let all come to a boil, stirring constantly. Then take from the fire and add the eggs, beaten well, and the cream cheese. Mix all well. Then take small molds or tins and line with the Plain Paste, or Brioche Paste, rolled
-very thin. Place within the preparation of cream cheese in quantity equal to an egg in size. Then cover the cakes with a piece of rolled dough, and bake in a slow oven. These are delicious breakfast cakes, and much in vogue in ancient Creole homes.
- 
-PEILLARO.
-2 Pounds of Flour.
-1 Pound of Butter, or Half Butter and Lard
-12 Eggs. 1/2 Ounce of Yeast.
-1 Gill of Brandy.
-1 Tablespoonful of Orange Flower Water.
-Milk or Tepid Water to Form a Dough.
-1 Pound of Figs or Stoned Cherries.
- 
-Make the same dough as for the Brioche. At the moment of adding the leavened flour and the reserved flour, add the stoned cherries or peeled figs, the latter cut in halves. Then proceed as for "Brioches," and at the last kneading add the orange flower water and the brandy. Bake
-as you would the "Brioche."
- 
-<!--column 2-->
- 
-WINE CAKE.
-Savarin.
- 
-2 Pounds of the Best Flour.
-1/2 Ounce of Yeast.
-1 Cup of Sugar.
-1/2 Ounce of Salt.
-1 Pound of the Best, Butter.
-12 or 8 Eggs.
- 
-Make the same dough as for the "Brioche," and at the last kneading place it in a cake pan lined with a buttered paper. Set it to rise for an hour longer. Then place it in the oven, and brush over lightly with a beaten egg. Let it bake for about an hour and a half, according to the size, and then take from the oven and soak in a syrup made of one pound of sugar and a pint of water,
-and boiled to a syrup, and into which you will add a wineglass of brandy or Jamaica rum.
- 
-These delicious cakes may be formed into small cakes, like the "Brioche," only they must not be
-joined together around a central cake. But the "Savarin" is nearly always baked in small cake tins.
- 
-BISCUIT.
-Des Biscuits.
- 
-1 Quart of Flour.
-1 Heaping Teaspoonful of Lard.
-1 Teaspoonful of Salt.
-2 Teaspoonfuls of Yeast Powder.
-1 Pint of Water or Sweet Milk.
- 
-Sift the flour well, and add the salt and yeast powder, rubbing in thoroughly with your hands. Then rub in the lard, rubbing the flour between your hands till every portion is permeated by the lard, and there are no lumps. Gradually add water or milk, using about a pint, more or less, mixing in with your hands. Then knead the dough until smooth and elastic. Form into molds, and
-lay on the biscuit board, and roll out till about a quarter of an inch in thickness. Cut into round cakes with the biscuit cutter. Stick lightly with a fork here and there over the surface, and bake in a quick oven for about five or six minutes. By adding four or five eggs, and, instead of the
-lard, one tablespoonful of butter, to the above, you will have egg biscuit.
- 
-Benten Biscuit.
-Biscuit Battu.
- 
-This is a great Southern biscuit, and is much affected by the ancient Creoles. Take
- 
-1 Quart of Flour.
-1 Teaspoonful of Salt.
-1 Heaping Teaspoonful of Lard.
-1 Pint of Milk or Water, or Half and Half.
- 
-Sift the flour and add" the salt, mixing thoroughly. Then add the lard, and blend by rubbing through the hands till not a lump remains
- 
-<!--page break, 363-->
-<!--column 1-->
- 
- 
-in the flour. Now add gradually the water or milk, or the milk and water combined, using half and half of each, and knead all the whole till the dough, which must not be too soft, but rather stiff, is formed. Then lay the dough on a biscuit board on a block, and beat, for a half hour with a rolling pin. Knead lightly, and beat again for a full ten minutes, till from every portion of the surface
-and sides the air bubbles or "blisters" form. Then roll out and cut into round biscuits with the cutter, or square ones with a knife, and stick here and there with a fork. Bake in a moderate oven for about ten or fifteen minutes, till a delicate brown above and below.
- 
-These biscuits are delicious and are much liked by delicate people. The biscuit should be white as snow within. The sides should be slightly cracked. It was the pride of the ancient Creole cooks as to how long they could beat these biscuits without growing tired. The steady "beat-beat" would gently echo through the olden manors from the kitchen in the rear, and every one knew what to expect when Tante Zizi came in smiling with her beautiful biscuit, that had risen fresh, sweet and light without yeast powder or soda.
- 
-Stewed Biscuits.
-Biscuits Sautes.
- 
-6 Left-Over Biscuits.
-1/2 Pound of Butter.
-1 1/2 Pints of Milk.
- 
-Left-over biscuits may be thus utilized. Take a porcelain-lined saucepan, cut the biscuit in halves, lay in the bottom of the saucepan, place a layer of butter over this, and then a layer of biscuit, and so on till all are used up. Pour milk over the whole, let it come to a boil, and serve hot.
- 
-Soda and Milk Biscuit.
-Biscuit au Lait et à la Soude.
- 
-1 Quart of Flour.
-1 Heaping Teaspoonful of Lard.
-2 Cups of Sour Milk.
-1/2 Teaspoonful of Soda.
-1 Teaspoonful of Salt.
- 
-Sift the flour and add the salt and lard, rubbing them in thoroughly with your hands, as above indicated. Then dissolve the soda in a little warm water and add to the milk, and work rapidly and lightly. Then lay on a biscuit board or a block of wood, and beat till the surface of the dough is full of air bubbles, or "blisters," as the old Creole cooks call them. Roll the dough out to
-about a quarter of an inch in thickness, out into round biscuits with a biscuit cutter, or square ones with a knife. Stick here and there over the surface with a fork, and bake
- 
-<!--column 2-->
- 
-for about six minutes in a quick oven. If too much is used, it not only imparts a bitter taste, but gives the flour an ugly yellowish green color, that is neither tempting nor inviting.
- 
-The Graham Biscuit is made by using three cups of Graham flour, one cup of white flour, one teaspoonful of Baking Powder, one heaping tablespoonful of sugar or molasses, and two cups of lukewarm water, mixing the batter until it reaches the consistency of oatmeal porridge,
-and then pouring into buttered tins. Let it rise till light, and bake in a moderate oven. Milk may be used instead of water, if you have it.
- 
-Sweet Potato Biscuit.
-Biscuits de Patates Douces.
- 
-6 Potatoes.
-4 Tablespoonfuls of Butter or Lard.
-1 Pint of Milk.
-1/2 Cake of Compressed Yeast.
-1 Teaspoonful of Salt.
-1 Tablespoonful of White Sugar.
-Sufficient Flour to Make a Batter.
- 
-Boil the potatoes, pare and mash them very fine through a sieve. Scald the milk and add the salt and sugar. Then beat till perfectly smooth. Add these to the potatoes and mix well. Then add about half a cup of flour, well-sifted several times, so that it will be very light. When the mixture
-grows tepid, add the yeast, which you will have dissolved in warm water, and beat well till you
-have a good batter. Then cover the mixture with a thick cloth, and put to rise in a warm place. After three or four hours, when it is, well-risen, add flour sufficient to make a nice, soft dough. Knead very lightly and quickly for about ten or fifteen minutes. At the end of this time take
-up and knead, lightly several times, and roll the dough out. Cut into little biscuits, place them in a slightly-buttered or greased pan, about, two inches apart, let them stand for half an hour in a warm place and then bake in a quick oven for twenty minutes.
- 
- 
-Tea Biscuits.
-Biscuits de Thé.
- 
-1 Quart of Flour.
-1/2 Pint of Milk. 3 Eggs.
-2 Ounces of Butter or Lard.
-1 Teaspoonful of Sugar.
-1/4 Cake of Compressed Yeast.
- 
-Scald the milk and add the butter. Set to cool, and then add the salt and the sugar and yeast. Add one-half of the flour. Mix well, and then beat rapidly for about five or ten minutes. Cover up the pan with a cloth, and set in a warm place for about two hours. Then take up, add the well-beaten eggs and the remainder of the flour. Make a soft dough, and
- 
-<!-page break, 364-->
-<!--column 1-->
- 
-knead lightly but constantly for about twenty minutes. If the dough is then elastic, form into loaves and set to rise in a warm place. When it has increased to twice its bulk, which will be in about two hours, pinch off into small pieces about half the size of a hen's egg, and mold into a small ball. Place all in a pan about two inches apart, and cover again for half an hour. Then bake in a moderate oven for about a quarter of an hour. They must be baked to a nice
-brown.
- 
-Soda Crackers.
-Biscuits de Soda.
- 
-1 Quart of Flour.
-3 Tablespoonfuls of Butter.
-2 Cups of Sweet Milk or Water.
-1/2 Teaspoonful of Soda.
-1 Teaspoonful of Salt.
- 
-Sift the flour several times and add the salt. Mix well. Then rub in the butter thoroughly. Add the soda, which you will have dissolved in a little boiling water, and the milk, and mix all well together. Then knead well and put upon the biscuit board and beat with a rolling pin for upwards of half an hour, frequently rolling the dough over, and beating hard until the air bubbles cover every part, above and below. Then roll out into a nice square even sheet of dough, about one-eighth of an inch in thickness, and cut into nice square cakes. Stick through and through with a fork here and there over the surface in even rows, and bake them in a moderate oven till
-they are hard and crisp, but not brown. Then hang in a muslin bag for about two days to thoroughly dry, and they are ready to be served.
- 
-WAFERS.
-Gaufres.
- 
-1 Pint of Flour.
-1 Tablespoonful of Butter.
-1/2 Teaspoonful of Salt.
-1/2 Pint of Sweet Milk.
-Sift the flour very, very fine, and then add the salt, and mix well. Add the milk and make into a nice, rather stiff dough. Place on a biscuit board and beat for fully a half hour, and then turn the dough over and beat for fifteen minutes more, the lightness depending upon the beating. Roll them out into cakes that are almost transparent in thinness, but which can also be handled without losing their shape. Lay them gently in the pan, or better still, roll them out on a baking sheet which has been sprinkled with flour; then they will not require handling. Bake quickly
-in a hot oven.
- 
-<!--column 2-->
- 
-SHORT CAKE.
-Gateau de Pate au Beurre.
- 
-1 Pound of Flour.
-4 Tablespoonfuls of Butter or 2 of Lard.
-1/2 Teaspoonful of Salt.
-A Pinch of Soda, or 1/2 Teaspoonful of Yeast Powder.
- 
-Sift the flour and yeast powder together, it you desire it instead of soda. Otherwise sift the flour, add the salt, and mix the lard or butter thoroughly together, rubbing between your hands till there is not a lump left. Then add sufficient tepid water to make a nice, rather stiff dough. Roll out into a thin sheet, about- half an inch thick, and criss-cross with a knife lightly in diamond shapes. Set in the oven and bake for about fifteen minutes to a light brown. This is brought to the table split open and buttered, and eaten while hot.
- 
-The short cake for fruits is made in exactly the same manner, only a quarter of a pound of butter is used, and two eggs, well beaten, and instead of water sour milk or buttermilk is used to mix, if you use soda, and sweet milk if you use yeast powder. This dough is divided in two, one for the upper, and the other for the lower crust, and is sprinkled thickly between with such fruits as strawberries, raspberries, etc. The dough should be soft and crisp.
- 
+                <div type="recipe" xml:id="pic47.20_spanish_toast">
+                    <head type="main" rend="slant(bold) align(center)">Spanish Toast.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Rotis à I'Espagnole.</foreign>
+                    </head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Egg</ingredient></item>
+                            <item>1 Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Milk</ingredient>.</item>
+                            <item>1 Gill of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Brandy</ingredient>or<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Rum</ingredient>(if desired).</item>
+                            <item>3 Tablespoonfuls of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar</ingredient>.</item>
+                            <item>½ Ounce Each of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Powdered Nutmeg</ingredient>and<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cinnamon</ingredient>.</item>
+                            <item>6 Slices of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Stale Bread</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient> for Frying.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>               
+                            Beat the egg and sugar well, and add the milk and the rum or brandy,
+                            
+                        <pb n="361"/><!--page break, 361-->
+                        <cb n="1"/><!--column 1-->
+                            if desired. Have ready the slices of stale bread, cut in diamond shapes or square, 
+                            and let them soak for about a half hour in the mixture. 
+                            Then lay into a pan of boiling lard, and fry to a golden brown. 
+                            Skim out and drain on brown paper in the mouth of the oven, and place on a hot dish. 
+                            Sprinkle with powdered sugar and grated cinnamon and nutmeg, and serve with milk or cream.
+                        </p>
+                    </div>
+                </div> 
+                
+                <div type="recipe" xml:id="pic47.21_brioches">
+                    <head type="main" rend="slant(bold) align(center)">BRIOCHES.</head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Pounds of the Best<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>½ Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>.</item>
+                            <item>1 Cup of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item>½ Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Pound of the Best<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>12 or 8<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="orientationNote">
+                        <p>               
+                            Under the name of "Brioche" is known the dainty "Roll Cake Bread' that is sold by all New Orleans bakers; 
+                            that is brought to your door in the early morning by the "Bread Man," and which forms such a delightful accompaniment to the morning cup of <name xml:id="">Café Noir</name>, <!--add id-->
+                            whether in the exclusive homes of the old French Quarter, or at the world-famed coffee stands in the French Market.
+                        </p>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            To make "Brioches." take a pound and a half of the best quality of flour, and put it in a wooden bread trough. 
+                            Make a hole in the center of the flour, and put in a half ounce of yeast, dissolved in a little warm water. 
+                            Take milk or tepid water to make the dough, using milk if you want it to be very rich and delicate, and water if you have not the milk. 
+                            Knead and mix the flour with one hand, while adding the milk or water with the other. 
+                            Make a dough that is neither too stiff nor too soft, and when perfectly smooth set the dough to rise in a moderately warm place, covering with a cloth. 
+                            Remember that if you use milk to make the dough, the milk must be scalded, that is, it must be heated to the boiling point and then allowed to grow tepid. 
+                            Let the dough rise for five or six hours, and when increased to twice its bulk, take it and add the reserved half pound of flour, into which you will have sifted the salt. 
+                            Add six eggs, beaten very light, with the sugar and butter, and mix all well together, kneading lightly with your hands, and adding more eggs
+                            If the dough is a little stiff. Then knead the dough by turning it over on itself three times, and set to rise again for an hour or three-quarters of an hour. 
+                            Cover with a cloth. 
+                            At the end of this time take it up and work again lightly, and then form into "Brioches," that is, work the dough gently with your hands, and then break it into pieces about the size of an egg. 
+                            Pat these gently, forming them into neat rolls, a little flattened, and then make one roll
+                            
+                            <cb n="2"/><!--column 2-->
+                            
+                            about twice the size of the others. This roll will form the head of the Brioche. 
+                            Have ready a baking pan with a buttered sheet of paper in it, and set the central roll in the middle. 
+                            Arrange around the other rolls, having at least six or eight, to form a perfect-looking cake. 
+                            Cover the pan with a clean, stiff cloth, and set the cake to rise for an hour longer. 
+                            When well risen, set in an oven a few degrees cooler than that used for baking Bread. 
+                            If the rolls are large, let them bake an hour and a half; if medium, one hour, and if very small, a half hour. 
+                            Some bakers and cooks glace the Brioche lightly with a beaten egg, which is spread lightly over the top, before placing in the oven. 
+                            This gives the rich, glossy surface so often seen on the Brioche. 
+                            Again, if you cannot afford butter, use lard, or half butter and lard, but the Brioche made with butter and milk is the most delicate and refined, and the true <name>Creole Brioche</name>, peculiar to New Orleans. 
+                            After the Brioches are baked, set them to cool, if you do not wish to eat them hot. 
+                            When serving, whether hot or cold, sprinkle lightly with powdered white sugar.       
+                        </p>
+                    </div>
+                </div> 
+                
+                <cb n="2"/><!--column 2-->
+                
+                <div type="recipe" xml:id="pic47.22_baba">
+                    <head type="main" rend="slant(bold) align(center)">BABA.</head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>3 Pounds of the Best <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>½ Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Yeast</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Sugar</ingredient>.</item>
+                            <item>½ Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Pound of the Best <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>12 or 14 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Seeded Raisins</ingredient>.</item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currants</ingredient>.</item>
+                            <item>½ Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Sweetened Water</ingredient>.</item>
+                            <item>A Tinge of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Saffron</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>  
+                            The dough for the "Baba" is exactly the same as that for the Brioche. 
+                            <ptr target="#pic47.20_brioches">Proceed in exactly the same manner</ptr>, only at the moment of adding the reserved flour to the leavened add a half pound of raisins seeded, and a half pound of currants, washed, picked and dried. 
+                            Add also a half glass of sweetened, tepid water, in which you will have put a little saffron. 
+                            Be careful to keep this dough much softer than that for the Brioche, adding more eggs, if necessary, to insure the proper degree of consistency. 
+                            The dough must rise at least six or seven hours. When it has increased to twice its volume, after the third rising, cook as you would the Brioche, in an oven a few degrees cooler than that used in baking Bread. 
+                            The "Baba" is made into a round cake, just like a Pound Cake or Sponge Cake, and" is formed into this round shape with the hands. 
+                            After baking let cool and sprinkle with powdered white sugar. 
+                            This is the cake that the <name>Creole bakers</name> of New Orleans send as a "Christmas" or "New Year's Offering" to their customers.
+                        </p>
+                    </div>
+                </div> 
+                
+                <div type="recipe" xml:id="pic47.23_bullfrogs">
+                    <head type="main" rend="slant(bold) align(center)">BULLFROGS.</head>head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Grenouilles.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>½ Pound of the Best <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>½ Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>.</item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>. </item>
+                            <item>½ Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Pound of the Best <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>12 or 8 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>  
+                            Under this amusing name are sold the delicious small rolls, so dainty and fine, and which are served in all our Creole homes and restaurants. 
+                            The rolls are joined together lightly in long rows of about eight inches in length and three in width. 
+                            They are brought to the doors by the bakers every morning in this old French city. 
+                            The dough for "Bullfrogs" is just the same as that for the <ptr target="#pic47.20_brioches">Brioche</ptr>, only a half pound of flour is used, instead of a pound, and a cup of butter. 
+                            Bake in the same manner. 
+                            They are delightful accompaniments to the most <foreign xml:lang="fr">recherché</foreign> breakfast.
+                        </p>
+                    </div>
+                </div> 
+
+                <div type="recipe" xml:id="pic47.24_cheese_cakes">
+                    <head type="main" rend="slant(bold) align(center)">CHEESE CAKES.</head>head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Talmouses.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>14 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Glass of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient>.</item>
+                            <item>A Pinch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>2 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream Cheeses</ingredient>.</item>
+                            <item><ingredient>A Brioche</ingredient> or <ingredient>Plain Paste</ingredient><ptr>(see Recipe Plain Paste.)</ptr></item> <!--add id-->
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>  
+                            Put the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">butter</ingredient> in a saucepan, and add the water and the salt. 
+                            Let all come to a boil, stirring constantly. 
+                            Then take from the fire and add the eggs, beaten well, and the cream cheese.
+                            Mix all well. Then take small molds or tins and line with the Plain Paste, or Brioche Paste, rolled
+                            very thin. Place within the preparation of cream cheese in quantity equal to an egg in size. 
+                            Then cover the cakes with a piece of rolled dough, and bake in a slow oven. 
+                            These are delicious breakfast cakes, and much in vogue in <name>ancient Creole homes</name>.
+                        </p>
+                    </div>
+                </div> 
+                
+                <div type="recipe" xml:id="pic47.25_peillaro">
+                    <head type="main" rend="slant(bold) align(center)">PEILLARO.</head>head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>, or Half <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient> and <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient></item>
+                            <item>12 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item> 
+                            <item>½ Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>.</item>
+                            <item>1 Gill of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Brandy</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Orange Flower Water</ingredient>.</item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Milk</ingredient>or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Tepid Water </ingredient>to Form a Dough.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Figs</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Stoned Cherries</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>  
+                            Make the same dough as for the <ptr target="#pic47.20_brioches">Brioche</ptr>. 
+                            At the moment of adding the leavened flour and the reserved flour, add the stoned cherries or peeled figs, the latter cut in halves. 
+                            Then proceed as for "Brioches," and at the last kneading add the orange flower water and the brandy. Bake as you would the "Brioche."
+                        </p>
+                    </div>
+                </div> 
+
+                <cb n="2"/><!--column 2-->
+                
+                <div type="recipe" xml:id="pic47.26_wine_cake">
+                    <head type="main" rend="slant(bold) align(center)">WINE CAKE.</head>head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Savarin.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>2 Pounds of the Best<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>½ Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast</ingredient>.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                            <item>½ Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Pound of the Best, <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                            <item>12 or 8 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Make the same dough as for the "<ptr target="#pic47.20_brioches">Brioche</ptr>," and at the last kneading place it in a cake pan lined with a buttered paper. 
+                            Set it to rise for an hour longer. Then place it in the oven, and brush over lightly with a beaten egg. 
+                            Let it bake for about an hour and a half, according to the size, and then take from the oven and soak in a syrup made of one pound of sugar and a pint of water,
+                            and boiled to a syrup, and into which you will add a wineglass of brandy or Jamaica rum.
+                        </p>
+                        <p>
+                       These delicious cakes may be formed into small cakes, like the "Brioche," only they must not be
+                       joined together around a central cake. But the "<foreign xml:lang="fr">Savarin</foreign>" is nearly always baked in small cake tins.
+                       </p>
+                    </div>
+                </div> 
+
+                <div type="recipe" xml:id="pic47.27_biscuit">
+                    <head type="main" rend="slant(bold) align(center)">BISCUIT.</head>head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Des Biscuits.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Heaping Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast Powder</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Sift the flour well, and add the salt and yeast powder, rubbing in thoroughly with your hands. 
+                            Then rub in the lard, rubbing the flour between your hands till every portion is permeated by the lard, and there are no lumps. 
+                            Gradually add water or milk, using about a pint, more or less, mixing in with your hands. 
+                            Then knead the dough until smooth and elastic. Form into molds, and
+                            lay on the biscuit board, and roll out till about a quarter of an inch in thickness. 
+                            Cut into round cakes with the biscuit cutter. 
+                            Stick lightly with a fork here and there over the surface, and bake in a quick oven for about five or six minutes. 
+                            By adding four or five eggs, and, instead of the lard, one tablespoonful of butter, to the above, you will have egg biscuit.
+                        </p>
+                    </div>
+                </div> 
+ 
+                <div type="recipe" xml:id="pic47.28_benten_biscuit">
+                    <head type="main" rend="slant(bold) align(center)">Benten Biscuit.</head>head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Biscuit Battu.</foreign></head>
+                    <div type="orientationNote">
+                        <p>
+                            This is a great Southern biscuit, and is much affected by the <name>ancient Creoles</name>. Take
+                        </p>
+                    </div>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Heaping Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Water</ingredient>, or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Half and Half</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Sift the flour and add" the salt, mixing thoroughly. 
+                            Then add the lard, and blend by rubbing through the hands till not a lump remains
+                        <pb n="363"/>
+                        <cb n="1"/>
+                            in the flour. Now add gradually the water or milk, or the milk and water combined, using half and half of each, and knead all the whole till the dough, which must not be too soft, 
+                            but rather stiff, is formed. Then lay the dough on a biscuit board on a block, and beat, for a half hour with a rolling pin. 
+                            Knead lightly, and beat again for a full ten minutes, till from every portion of the surface
+                            and sides the air bubbles or "blisters" form. Then roll out and cut into round biscuits with the cutter, or square ones with a knife, and stick here and there with a fork. 
+                            Bake in a moderate oven for about ten or fifteen minutes, till a delicate brown above and below.
+                        </p>
+                        <p> 
+                           These biscuits are delicious and are much liked by delicate people. 
+                           The biscuit should be white as snow within. The sides should be slightly cracked. 
+                           It was the pride of the <name>ancient Creole cooks</name> as to how long they could beat these biscuits without growing tired. 
+                           The steady "beat-beat" would gently echo through the olden manors from the kitchen in the rear, 
+                           and every one knew what to expect when Tante Zizi came in smiling with her beautiful biscuit, 
+                           that had risen fresh, sweet and light without yeast powder or soda.
+                        </p>
+                    </div>
+                </div> 
+
+                <div type="recipe" xml:id="pic47.29_stewed_biscuits">
+                    <head type="main" rend="slant(bold) align(center)">Benten Biscuit.</head>head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Biscuits Sautes.</foreign></head>
+                        <div type="ingredientList">
+                            <list>  
+                                <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0">Left-Over Biscuits</ingredient>.</item>
+                                <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                                <item>1½ Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            </list>
+                        </div>
+                        <div type="instructions">
+                            <p> 
+                                Left-over biscuits may be thus utilized. 
+                                Take a porcelain-lined saucepan, cut the biscuit in halves, 
+                                lay in the bottom of the saucepan, place a layer of butter over this, 
+                                and then a layer of biscuit, and so on till all are used up. 
+                                Pour milk over the whole, let it come to a boil, and serve hot.
+                            </p>
+                        </div>
+                    </div> 
+                
+                <div type="recipe" xml:id="pic47.30_soda_and_milk_biscuit">
+                    <head type="main" rend="slant(bold) align(center)">Soda and Milk Biscuit.</head>head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Biscuit au Lait et à la Soude.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>1 Heaping Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Milk</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Sift the flour and add the salt and lard, rubbing them in thoroughly with your hands, as above indicated. 
+                            Then dissolve the soda in a little warm water and add to the milk, and work rapidly and lightly. 
+                            Then lay on a biscuit board or a block of wood, and beat till the surface of the dough is full of air bubbles, 
+                            or "blisters," as the old Creole cooks call them. Roll the dough out to
+                            about a quarter of an inch in thickness, out into round biscuits with a biscuit cutter, or square ones with a knife. 
+                            Stick here and there over the surface with a fork, and bake
+                         <cb n="2"/><!--column 2-->
+                            for about six minutes in a quick oven. 
+                            If too much is used, it not only imparts a bitter taste, 
+                            but gives the flour an ugly yellowish green color, that is neither tempting nor inviting.
+                        </p>
+                        <p><!--is this considered a separate recipe?-->
+                            The Graham Biscuit is made by using three cups of Graham flour, one cup of white flour, one teaspoonful of Baking Powder, 
+                            one heaping tablespoonful of sugar or molasses, and two cups of lukewarm water, mixing the batter until it reaches the consistency of oatmeal porridge,
+                            and then pouring into buttered tins. Let it rise till light, and bake in a moderate oven. Milk may be used instead of water, if you have it.
+                        </p>
+                    </div>
+                </div> 
+                
+                <div type="recipe" xml:id="pic47.31_sweet_potato_biscuit">
+                    <head type="main" rend="slant(bold) align(center)">Sweet Potato Biscuit.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Biscuits de Patates Douces.</foreign></head>
+                    <div type="ingredientList">
+                        <list>  
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Potatoes</ingredient>.</item>
+                            <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>.</item>
+                            <item>½ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Sugar</ingredient>.</item>
+                            <item>Sufficient <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient> to Make a Batter.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p> 
+                            Boil the potatoes, pare and mash them very fine through a sieve. 
+                            Scald the milk and add the salt and sugar. 
+                            Then beat till perfectly smooth. 
+                            Add these to the potatoes and mix well. 
+                            Then add about half a cup of flour, well-sifted several times, so that it will be very light. 
+                            When the mixture grows tepid, add the yeast, which you will have dissolved in warm water, and beat well till you
+                            have a good batter. Then cover the mixture with a thick cloth, and put to rise in a warm place. 
+                            After three or four hours, when it is, well-risen, add flour sufficient to make a nice, soft dough. 
+                            Knead very lightly and quickly for about ten or fifteen minutes. At the end of this time take
+                            up and knead, lightly several times, and roll the dough out. 
+                            Cut into little biscuits, place them in a slightly-buttered or greased pan, about, two inches apart, 
+                            let them stand for half an hour in a warm place and then bake in a quick oven for twenty minutes.
+                        </p>
+                    </div>
+                </div> 
+                    
+                <div type="recipe" xml:id="pic47.32_tea_biscuits">
+                        <head type="main" rend="slant(bold) align(center)">Tea Biscuits.</head>
+                        <head type="sub" rend="align(center)"><foreign xml:lang="fr">Biscuits de Thé.</foreign></head>
+                        <div type="ingredientList">
+                            <list>  
+                                <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="vegetable">Flour</ingredient>.</item>
+                                <item>½ Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient>. </item>
+                                <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient>.</item>
+                                <item>2 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                                <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar</ingredient>.</item>
+                                <item>¼ Cake of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Compressed Yeast</ingredient>.</item>
+                            </list>
+                        </div>
+                        <div type="instructions">
+                            <p> 
+                                Scald the milk and add the butter. 
+                                Set to cool, and then add the salt and the sugar and yeast. 
+                                Add one-half of the flour. 
+                                Mix well, and then beat rapidly for about five or ten minutes. 
+                                Cover up the pan with a cloth, and set in a warm place for about two hours. 
+                                Then take up, add the well-beaten eggs and the remainder of the flour. 
+                                Make a soft dough, and
+                            <pb n="364"/><!--page break, 364-->
+                            <cb n="1"/><!--column 1-->
+                                knead lightly but constantly for about twenty minutes. 
+                                If the dough is then elastic, form into loaves and set to rise in a warm place. 
+                                When it has increased to twice its bulk, which will be in about two hours, 
+                                pinch off into small pieces about half the size of a hen's egg, and mold into a small ball. 
+                                Place all in a pan about two inches apart, and cover again for half an hour. 
+                                Then bake in a moderate oven for about a quarter of an hour. 
+                                They must be baked to a nice brown.
+                            </p>
+                        </div>
+                    </div>                 
+                
+                <div type="recipe" xml:id="pic47.33_soda_crackers">
+                     <head type="main" rend="slant(bold) align(center)">Soda Crackers.</head>
+                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Biscuits de Soda.</foreign></head>
+                     <div type="ingredientList">
+                         <list>
+                             <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                             <item>3 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                             <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk</ingredient> or <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="water">Water</ingredient>.</item>
+                             <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>.</item>
+                             <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                         </list>
+                     </div>
+                     <div type="instructions">
+                         <p>
+                             Sift the flour several times and add the salt. 
+                             Mix well. Then rub in the butter thoroughly. 
+                             Add the soda, which you will have dissolved in a little boiling water, and the milk, and mix all well together. 
+                             Then knead well and put upon the biscuit board and beat with a rolling pin for upwards of half an hour, 
+                             frequently rolling the dough over, and beating hard until the air bubbles cover every part, above and below. 
+                             Then roll out into a nice square even sheet of dough, about one-eighth of an inch in thickness, and cut into nice square cakes. 
+                             Stick through and through with a fork here and there over the surface in even rows, and bake them in a moderate oven till
+                             they are hard and crisp, but not brown. Then hang in a muslin bag for about two days to thoroughly dry, and they are ready to be served.
+                         </p>
+                         </div>
+                 </div>
+                 
+                <div type="recipe" xml:id="pic47.34_wafers">
+                     <head type="main" rend="slant(bold) align(center)">WAFERS.</head>
+                     <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gaufres.</foreign></head>
+                     <div type="ingredientList">
+                         <list>
+                             <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                             <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient>.</item>
+                             <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                             <item>½ Pint of <ingredient>Sweet Milk</ingredient>.</item>
+                         </list>
+                     </div>
+                     <div type="instructions">
+                         <p>
+                             Sift the flour very, very fine, and then add the salt, and mix well. 
+                             Add the milk and make into a nice, rather stiff dough. 
+                             Place on a biscuit board and beat for fully a half hour, and then turn the dough over and beat for fifteen minutes more, 
+                             the lightness depending upon the beating. Roll them out into cakes that are almost transparent in thinness, 
+                             but which can also be handled without losing their shape. Lay them gently in the pan, or better still, 
+                             roll them out on a baking sheet which has been sprinkled with flour; then they will not require handling. 
+                             Bake quickly in a hot oven.  
+                         </p>
+                     </div>
+                 </div>
+                    
+                <cb n="2"/><!--column 2-->
+                
+                <div type="recipe" xml:id="pic47.35_short_cake">
+                    <head type="main" rend="slant(bold) align(center)">SHORT CAKE.</head>
+                    <head type="sub" rend="align(center)"><foreign xml:lang="fr">Gateau de Pate au Beurre.</foreign></head>
+                    <div type="ingredientList">
+                        <list>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient>.</item>
+                            <item>4 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Butter</ingredient> or 2 of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient>.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt</ingredient>.</item>
+                            <item>A Pinch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda</ingredient>, or ½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Yeast Powder</ingredient>.</item>
+                        </list>
+                    </div>
+                    <div type="instructions">
+                        <p>
+                            Sift the flour and yeast powder together, it you desire it instead of soda. 
+                            Otherwise sift the flour, add the salt, and mix the lard or butter thoroughly together, 
+                            rubbing between your hands till there is not a lump left. 
+                            Then add sufficient tepid water to make a nice, rather stiff dough. 
+                            Roll out into a thin sheet, about- half an inch thick, and criss-cross with a knife lightly in diamond shapes. 
+                            Set in the oven and bake for about fifteen minutes to a light brown. 
+                            This is brought to the table split open and buttered, and eaten while hot.
+                        </p>
+                        <p>
+                            The short cake for fruits is made in exactly the same manner, only a quarter of a pound of butter is used, and two eggs, 
+                            well beaten, and instead of water sour milk or buttermilk is used to mix, if you use soda, and sweet milk if you use yeast powder. 
+                            This dough is divided in two, one for the upper, and the other for the lower crust, 
+                            and is sprinkled thickly between with such fruits as strawberries, raspberries, etc. The dough should be soft and crisp.
+                        </p>
+                    </div>
+                </div>
+
 CORN BREAD.
 Pain de Maïs.
  
