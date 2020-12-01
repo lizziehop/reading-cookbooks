@@ -1,6 +1,6 @@
 # Reading Cookbooks Encoding Guidelines and Workflow
 
-Last updated: 11/18/20 - AMK
+Last updated: 11/30/20 - AMK
 
 ---
 
@@ -48,9 +48,17 @@ Last updated: 11/18/20 - AMK
   
   - Example: The Picayune's Creole cook book 4th edition Chapter IV would be PicayuneCookbook4\_chap4.xml 
 
+- Encoding Assistance
+  
+  - Major encoding questions should be added as an issue to the [reading-cookbooks]([https://github.com/lizziehop/reading-cookbooks](https://github.com/lizziehop/reading-cookbooks/issues) GitHub page and closed when the question has been answered
+  
+  - Practical encoding questions (ex "how do I...") should be added to the group's internal discussion boards
+
 ---
 
 ## Encoding Guidelines
+
+*More information coming soon for contextual encoding.*
 
 ### Back Matter
 
@@ -184,6 +192,8 @@ Last updated: 11/18/20 - AMK
   
   - Exception is if a new ingredient is mentioned in instructions
 
+- *We are developing another level of attribute specificity for the broad ingredient categories*
+
 - ```xml
   <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="<!--class from closed list-->">
   <!-- OR -->
@@ -194,7 +204,7 @@ Last updated: 11/18/20 - AMK
   
   - Meat
   
-  - Seafood (fish, shellfish, turtles, etc)
+  - Seafood (fish, shellfish, turtles, etc.)
   
   - Dairy
   
@@ -214,9 +224,7 @@ Last updated: 11/18/20 - AMK
   
   - Leavener
   
-  - Honey
-  
-  - Sugar
+  - Sugar (refined, cane sugar)
   
   - Spice
   
@@ -228,15 +236,29 @@ Last updated: 11/18/20 - AMK
   
   - Salt
   
-  - Liquid (vinegar, broth, water, oyster juice, etc )
+  - Liquid (vinegar, broth, water, oyster juice, etc. )
   
-  - Aromatic
+  - Aromatic (garlic, hops, ginger, etc.)
   
-  - Legume (beans, lentils, peas, peanuts)
+  - Legume (beans, lentils, peas, peanuts, etc.)
   
   - Nut
   
   - Condiment
+  
+  - Sweetener (molasses, honey, vanilla sugar, beet sugar, corn sugar, etc. )
+  
+  - Premade 
+  
+  - Pickled (pickles, olives, etc.)
+  
+  - Chocolate
+  
+  - Colorant (carmine powder, etc.)
+  
+  - Undetermined
+    
+    - Items that do not fit within the current value categories and will be revisited to categorize
 
 ### Ingredient Lists
 
@@ -251,16 +273,6 @@ Last updated: 11/18/20 - AMK
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COLI)
-
-### Notes
-
-- For notes within the text, whatever is between the opening and closing tags will be what is visible as the note
-
-- ```xml
-  <note>
-  ```
-
-- [TEI](https://tei-c.org/release/doc/tei-p5-doc/en/html//examples-note.html)
 
 ### Name
 
@@ -346,6 +358,8 @@ Last updated: 11/18/20 - AMK
   <div type =“recipe” xml:id= “pic4.1_fish_soup”>
   ```
 
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
+
 ### Recipe Additions
 
 - the extra information associated with a specific recipe that may have its own title
@@ -397,6 +411,28 @@ Last updated: 11/18/20 - AMK
   ```
 
 - [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ptr.html)
+
+### Section
+
+- A section within a chapter for a group of like recipes
+
+- ex. Cookies within the desserts category
+
+- ```xml
+  <div type="section">
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
+
+### Section Title
+
+- The heading at the beginning of a section
+
+- ```xml
+  <head rend="align(center) case(allcaps) bold">
+  ```
+
+- [TEI](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
 
 ### Word Standardization
 
