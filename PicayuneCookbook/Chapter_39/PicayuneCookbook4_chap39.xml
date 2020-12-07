@@ -79,6 +79,8 @@
             <change when="2020-10-26" who="EAH">Created header and test template</change>
             <change when="2020-11-2" who="AMK">Added transcription to template and began encoding</change>
             <change when="2020-11-16" who="AMK">Encoded main structural elements, began adding attributes</change>
+            <change when="2020-11-27" who="AMK">Continued adding attributes</change>
+            <change when="2020-12-7" who="AMK">Updated attributes to reflect most recent discussion</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -104,14 +106,14 @@
                     </head>
 
                     <p>Perhaps no cuisine can boast of such a number of delicious small cakes that may serve for desserts, both elegant and choice, as
-                        the Creole cuisine. The native ingenuity of the Creole chefs adapted many of the nuts and fruits of Louisiana to various forms
-                        of sweetened batter, and the result of their efforts, handed down from generation to generation, is given in the following
-                        carefully compiled recipes, which, perhaps, after our unique “Gumbos,” “Courtbouillons,” “Bouillabaise,” “Ragouts” and
-                        “Jambalayas,” will serve better than any other recipes to give a true idea of the infinite variety and delight of the properly
-                        conducted Creole kitchen. They will also give a glimpse into the interior life of the Creole household,
-                        <!-- column 2 begins--> some of them, especially, being associated with pleasant, simple forms of “soirées,” that, alas! have
-                        almost passed away since the intercourse of the old French quarter with the American city above Canal Street has become so
-                        general.</p>
+                        the <name>Creole</name> cuisine. The native ingenuity of the <name>Creole</name> chefs adapted many of the nuts and fruits of
+                        Louisiana to various forms of sweetened batter, and the result of their efforts, handed down from generation to generation, is
+                        given in the following carefully compiled recipes, which, perhaps, after our unique “Gumbos,” “Courtbouillons,”
+                        “Bouillabaise,” “Ragouts” and “Jambalayas,” will serve better than any other recipes to give a true idea of the infinite
+                        variety and delight of the properly conducted <name>Creole</name> kitchen. They will also give a glimpse into the interior
+                        life of the <name>Creole</name> household, <!-- column 2 begins--> some of them, especially, being associated with pleasant,
+                        simple forms of “soirées,” that, alas! have almost passed away since the intercourse of the old French quarter with the
+                        American city above Canal Street has become so general.</p>
 
                     <head rend="align(center) bold">Advice and Instructions for Baking These Cakes</head>
 
@@ -132,75 +134,89 @@
                         <foreign xml:lang="fr">Bouchés.</foreign>
                     </head>
                     <div tpye="orentationNote">
-                        <p>These are a delicious form of dessert cakes. and are considered both elegant and <foreign>recherché</foreign>. Great care
-                            must be taken to trim the cakes evenly and of equal size before attempting to finish them. <foreign>Bouchés</foreign> are
-                            made with batter and also with almost all our Louisiana fruits. As the name indicates Bouchées are simply “a
-                            mouthful.”</p>
+                        <p>These are a delicious form of dessert cakes. and are considered both elegant and <foreign xml:lang="fr"
+                            >recherché</foreign>. Great care must be taken to trim the cakes evenly and of equal size before attempting to finish
+                            them. <foreign xml:lang="fr">Bouchés</foreign> are made with batter and also with almost all our Louisiana fruits. As the
+                            name indicates Bouchées are simply “a mouthful.”</p>
                     </div>
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.1_bouchee_de_dames">
                         <head>
                             <foreign xml:lang="fr">Bouchées de Dames.</foreign>
                         </head>
                         <div type="ingredientList">
                             <list>
-                                <item>9 <ingredient>Eggs.</ingredient></item>
-                                <item>1 Pound of <ingredient>White Pulverized Sugar.</ingredient></item>
-                                <item>½ Pound of <ingredient>Flour.</ingredient></item>
-                                <item>The <ingredient>Juice of 1 Lemon.</ingredient></item>
-                                <item>1 Tablespoonful of <ingredient>Vanilla Extract.</ingredient></item>
-                                <item>1 Cup of <ingredient>Currant or Other Jelly</ingredient> for Filling.</item>
-                                <item><ingredient>Transparent Icing</ingredient> to Garnish.</item>
+                                <item>9 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetner">White Pulverized
+                                    Sugar.</ingredient></item>
+                                <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                                <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="juice">Juice of 1 Lemon.</ingredient></item>
+                                <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla
+                                    Extract.</ingredient></item>
+                                <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="premade">Currant or Other Jelly</ingredient> for
+                                    Filling.</item>
+                                <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Transparent Icing</ingredient> to Garnish.</item>
                             </list>
                         </div>
                         <div type="instructions">
-                            <p>Prepare a sponge or cup cake batter. (See recipe under chapter “Cakes.”) Have ready a baking sheet, which you will
-                                cover with white writing paper. Lay the batter out on the paper by forcing it through a biscuit cutter in rounds that
-                                will measure one inch and a half in diameter. They will spread. Dredge the surface with white sugar very lightly, and
-                                bake them for about fifteen minutes or less, until they are a light color. Then trim nicely and place them upon a wire
-                                drainer. Place circular pieces of currant or other preserves on top, and garnish with a meringue or Transparent Icing.
-                                (See recipe.) Set in the stove or the sun to dry, and in ten minutes they will be ready to serve.</p>
+                            <p>Prepare a sponge or cup cake batter. <ptr target="#"><!-- need xmlid for cup cake batter -->(See recipe under chapter
+                                    “Cakes.”)</ptr> Have ready a baking sheet, which you will cover with white writing paper. Lay the batter out on
+                                the paper by forcing it through a biscuit cutter in rounds that will measure one inch and a half in diameter. They
+                                will spread. Dredge the surface with white sugar very lightly, and bake them for about fifteen minutes or less, until
+                                they are a light color. Then trim nicely and place them upon a wire drainer. Place circular pieces of currant or other
+                                preserves on top, and garnish with a meringue or Transparent Icing. <ptr target="#"
+                                    ><!-- need xmlid for transparent icing -->(See recipe.)</ptr> Set in the stove or the sun to dry, and in ten
+                                minutes they will be ready to serve.</p>
                         </div>
                     </div>
 
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.2_bouchees_with_oranges">
                         <head rend="align(center) bold"><foreign xml:lang="fr">Bouchées</foreign> With Oranges.</head>
                         <head rend="align(center)">
                             <foreign xml:lang="fr">Bouchés aux Oranges.</foreign>
                         </head>
                         <div type="ingredientList">
                             <list>
-                                <item>9 <ingredient>Eggs.</ingredient></item>
-                                <item>1 Pound of <ingredient>White Pulverized Sugar.</ingredient></item>
-                                <item>½ Pound of <ingredient>Flour.</ingredient></item>
-                                <item>The <ingredient>Juice of 1 Orange</ingredient> or 1 Tablespoonful of <ingredient>Extract.</ingredient></item>
-                                <item>1 Cup of <ingredient>Orange Marmalade.</ingredient></item>
-                                <item><ingredient>Transparent Icing</ingredient> to Garnish.</item>
+                                <item>9 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Pulverized
+                                    Sugar.</ingredient></item>
+                                <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                                <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Juice of 1 Orange</ingredient> or 1
+                                    Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Extract.</ingredient></item>
+                                <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="premade">Orange Marmalade.</ingredient></item>
+                                <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Transparent Icing</ingredient> to Garnish.</item>
                             </list>
                         </div>
-                        <div type="instructions"><p>Prepare the cake drops as directed above, with sponge or cup cake batter. Then place thin slices
-                                of oranges cooked in syrup on the Bouchées (see Orange Marmalade), and gloss them over with Transparent
-                                <!-- column 2 begins--> Icing. (See recipe.) Flavor the batter of these Bouchées with the zest of an orange or with
-                                Curaçoa liqueur.</p> (See recipe.)</div>
+                        <div type="instructions">
+                            <p>Prepare the cake drops <ptr target="#pic39.1_bouchee_de_dames">as directed above</ptr>, with sponge or cup cake batter.
+                                Then place thin slices of oranges cooked in syrup on the Bouchées <ptr target="#"
+                                    ><!-- need xmlid for orange marmalade -->(see Orange Marmalade)</ptr>, and gloss them over with Transparent
+                                <!-- column 2 begins--> Icing. <ptr target="#"><!-- need xmlid for transparent icing -->(See recipe.)</ptr> Flavor the
+                                batter of these Bouchées with the zest of an orange or with Curaçoa liqueur. <ptr target="#">(See
+                                recipe.)</ptr><!-- not sure what this refers to --></p>
+                        </div>
                     </div>
-                    <div type="recipe">
-                        <head redn="align(center) bold"><foreign xml:lang="fr">Bouchées</foreign> With Peaches.</head>
+                    <div type="recipe" xml:id="pic39.3_bouchees_with_peaches">
+                        <head rend="align(center) bold"><foreign xml:lang="fr">Bouchées</foreign> With Peaches.</head>
                         <head rend="align(center)">
                             <foreign xml:lang="fr">Bouchées aux Pêches.</foreign>
                         </head>
                         <div type="ingredientList">
                             <list>
-                                <item>9 <ingredient>Eggs.</ingredient></item>
-                                <item>1 Pound of <ingredient>White Pulverized Sugar.</ingredient></item>
-                                <item>½ Pound of <ingredient>Flour.</ingredient></item>
-                                <item>1 Tablespoonful of <ingredient>Noyau Extract.</ingredient></item>
-                                <item>1 Cup of <ingredient>Preserved Peaches.</ingredient></item>
-                                <item><ingredient>Transparent Icing</ingredient> to Garnish.</item>
+                                <item>9 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Pulverized
+                                    Sugar.</ingredient></item>
+                                <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                                <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Noyau
+                                    Extract.</ingredient></item>
+                                <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Preserved Peaches.</ingredient></item>
+                                <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Transparent Icing</ingredient> to Garnish.</item>
                             </list>
                         </div>
                         <div type="instructions">
-                            <p>Prepare the drop cakes as directed in Bouchées de Dames. Place halves of peaches, preserved in syrup, over them
-                                (home-made preserves), and gloss over with Transparent Icing, flavored with Noyau and slightly tinged with Carmine.
-                                (See recipe.)</p>
+                            <p>Prepare the drop cakes as directed in <ptr target="#pic39.1_bouchee_de_dames">Bouchées de Dames</ptr>. Place halves of
+                                peaches, preserved in syrup, over them (home-made preserves), and gloss over with Transparent Icing, flavored with
+                                Noyau and slightly tinged with Carmine. <ptr target="#"><!-- need xmlid for transparent icing -->(See
+                                recipe.)</ptr></p>
                             <p>In preparing all these bouchées do not allow any excess of moisture from the preserves. The syrup should become
                                 entirely absorbed into the bouchée before you attempt to gloss is with the icing.</p>
                             <p>Bouchées with apricots or cherries are prepared in the same way, using, in the former case a flavoring of Cedrati
@@ -208,199 +224,222 @@
                             <p>In making bouchées with preserves use any kind of marmalade to stick two bouchées together and ice the surface.</p>
                         </div>
                     </div>
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.4_bouchees_with_pineapples">
                         <head rend="align(center) bold"><foreign xml:lang="fr">Bouchées</foreign> With Pineapples.</head>
                         <head rend="aling(center)">
                             <foreign xml:lang="fr">Bouchées aux Ananas.</foreign>
                         </head>
                         <div type="ingredientList">
                             <list>
-                                <item>9 <ingredient>Eggs.</ingredient></item>
-                                <item>1 Pound of <ingredient>Pulverized Sugar.</ingredient></item>
-                                <item>½ Pound of <ingredient>Flour.</ingredient></item>
-                                <item>1 Cup of <ingredient>Preserved Pineapples.</ingredient></item>
-                                <item><ingredient>Transparent Icing</ingredient> to Garnish.</item>
+                                <item>9 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Pulverized Sugar.</ingredient></item>
+                                <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                                <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Preserved Pineapples.</ingredient></item>
+                                <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Transparent Icing</ingredient> to Garnish.</item>
                             </list>
                         </div>
                         <div type="instructions">
                             <p>Prepare the drop cakes one inch and a half in diameter. Place smaller slices of thin, preserved pineapple upon each,
-                                and gloss or glacer over with Transparent Icing (see recipe), flavoring with pineapple syrup.</p>
+                                and gloss or glacer over with Transparent Icing <ptr target="#"><!-- need xmlid for transparent icing -->(see
+                                    recipe)</ptr>, flavoring with pineapple syrup.</p>
                         </div>
                     </div>
                 </div>
                 <div type="section">
                     <head rend="align(center) case(allcaps) bold">Macaroons.</head>
-                    <div type="recipe">
-                        <head>
+                    <div type="recipe" xml:id="pic39.5_macaroons">
+                        <head rend="align(center)">
                             <foreign xml:lang="fr">Macarons.</foreign>
                         </head>
                         <div type="ingredientList">
                             <list>
-                                <item>1 Pound of Sweet Almonds.</item>
-                                <item>1 Ounce of Butter.</item>
-                                <item>2 Pounds of Sifted Sugar.</item>
-                                <item>The Whites of 6 Eggs.</item>
+                                <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                                <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                                <item>2 Pounds of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                                <item>The Whites of 6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
                             </list>
                         </div>
 
-                        <div type="instructions"><p>Blanch or scald the almonds by throwing them into a pan of boiling water, and letting them remain on
-                            the fire until you can take one of the almonds between your fingers and easily push off the skin by pushing it between the
-                            finger and thumb. Then drain and cool the almonds in cold water, and drain again. Rub the almond skins or hulls off with
-                            your hands in a cloth, throw the almonds in cold water with a little salt, wash clean, drain and dry them in another
-                            cloth. The almonds must be cold before you put them into a mortar. Then pound them to a pulp <pb n="290"
-                            /><!--Column 1 begins--> that will be as smooth as flour. Beat the whites of the eggs to a stiff froth. Add a little of
-                            the sugar and a little of the eggs as you pound pick, to prevent the almonds from becoming oily. Remember always that the
-                            paste must be kept firm as you add the remainder of the sugar and the eggs. Have ready a baking sheet, on which you will
-                            have placed a buttered piece of wafer paper. Lay the macaroons out on this, by dropping them from the spoon, in the form
-                            of a guinea fowl egg. Be very careful to place the macaroons about an inch apart, so that the balls will not touch one
-                            another. When the sheet is full, pass a wet paste brush gently over their surface. Put them in the oven, and bake at a
-                            very moderate heat till they are a light, delicate brown or faun color. When done, take out and set to cool, and take away
-                            any excess of wafer paper that may cling to the edges. Keep in a dry place.</p></div>
+                        <div type="instructions">
+                            <p>Blanch or scald the almonds by throwing them into a pan of boiling water, and letting them remain on the fire until you
+                                can take one of the almonds between your fingers and easily push off the skin by pushing it between the finger and
+                                thumb. Then drain and cool the almonds in cold water, and drain again. Rub the almond skins or hulls off with your
+                                hands in a cloth, throw the almonds in cold water with a little salt, wash clean, drain and dry them in another cloth.
+                                The almonds must be cold before you put them into a mortar. Then pound them to a pulp <pb n="290"
+                                /><!--Column 1 begins--> that will be as smooth as flour. Beat the whites of the eggs to a stiff froth. Add a little
+                                of the sugar and a little of the eggs as you pound pick, to prevent the almonds from becoming oily. Remember always
+                                that the paste must be kept firm as you add the remainder of the sugar and the eggs. Have ready a baking sheet, on
+                                which you will have placed a buttered piece of wafer paper. Lay the macaroons out on this, by dropping them from the
+                                spoon, in the form of a guinea fowl egg. Be very careful to place the macaroons about an inch apart, so that the balls
+                                will not touch one another. When the sheet is full, pass a wet paste brush gently over their surface. Put them in the
+                                oven, and bake at a very moderate heat till they are a light, delicate brown or faun color. When done, take out and
+                                set to cool, and take away any excess of wafer paper that may cling to the edges. Keep in a dry place.</p>
+                        </div>
                     </div>
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.6_chocolate_macaroons">
                         <head rend="align(center) bold">Chocolate Macaroons.</head>
-                        <head>
-                            <foreign>Macarons au Chocolat.</foreign>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Macarons au Chocolat.</foreign>
                         </head>
 
                         <div type="ingredientList">
                             <list>
-                                <item>12 Ounces of Ground Almonds.</item>
-                                <item>1½ Pounds of Sifted White Sugar.</item>
-                                <item>4 Ounces of Grated French Chocolate.</item>
-                                <item>The Whites of 3 Eggs.</item>
-                                <item>1 Tablespoonful of Vanilla Sugar.</item>
+                                <item>12 Ounces of Ground <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Almonds.</ingredient></item>
+                                <item>1½ Pounds of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White
+                                    Sugar.</ingredient></item>
+                                <item>4 Ounces of Grated <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="chocolate">French
+                                        Chocolate.</ingredient></item>
+                                <item>The Whites of 3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Vanilla
+                                    Sugar.</ingredient></item>
                             </list>
                         </div>
-                        <div type="instructions">Mix all the ingredients together in a bowl. and let it form a stiff paste. Then lay the macaroons out
-                            upon the wafer sheet in the form of lady fingers. Bake at a very moderate heat till a light brown.</div>
+                        <div type="instructions">
+                            <p>Mix all the ingredients together in a bowl and let it form a stiff paste. Then lay the macaroons out upon the wafer
+                                sheet in the form of lady fingers. Bake at a very moderate heat till a light brown.</p>
+                        </div>
                     </div>
-                    <div type="recipe">
-                        <head rend="align(center) bold">Creole Macaroons.</head>
+                    <div type="recipe" xml:id="pic39.7_creole_macaroons">
+                        <head rend="align(center) bold"><name>Creole</name> Macaroons.</head>
                         <head>
-                            <foreign>Macarons à la Créole.</foreign>
+                            <foreign xml:lang="fr">Macarons à la Créole.</foreign>
                         </head>
 
                         <div type="ingredientList">
                             <list>
-                                <item>12 Ounces of Shredded Almonds.</item>
-                                <item>4 Ounces of Ground Almonds.</item>
-                                <item>1 Pound of Sugar.</item>
-                                <item>2 Eggs.</item>
-                                <item>4 Ouncea of Wheat Flour.</item>
-                                <item>The Zest of 2 Oranges.</item>
+                                <item>12 Ounces of Shredded <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Almonds.</ingredient></item>
+                                <item>4 Ounces of Ground <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Almonds.</ingredient></item>
+                                <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                                <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Wheat Flour.</ingredient></item>
+                                <item>The Zest of 2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Oranges.</ingredient></item>
                             </list>
                         </div>
 
-                        <div type="instructions">Blanch and wash and dry the almonds. Then grind (not pound) four ounces. Shred twelve ounces, that
-                            is, after skinning, cut the almonds lengthwise into thin shreds by dividing each almond into at least five or six long
-                            shreds, or cut them crosswise, and the shreds will be shorter. Beat the yolks of the eggs and the whites separately, and
-                            then beat them together with the sugar, rubbing till very light and smooth. Add the grated zest of two Louisiana oranges,
-                            that has been rubbed on sugar, and then incorporate all the other ingredients. Roll the paste out into balls about the
-                            size of an egg. Place them on buttered wafer paper on a baking sheet, set in a moderate oven, and bake to a light
-                            color.</div>
+                        <div type="instructions">
+                            <p>Blanch and wash and dry the almonds. Then grind (not pound) four ounces. Shred twelve ounces, that is, after skinning,
+                                cut the almonds lengthwise into thin shreds by dividing each almond into at least five or six long shreds, or cut them
+                                crosswise, and the shreds will be shorter. Beat the yolks of the eggs and the whites separately, and then beat them
+                                together with the sugar, rubbing till very light and smooth. Add the grated zest of two Louisiana oranges, that has
+                                been rubbed on sugar, and then incorporate all the other ingredients. Roll the paste out into balls about the size of
+                                an egg. Place them on buttered wafer paper on a baking sheet, set in a moderate oven, and bake to a light color.</p>
+                        </div>
                     </div>
 
                     <!--column 2 begins-->
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.8_pistachio_macaroons">
                         <head rend="align(center) bold">Pistachio Macaroons.</head>
-                        <head>
-                            <foreign>Macaroons aux Pistaches.</foreign>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Macaroons aux Pistaches.</foreign>
                         </head>
 
                         <div type="ingredientList">
                             <list>
-                                <item>4 Ouncea of Bitter Almonda.</item>
-                                <item>6 Ouncea of Shredded Pistachio Kernels or Peanuts</item>
-                                <item>12 Ounces of Sifted Sugar</item>
-                                <item>The Whites of 2 Eggs.</item>
-                                <item>1 Tableapoonful of Vanilla Sugar.</item>
+                                <item>4 Ouncea of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Bitter Almonds.</ingredient></item>
+                                <item>6 Ouncea of Shredded <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Pistachio Kernels or
+                                        Peanuts</ingredient></item>
+                                <item>12 Ounces of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                                <item>The Whites of 2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Tableapoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Vanilla
+                                    Sugar.</ingredient></item>
                             </list>
                         </div>
-                        <div type="instructions">Blanch the almonds and then pound them well. Mix with the whites of the eggs till thoroughly
-                            pulverized. Then mix with the shredded pistachio kernels or peanuts, and stir well. Fill a biscuit forcer with the
-                            preparation, and drop the macaroons into round balls about the size of a hickory nut upon a wafer sheet of paper, and
-                            spread upon a baking sheet. Bake in a moderate oven till very slightly colored.</div>
+                        <div type="instructions">
+                            <p>Blanch the almonds and then pound them well. Mix with the whites of the eggs till thoroughly pulverized. Then mix with
+                                the shredded pistachio kernels or peanuts, and stir well. Fill a biscuit forcer with the preparation, and drop the
+                                macaroons into round balls about the size of a hickory nut upon a wafer sheet of paper, and spread upon a baking
+                                sheet. Bake in a moderate oven till very slightly colored.</p>
+                        </div>
                     </div>
 
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.9_spanish_macaroons">
                         <head rend="align(center) bold">Spanish Macaroons</head>
-                        <head>
-                            <foreign>Macarons à l’Espagnole.</foreign>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Macarons à l’Espagnole.</foreign>
                         </head>
 
                         <div type="ingredientList">
                             <list>
-                                <item>8 Ounces of Sweet Almonds.</item>
-                                <item>1 Pound of Sugar.</item>
-                                <item>Yolks of 12 Eggs.</item>
-                                <item>Grated Zest of 2 Oranges.</item>
-                                <item>1 Teaspoonful of Vanilla</item>
+                                <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                                <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                                <item>Yolks of 12 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>Grated Zest of 2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Oranges.</ingredient></item>
+                                <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla.</ingredient></item>
                             </list>
                         </div>
 
-                        <div type="instructions">Boil the sugar almost to a syrup, and then add the pounded almonds, and let them simmer gently for
-                            five minutes add the flavoring and let them simmer five minutes longer over a slow fire of smothered charcoal.Stir
-                            occasionally, and at the end of ten minutes add the yolks of the eggs, beaten very light. Then stir the paste over the
-                            kitchen fire with a quickened heat until it becomes firm and compact. Remove from the fire, and when it is cool roll it in
-                            your hands, which should be slightly greased with oil of sweet almonds. Lay them out in small cakes on wafer paper, spread
-                            on a baking sheet, and bake at a quick heat.</div>
+                        <div type="instructions">
+                            <p>Boil the sugar almost to a syrup, and then add the pounded almonds, and let them simmer gently for five minutes add the
+                                flavoring and let them simmer five minutes longer over a slow fire of smothered charcoal.Stir occasionally, and at the
+                                end of ten minutes add the yolks of the eggs, beaten very light. Then stir the paste over the kitchen fire with a
+                                quickened heat until it becomes firm and compact. Remove from the fire, and when it is cool roll it in your hands,
+                                which should be slightly greased with oil of sweet almonds. Lay them out in small cakes on wafer paper, spread on a
+                                baking sheet, and bake at a quick heat.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div type="recipe">
-                    <head>
-                        <foreign>CROQUIGNOLES.</foreign>
+                <div type="recipe" xml:id="pic39.10_croquignoles">
+                    <head rend="case(allcaps) align(center) bold">
+                        <foreign xml:lang="fr">Croquignoles.</foreign>
                     </head>
 
                     <div type="ingredientList">
                         <list>
-                            <item>8 Ounces of Sweet Almonds.</item>
-                            <item>4 Ounces of Bitter Almonds.</item>
-                            <item>Whites of 4 Egs.</item>
-                            <item>1½ Pounds of Fine Sugar.</item>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Bitter Almonds.</ingredient></item>
+                            <item>Whites of 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1½ Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Fine Sugar.</ingredient></item>
                         </list>
                     </div>
 
-                    <div type="instructions">Scald, skin and wash and dry the almonds, as directed in “Macarons,” and then pound them into a pulp
-                        adding the whites of the eggs gradually, remembering always that they must be beaten to a stiff froth. Then work in the sugar,
-                        and you will have a firm paste. Drop these in small balls upon wafer paper, spread upon a baking sheet of tin or iron, in
-                        distinct and separate rows. Pass a little brush, moistened with water, lightly on their surface. and bake in a very slack oven
-                        till a very light color.</div>
+                    <div type="instructions">
+                        <p>Scald, skin and wash and dry the almonds, as directed in <ptr target="#pic39.5_macaroons">“Macarons,”</ptr> and then pound
+                            them into a pulp adding the whites of the eggs gradually, remembering always that they must be beaten to a stiff froth.
+                            Then work in the sugar, and you will have a firm paste. Drop these in small balls upon wafer paper, spread upon a baking
+                            sheet of tin or iron, in distinct and separate rows. Pass a little brush, moistened with water, lightly on their surface.
+                            and bake in a very slack oven till a very light color.</p>
+                    </div>
                 </div>
 
                 <pb n="291"/>
                 <!-- Start of column 1-->
-                <div type="recipe">
-                    <head>
-                        <foreign>PETITS FOURS.</foreign>
+                <div type="recipe" xml:id="pic39.11_petits_fours">
+                    <head rend="case(allcaps) align(center) bold">
+                        <foreign xml:lang="fr">Petits Fours.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Pound of Sweet Almonds.</item>
-                            <item>1 Ounce of Butter.</item>
-                            <item>2 Pounds of Sifted Flour.</item>
-                            <item>The Whites of 8 Eggs. </item>
-                            <item>Royal Icing to Garnish.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>2 Pounds of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>The Whites of 8 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient>
+                            </item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Royal Icing</ingredient> to Garnish.</item>
                         </list>
                     </div>
 
-                    <div type="instructions">Prepare the paste as above directed, keeping it somewhat stiffer and firmer, however. Add two whites of
-                        eggs of Royal Icing (see recipe), and work both together till thoroughly incorporated. Fill the biscuit forcer, and push the
-                        macaroons through upon buttered wafer paper, as directed. Petits Fours must be baked in a very moderate oven. Otherwise the
-                        excessive heat will cause the macaroons to run into one another, and produce a useless mass. The Royal Icing necessitates the
-                        moderate oven. The <foreign>Petits Fours</foreign> are them put in pretty plaited paper cases.</div>
+                    <div type="instructions">
+                        <p>Prepare the paste as above directed, keeping it somewhat stiffer and firmer, however. Add two whites of eggs of Royal Icing
+                                <ptr target="#">
+                                <!-- need xmlid for royal icing -->(see recipe)</ptr>, and work both together till thoroughly incorporated. Fill the
+                            biscuit forcer, and push the macaroons through upon buttered wafer paper, as directed.</p>
+                        <p><foreign xml:lang="fr"><ptr target="#pic39.11_petits_fours">Petits Fours</ptr></foreign> must be baked in a very moderate
+                            oven. Otherwise the excessive heat will cause the macaroons to run into one another, and produce a useless mass. The Royal
+                            Icing necessitates the moderate oven. The <foreign xml:lang="fr">Petits Fours</foreign> are them put in pretty plaited
+                            paper cases.</p>
+                    </div>
                 </div>
 
-                <head><foreign>MASSEPAINS</foreign> (Plain)</head>
-                <div type="recipe">
-                    <head><foreign>Massepains</foreign> (simple)</head>
+                <head rend="align(center) case(allcaps) bold"><foreign xml:lang="fr">Massepains</foreign> (Plain)</head>
+                <div type="recipe" xml:id="pic39.12_massepains_plain">
+                    <head rend="align(center)"><foreign xml:lang="fr">Massepains</foreign> (simple)</head>
                     <div type="ingredientList">
                         <list>
-                            <item>12 Ounces of Sweet Almonds.</item>
-                            <item>1 Ounce of Bitter Almonds.</item>
-                            <item>The Whites of 4 Eggs.</item>
-                            <item>1½ Pounds of Sifted Sugar.</item>
+                            <item>12 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Bitter Almonds.</ingredient></item>
+                            <item>The Whites of 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1½ Pounds of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
                         </list>
                     </div>
                     <div type="instructions">Scald, skin, wash and dry the almonds. Then pound them to a flour in a mortar with the whites of the
@@ -410,51 +449,56 @@
                         rings, triangles, etc. on the wafer sheet. Then set in the oven, and bake to a very light color.</div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.13_massepains_souffles">
                     <head rend="align(center) bold">
-                        <foreign>Massepains Soufflés.</foreign>
+                        <foreign xml:lang="fr">Massepains Soufflés.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>12 Ounces of Sweet Almonds.</item>
-                            <item>1 Ounce of Bitter Almonds.</item>
-                            <item>1½ Pounds of Sifted Sugar.</item>
-                            <item>1 Ounce of Vanilla Sugar.</item>
-                            <item>The Whites of 3 Eggs.</item>
-                            <item>1 White of Egg Royal Icing.</item>
+                            <item>12 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Bitter Almonds.</ingredient></item>
+                            <item>1½ Pounds of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Vanilla Sugar.</ingredient></item>
+                            <item>The Whites of 3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 White of Egg <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Royal Icing.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Prepare the paste exactly as above, and when you take it up in the bowl add the Royal Icing, keeping the
-                        paste firm. Spread the massepains upon wafer sheets, using only the ring shape, and bake in a slack oven till a very light
-                        color.</div>
+                    <div type="instructions">
+                        <p>Prepare the paste exactly as above, and when you take it up in the bowl add the Royal Icing, keeping the paste firm. Spread
+                            the massepains upon wafer sheets, using only the ring shape, and bake in a slack oven till a very light color.</p>
+                    </div>
                 </div>
-                <div type="recipe">
-                    <head rend="align(center) bold">Strawberry <foreign>Massepains.</foreign></head>
-                    <head>
-                        <foreign>Massepains à la Fraise.</foreign>
+                <div type="recipe" xml:id="pic39.14_strawberry_massepains">
+                    <head rend="align(center) bold">Strawberry <foreign xml:lang="fr">Massepains.</foreign></head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Massepains à la Fraise.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Pound of Sweet Almonds.</item>
-                            <item>8 Ounces of Sugar.</item>
-                            <item>6 Ounces of Crushed Strawberries.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>6 Ounces of Crushed <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Strawberries.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Pound the almonds, and then process as in plain Massepains, adding <!--start of column 2-->the
-                        strawberries after you will have strained them through a sieve. Any kind of fruits or marmalades may be used in this manner
-                        for Fruit Massepains.</div>
+                    <div type="instructions">
+                        <p>Pound the almonds, and then process as in plain Massepains, adding <!--start of column 2-->the strawberries after you will
+                            have strained them through a sieve.</p>
+                        <p>Any kind of fruits or marmalades may be used in this manner for Fruit <foreign xml:lang="fr">Massepains.</foreign></p>
+                    </div>
                 </div>
 
                 <div>
                     <head rend="align(center) case(allcaps) bold">
-                        <foreign>Soufflés</foreign>
+                        <foreign xml:lang="fr">Soufflés</foreign>
                     </head>
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.15_souffles">
                         <div type="ingredientList">
                             <list>
-                                <item>2 Pounds of <ingredient class="sugar">Powdered White Sugar.</ingredient></item>
-                                <item>The Whites of 2 <ingredient class="egg">Eggs</ingredient></item>
-                                <item>1 Ounce of <ingreident class="extract">Orange Flower Water</ingreident></item>
+                                <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered White
+                                    Sugar.</ingredient></item>
+                                <item>The Whites of 2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient></item>
+                                <item>1 Ounce of <ingreident xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Orange Flower
+                                    Water</ingreident></item>
                             </list>
                         </div>
                         <div type="instructions">
@@ -465,898 +509,1027 @@
                         </div>
                     </div>
 
-                    <div type="recipe">
-                        <head rend="align(center) bold"> Almonds <foreign>Soufflés.</foreign></head>
-                        <head>
-                            <foreign>Amandes Soufflés.</foreign>
+                    <div type="recipe" xml:id="pic39.16_almonds_souffles">
+                        <head rend="align(center) bold"> Almonds <foreign xml:lang="fr">Soufflés.</foreign></head>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Amandes Soufflés.</foreign>
                         </head>
                         <div type="ingredientList">
                             <list>
-                                <item>1 Pound of Sweet Almonds.</item>
-                                <item>The White of 1 Egg.</item>
-                                <item>12 Ounces of Powdered Sugar.</item>
+                                <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                                <item>The White of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Egg.</ingredient></item>
+                                <item>12 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
                             </list>
                         </div>
-                        <div type="instructions">Blanch, skin, wash and dry one pound of sweet almonds, and then cut them into very small pieces. Add
-                            the white of one egg, beaten to a thick froth, and twelve ounces of powdered sugar. When well- mixed drop upon sheets of
-                            white paper, and bake to a very light color in a moderate oven.</div>
+                        <div type="instructions">
+                            <p>Blanch, skin, wash and dry one pound of sweet almonds, and then cut them into very small pieces. Add the white of one
+                                egg, beaten to a thick froth, and twelve ounces of powdered sugar. When well- mixed drop upon sheets of white paper,
+                                and bake to a very light color in a moderate oven.</p>
+                        </div>
                     </div>
 
-                    <div type="recipe">
-                        <head rend="align(center) bold">Pistachio <foreign>Soufflés.</foreign></head>
-                        <head>
-                            <foreign>Soufflés aux Pistaches.</foreign>
+                    <div type="recipe" xml:id="pic39.17_pistachio_souffles">
+                        <head rend="align(center) bold">Pistachio <foreign xml:lang="fr">Soufflés.</foreign></head>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Soufflés aux Pistaches.</foreign>
                         </head>
                         <div type="ingredientList">
                             <list>
-                                <item>10 Ounces of Pistachio Kernels or Peanuts.</item>
-                                <item>1½ Pounds of Fine Sugar.</item>
-                                <item>Whites of 3 Eggs.</item>
-                                <item>4 Drops Essence of Roses.</item>
-                                <item>2 Whites of Eggs of Royal Icing. (See Recipe Royal Icing.)</item>
+                                <item>10 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Pistachio Kernels or
+                                        Peanuts.</ingredient></item>
+                                <item>1½ Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Fine Sugar.</ingredient></item>
+                                <item>Whites of 3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>4 Drops <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Essence of Roses.</ingredient></item>
+                                <item>2 Whites of Eggs of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Royal Icing.</ingredient>
+                                    <ptr target="#"><!-- need xmlid for transparent icing -->(See Recipe Royal Icing.)</ptr></item>
                             </list>
                         </div>
-                        <div type="instructions">If you cannot procure the Pistachio Kernels, use Peanuts, which are called “Pistaches” by the
-                            Creoles. Scald, skin, wash and dry the pistachios or peanuts. Pound them with two ounces of sugar, adding occasionally
-                            some of the whites of the eggs, until reduced to a pulp. Then add all the sugar, gradually working it into the paste on a
-                            marble slab, being careful to have the slab and the hands very clean. Roll out paste with sugar to the thickness of a
-                            quarter of an inch on the slab. Spread the icing evenly over, and cut into various fanciful shapes. Place the cakes on the
-                            sheet wafer or lay on baking sheet, and bake in a slow heat to a very light color.</div>
+                        <div type="prefatory">
+                            <p>If you cannot procure the Pistachio Kernels, use Peanuts, which are called “Pistaches” by the <name>Creoles</name>.</p>
+                        </div>
+                        <div type="instructions">
+                            <p>Scald, skin, wash and dry the pistachios or peanuts. Pound them with two ounces of sugar, adding occasionally some of
+                                the whites of the eggs, until reduced to a pulp. Then add all the sugar, gradually working it into the paste on a
+                                marble slab, being careful to have the slab and the hands very clean. Roll out paste with sugar to the thickness of a
+                                quarter of an inch on the slab. Spread the icing evenly over, and cut into various fanciful shapes. Place the cakes on
+                                the sheet wafer or lay on baking sheet, and bake in a slow heat to a very light color.</p>
+                        </div>
                     </div>
 
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.18_rose_souffles">
                         <pb n="292"/>
                         <!-- Column 1 start-->
-                        <head rend="align(center) bold">Rose <foreign>Soufflés.</foreign></head>
-                        <head>
-                            <foreign>Soufflés à la Rose.</foreign>
+                        <head rend="align(center) bold">Rose <foreign xml:lang="fr">Soufflés.</foreign></head>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Soufflés à la Rose.</foreign>
                         </head>
                         <div type="ingredientList">
                             <list>
-                                <item>2 Pounds of Powdered White Sugar.</item>
-                                <item>The Whites of 2 Eggs.</item>
-                                <item>1 Ounce of Orange Flower Water.</item>
-                                <item>A Pinch of Carmine Powder.</item>
+                                <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered White
+                                    Sugar.</ingredient></item>
+                                <item>The Whites of 2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Orange Flower
+                                    Water.</ingredient></item>
+                                <item>A Pinch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="colorant">Carmine Powder.</ingredient></item>
                             </list>
                         </div>
-                        <div type="instructions">To two pounds of powdered sugar add the whites of two eggs and one ounce of Orange Flower Water and a
-                            little pinch of Carmine Powder. Make of all a firm, consistent paste, adding more sugar, if necessary. Roll out on a sheet
-                            of paper, sprinkled with sugar, then cut the paste into little pieces, which you will form into balls about the size of a
-                            nut. Place them on a wafer sheet on a baking sheet at a distance of two inches apart, so that they will not touch one
-                            another, should they run. Bake in a moderate oven.</div>
+                        <div type="instructions">
+                            <p>To two pounds of powdered sugar add the whites of two eggs and one ounce of Orange Flower Water and a little pinch of
+                                Carmine Powder. Make of all a firm, consistent paste, adding more sugar, if necessary. Roll out on a sheet of paper,
+                                sprinkled with sugar, then cut the paste into little pieces, which you will form into balls about the size of a nut.
+                                Place them on a wafer sheet on a baking sheet at a distance of two inches apart, so that they will not touch one
+                                another, should they run. Bake in a moderate oven.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div type="recipe">
-                    <head rend="align(center) bold">Almond and Pennut Biscuit.</head>
-                    <head>
-                        <foreign>Biscuits aux Amandes et aux Pistaches.</foreign>
+                <div type="recipe" xml:id="pic39.19_almond_and_peanut_biscuit">
+                    <head rend="align(center) bold">Almond and <choice><sic>Pennut</sic><corr>Peanut</corr></choice> Biscuit.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits aux Amandes et aux Pistaches.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>4 Ounces of Sweet Almonds.</item>
-                            <item>4 Ounces of Pistachio Kernels or Peanuts.</item>
-                            <item>4 Eggs.</item>
-                            <item>8 Ounces of Powdered Sugar.</item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Pistachio Kernels or
+                                Peanuts.</ingredient></item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Blanch, peel and pound the almonds and pistachio kernels or peanuts in a mortar till finely pulverized,
-                        adding the white of an egg, to keep the almonds from turning oily. Beat the whites of the eggs to a froth, and then add the
-                        yolks, beaten separately to a cream with the sugar. Beat well, and incorporate thoroughly. Add four tablespoonfuls of flour,
-                        fisted well, and mix well. Place in small cakes on wafer sheets of paper, and bake in a moderate oven till a very light
-                        color.</div>
+                    <div type="instructions">
+                        <p>Blanch, peel and pound the almonds and pistachio kernels or peanuts in a mortar till finely pulverized, adding the white of
+                            an egg, to keep the almonds from turning oily. Beat the whites of the eggs to a froth, and then add the yolks, beaten
+                            separately to a cream with the sugar. Beat well, and incorporate thoroughly. Add four tablespoonfuls of flour, fisted
+                            well, and mix well. Place in small cakes on wafer sheets of paper, and bake in a moderate oven till a very light
+                            color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.20_chocolate_biscuits">
                     <head rend="align(center) bold">Chocolate Biscuits.</head>
-                    <head>
-                        <foreign>Biscuits au Chocolat.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits au Chocolat.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>6 Fresh Creole Eggs.</item>
-                            <item>1 Ounce of Powdered French Chocolate.</item>
-                            <item>4 Ounces of Flour.</item>
-                            <item>10 Ounces of Pulverized Sugar.</item>
+                            <item>6 Fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><name>Creole</name> Eggs.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="chocolate">Powdered French
+                                Chocolate.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>10 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Pulverized Sugar.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the yolks of the eggs and the sugar to a cream. Add the chocolate, and mix well. Then add the flour,
-                        alternating with the whites of the eggs, beaten to a stiff froth. Add one tablespoonful of Vanilla Extract, and bake upon
-                        wafer sheets in small cakes to a light color.</div>
+                    <div type="instructions">
+                        <p>Beat the yolks of the eggs and the sugar to a cream. Add the chocolate, and mix well. Then add the flour, alternating with
+                            the whites of the eggs, beaten to a stiff froth. Add one tablespoonful of Vanilla Extract, and bake upon wafer sheets in
+                            small cakes to a light color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.21_cinnamon_biscuits">
                     <head rend="align(center) bold">Cinnamon Biscuits.</head>
-                    <head>
-                        <foreign>Biscuits à la Canelle.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits à la Canelle.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>6 Fresh Creole Eggs.</item>
-                            <item>1 Ounce of Powdered French Chocolate.</item>
-                            <item>4 Ouncea of Flour.</item>
-                            <item>10 Ounces of Pulverized Sugar.</item>
-                            <item>Ground cinnamon.</item>
-                            <item>1 Teaspoonful of Cinnamon Extract.</item>
+                            <item>6 Fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><name>Creole</name> Eggs.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="chocolate">Powdered French
+                                Chocolate.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>10 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="suagr">Pulverized Sugar.</ingredient></item>
+                            <item>Ground <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cinnamon.</ingredient></item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Cinnamon
+                                Extract.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the yolks of the eggs and the cinnamon to a cream. Add the chocolate, and mix well. Then add
-                        <!--column 2 begins-->the flour, alternating with the whites of the eggs, beaten to a stiff froth. Add one tablespoonful of
-                        Vanilla Extract, and bake upon wafer sheets in small cakes to a light color.</div>
+                    <div type="instructions">
+                        <p>Beat the yolks of the eggs and the cinnamon to a cream. Add the chocolate, and mix well. Then add <!--column 2 begins-->the
+                            flour, alternating with the whites of the eggs, beaten to a stiff froth. Add one tablespoonful of Vanilla Extract, and
+                            bake upon wafer sheets in small cakes to a light color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.22_citron_biscuits">
                     <head rend="align(center) bold">Citron Biscuits.</head>
-                    <head>
-                        <foreign>Biscuits au Citron.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits au Citron.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>6 Fresh Creole Eggs. </item>
-                            <item>The Zest of 1 Citron.</item>
-                            <item>4 Ouncea of Flour.</item>
-                            <item>12 Ounces of Powdered Sugar.</item>
-                            <item>The Juice of 1 Lemon.</item>
+                            <item>6 Fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><name>Creole</name> Eggs.</ingredient></item>
+                            <item>The Zest of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Citron.</ingredient></item>
+                            <item>4 Ouncea of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>12 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
+                            <item>The Juice of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Lemon.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the eggs and sugar to a cream, add the flour gradually, and the juice of the lemon and citron zest,
-                        and beat well. Bake on paper sheets in the form of small wafers, very thinly spread, in a moderate oven to a light
-                        color.</div>
+                    <div type="instructions">
+                        <p>Beat the eggs and sugar to a cream, add the flour gradually, and the juice of the lemon and citron zest, and beat well.
+                            Bake on paper sheets in the form of small wafers, very thinly spread, in a moderate oven to a light color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
-                    <head rend="align(center) bold">Creole Biscuits.</head>
-                    <head>
-                        <foreign>Biscuits à la Creole.</foreign>
+                <div type="recipe" xml:id="pic39.23_creole_biscuits">
+                    <head rend="align(center) bold"><name>Creole</name> Biscuits.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits à la <name>Creole</name>.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>4 Ounces of Grated Lemon.</item>
-                            <item>4 Ounces of Orange Flower Marmalade.</item>
-                            <item>4 Ounces of Apricot or Peach Marmalade.</item>
-                            <item>The Whites of 4 Eggs.</item>
+                            <item>4 Ounces of Grated <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="premade">Orange Flower
+                                Marmalade.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="premade">Apricot or Peach
+                                Marmalade.</ingredient></item>
+                            <item>The Whites of 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Mix the fruits and lemon thoroughly together, and then add three ounces of white pulverized sugar and the
-                        whites of the eggs, beaten to a stiff froth. Place the mixture in small cakes on white paper, and bake lightly. Then cover
-                        with sugar beaten with the white of an egg, in meringue form, and bake to a light brown.</div>
+                    <div type="instructions">
+                        <p>Mix the fruits and lemon thoroughly together, and then add three ounces of white pulverized sugar and the whites of the
+                            eggs, beaten to a stiff froth. Place the mixture in small cakes on white paper, and bake lightly. Then cover with sugar
+                            beaten with the white of an egg, in meringue form, and bake to a light brown.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
-                    <head rend="align(center) bold">Citron Biscuits.</head>
-                    <head>
-                        <foreign>Biscuits aux Avelines.</foreign>
+                <div type="recipe" xml:id="pic39.24_filbert_biscuits">
+                    <head rend="align(center) bold">Filbert Biscuits.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits aux Avelines.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>4 Ounces of Sweet Almonds.</item>
-                            <item>4 Ounces of Filberts.</item>
-                            <item>The Whites of 4 Eggs.</item>
-                            <item>8 Ounces of Powdered Sugar.</item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Sweet Almonds.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Filberts.</ingredient></item>
+                            <item>The Whites of 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Blanch, peel and pound the almond and filbert kernels in a mortar till finely pulverized, adding the
-                        white of an egg, to keep the almonds from turning oily. Beat the whites of three eggs to a froth, and then add the yolks,
-                        beaten separately to a cream with the suar, incorporate thoroughly, and beat well. Add four tablespoonfuls of flour, sifted
-                        well, and mix well. Place in small cakes on wafer sheets of paper, and bake in a moderate oven till a very light color.</div>
+                    <div type="instructions">
+                        <p>Blanch, peel and pound the almond and filbert kernels in a mortar till finely pulverized, adding the white of an egg, to
+                            keep the almonds from turning oily. Beat the whites of three eggs to a froth, and then add the yolks, beaten separately to
+                            a cream with the suar, incorporate thoroughly, and beat well. Add four tablespoonfuls of flour, sifted well, and mix well.
+                            Place in small cakes on wafer sheets of paper, and bake in a moderate oven till a very light color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.25_lemon_biscuits">
                     <head rend="align(center) bold">Lemon Biscuit.</head>
-                    <head>
-                        <foreign>Biscuit au Citron.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuit au Citron.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>6 Fresh Creole Eggs.</item>
-                            <item>The Zest of 1 Lemon.</item>
-                            <item>4 Ounces of Flour.</item>
-                            <item>12 Ounces of Powdered Sugar.</item>
-                            <item>The Juice of 1 Lemon or 1 Tablespoonful of Lemon Extract.</item>
+                            <item>6 Fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><name>Creole</name> Eggs.</ingredient></item>
+                            <item>The Zest of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>12 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
+                            <item>The Juice of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Lemon</ingredient> or 1
+                                Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Lemon Extract.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the eggs and sugar to a cream, add the flour gradually, and the juice and zest of a lemon, and beat
-                        well. Bake on paper sheets in <!--page 293, page 299 of pdf-->the form of small wafers, very thinly spread, in a moderate
-                        oven, to a light color.</div>
+                    <div type="instructions">
+                        <p>Beat the eggs and sugar to a cream, add the flour gradually, and the juice and zest of a lemon, and beat well. Bake on
+                            paper sheets in <pb n="293"/><!--start column 1-->the form of small wafers, very thinly spread, in a moderate oven, to a
+                            light color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.26_orange_biscuits">
                     <head rend="align(center) bold">Orange Biscuits.</head>
-                    <head>
-                        <foreign>Biscuits à l’Orange.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits à l’Orange.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>6 Fresh Creole Eggs.</item>
-                            <item>The Zest of 1 Orange.</item>
-                            <item>4 Ounces of Flour.</item>
-                            <item>12 Ounces of Powdered Sugar.</item>
-                            <item>The Juice of 1 Orange.</item>
+                            <item>6 Fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><name>Creole</name> Eggs.</ingredient></item>
+                            <item>The Zest of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Orange.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>12 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
+                            <item>The Juice of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Orange.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the eggs and sugar to a cream, add the flour gradually, and the juice and zest of the orange, and
-                        beat well. Bake on paper sheets, in the form of small wafers, very thinly spread, in a moderate oven, to a light color.</div>
+                    <div type="instructions">
+                        <p>Beat the eggs and sugar to a cream, add the flour gradually, and the juice and zest of the orange, and beat well. Bake on
+                            paper sheets, in the form of small wafers, very thinly spread, in a moderate oven, to a light color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.27_vanilla_biscuits">
                     <head rend="align(center) bold">Vanilla Biscuits.</head>
-                    <head>
-                        <foreign>Biscuits à la Vanille.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits à la Vanille.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>6 Fresh Creole Eggs.</item>
-                            <item>1 Ounce of Vanilla Sugar.</item>
-                            <item>4 Ounces of Flour.</item>
-                            <item>10 Ounces of Pulverized Sugar.</item>
-                            <item>1 Tablespoonful of Vanilla Extract.</item>
+                            <item>6 Fresh <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg"><name>Creole</name> Eggs.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Vanilla Sugar.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>10 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Pulverized Sugar.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla
+                                Extract.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the yolks of the eggs and the sugar to a cream. Add the chocolate, and mix well. Then add the flour,
-                        alternating with the whites of the eggs, beaten to a stiff froth. Add one tablespoonful of Vanilla Extract, and bake upon
-                        wafer sheets in small cakes to a light color.</div>
+                    <div type="instructions">
+                        <p>Beat the yolks of the eggs and the sugar to a cream. Add the <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0"
+                                class="chocolate">chocolate</ingredient>, and mix well. Then add the flour, alternating with the whites of the eggs,
+                            beaten to a stiff froth. Add one tablespoonful of Vanilla Extract, and bake upon wafer sheets in small cakes to a light
+                            color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.28_frascati_croquantes">
                     <head rend="align(center) bold">Frascati Croquantes.</head>
-                    <head>
-                        <foreign>Croquantes Frascati.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Croquantes Frascati.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>8 Ounces of Flour.</item>
-                            <item>6 Ounces of Sugar.</item>
-                            <item>2 Ounces of Ground Almonds.</item>
-                            <item>2 Whole Eggs and 3 Yolks.</item>
-                            <item>1 Ounce Aniseed.</item>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>6 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>2 Ounces of Ground <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="nut">Almonds.</ingredient></item>
+                            <item>2 Whole <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs</ingredient> and 3 Yolks.</item>
+                            <item>1 Ounce <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Aniseed.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Break the eggs into a bowl, and beat light, and add the sugar and beat very light; add the almonds,
-                        pounded to a powder, and the aniseed. Beat all together till well incorporated. Add the flour and beat thoroughly. Have a
-                        marble slab clean and dry. Roll the paste out on the slab in the form of a long, thick rope. Then take a knife and cut it into
-                        pieces about the size of a guinea egg. Roll each between the palms of your hands, and shape them into oval balls. Have a
-                        buttered sheet of paper on a baking sheet. Make a slight incision into each cake by pressing the back of the knife across the
-                        surface. Brush the egg over them, and sprinkle lightly with granulated sugar, and bake in a moderate heat to a light
-                        color.</div>
+                    <div type="instructions">
+                        <p>Break the eggs into a bowl, and beat light, and add the sugar and beat very light; add the almonds, pounded to a powder,
+                            and the aniseed. Beat all together till well incorporated. Add the flour and beat thoroughly. Have a marble slab clean and
+                            dry. Roll the paste out on the slab in the form of a long, thick rope. Then take a knife and cut it into pieces about the
+                            size of a guinea egg. Roll each between the palms of your hands, and shape them into oval balls. Have a buttered sheet of
+                            paper on a baking sheet. Make a slight incision into each cake by pressing the back of the knife across the surface. Brush
+                            the egg over them, and sprinkle lightly with granulated sugar, and bake in a moderate heat to a light color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
-                    <head rend="align(center) bold">Creole Wafers.</head>
-                    <head>
-                        <foreign>Gaufres à la Créole.</foreign>
+                <div type="recipe" xml:id="pic39.29_creole_wafers">
+                    <head rend="align(center) bold"><name>Creole</name> Wafers.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Gaufres à la <name>Créole</name>.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>9 Ounces of Flour.</item>
-                            <item>4 Ounces of Sifted Sugar.</item>
-                            <item>8 Eggs.</item>
-                            <item>1 Wineglassful of Noyau.</item>
-                            <item>1 Pint Whipped Cream.</item>
-                            <item>1 Tablespoonful of Vanilla.</item>
-                            <item>A Pinch of Salt.</item>
+                            <item>9 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>4 Ounces of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>8 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Wineglassful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Noyau.</ingredient></item>
+                            <item>1 Pint <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Whipped Cream.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla.</ingredient></item>
+                            <item>A Pinch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the sugar and yolks of the eggs to a cream. Add the Noyau <!--column 2 begins-->and salt, Vanilla
-                        and flour, and incorporate thoroughly till light. Then add the whites of the eggs and the cream. Mix all lightly together,
-                        taking great care that all are well-mixed. Bake very, very light in wafer irons. The irons should be heated over a clear
-                        charcoal fire, and when hot brush inside with a little clarified butter. A large spoonful of butter should be poured into the
-                        undersheet of the wafer irons, then close in, and bake to a golden brown color. Sprinkle lightly with sugar. These wafers are
-                        delicious, handed around with ices.</div>
+                    <div type="instructions">
+                        <p>Beat the sugar and yolks of the eggs to a cream. Add the Noyau <!--column 2 begins-->and salt, Vanilla and flour, and
+                            incorporate thoroughly till light. Then add the whites of the eggs and the cream. Mix all lightly together, taking great
+                            care that all are well-mixed. Bake very, very light in wafer irons. The irons should be heated over a clear charcoal fire,
+                            and when hot brush inside with a little clarified butter. A large spoonful of butter should be poured into the undersheet
+                            of the wafer irons, then close in, and bake to a golden brown color. Sprinkle lightly with sugar. These wafers are
+                            delicious, handed around with ices.</p>
+                    </div>
                 </div>
 
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.30_ginger_wafers">
                     <head rend="align(center) bold">Ginger Wafers.</head>
-                    <head>
-                        <foreign>Gaufres au Gingembre.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Gaufres au Gingembre.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Large Spoon of Ground Ginger.</item>
-                            <item>4 Ounces of Molasses.</item>
-                            <item>8 Ounces of Flour.</item>
-                            <item>8 Ounces of Sifted Sugar.</item>
-                            <item>Whites of 4 Eggs.</item>
-                            <item>½ Pint of Cream.</item>
-                            <item>1 Wineglassful of Brandy.</item>
-                            <item>1 Tablespoonful of Vanilla Sugar.</item>
+                            <item>1 Large Spoon of Ground <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Ginger.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Molasses.</ingredient></item>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>8 Ounces of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>Whites of 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>½ Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream.</ingredient></item>
+                            <item>1 Wineglassful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Brandy.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Vanilla
+                                Sugar.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the whites of the eggs to a cream and add it to the flour and cream, and add it to the flour and
-                        milk, salt and sugar, molasses and ginger. Work all well together very light in a bowl until you have a smooth batter. Add the
-                        brandy and Ginger Extract and beat vigorously ten minutes longer. Have ready the wafer irons and a clear charcoal fire. Brush
-                        the irons with butter and place the wafers within and bake on both sides to a light fawn color. </div>
+                    <div type="instructions">
+                        <p>Beat the whites of the eggs to a cream and add it to the flour and cream, and add it to the flour and milk, salt and sugar,
+                            molasses and ginger. Work all well together very light in a bowl until you have a smooth batter. Add the brandy and Ginger
+                            Extract and beat vigorously ten minutes longer. Have ready the wafer irons and a clear charcoal fire. Brush the irons with
+                            butter and place the wafers within and bake on both sides to a light fawn color.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.31_french_wafers">
                     <head rend="align(center) bold">French Wafers.</head>
-                    <head>
-                        <foreign>Gaufres Françaises.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr"> Gaufres Françaises.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>8 Ounces of Flour.</item>
-                            <item>8 Ounces of Sifted Sugar.</item>
-                            <item>Whites of 4 Eggs.</item>
-                            <item>½ Pint of Cream.</item>
-                            <item>1 Wineglassful of Brandy.</item>
-                            <item>1 Tablespoonful of Vanilla Sugar.</item>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>8 Ounces of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>Whites of 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>½ Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream.</ingredient></item>
+                            <item>1 Wineglassful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Brandy.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Vanilla
+                                Sugar.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the whites of the eggs to a cream and add to the flour, milk, salt and sugar. Work all together very
-                        light in a bowl, until you have a very smooth batter. Add the brandy and beat vigorously ten minutes longer. Have ready the
-                        wafer irons and a clear charcoal fire. Brush the irons with butter and place the wafers within and bake on both sides to a
-                        light brown color. If desired, the wafers may be rolled into fancy shapes.</div>
+                    <div type="instructions">
+                        <p>Beat the whites of the eggs to a cream and add to the flour, milk, salt and sugar. Work all together very light in a bowl,
+                            until you have a very smooth batter. Add the brandy and beat vigorously ten minutes longer. Have ready the wafer irons and
+                            a clear charcoal fire. Brush the irons with butter and place the wafers within and bake on both sides to a light brown
+                            color. If desired, the wafers may be rolled into fancy shapes.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.32_spanish_wafers">
                     <head rend="align(center) bold">Spanish Wafers.</head>
-                    <head>
-                        <foreign>Gaufres Espagnoles.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Gaufres Espagnoles.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>9 Ounces of Flour.</item>
-                            <item>2 Ounces of Sifted Sugar.</item>
-                            <item>½ Pint of Chocolate Water.</item>
-                            <item>12 Drops of Essence of Vanilla.</item>
-                            <item>2 Eggs.</item>
-                            <item>2 Gills of Cream.</item>
+                            <item>9 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>2 Ounces of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>½ Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="chocolate">Chocolate Water.</ingredient></item>
+                            <item>12 Drops of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Essence of Vanilla.</ingredient></item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>2 Gills of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Prepare the chocolate water by dissolving well two ounces of french chocolate in a half pint of boiling
-                            <pb n="294"/><!-- Column 1 begins-->water. Place the sugar, vanilla, eggs and cream in a pan, work all vigorously into a
-                        smooth, light batter, add the cold Chocolate Water, beat all together well for ten minutes longer. Then bake the wafers, as
-                        directed in recipe for French Wafers, and curl in the form of cornucopias while still warm and able to retain
-                        impressions.</div>
+                    <div type="instructions">
+                        <p>Prepare the chocolate water by dissolving well two ounces of french chocolate in a half pint of boiling <pb n="294"
+                            /><!-- Column 1 begins-->water. Place the sugar, vanilla, eggs and cream in a pan, work all vigorously into a smooth,
+                            light batter, add the cold Chocolate Water, beat all together well for ten minutes longer. Then bake the wafers, as
+                            directed in recipe for French Wafers, and curl in the form of cornucopias while still warm and able to retain
+                            impressions.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.33_cream_puffs">
                     <head rend="align(center) bold">Cream Puffs.</head>
-                    <head>
-                        <foreign>Choux à la Crème.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Choux à la Crème.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Cup of Flour.</item>
-                            <item>½ Cup of Butter.</item>
-                            <item>4 Eggs.</item>
-                            <item>1 Cup of Water.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water.</ingredient></item>
                         </list>
                     </div>
 
-                    <div type="instructions">Set the water to boil, and while boiling, stir in the butter. Then add the flour, and stir continually
-                        till the paste leaves the sides of the saucepan. Set the mixture to cool. When cool, stir one after another, the three eggs
-                        in, without beating them. After adding the last egg, beat very vigorously for about four minutes; then drop by tablespoonfuls
-                        on buttered tins, and set in the oven to bake from twenty to thirty minutes. Watch carefully so that they will not burn. When
-                        cold make an opening inside, through the side of the paste, with a sharp knife, and fill it with the following custard:</div>
-                    <div type="recipeAddition">
+                    <div type="instructions">
+                        <p>Set the water to boil, and while boiling, stir in the butter. Then add the flour, and stir continually till the paste
+                            leaves the sides of the saucepan. Set the mixture to cool. When cool, stir one after another, the three eggs in, without
+                            beating them. After adding the last egg, beat very vigorously for about four minutes; then drop by tablespoonfuls on
+                            buttered tins, and set in the oven to bake from twenty to thirty minutes. Watch carefully so that they will not burn. When
+                            cold make an opening inside, through the side of the paste, with a sharp knife, and fill it with the following
+                            custard:</p>
+                    </div>
+                    <div type="recipeAddition" xml:id="">
                         <div type="ingredientList">
                             <list>
-                                <item>1 Cup of Milk</item>
-                                <item>1 Tablespoonful of Sugar.</item>
-                                <item>3 Eggs.</item>
-                                <item>1 Teaspoonful of Vanilla.</item>
-                                <item>1 Tablespoonful of Cornstarcb.</item>
+                                <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient></item>
+                                <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                                <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla.</ingredient></item>
+                                <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Cornstarch.</ingredient></item>
                             </list>
                         </div>
-                        <div type="instructions">Rub the cornstarch in a little water and add it to the boiling milk. Let it boil three minutes,
-                            stirring constantly. Beat the eggs, without separating, and the sugar till light, and add to the boiling milk. Add the
-                            vanilla, stirring all well. Fill the cakes and set away to cool.</div>
+                        <div type="instructions">
+                            <p>Rub the cornstarch in a little water and add it to the boiling milk. Let it boil three minutes, stirring constantly.
+                                Beat the eggs, without separating, and the sugar till light, and add to the boiling milk. Add the vanilla, stirring
+                                all well. Fill the cakes and set away to cool.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.34_chocolate_eclairs">
                     <head rend="align(center) bold">Chocolate Éclairs.</head>
-                    <head>
-                        <foreign>Éclairs du Chocolat.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Éclairs du Chocolat.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Cup of Flower.</item>
-                            <item>1 Cup of Water.</item>
-                            <item>4 Eggs.</item>
-                            <item>½ Cup of Water.</item>
-                            <item>2 Ounces of Chocolate.</item>
-                            <item>4 Ounces of Powdered Sugar.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain"
+                                        ><choice><sic>Flower.</sic><corr>Flour.</corr></choice></ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water.</ingredient></item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water.</ingredient></item>
+                            <item>2 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="chocolate">Chocolate.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Make a Cream Puff Paste as above. Put into a tube or a pastry bag and press out upon well-buttered tins
-                        in the shape of Lady Fingers. This will give the Éclairs the right shape, making them about five inches long. Set them to bake
-                        in a quick oven twenty or thirty minutes. If the oven is of the right temperature, and the cakes are properly baked, they will
-                        be hollow within ad very daintily crusted without. Fill in with a mixture made by melting two ounces of chocolate and four
-                        ounces of powdered sugar, and set away to cool. You may ice by dipping one end into the icing, and then setting away to dry.
-                        The Éclairs may be filled with preserved fruits, Orange <!--column 2 begins-->Icing, Whipped Cream, or any marmalade.</div>
+                    <div type="instructions">
+                        <p>Make a Cream Puff Paste as above. Put into a tube or a pastry bag and press out upon well-buttered tins in the shape of
+                            Lady Fingers. This will give the Éclairs the right shape, making them about five inches long. Set them to bake in a quick
+                            oven twenty or thirty minutes. If the oven is of the right temperature, and the cakes are properly baked, they will be
+                            hollow within ad very daintily crusted without. Fill in with a mixture made by melting two ounces of chocolate and four
+                            ounces of powdered sugar, and set away to cool. You may ice by dipping one end into the icing, and then setting away to
+                            dry. The Éclairs may be filled with preserved fruits, Orange <!--column 2 begins-->Icing, Whipped Cream, or any
+                            marmalade.</p>
+                    </div>
                 </div>
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.35_pineapple_eclairs">
                     <head rend="align(center) bold">Pineapple Éclairs.</head>
-                    <head>
-                        <foreign>Éclairs à l’Ananas.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Éclairs à l’Ananas.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Cup of Flour.</item>
-                            <item>1 Cup of Water.</item>
-                            <item>4 Eggs.</item>
-                            <item>½ Cup of Water.</item>
-                            <item>2 Ounces of Preserved Pineapple or Pineapple Mousse.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water.</ingredient></item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water.</ingredient></item>
+                            <item>2 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Preserved Pineapple or Pineapple
+                                    Mousse.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Pineapple Éclairs are made in the same manner as Chocolate Éclairs (see recipe), only they are filled in
-                        with preserved pineapple or Pineapple Mousse.</div>
+                    <div type="instructions">
+                        <p>Pineapple Éclairs are made in the same manner as Chocolate Éclairs <ptr target="#pic39.34_chocolate_eclairs">(see
+                                recipe)</ptr>, only they are filled in with preserved pineapple or Pineapple Mousse.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.36_cup_cake">
                     <head rend="align(center) bold">Cup Cake</head>
-                    <head>
-                        <foreign>Pétits Gateaux.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Pétits Gateaux.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Cup of Butter.</item>
-                            <item>2 Cups of Sugar.</item>
-                            <item>4 Cups of Flour.</item>
-                            <item>1 Cup of Sour Cream.</item>
-                            <item>3 Eggs.</item>
-                            <item>1 Tablespoonful of Brandy.</item>
-                            <item>1 Tablespoonful of Rose or Vanilla Extract.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>4 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Cream.</ingredient></item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Brandy.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Rose or Vanilla
+                                    Extract.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the butter and sugar to a cream, add the well-beaten yolks of the eggs, and then add the cream. Mix
-                        thoroughly, and sift in gradually the flour, beating thoroughly. Add the whites of the eggs, beaten to a stiff froth, and the
-                        brandy and rose water. Now dissolve a half teaspoonful of soda in a little sweet milk and add, being very careful that there
-                        are no lumps in the soda. Beat well for a few minutes and bake at once, in small tins or cups, which you will grease well with
-                        butter and only half fill with the cake batter.</div>
+                    <div type="instructions">
+                        <p>Beat the butter and sugar to a cream, add the well-beaten yolks of the eggs, and then add the cream. Mix thoroughly, and
+                            sift in gradually the flour, beating thoroughly. Add the whites of the eggs, beaten to a stiff froth, and the brandy and
+                            rose water. Now dissolve a half teaspoonful of soda in a little sweet milk and add, being very careful that there are no
+                            lumps in the soda. Beat well for a few minutes and bake at once, in small tins or cups, which you will grease well with
+                            butter and only half fill with the cake batter.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.37_jelly_cake">
                     <head rend="align(center) bold">Jelly Cake.</head>
-                    <head>
-                        <foreign>Gateau aux Confitures.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Gateau aux Confitures.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Cup of Butter.</item>
-                            <item>2 Cups of Sugar.</item>
-                            <item>4 Cups of Flour.</item>
-                            <item>1 Cup of Sour Cream.</item>
-                            <item>3 Eggs.</item>
-                            <item>1 Tablespoonful of Brandy.</item>
-                            <item>1 Tablespoonful of Vanilla Extract.</item>
-                            <item>3 Ounces of Currant, Grape or any Jelly Desired.</item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>4 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Cream.</ingredient></item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Brandy.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla
+                                Extract.</ingredient></item>
+                            <item>3 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="premade">Currant, Grape or any Jelly
+                                    Desired.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Prepare the batter exactly as for Cup Cake or Sponge Cake, butter the small tins and pour in the batter
-                        in such thin layers as to allow the cakes to be just a half inch thick when baked. Let them bake for a few minutes to a light
-                        brown, and as they are taken from the oven lay them on the table and spread a layer of Currant or Grape Jelly between; then
-                        add alternate layers of cake and jelly, reserving the prettiest cakes for the top layers. Do not put jelly on this. Ice or
-                        powder with sifted sugar.</div>
+                    <div type="instructions">
+                        <p>Prepare the batter exactly as for Cup Cake or Sponge Cake, butter the small tins and pour in the batter in such thin layers
+                            as to allow the cakes to be just a half inch thick when baked. Let them bake for a few minutes to a light brown, and as
+                            they are taken from the oven lay them on the table and spread a layer of Currant or Grape Jelly between; then add
+                            alternate layers of cake and jelly, reserving the prettiest cakes for the top layers. Do not put jelly on this. Ice or
+                            powder with sifted sugar.</p>
+                    </div>
                 </div>
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.38_queen_cake">
                     <head rend="align(center) bold">Queen Cake.</head>
-                    <head>
-                        <foreign>Gateau à la Reine.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Gateau à la Reine.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Pound of Flour.</item>
-                            <item>4 Ounces of Sugar.</item>
-                            <item>1 Pound of Currants.</item>
-                            <item>1 Pound of Butter.</item>
-                            <item>1 Teacupful of Cream.</item>
-                            <item>8 Eggs.</item>
-                            <item>1 Tablespoonful of Rose Water.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grains">Flour.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currants.</ingredient></item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>1 Teacupful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Cream.</ingredient></item>
+                            <item>8 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Rose Water.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the sugar and butter to a cream, and then add the well-beaten <!--page 295, page 301 in pdf-->yolks
-                        of the egs. Now add the cream, and then one-half of the flour, and next one-half of the whites of the eggs, beaten to a stiff
-                        froth. Add the remainder of the flour, into which you will have dredged the currants that have been well-washed cleansed and
-                        picked and dried; mix thoroughly and add the remainder of the whites and the rose water. Beat as you would a pound cake. Then
-                        pour into small, buttered tins and bake immediately to a light brown.</div>
+                    <div type="instructions">
+                        <p>Beat the sugar and butter to a cream, and then add the well-beaten <pb n="295"/><!--start column 1-->yolks of the egs. Now
+                            add the cream, and then one-half of the flour, and next one-half of the whites of the eggs, beaten to a stiff froth. Add
+                            the remainder of the flour, into which you will have dredged the currants that have been well-washed cleansed and picked
+                            and dried; mix thoroughly and add the remainder of the whites and the rose water. Beat as you would a pound cake. Then
+                            pour into small, buttered tins and bake immediately to a light brown.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.39_tea_cakes">
                     <head rend="align(center) bold">Tea Cakes.</head>
-                    <head>
-                        <foreign>Gateau de Thé.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Gateau de Thé.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Pound of Flour.</item>
-                            <item>½ Pound of Butter.</item>
-                            <item>4 Eggs.</item>
-                            <item>6 Ounces of Powdered Sugar.</item>
-                            <item>½ Cup of Sour Milk.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>6 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Milk.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the butter and sugar to a cream. Add the well-beaten eggs, and incorporate thoroughly. Add the milk,
-                        and then gradually add the flour, making a light soft dough. Mix all well together, and roll the paste out very thin. Cut into
-                        rounds or squares, and put into a slightly buttered baking pan. Bake to a bright yellow, and serve as needed. Some brush the
-                        tops of the cakes with beaten eggs, and sprinkle the tops with raisins or currants, well seeded and washed and dried.</div>
+                    <div type="instructions">
+                        <p>Beat the butter and sugar to a cream. Add the well-beaten eggs, and incorporate thoroughly. Add the milk, and then
+                            gradually add the flour, making a light soft dough. Mix all well together, and roll the paste out very thin. Cut into
+                            rounds or squares, and put into a slightly buttered baking pan. Bake to a bright yellow, and serve as needed. Some brush
+                            the tops of the cakes with beaten eggs, and sprinkle the tops with raisins or currants, well seeded and washed and
+                            dried.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
-                    <head rend="align(center) bold">Cocaanut Fingers.</head>
-                    <head>
-                        <foreign>Biscuits à la Cuiller au Coco.</foreign>
+                <div type="recipe" xml:id="pic39.40_coconut_fingers">
+                    <head rend="align(center) bold"><choice><sic>Cocaanut</sic><corr>Coconut</corr></choice> Fingers.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits à la Cuiller au Coco.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>4 Ounces of Butter.</item>
-                            <item>4 Ounces of Sugar.</item>
-                            <item>3 Eggs.</item>
-                            <item>2 Ounces of Flour.</item>
-                            <item>4 Ounces of Grated Cocoanut.</item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>2 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>4 Ounces of Grated <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit"
+                                            ><choice><sic>Cocoanut.</sic><corr>Coconut</corr></choice></ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Eat the butter, sugar and eggs together for five minutes, blending thoroughly. Then add the flour, and
-                        immediately after the grated cocoanut. Beat well, and have ready buttered tins. Divide the mixture into fingers of about four
-                        or five inches in length, bake in a moderately quick oven for thirty minutes, and when cool dust with powdered sugar.</div>
+                    <div type="instructions">
+                        <p>Beat the butter, sugar and eggs together for five minutes, blending thoroughly. Then add the flour, and immediately after
+                            the grated cocoanut. Beat well, and have ready buttered tins. Divide the mixture into fingers of about four or five inches
+                            in length, bake in a moderately quick oven for thirty minutes, and when cool dust with powdered sugar.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.41_lady_fingers">
                     <head rend="align(center) bold">Lady Fingers.</head>
-                    <head>
-                        <foreign>Biscuits à la Cuiller.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits à la Cuiller.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>½ of a Pound of Flour.</item>
-                            <item>4 Ounces of Powdered White Sugar.</item>
-                            <item>5 Eggs.</item>
+                            <item>½ of a Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>4 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered White Sugar.</ingredient></item>
+                            <item>5 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Put the sugar and the yolks of the eggs into a bowl and beat thoroughly till very light. Beat the whites
-                        of the eggs to a stiff froth and add the flour. Mix well and add immediately the whites of the eggs. Beat all together gently
-                        for a few minutes, and the preparation is ready for baking. Have ready a long sheet of paper, spread on a baking tin. Take a
-                        tablespoon and drop the batter along the paper, in lengths of four or five <!--column 2 begins--> inches, being careful to
-                        leave an empty space of an inch between each cake; set to bake in a very moderate oven. The cakes must not spread or rise. If
-                        they rise, the oven is too hot, and if they spread, you may be sure the oven is too cool. Bake to a very light brown, for
-                        twenty minutes, in a moderate oven.</div>
+                    <div type="instructions">
+                        <p>Put the sugar and the yolks of the eggs into a bowl and beat thoroughly till very light. Beat the whites of the eggs to a
+                            stiff froth and add the flour. Mix well and add immediately the whites of the eggs. Beat all together gently for a few
+                            minutes, and the preparation is ready for baking.</p>
+                        <p>Have ready a long sheet of paper, spread on a baking tin. Take a tablespoon and drop the batter along the paper, in lengths
+                            of four or five <!--column 2 begins--> inches, being careful to leave an empty space of an inch between each cake; set to
+                            bake in a very moderate oven. The cakes must not spread or rise. If they rise, the oven is too hot, and if they spread,
+                            you may be sure the oven is too cool. Bake to a very light brown, for twenty minutes, in a moderate oven.</p>
+                    </div>
                 </div>
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.42_ginger_nuts">
                     <head rend="align(center) bold">Ginger Nuts.</head>
-                    <head>
-                        <foreign>Petits Gateaux au Gingembre.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Petits Gateaux au Gingembre.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Pounds of Flour.</item>
-                            <item>2 Eggs.</item>
-                            <item>1 Pint of Molasses.</item>
-                            <item>½ Pound of Brown Sugar.</item>
-                            <item>½ Pound of Butter.</item>
-                            <item>A Pinch of Salt.</item>
-                            <item>3 Tablespoonfuls of Ginger.</item>
-                            <item>½ Teaspoonful of Soda.</item>
-                            <item>½ Pint of Milk or Water.</item>
+                            <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Molasses.</ingredient></item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Brown Sugar.</ingredient></item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>A Pinch of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt.</ingredient></item>
+                            <item>3 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Ginger.</ingredient></item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda.</ingredient></item>
+                            <item>½ Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk</ingredient> or <ingredient
+                                    xmlns="http://luc.edu/ctsdh/ns/1.0" class="liquid">Water.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the butter and sugar to a cream; work in the flour and mix well; add the molasses and mix well. Then
-                        add the milk, into which you will have dissolved the soda thoroughly, and beat well; add the ginger and continue working
-                        lightly till thoroughly mixed. Then roll out and cut in various fanciful shapes and bake to a light brown.</div>
+                    <div type="instructions">
+                        <p>Beat the butter and sugar to a cream; work in the flour and mix well; add the molasses and mix well. Then add the milk,
+                            into which you will have dissolved the soda thoroughly, and beat well; add the ginger and continue working lightly till
+                            thoroughly mixed. Then roll out and cut in various fanciful shapes and bake to a light brown.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.43_ginger_snaps">
                     <head rend="align(center) bold">Ginger Snaps.</head>
-                    <head>
-                        <foreign>Gateaux Secs au Gingembre.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Gateaux Secs au Gingembre.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Cups of Molasses.</item>
-                            <item>1 Cup of Lard or Butter.</item>
-                            <item>1 Cup of Sugar.</item>
-                            <item>½ Cup of Sour Cream.</item>
-                            <item>1 Tablespoonful of Ground Ginger.</item>
-                            <item>2 Eggs.</item>
-                            <item>2½ Teaspoonfuls of Soda.</item>
-                            <item>Flour sufficient to roll thick.</item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Molasses.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Lard</ingredient> or <ingredient
+                                    xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sour Cream.</ingredient></item>
+                            <item>1 Tablespoonful of Ground <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic"
+                                >Ginger.</ingredient></item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>2½ Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda.</ingredient></item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient> sufficient to roll thick.</item>
                         </list>
                     </div>
 
-                    <div type="instructions">Mix all the ingredients as above, only making the batter slightly stiffer, and cut into fancy shapes and
-                        bake in a quick oven.</div>
+                    <div type="instructions">
+                        <p>Mix all the ingredients as above, only making the batter slightly stiffer, and cut into fancy shapes and bake in a quick
+                            oven.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.44_jumbles">
                     <head rend="align(center) bold">Jumbles.</head>
-                    <head>
-                        <foreign>Melée-Créole.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Melée-Créole.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Pound of Butter.</item>
-                            <item>¾ Pound of Flour.</item>
-                            <item>4 Eggs.</item>
-                            <item>½ Pound of Sugar.</item>
-                            <item>1 Tablespoonful of Rose Water.</item>
-                            <item>½ Grated Nutmeg.</item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>¾ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Rose Water.</ingredient></item>
+                            <item>½ Grated <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Nutmeg.</ingredient></item>
                         </list>
                     </div>
 
-                    <div type="instructions">Beat the butter and sugar to a cream. Add the eggs, thoroughly beaten, and the add the Rose Water and the
-                        nutmeg. Gradually add the flour, and beat well. Beat till very light before adding the flour. Dust a paper on a baking sheet
-                        with sugar, instead of flour, and roll out the paste to about one-eighth of an inch in the thickness. Then use a small cutter
-                        with a round center, and take the centers out, thus forming pretty rings. Bake in a moderate oven till a light brown. Take
-                        them out and sift powdered sugar over them.<pb n="296"/></div>
+                    <div type="instructions">
+                        <p>Beat the butter and sugar to a cream. Add the eggs, thoroughly beaten, and the add the Rose Water and the nutmeg. Gradually
+                            add the/> flour, and beat well. Beat till very light before adding the flour. Dust a paper on a baking sheet with sugar,
+                            instead of flour, and roll out the paste to about one-eighth of an inch in the thickness. Then use a small cutter with a
+                            round center, and take the centers out, thus forming pretty rings. Bake in a moderate oven till a light brown. Take them
+                            out and sift powdered sugar over them.<pb n="296"/></p>
+                    </div>
                 </div>
                 <!--Column 1 begins-->
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.45_madeleines">
                     <head rend="align(center) bold">
-                        <foreign>Madeleines.</foreign>
+                        <foreign xml:lang="fr">Madeleines.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
                             <item>5 Eggs.</item>
-                            <item>½ Pound of Powdered Sugar.</item>
-                            <item>½ Pound of Sifted Flour.</item>
-                            <item>½ Pound of Butter, Washed and Drained.</item>
-                            <item>½ Teaspoonful of Vanilla.</item>
-                            <item>Grated Rind of a Lemon.</item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Sifted Flour.</ingredient></item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter</ingredient>, Washed and
+                                Drained.</item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla.</ingredient></item>
+                            <item>Grated Rind of a <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon.</ingredient></item>
                         </list>
                     </div>
 
-                    <div type="instructions">Beat the butter and sugar to a cream and add the yolks of the eggs, the lemon rind and the vanilla, and
-                        beat till very, very light. Then add the flour, beating constantly, and the whites of the eggs, beaten to a stiff froth. Turn
-                        into buttered tins, and bake in a quick oven till a delicate brown. Serve cold. These are delicious supper cakes.</div>
+                    <div type="instructions">
+                        <p>Beat the butter and sugar to a cream and add the yolks of the eggs, the lemon rind and the vanilla, and beat till very,
+                            very light. Then add the flour, beating constantly, and the whites of the eggs, beaten to a stiff froth. Turn into
+                            buttered tins, and bake in a quick oven till a delicate brown. Serve cold. These are delicious supper cakes.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.46_pop-overs">
                     <head rend="align(center) bold">Pop-Overs.</head>
-                    <head>
-                        <foreign>Vitement Fait.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Vitement Fait.</foreign>
                     </head>
 
                     <div type="ingredientList">
                         <list>
-                            <item>1 Pint of Milk.</item>
-                            <item>1 Pint of Flour.</item>
-                            <item>3 Eggs.</item>
-                            <item>2 Teaspoonfuls of Baking Powder.</item>
-                            <item>1 Teaspoonful of Salt.</item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Milk.</ingredient></item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking
+                                Powder.</ingredient></item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="salt">Salt.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the yolks of the eggs separately till very light and frothy. Stir in the unskimmed milk and the
-                        flour that has been twice sifted with the baking powder. Add the white sof the eggs, beaten to a stiff froth; pour the mixture
-                        into buttered cake tins; bake in a quick oven till a light brown, and serve either hot or cold.</div>
+                    <div type="instructions">
+                        <p>Beat the yolks of the eggs separately till very light and frothy. Stir in the unskimmed milk and the flour that has been
+                            twice sifted with the baking powder. Add the white sof the eggs, beaten to a stiff froth; pour the mixture into buttered
+                            cake tins; bake in a quick oven till a light brown, and serve either hot or cold.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.47_anise_drops">
                     <head rend="align(center) bold">Anise Drops.</head>
-                    <head>
-                        <foreign>Gateau d’Anis.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Gateau d’Anis.</foreign>
                     </head>
 
                     <div type="ingredientList">
                         <list>
-                            <item>3 Cups of Sugar.</item>
-                            <item>6 Eggs.</item>
-                            <item>1 Quart of Flour.</item>
-                            <item>½ Teaspoonful of Essence of Anise.</item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Quart of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Essence of
+                                Anise.</ingredient></item>
                         </list>
                     </div>
 
-                    <div type="instructions">Beat the sugar and eggs for about half an hour. Add the flour gradually, and the essence. Beat well. Have
-                        ready buttered sheets of tin, and drop the mixture from the spoon and bake to a delicate brown.</div>
+                    <div type="instructions">
+                        <p>Beat the sugar and eggs for about half an hour. Add the flour gradually, and the essence. Beat well. Have ready buttered
+                            sheets of tin, and drop the mixture from the spoon and bake to a delicate brown.</p>
+                    </div>
                 </div>
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.48_spice_drops">
                     <head rend="align(center) bold">Spice Drops.</head>
-                    <head>
-                        <foreign>Biscuits d’Épices.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits d’Épices.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>The Yolks of 3 Eggs.</item>
-                            <item>½ Cup of Sweet Milk.</item>
-                            <item>3 Cups of Flour.</item>
-                            <item>1 Cup of Molasses.</item>
-                            <item>3 Tablespoonfuls of Baking Powder.</item>
-                            <item>1 Ground Nutmeg.</item>
+                            <item>The Yolks of 3 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk.</ingredient></item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Molasses.</ingredient></item>
+                            <item>3 Tablespoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking
+                                Powder.</ingredient></item>
+                            <item>1 Ground <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Nutmeg.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the butter and sugar to a cream. Add the molasses and the milk. Blend well, add the spices, and the
-                        nutmeg and lemon extract, and then add the flour, sifted with the baking powder. Beat well for fifteen minutes, and then drop
-                        on tins lined with buttered paper. Bake in a quick oven to a delicate brown.</div>
+                    <div type="instructions">
+                        <p>Beat the butter and sugar to a cream. Add the molasses and the milk. Blend well, add the spices, and the nutmeg and lemon
+                            extract, and then add the flour, sifted with the baking powder. Beat well for fifteen minutes, and then drop on tins lined
+                            with buttered paper. Bake in a quick oven to a delicate brown.</p>
+                    </div>
                 </div>
 
                 <!--column 2 begins-->
-                <div type="recipe">
-                    <head rend="align(center) bold">Creole Cookies.</head>
-                    <head>
-                        <foreign>Biscuits à la Créole.</foreign>
+                <div type="recipe" xml:id="pic39.49_creole_cookies">
+                    <head rend="align(center) bold"><name>Creole</name> Cookies.</head>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits à la <name>Créole</name>.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Teaspoonful Each of Ground Cloves and Cinnamon.</item>
-                            <item>1 Teaspoonful of Lemon Extract.</item>
-                            <item>2 Cups of Powdered Sugar.</item>
-                            <item>1 Cup of Sweet Milk.</item>
-                            <item>The Whites of 4 Egga.</item>
-                            <item>1 Teaspoonful of Lemon Extract.</item>
-                            <item>2 Teaspoonfuls of Baking Powder.</item>
-                            <item>Flour Sufficient to Make a Soft Batter.</item>
+                            <item>1 Teaspoonful Each of Ground <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cloves</ingredient> and
+                                    <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cinnamon.</ingredient></item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Lemon Extract.</ingredient></item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Powdered Sugar.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Sweet Milk.</ingredient></item>
+                            <item>The Whites of 4 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Lemon Extract.</ingredient></item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Baking
+                                Powder.</ingredient></item>
+                            <item><ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour</ingredient> Sufficient to Make a Soft
+                                Batter.</item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the butter and sugar to a cream; add the milk and the baking powder, and gradually add the whites of
-                        the eggs, beaten to a stiff froth. Beat the batter hard for ten minutes, after adding sufficient flour to make a nice soft
-                        batter. Pour into baking tins, and bake to a delicate brown. When cold ice with Plain Icing. (See recipe.) These are very
-                        dainty and nice.</div>
+                    <div type="instructions">
+                        <p>Beat the butter and sugar to a cream; add the milk and the baking powder, and gradually add the whites of the eggs, beaten
+                            to a stiff froth. Beat the batter hard for ten minutes, after adding sufficient flour to make a nice soft batter. Pour
+                            into baking tins, and bake to a delicate brown. When cold ice with Plain Icing. <ptr target="#"
+                                ><!-- need xmlid for plain icing -->(See recipe.)</ptr> These are very dainty and nice.</p>
+                    </div>
                 </div>
 
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.50_lemon_cookies">
                     <head rend="align(center) bold">Lemon Cookies.</head>
-                    <head>
-                        <foreign>Biscuits au Citron.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits au Citron.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>6 Eggs.</item>
-                            <item>1 Cup of Butter.</item>
-                            <item>3 Cups of Sugar.</item>
-                            <item>1 Teaspoonful of Lemon Extract.</item>
+                            <item>6 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>3 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
+                            <item>1 Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Lemon Extract.</ingredient></item>
                         </list>
                     </div>
-                    <div type="instructions">Beat the yolks of the eggs and butter to a cream. Add the sugar, and beat well. Add the extract of lemon,
-                        and then the whites of the eggs, beaten to a stiff froth. Add sufficient flour to make a nice dough, just stiff enough to
-                        mold, and then roll thin, and bake in a quick oven to a very light brown.</div>
+                    <div type="instructions">
+                        <p>Beat the yolks of the eggs and butter to a cream. Add the sugar, and beat well. Add the extract of lemon, and then the
+                            whites of the eggs, beaten to a stiff froth. Add sufficient flour to make a nice dough, just stiff enough to mold, and
+                            then roll thin, and bake in a quick oven to a very light brown.</p>
+                    </div>
                 </div>
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.51_molasses_cookies">
                     <head rend="align(center) bold">Molasses Cookies.</head>
-                    <head>
-                        <foreign>Biscuits à Mélasse.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits à Mélasse.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Cups of Molasses.</item>
-                            <item>1 Cup of Butter.</item>
-                            <item>2 Eggs.</item>
-                            <item>2 Teaspoonfuls of Soda.</item>
-                            <item>2 Teaspoonfuls of Ginger.</item>
-                            <item>½ Teaspoonful of Cloves.</item>
-                            <item>2 Teaspoonfuls of Cloves.</item>
+                            <item>2 Cups of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sweetener">Molasses.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fat">Butter.</ingredient></item>
+                            <item>2 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="leavener">Soda.</ingredient></item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="aromatic">Ginger.</ingredient></item>
+                            <item>½ Teaspoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cloves.</ingredient></item>
+                            <item>2 Teaspoonfuls of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="spice">Cloves.</ingredient></item>
+                            <!-- This is what it looks like in the book, may have been a printing error. -->
                         </list>
                     </div>
-                    <div type="instructions">Melt the molasses. Beat the butter and sugar to a cream, and add, mixing in the soda, dissolved in a
-                        tablespoonful of boiling water. Add the ginger and the ground cloves. Take off the fire, and beat till cool. Then add the
-                        eggs, beaten well, and flour sufficient to make a nice, soft dough, just stiff enough to roll. Cut into small cakes, and bake
-                        in a quick oven to a delicate brown.</div>
+                    <div type="instructions">
+                        <p>Melt the molasses. Beat the butter and sugar to a cream, and add, mixing in the soda, dissolved in a tablespoonful of
+                            boiling water. Add the ginger and the ground cloves. Take off the fire, and beat till cool. Then add the eggs, beaten
+                            well, and flour sufficient to make a nice, soft dough, just stiff enough to roll. Cut into small cakes, and bake in a
+                            quick oven to a delicate brown.</p>
+                    </div>
                 </div>
-                <div type="section" >
+                <div type="section">
                     <head rend="align(center) case(allcaps) bold">
-                        <foreign>MERINGUES.</foreign>
+                        <foreign xml:lang="fr" rend="case(allcaps) align(center) bold">Meringues.</foreign>
                     </head>
-                    <div type="orentationNote">In order to make meringues properly one should have a meringue board of well-seasoned hard wood. This
-                        board should be cut with rounded corners, and of a size convenient to the oven. It ought to be about one and a half inches in
-                        thickness. While baking, Meringues must always remain soft underneath. To accomplish then, dampen the board thoroughly with
-                        water before plac-<pb n="297"/><!--Column 1 begins-->ing the bands of paper upon it. In this way the Meringues are prevented
-                        from receiving heat in sufficient volume to render them hard underneath.</div>
+                    <div type="orentationNote">
+                        <p>In order to make meringues properly one should have a meringue board of well-seasoned hard wood. This board should be cut
+                            with rounded corners, and of a size convenient to the oven. It ought to be about one and a half inches in thickness. While
+                            baking, Meringues must always remain soft underneath. To accomplish then, dampen the board thoroughly with water before
+                                plac-<pb n="297"/><!--Column 1 begins-->ing the bands of paper upon it. In this way the Meringues are prevented from
+                            receiving heat in sufficient volume to render them hard underneath.</p>
+                    </div>
 
-                    <div type="recipe">
-                        <head rend="align(center) bold">Creole Meringues.</head>
-                        <head>
-                            <foreign>Meringues à la Créole.</foreign>
+                    <div type="recipe" xml:id="pic39.52_creole_meringues">
+                        <head rend="align(center) bold"><name>Creole</name> Meringues.</head>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Meringues à la <name>Créole</name>.</foreign>
                         </head>
 
                         <div type="ingredientList">
                             <list>
-                                <item>1 Pint of Sifted White Sugar.</item>
-                                <item>The Whites of 12 Eggs.</item>
-                                <item>1 Tablespoonful of Vanilla.</item>
+                                <item>1 Pint of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Sugar.</ingredient></item>
+                                <item>The Whites of 12 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla.</ingredient></item>
                             </list>
                         </div>
 
-                        <div type="instructions">Beat the whites to a stiff, snowy froth, and then gradually add the sugar and vanilla, eating until
-                            the mixture is stiff enough to cut with a knife. Then cut some stout sheets of foolscap paper into strips measuring at
-                            least two inches in width, or, if you wish to make the meringues larger, simply place the sheet of paper, slightly
-                            buttered, on the table. Take a tablespoon and gather up the meringue mixture as nearly as possible in the shape of an egg,
-                            and working it towards the side of the bowl to give it this shape, and then drop sloping from the spoon upon the strips of
-                            paper at a distance of at least an inch apart. Draw the edge of the spoon very sharply around the edge of the meringue, to
-                            give it a smooth, round shape, resembling an egg. When all the rows are filled, sprinkle sifted sugar over them, and let
-                            them remain in this state for about three minutes. Then take hold of the strips at either end, and shake lightly, to
-                            remove all excess sugar. Place the strips in rows about one inch apart on the wet board or baking tin (the board is much
-                            better), and as soon as the sugar begins to dissolve slightly onto their surface, push them into the oven, which must be
-                            at a very moderate heat, and bake them a very light fawn color. Watch constantly, that they may not burn. When the
-                            meringues are done, remove each one very carefully and separately from the paper. Then use a small dessert spoon, if you
-                            desire to fill the meringues, scoop out the soft white part, and, with the outer side of the bowl of the spoon, smooth the
-                            interior of the meringues. Then place them with the rounded side downward on the baking tin in the oven to dry for a few
-                            minutes. When thoroughly crip, without browning, place them between sheets of paper in a dry place. When using meringues
-                            for desserts, etc., garnish the interior with whipped cream, beaten to a stiff froth, and flavored with vanilla, orange,
-                            lemon, orange flower water, or any kind of fancy liqueur, stick the two halves together lightly and serve. Meringues may
-                            be kept for some time in thir dry shell state, and filled when ready to use. In making them for immediate family use,
-                            <!--column 2 begins--> simply drop the mixture by spoonfuls on buttered paper, dust with the sugar, wait for three
-                            minutes, fan or blow off all excess sugar, and then place them in a very moderate oven and bake to a light brown. When
-                            dry, carefully remove the meringue from the paper, after they have cooled, brush the bottoms slightly with the white of an
-                            egg, beaten to a froth, stick two meringues together, put away to dry, and serve as needed.</div>
+                        <div type="instructions">
+                            <p>Beat the whites to a stiff, snowy froth, and then gradually add the sugar and vanilla, eating until the mixture is
+                                stiff enough to cut with a knife. Then cut some stout sheets of foolscap paper into strips measuring at least two
+                                inches in width, or, if you wish to make the meringues larger, simply place the sheet of paper, slightly buttered, on
+                                the table. Take a tablespoon and gather up the meringue mixture as nearly as possible in the shape of an egg, and
+                                working it towards the side of the bowl to give it this shape, and then drop sloping from the spoon upon the strips of
+                                paper at a distance of at least an inch apart. Draw the edge of the spoon very sharply around the edge of the
+                                meringue, to give it a smooth, round shape, resembling an egg. When all the rows are filled, sprinkle sifted sugar
+                                over them, and let them remain in this state for about three minutes. Then take hold of the strips at either end, and
+                                shake lightly, to remove all excess sugar. Place the strips in rows about one inch apart on the wet board or baking
+                                tin (the board is much better), and as soon as the sugar begins to dissolve slightly onto their surface, push them
+                                into the oven, which must be at a very moderate heat, and bake them a very light fawn color. Watch constantly, that
+                                they may not burn. When the meringues are done, remove each one very carefully and separately from the paper. Then use
+                                a small dessert spoon, if you desire to fill the meringues, scoop out the soft white part, and, with the outer side of
+                                the bowl of the spoon, smooth the interior of the meringues. Then place them with the rounded side downward on the
+                                baking tin in the oven to dry for a few minutes. When thoroughly crip, without browning, place them between sheets of
+                                paper in a dry place. When using meringues for desserts, etc., garnish the interior with whipped cream, beaten to a
+                                stiff froth, and flavored with vanilla, orange, lemon, orange flower water, or any kind of fancy liqueur, stick the
+                                two halves together lightly and serve. Meringues may be kept for some time in thir dry shell state, and filled when
+                                ready to use. In making them for immediate family use, <!--column 2 begins--> simply drop the mixture by spoonfuls on
+                                buttered paper, dust with the sugar, wait for three minutes, fan or blow off all excess sugar, and then place them in
+                                a very moderate oven and bake to a light brown. When dry, carefully remove the meringue from the paper, after they
+                                have cooled, brush the bottoms slightly with the white of an egg, beaten to a froth, stick two meringues together, put
+                                away to dry, and serve as needed.</p>
+                        </div>
                     </div>
 
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.53_creamed-iced_meringues">
                         <head rend="align(center) bold">Creamed-Iced Meringues.</head>
-                        <head>
-                            <foreign>Meringues à la Crème Glacée.</foreign>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Meringues à la Crème Glacée.</foreign>
                         </head>
 
                         <div type="ingredientList">
                             <list>
-                                <item>1 Pound of Sifted White Sugar.</item>
-                                <item>The Whites of 12 Eggs.</item>
-                                <item>1 Tablespoonful of Vanilla Essence.</item>
-                                <item>3 Ounces of Stiff Whipped Cream.</item>
-                                <item>½ Cup of Transparent Icing.</item>
+                                <item>1 Pound of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Sugar.</ingredient></item>
+                                <item>The Whites of 12 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla
+                                    Essence.</ingredient></item>
+                                <item>3 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="dairy">Stiff Whipped
+                                    Cream.</ingredient></item>
+                                <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Transparent Icing.</ingredient></item>
                             </list>
                         </div>
 
-                        <div type="instructions">Cream-Iced Meringues should be made much smaller than the ordinary Meringues--about the size of a
-                            bird’s egg. Proceed as above, and fill with stiff, whipped cream, taking great care when filling that none of the cream
-                            shall ooze from between the two halves of the Meringues after they have been stuck together. If it should, wipe it off
-                            very carefully. When well-filled, hold each Meringue separately on a silver fork, and dip them all over in “Transparent
-                            Icing” (see recipe), and let them dry. These Meringues are delicious desserts.</div>
+                        <div type="instructions">
+                            <p>Cream-Iced Meringues should be made much smaller than the ordinary Meringues--about the size of a bird’s egg. Proceed
+                                as above, and fill with stiff, whipped cream, taking great care when filling that none of the cream shall ooze from
+                                between the two halves of the Meringues after they have been stuck together. If it should, wipe it off very carefully.
+                                When well-filled, hold each Meringue separately on a silver fork, and dip them all over in “Transparent Icing” (see
+                                recipe), and let them dry. These Meringues are delicious desserts.</p>
+                        </div>
                     </div>
 
-                    <div type="recipe">
+                    <div type="recipe" xml:id="pic39.54_creamed-iced_meringues_with_preserves">
                         <head rend="align(center) bold">Creamed-Iced Meringues With Preserves.</head>
-                        <head>
-                            <foreign>Meringues Glacées aux Confitures.</foreign>
+                        <head rend="align(center)">
+                            <foreign xml:lang="fr">Meringues Glacées aux Confitures.</foreign>
                         </head>
 
                         <div type="ingredientList">
                             <list>
-                                <item>1 Pound of Sifted White Sugar.</item>
-                                <item>The Whites of 12 Eggs.</item>
-                                <item>1 Tablespoonful of Vanilla Essence.</item>
-                                <item>3 Ounces of Currant, Orange or Any Preserves.</item>
-                                <item>½ Cup of Transparent Icing.</item>
+                                <item>1 Pound of Sifted <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Sugar.</ingredient></item>
+                                <item>The Whites of 12 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                                <item>1 Tablespoonful of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Vanilla
+                                    Essence.</ingredient></item>
+                                <item>3 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="premade">Currant, Orange or Any
+                                        Preserves.</ingredient></item>
+                                <item>½ Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="">Transparent Icing.</ingredient></item>
                             </list>
                         </div>
-                        <div type="instructions">Prepare as in <foreign>Meringues à la Créole</foreign>, or as above, only spread some preserves
-                            thinly inside the Meringues before garnishing them with the cream, and then ice with Transparent Icing. (See reipe
-                            Transparent Icing).</div>
+                        <div type="instructions">
+                            <p>Prepare as in <foreign xml:lang="fr">Meringues à la Créole</foreign>, or as above, only spread some preserves thinly
+                                inside the Meringues before garnishing them with the cream, and then ice with Transparent Icing. <ptr target="#"
+                                    ><!-- need xmlid for transparent icing -->(See <choice><sic>reipe</sic><corr>recipe</corr></choice> Transparent
+                                    Icing)</ptr>.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div type="recipe">
-                    <head>
-                        <foreign rend="align(center) bold">Biscuits Glacées aux Confitures.</foreign>
+                <div type="recipe" xml:id="pic39.55_biscuits_glaces_aux_confitures">
+                    <head rend="align(center) bold">
+                        <foreign xml:lang="fr">Biscuits Glacées aux Confitures.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>9 Eggs.</item>
-                            <item>1 Pound of White Pulverized Sugar.</item>
-                            <item>½ Pound Flour.</item>
-                            <item>The Juice of 1 Lemon.</item>
-                            <item>1 Cup of Jam of Any Kind Desired.</item>
+                            <item>9 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Pulverized Sugar.</ingredient></item>
+                            <item>½ Pound <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
+                            <item>The Juice of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Lemon.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="premade">Jam of Any Kind
+                                Desired.</ingredient></item>
                         </list>
                     </div>
 
-                    <div type="instructions">These are elegant cakes and enhance the most fashionable dessert. Make a sponge cake or cup cake (see
-                        recipes) and bake on a baking sheet about three-quarters of an inch in thickness. When cold, cut up into fanciful shapes, trim
-                        the edges neatly with a very sharp knife, and be careful to brush off the least particle of crumbs that may adhere; carefully
-                        spread the upper part and<pb n="298"/><!--Column 1 begins--> sides of the biscuit with apricot, peach, raspberry or any jam.
-                        Then hold one at a time on a silver fork, very carefully, and with a spoon pour over Transparent Chocolate Icing =, around the
-                        sides and over the surface of the biscuit. Then carefully lay it upon a wire tray, resting upon a baking sheet. Dry the
-                        biscuit in a very moderate oven for about five minutes.</div>
+                    <div type="instructions">
+                        <p>These are elegant cakes and enhance the most fashionable dessert. Make a sponge cake or cup cake <ptr target="#"
+                                ><!-- need xmlid for cup cake -->(see recipes)</ptr> and bake on a baking sheet about three-quarters of an inch in
+                            thickness. When cold, cut up into fanciful shapes, trim the edges neatly with a very sharp knife, and be careful to brush
+                            off the least particle of crumbs that may adhere; carefully spread the upper part and<pb n="298"/><!--Column 1 begins-->
+                            sides of the biscuit with apricot, peach, raspberry or any jam. Then hold one at a time on a silver fork, very carefully,
+                            and with a spoon pour over Transparent Chocolate Icing =, around the sides and over the surface of the biscuit. Then
+                            carefully lay it upon a wire tray, resting upon a baking sheet. Dry the biscuit in a very moderate oven for about five
+                            minutes.</p>
+                    </div>
                 </div>
-                <div type="recipe">
+                <div type="recipe" xml:id="pic39.56_marbled_glacees">
                     <head rend="align(center) bold">Marbled Glacées.</head>
-                    <head>
-                        <foreign>Biscuits Panachés aux Confitures.</foreign>
+                    <head rend="align(center)">
+                        <foreign xml:lang="fr">Biscuits Panachés aux Confitures.</foreign>
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>9 Eggs.</item>
-                            <item>1 Pound of White Pulverized Sugar.</item>
-                            <item>½ Pound of Flour.</item>
+                            <item>9 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="egg">Eggs.</ingredient></item>
+                            <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">White Pulverized Sugar.</ingredient></item>
+                            <item>½ Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="grain">Flour.</ingredient></item>
                             <!--Column 2 begins-->
-                            <item>The Juice of 1 Lemon.</item>
-                            <item>1 Cup of Mixed Preserved Fruits.</item>
+                            <item>The Juice of 1 <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Lemon.</ingredient></item>
+                            <item>1 Cup of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Mixed Preserved Fruits.</ingredient></item>
                         </list>
                     </div>
 
-                    <div type="instructions">Prepare the cake as directed in the preceding recipe. Then place on the baking sheet. Drop
-                        different-sized small bits of fine preserves, orange, apricot, damson, red currant, etc., on the biscuit and spread smoothly,
-                        so as to form a beautifully marbled pattern. Then cut out the cakes in any fanciful design. Proceed as above to cover with
-                        Transparent Icing and dry in a moderate oven for five minutes.</div>
+                    <div type="instructions">
+                        <p>Prepare the cake as directed in the <ptr target="#pic39.55_biscuits_glaces_aux_confitures">preceding recipe</ptr>. Then
+                            place on the baking sheet. Drop different-sized small bits of fine preserves, orange, apricot, damson, red currant, etc.,
+                            on the biscuit and spread smoothly, so as to form a beautifully marbled pattern. Then cut out the cakes in any fanciful
+                            design. Proceed as above to cover with Transparent Icing and dry in a moderate oven for five minutes.</p>
+                    </div>
                 </div>
 
             </div>

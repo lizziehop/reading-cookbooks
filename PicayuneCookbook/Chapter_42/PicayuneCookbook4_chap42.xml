@@ -79,6 +79,7 @@
             <change when="2020-11-2" who="AMK">Added transcription to template and began encoding page 312</change>
             <change when="2020-11-6" who="AMK">Encoded element level tags</change>
             <change when="2020-11-9" who="AMK">Added attributes to elements</change>
+            <change when="2020-12-7" who="AMK">Updated attributes to reflect most recent discussion</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -148,11 +149,12 @@
                     <div type="instructions">
                         <p>The Plain Syrup, that is the basis of all fruit syrups, is simply sugar and water boiled together in the pro- portion of
                             two pounds of <ingredient>sugar</ingredient> to a pint and a half of <ingredient>water</ingredient>. Cook the sugar and
-                            water till it forms the syrup called <foreign xml:lang="fr">"Le Petit Casse"</foreign> (see recipe under heading "Sugar as
-                            Employed in Candy-Making"), or crack, that is, cook it till it instantly snaps asunder when placed between the fingers
-                            after dipping them in cold water to enable one to test. Then add the Fruit Syrup, and mix thoroughly. Let it boil for
-                            about five minutes; take off the fire and let it get almost cold, then bottle very tight. This is the invariable rule to
-                            be followed in making syrups of fruits.</p>
+                            water till it forms the syrup called <foreign xml:lang="fr">"Le Petit Casse"</foreign>
+                            <ptr target="#"><!-- need xmlid for le petit casse -->(see recipe under heading "Sugar as Employed in
+                            Candy-Making")</ptr>, or crack, that is, cook it till it instantly snaps asunder when placed between the fingers after
+                            dipping them in cold water to enable one to test. Then add the Fruit Syrup, and mix thoroughly. Let it boil for about five
+                            minutes; take off the fire and let it get almost cold, then bottle very tight. This is the invariable rule to be followed
+                            in making syrups of fruits.</p>
                         <p>One quart of fruit when mashed and pressed will make a pint of Fruit Syrup, to be added to the Plain Syrup given above.</p>
                     </div>
                 </div>
@@ -184,17 +186,18 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Banana Juice.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Banana Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient></item>
                             <item>1/2 Ounce of<ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract"> Banana Essence.</ingredient></item>
-                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Juice of a Lemon.</ingredient></item>
+                            <item>The <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Juice of a Lemon.</ingredient></item>
                         </list>
                     </div>
                     <div type="instructions">
                         <p>Peel the bananas, then cut into small pieces and pound and mash well and set aside in a cool place for thirty-six hours.
                             Then strain through a bag and proceed In ex<!-- end column one --><!-- start column two -->actly the same manner as for
-                            Apricot Syrup (see recipe), and add the essence and lemon juice when about to bottle.</p>
+                            Apricot Syrup <ptr target="#pic42.2_apricot_syrup">(see recipe)</ptr>, and add the essence and lemon juice when about to
+                            bottle.</p>
                     </div>
                 </div>
 
@@ -205,7 +208,8 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1/2 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Blackberry Juice.</ingredient></item>
+                            <item>1/2 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Blackberry
+                                Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Syrup.</ingredient></item>
                         </list>
@@ -223,17 +227,18 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>12 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Cherry Juice.</ingredient></item>
+                            <item>12 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Cherry Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient></item>
                         </list>
                     </div>
                     <div type="instructions">
                         <p>Seed the cherries, and stem, pound and mash them well, and let them stand for thirty-six hours in a cool place. Then strain
-                            through a bag. Cook the sugar and water till it forms the syrup called "Le Petit Casse," or crack (see recipe under
-                            chapter on <name>Creole</name> candies), that is, till it instantly snaps asunder when placed between the fingers, after
-                            dipping them in cold water to enable you to test. Then add the fruit syrups and mix thoroughly. Let it boil for about five
-                            minutes, take off the fire, let it get almost cold, and then put up in bottles.</p>
+                            through a bag. Cook the sugar and water till it forms the syrup called "Le Petit Casse," or crack <ptr target="#"
+                                ><!-- need xmlid for le petit casse -->(see recipe under chapter on <name>Creole</name> candies)</ptr>, that is, till
+                            it instantly snaps asunder when placed between the fingers, after dipping them in cold water to enable you to test. Then
+                            add the fruit syrups and mix thoroughly. Let it boil for about five minutes, take off the fire, let it get almost cold,
+                            and then put up in bottles.</p>
                     </div>
                 </div>
 
@@ -244,7 +249,7 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Cranberry Juice.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Cranberry Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient></item>
                             <item>1/2 Ounce of Soluble <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Essence of
@@ -252,8 +257,9 @@
                         </list>
                     </div>
                     <div type="instructions">
-                        <p>Proceed in exactly the same manner as for Currant Syrup (see recipe below), adding twice the quantity of sugar, and adding
-                            the essence after the syrup has somewhat cooled and you are about to bottle it.</p>
+                        <p>Proceed in exactly the same manner as for Currant Syrup <ptr target="#pic42.7_currant_syrup">(see recipe below)</ptr>,
+                            adding twice the quantity of sugar, and adding the essence after the syrup has somewhat cooled and you are about to bottle
+                            it.</p>
                     </div>
                 </div>
 
@@ -264,13 +270,15 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currant Juice.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Currant Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Plain Syrup.</ingredient></item>
                         </list>
                     </div>
                     <div type="instructions">
                         <p>Pick, seed, wash and dry the currants carefully. Then pound them well and set aside in a cool place for thirty-six hours.
-                            Make a Plain Syrup (see recipe), and proceed as in the (general Directions for Making Fruit Syrups. (See directions.)</p>
+                            Make a Plain Syrup <ptr target="#pic42.1_general_directions_for_making_syrups">(see recipe)</ptr>, and proceed as in the
+                            general Directions for Making Fruit Syrups. <ptr target="#pic42.1_general_directions_for_making_syrups">(See
+                                directions.)</ptr></p>
                     </div>
                 </div>
 
@@ -281,7 +289,7 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currant Juice.</ingredient></item>
+                            <item>1 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Currant Juice.</ingredient></item>
                             <item>2 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
                             <item>6 Pounds of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Currants.</ingredient></item>
                             <item>1 Pound of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Sour Cherries.</ingredient></item>
@@ -309,7 +317,7 @@
                         <list>
                             <item>1 Gallon <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient></item>
-                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Grape Juice.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Grape Juice.</ingredient></item>
                             <item>1/2 Pint of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="alcohol">Grape or Catawba
                                 Wine.</ingredient></item>
                         </list>
@@ -328,7 +336,7 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon Juice.</ingredient></item>
+                            <item>8 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Lemon Juice.</ingredient></item>
                             <item>15 Ounces of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="sugar">Sugar.</ingredient></item>
                             <item>1/2 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Extract of Lemon.</ingredient></item>
                         </list>
@@ -347,7 +355,7 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lime Juice.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Lime Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient></item>
                             <item>1/2 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="extract">Soluble Essence of
@@ -366,10 +374,10 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Orange Juice.</ingredient></item>
+                            <item>2 Quarts of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Orange Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient></item>
-                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon Juice.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Lemon Juice.</ingredient></item>
                         </list>
                     </div>
                     <div type="instructions">
@@ -429,7 +437,7 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Peach Juice.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Peach Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient>
                             </item>
@@ -449,10 +457,10 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Pineapple Juice.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Pineapple Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient></item>
-                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Lemon Juice.</ingredient></item>
+                            <item>1 Ounce of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Lemon Juice.</ingredient></item>
                         </list>
                     </div>
                     <div type="instructions">
@@ -469,14 +477,14 @@
                     </head>
                     <div type="ingredientList">
                         <list>
-                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit">Plum Juice.</ingredient></item>
+                            <item>2 Pints of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" class="fruit_juice">Plum Juice.</ingredient></item>
                             <item>1 Gallon of <ingredient xmlns="http://luc.edu/ctsdh/ns/1.0" corresp="#pic42.1_general_directions_for_making_syrups"
                                     >Plain Syrup.</ingredient></item>
                         </list>
                     </div>
                     <div type="instructions">
                         <p>Stone the plums, pound and mash well and set aside in a cool place for thirty-six hours. Then proceed in exactly the same
-                            manner as in the recipe for Apricot Syrup. (See recipe.)</p>
+                            manner as in the recipe for Apricot Syrup. <ptr target="#pic42.2_apricot_syrup">(See recipe.)</ptr></p>
                     </div>
                 </div>
 
@@ -536,7 +544,8 @@
                         </list>
                     </div>
                     <div type="instructions">
-                        <p>Boil the syrup and add the Caramel. (See recipe.) Drain, and then add the essence of vanilla. Stir well and bottle.</p>
+                        <p>Boil the syrup and add the Caramel. <ptr target="#"><!-- Need xmlid for caramel -->(See recipe.)</ptr> Drain, and then add
+                            the essence of vanilla. Stir well and bottle.</p>
                     </div>
                 </div>
 
