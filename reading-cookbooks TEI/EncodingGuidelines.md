@@ -202,61 +202,61 @@ Last updated: 11/30/20 - AMK
 
 - Closed List of Values
   
-  - Meat
+  - meat
   
-  - Seafood (fish, shellfish, turtles, etc.)
+  - seafood (fish, shellfish, turtles, etc.)
   
-  - Dairy
+  - dairy
   
-  - Poultry
+  - poultry
   
-  - Egg
+  - egg
   
-  - Fruit
+  - fruit
   
-  - Vegetable
+  - vegetable
   
-  - Herb
+  - herb
   
-  - Fat
+  - fat
   
-  - Grain
+  - grain
   
-  - Leavener
+  - leavener
   
-  - Sugar (refined, cane sugar)
+  - sugar (refined, cane sugar)
   
-  - Spice
+  - spice
   
-  - Alcohol
+  - slcohol
   
-  - Extract
+  - extract
   
-  - Fruit Juice
+  - fruit\_juice
   
-  - Salt
+  - salt
   
-  - Liquid (vinegar, broth, water, oyster juice, etc. )
+  - liquid (vinegar, broth, water, oyster juice, etc. )
   
-  - Aromatic (garlic, hops, ginger, etc.)
+  - sromatic (garlic, hops, ginger, etc.)
   
-  - Legume (beans, lentils, peas, peanuts, etc.)
+  - legume (beans, lentils, peas, peanuts, etc.)
   
-  - Nut
+  - nut
   
-  - Condiment
+  - condiment
   
-  - Sweetener (molasses, honey, vanilla sugar, beet sugar, corn sugar, etc. )
+  - sweetener (molasses, honey, vanilla sugar, beet sugar, corn sugar, etc. )
   
-  - Premade 
+  - premade 
   
-  - Pickled (pickles, olives, etc.)
+  - pickled (pickles, olives, etc.)
   
-  - Chocolate
+  - chocolate
   
-  - Colorant (carmine powder, etc.)
+  - colorant (carmine powder, etc.)
   
-  - Undetermined
+  - undetermined
     
     - Items that do not fit within the current value categories and will be revisited to categorize
 
