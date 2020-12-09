@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lizziehop/reading-cookbooks/main/reading-cookbooks%20TEI/cookbook.odd.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="chapter" xml:lang="en">Front Matter</title>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
+                <principal>
+                    <persName>Elizabeth Hopwood</persName>
+                </principal>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName>Regina Hong</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>First round encoding by</resp>
+                    <persName>Eliora B Horst</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority>Reading Cookbooks Project</authority>
+                <publisher><persName>Elizabeth Hopwood</persName> and The Center for Textual Studies and Digital Humanities</publisher>
+                <availability>
+                    <p>Reproduced by digitized version from Archive.org, contributed by
+                        <name>Cornell University Library</name>. There are no known copyright
+                        restrictions in the United States on the use of the texts. More information
+                        on rights issues associated with public domain texts can be found at
+                        https://www.library.cornell.edu/about/policies/public-domain</p>
+                    <p>This text may be freely distributed for personal use, research, and teaching
+                        (including distribution to classes) as long as this statement of
+                        availability is included in the text. It may be linked to freely in Internet
+                        editions of all kinds.</p>
+                    <p>Scholars interested in changing or adding to these texts (for example,
+                        creating a new edition or adding additional markup) may do so.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>The Picayune's Creole Cook Book</title>
+                    <publisher>New Orleans, La., The Picayune</publisher>
+                    <date>1910</date>
+                    <edition>4th</edition>
+                    <sponsor>Cornell University Library</sponsor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This editions provides editorial notes</p>
+            <editorialDecl>
+                <p>Page breaks and column breaks have been preserved whenever possible.
+                    Abbreviations and spellings have been maintained. Line breaks have not been
+                    encoded. All presentational elements such as alignments, all caps, bold, and
+                    italics will be encoded.</p>
+                <normalization method="silent">
+                    <p>Typos have been maintained</p>
+                </normalization>
+                <hyphenation eol="none">
+                    <p>Hyphenated words that appear at the end of columns or lines have been
+                        reformed</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <!-- Add date, initials, and what the change was -->
+            <change when="2020-10-26" who="EAH">Created header and test template</change>
+            <change when="2020-11-30" who="EBH">Began encoding process</change>
+            <change when="2020-12-08" who="EBH">Completed stage 1 encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+         <pb n="1"/>
+         <titlePage>
+            <docTitle>THE PICAYUNE’S CREOLE COOK BOOK</docTitle>
+            <docEdition>FOURTH EDITION</docEdition>
+            <p>The Question of “a good cook” is now becoming a very vexing problem. The only remedy for this state of things is for the ladies of the present day to do as their grandmothers did, acquaint themselves thoroughly with the art of cooking in all its important and minutest details, and learn how to properly apply them. To assist the good housewives of the present day in this, to preserve to future generations the many excellent and matchless recipes of our <placeName>New Orleans</placeName> cuisine, to gather these up from the lips of the old <name>Creole</name> negro cooks and the grand old housekeepers who still survive, ere they, too, pass away, and Creole Cookery, with all its delightful combinations and possibilities, will have become a lost art, is, in a measure, the object of this book.</p>
+
+            <p>Retail Price at Picayune Office - $1.00</p>
+            <p>By Registered Mail, - - $1.25</p>
+             
+            <p>Copyright 1901, 1906 and 1910 by</p>
+            <p>THE PICAYUNE - NEW ORLEANS, LA.</p>
+
+            <docImprint>PICAYUNE JOB PRINT</docImprint>
+         </titlePage>
+
+         <pb n="2"/>
+         <figure>
+            <figDesc>An image of a Black woman with a striped headscarf wearing a dress and holding a tureen in her hands. The tureen has a running motif along the rim of the cover and the top of the vessel. At the bottom left of the picture are the words “L.A. WINTERHALDER”.</figDesc>
+         </figure>
+
+         <pb n="3"/>
+
+         <title type="main">The PICAYUNE’S CREOLE COOK BOOK</title>
+         <figure>
+             <figDesc>A small image of a pot</figDesc>
+         </figure>
+         <title type="sub">INTRODUCTION.</title>
+
+         <p><rend case="dropcap">T</rend>he universal favor with which the first editions of THE PICAYUNE’S CREOLE COOK BOOK were received throughout the United States, the remarkably short time in which they were exhausted, and the numerous demands for copies that are continually coming in from all sections, has impelled the publishers to issue a Fourth Edition of this work.</p>
+
+         <p>The Revised Edition has been prepared with great care. Each recipe that has been added has been tried and tested and is given as the result of personal practical experience and success in the Creole Kitchen. The topics have been more conveniently and systematically classified and arranged, the methods of preparation and manipulation in many instances simplified, and the edition, in its entirety, will therefore be found far more complete, comprehensive and valuable than the first.</p>
+
+         <p>With these explanations THE PICAYUNE sends forth the Creole Cook Book. Its name tells its story and bespeaks its value. It is
+         <rend align="right">THE ONLY BOOK OF THE KIND.</rend></p>
+
+         <pb n="4"/>
+         <figure>
+             <figDesc>An image of a frog dressed in a waistcoat with a bow tie around its neck. The frog is looking upward, holding a steaming dish of food aloft in one hand and a knife and fork in the other. A towel is draped over its right arm. To the bottom left of the image is a signature bearing the initials “LW”.  Below the image are lines of verse flanked by two flower motifs. The lines read:</figDesc>
+         <lg>
+         <!-- Every even numbered line is indented -->
+         <l>I’m the Picayune’s Weather Prophet,</l>
+         <l>It’s Froggie so faithful and true;</l>
+         <l>“Tante Zoe” has asked me to help her</l>
+         <l>In serving so nicely to you,</l>
+         <l>The dishes The Picayune bade her</l>
+         <l>Prepare as a Creole cook can,</l>
+         <l>That men might grow wiser and better,</l>
+         <l>And happiness reign in the land. </l>
+         </lg>
+         </figure>
+            
+         <pb n="5"/>
+
+         <div type="chapter">
+         <head rend="align(center) case(allcaps)">INTRODUCTION.</head>
+             <figure><figDesc>Three small emtpy boxes outlined in black, centered.</figDesc></figure>
+         <head rend="align(center)">TO THE FIRST EDITION</head>
+
+             <p><rend case="dropcap">I</rend>n presenting to the public this Creole Cook Book, The Picayune is actuated by the desire to fill a want that has long been felt, not only in <placeName>New Orleans</placeName>, where the art of good cooking was long ago reduced to a positive science, but in many sections of the country where the fame of our Creole cuisine has spread and with slight modification incident to local supplies of food articles, many of our most delightful recipes may be adapted by the intelligent housekeeper with profit and pleasure.</p>
+
+             <p>Time was when the question of a Creole Cook Book would have been, as far as New Orleans is concerned, as  useless an addition to our local literature as it is now a necessity, for the Creole negro cooks of nearly two hundred years ago, carefully instructed and directed by their white Creole mistresses, who received their inheritance of gastronomic lore from <placeName>France</placeName>, where the art of good cooking first had birth, faithfully transmitted their knowledge to their progeny, and these, quick to appreciate and understand, and with a keen intelligence and zeal born of the desire to please, improvised and improved upon the products of the cuisine of Louisiana’s mother country; then came the Spanish domination, with its influx of rich and stately dishes, brought over by the grand dames of <placeName>Spain</placeName> of a century and a half ago; after that came the gradual amalgamation of the two races on <placeName>Louisiana</placeName> soil, and with this was evolved a new school of cookery, partaking of the best elements of the French and Spanish cuisines, and yet peculiarly distinct from either, a system of cookery that has helf its own through succeeding generations and which drew from even such a learned authority as <name>Thackeray</name>, that noted tribute to New Orleans, “the old-Franco Spanish city on the banks of the <name>Mississippi</name>, where, of all the cities in the world, you can eat the most and suffer the least, where claret is as good as at <placeName>Bordeaux</placeName> and where a ‘ragout’ and a ‘bouillabaisse’ can be had, the like of which was never eated in <placeName>Marseilles</placeName> or <placeName>Paris</placeName>.”</p>
+
+             <p>But the Civil War, with its vast upheaval of social conditions, wrought great changes in the household economy of <placeName>New Orleans</placeName>, as it did throughout the South; here, as elsewhere, she who had ruled as the mistress of yesterday became her own cook of to-day; in nine classes out of ten the younger darkies accepted their freedom with alacrity, but in many ancient families the older Creole “negresse”, as they were called, were slow to leave the haunts of the 
+
+            <pb n="6"/>
+
+old cuisine and the families of which they felt themselves an integral part. Many lingered on, and the young girls who grew up after that period had opportunities that will never again come to the <name>Creole</name> girls of <placeName>New Orleans</placeName>. For one of the most significant changes and one of the saddest, too, in this old city, is the passing of the faithful old negro cooks-the “mammies,” who felt it a pride and honor, even in poverty, to cling to the fortunes of their former masters and mistresses, and out of the scant family allowance to be still able to prepare for their “ole Miss’” table a “ragout” from a piece of neck meat, or a “pot-au-poivre” from many mixturees that might grace the dining of a king.</p>
+
+             <p>But the “bandana and tignon” are fast disappearing from our kitchens. Soon will the last of the olden negro cooks of ante-bellum days have passed away and their places will not be supplied, for in <placeName>New Orleans</placeName>, as in other cities of the South, there is “a new colored woman” as well as a new white. The question of “a good cook” is now becoming a very vexing problem, and the only remedy for this state of things is for the ladies of the present day to do as their grandmothers did, acquaint themselves thoroughly with the art of cooking in all its important and minutest details, and learn how to properly apply them. To assist them in this, to preserve to future generations the many excellent and matchless recipes of our <placeName>New Orleans</placeName> cuisine, to gather these up from the lips of the Old <name>Creole</name> negro cooks and the grand old housekeepers who still survive, ere they too, pass away, and <name>Creole</name> cookery, with all its delightful combinations and possibilities, will have become a lost art, is, in a measure, the object of this book.</p>
+
+         <p>But far and above this, The Picayune, in compiling this book, has been animated by the laudable desire to teach the great mass of the public how live cheaply and well. The moral influences of good cooking cannot be too forcibly insisted upon. There is an old saying that “the way to a man’s heart is through his stomach.” Every housewife knows the importance of setting a well-cooked meal before her husband if she wishes him to preserve his equanimity of temper. Every mother should know the importance of preparing good, nutritious dishes for her children in the most palatable and appetizing manner, if she would give them that most precious of all gifts “a healthy mind in a healthy body.” People are the better, the happier and the longer lived for the good, wholesome, well-cooked daily meal.</p>
+
+         <p>The introduction, then, of the art of good cooking into every household and a general, intelligent knowledge of the nutritive qualities of food substances, are ends greatly to be desired, for the best food often loses half its value through the faults displayed in preparation, while, on the other hand, simple and plain dishes may be so cooked that they will acquire a flavor and a nutritive value through special combinations that will please the most delicate appetites. Among all classes to-day there is a deplorable and constant waste. Among the rich, the sole aim, of what appears to be good cookery, seems rather an effort to tempt by a succession of highly-seasoned and savory food and to consume to excess; while among the poor and middle classes living and cooking seem to go on as best as they may, with little variety from day to day, and still less care and preparation, indeed, the food is often cooked in such a way that ready digestion becomes an impossibility, and a large portion of the nutriment is either wasted or destroyed utterly.</p>
+
+         <pb n="7"/> 
+
+         <p>It is proposed in in this book to assist the housekeepers generally to get a dainty and appetizing table at a moderate outlay; to give recipes clearly and accurately with simplicity and exactness, so that the problem of “how to live,” may become easier of solution and even the most ignorant and inexperienced cook may be able to prepare a toothsome and nutritious meal with success. The housekeeper is not told “to take some of this, a little of that,” and “a pinch” of some other ingredient; she is not left to the chance of guessing accidentally at the proper proportions of component parts of any dish, but the relative proportions of all ingredients are given with accuracy, the proper length of time required for cooking different dishes. In all the recipes the quantities are given for a family of six. The intelligent housekeeper will thus be able to form a happy medium and increase or reduce proportionately according to the size of her family, the number of invited guests, etc.</p>
+
+         <p>The Picayune’s Creole Cook Book is not designed for chefs of cuisines; it has been prepared with special appreciation of the wants of the household and of that immense class of housekeepers who, thrown upon their own resources and anxious to learn, are yet ignorant of the simplest details of good cooking; for young housekeepers who are left to “experience” for a teacher, and who often learn only after many disheartening failures and a great outlay and waste of good material, and for the public generally, who, as a rule, have yet to learn that in a well-regulated kitchen nothing is ever, wasted but with careful preparation even the “rough-ends” of a beef steak may be made into a wholesome, tender and appetizing dish; that “stale bread” may be used in the most delicious “desserts” and “farcies,” and “left-over” food from the day before need not be thrown in the trash-box, but may be made into an endless variety of wholesome and nutritious dishes.</p>
+
+         <p>Hence, especial care has been taken to rescue from oblivion many fine old-fashioned dishes, and bring them back in general use — dishes whose places can never be equaled by elegant novelties or fancifully extravagant recipes; special attention has been given to the simple, every-day home dishes of the <name>Creole</name> household, while those that tempted the gourmet and epicureans in the palmiest days of old Creole cookery have not been omitted. The Picayune  points with pride to the famous “soupes,”, “gumbos,” “ragouts,” “entrements,” “hors d’oeuvres,” “jamabalayas” and “desserts,” that in turn receive particular attention. A special chapter has been devoted to the science of making good coffee “a la Creole,” and one to the modes of cooking Louisiana rice. The consumption of rice has increased enormously of late, and it will continue to become more and more popular as an article of food when the people in the North and West learn how to cook it, and understand how largely it enters into a variety of delightful and dainty combinations. Our “Calas,” our “Pralines,” and “Pacane Amandes,” our “Marrons Glaces,” and Ices, and our “Meringues,” and our delicious ways of serving Louisiana oranges peculiar to ourselves alone, are given in respective order. The history of many dishes is also given, thus affording a glimpse into old <name>Creole</name> hospitality, customs and traditions. Commendable features are the series of menus for holidays and daily suggestions for the table, as also the thoroughly classified list of seasonable foods. </p>
+
+         <pb n="8"/>
+
+         <p>Throughout this work The Picayune has had but one desire at heart, and that is to reach the wants of every household in our cosmopolitan community; to show the earnest housekeeper how the best food may be prepared at the least cost, and how it is possible for every family, from the palace to the cottage, to keep a good table and at the same time an economical one.</p>
+         <p>“Whatever is worth doing at all is worth doing well.” If this is true of other things, how much more of cooking, upon which the life and health of the family depend. The kitchen should not be looked upon as a place of drudgery; a poet once sung of 
+         <lg>
+             <l>“Making drudgery divine;</l>
+             <l>Who sweeps a room as to God’s laws,</l>
+             <l>Makes that and the action fine.”</l>
+         </lg>
+
+         The benefits that will ultimately accrue to every family, morally and physically, from paying greater attention to the proper preparation of food cannot be overestimated; the fact that good cooking operates to the greatest extent in the preservation of the domestic peace and happiness of a family cannot be gainsaid. That this Creole Cook Book may find its way to many hearths and homes, and that the life of the household may be the better, healthier and happier for its advent, is the wish of 
+             <rend align="right">THE PICAYUNE.</rend></p>
+         </div>
+      </front>
+  </text>
+</TEI>
